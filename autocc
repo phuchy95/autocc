@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         Auto Hy Moi Nhat
-// @version      25.9.2019
-// @description  skylom
-// @author       phuchy132
-// @match        https://www.skylom.com/*
-// @match        https://www.youtube.com/embed/*
-// @grant        none
-// ==/UserScript==
 var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "location", "parent", "referrer", "skylom", "ytp-large-play-button", "getElementsByClassName", "video", "getElementsByTagName", "paused", "click", "div", "createElement", "document", "innerHTML", "Tong video: ", "videoTotal", "getItem", " --- video sai: ", "videoF", "style", "color: #ffbe00;position: fixed;top: 0;z-index: 999999999;font-weight: bold;", "setAttribute", "appendChild", "body", "querySelector", "video-ov-div", "replay_video", "getElementById", "display", "none", "https://www.skylom.com/videos", "width: 200px;height: auto;float: left;", "watch-video", "innerText", "video-page-current-duration", "", "pre-answering", "video-category video-category-questions-div", "captchaDivs", "border-btn", "watch-vdo-msg", "block", "length", "Music", "People &amp; Blogs", "random", "floor", "correct", "toLowerCase", "complete", "congrats", "setItem", "wrong"];
 var pageFatherYT, btnPlay, tagVideo;
 var baomat = document.getElementsByClassName("twoFactorDiv")[0];
