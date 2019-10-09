@@ -1,0 +1,194 @@
+// ==UserScript==
+// @name         Auto Hy Moi Nhat
+// @version      25.9.2019
+// @description  skylom
+// @author       phuchy132
+// @match        https://www.skylom.com/*
+// @match        https://www.youtube.com/embed/*
+// @grant        none
+// ==/UserScript==
+var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "location", "parent", "referrer", "skylom", "ytp-large-play-button", "getElementsByClassName", "video", "getElementsByTagName", "paused", "click", "div", "createElement", "document", "innerHTML", "Tong video: ", "videoTotal", "getItem", " --- video sai: ", "videoF", "style", "color: #ffbe00;position: fixed;top: 0;z-index: 999999999;font-weight: bold;", "setAttribute", "appendChild", "body", "querySelector", "video-ov-div", "replay_video", "getElementById", "display", "none", "https://www.skylom.com/videos", "width: 200px;height: auto;float: left;", "watch-video", "innerText", "video-page-current-duration", "", "pre-answering", "video-category video-category-questions-div", "captchaDivs", "border-btn", "watch-vdo-msg", "block", "length", "Music", "People &amp; Blogs", "random", "floor", "correct", "toLowerCase", "complete", "congrats", "setItem", "wrong"];
+var pageFatherYT, btnPlay, tagVideo;
+var baomat = document.getElementsByClassName("twoFactorDiv")[0];
+var tagReplay, btnReplay, time, category_questions, checkEndVideo, btnAnswer, msg, testAnswer, f, pre_answering, captchaDivs,chuoi;
+var videoTotal = 0,
+videoF = 0;
+var test = false;
+(function () {
+    window.alert = () => false;
+	setInterval(function () {
+		window[_0x3eed[0]] = function () {}
+	},
+	40000);
+	if (window[_0x3eed[4]][_0x3eed[3]][_0x3eed[2]](_0x3eed[1])) {
+		pageFatherYT = (window[_0x3eed[4]] != window[_0x3eed[5]][_0x3eed[4]]) ? document[_0x3eed[6]] : document[_0x3eed[4]][_0x3eed[3]];
+		if (pageFatherYT[_0x3eed[2]](_0x3eed[7])) {
+			setInterval(function () {
+				btnPlay = document[_0x3eed[9]](_0x3eed[8])[0];
+				tagVideo = document[_0x3eed[11]](_0x3eed[10])[0];
+				try {
+					if (tagVideo[_0x3eed[12]]) {
+						btnPlay[_0x3eed[13]]()
+					}
+				} catch(e) {}
+			},
+			1000)
+		}
+	} else {
+		var _0xb282x11 = window[_0x3eed[16]][_0x3eed[15]](_0x3eed[14]);
+		_0xb282x11[_0x3eed[17]] = _0x3eed[18] + localStorage[_0x3eed[20]](_0x3eed[19]) + _0x3eed[21] + localStorage[_0x3eed[20]](_0x3eed[22]);
+		_0xb282x11[_0x3eed[25]](_0x3eed[23], _0x3eed[24]);
+		window[_0x3eed[16]][_0x3eed[28]](_0x3eed[27])[_0x3eed[26]](_0xb282x11);
+		setInterval(function () {
+			try {
+				tagReplay = document[_0x3eed[9]](_0x3eed[29])[0];
+				btnReplay = document[_0x3eed[31]](_0x3eed[30]);
+				if (tagReplay[_0x3eed[23]][_0x3eed[32]] != _0x3eed[33]) {
+					btnReplay[_0x3eed[13]]()
+				}
+			} catch(e) {}
+		},
+		10000);
+		if (window[_0x3eed[4]][_0x3eed[3]] == _0x3eed[34]) {
+			try {
+				document[_0x3eed[9]](_0x3eed[36])[0][_0x3eed[25]](_0x3eed[23], _0x3eed[35])
+			} catch(e) {
+				setTimeout(function () {
+					window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+				},
+				6500)
+			};
+			setTimeout(function () {
+				try {
+					time = document[_0x3eed[9]](_0x3eed[38])[0][_0x3eed[37]];
+					if (time == _0x3eed[39] || parseInt(time) < 1) {
+						window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+					}
+				} catch(e) {
+					window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+				}
+			},
+			100000);
+			setTimeout(function () {
+				window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+			},
+			500000);
+			pre_answering = document[_0x3eed[9]](_0x3eed[40])[0];
+			category_questions = document[_0x3eed[9]](_0x3eed[41])[0];
+			captchaDivs = document[_0x3eed[9]](_0x3eed[42])[0];
+            		setInterval(function timso(){
+                   		var b = document.getElementsByTagName("A");
+                    		for (var i=0; i < b.length; i++)
+                   			 {
+                       				 if (b[i].innerHTML =="Music" || b[i].innerHTML=="People &amp; Blogs" || b[i].innerHTML=="Gaming" || b[i].innerHTML =="Nonprofits" || b[i].innerHTML =="Pets" || b[i].innerHTML =="Film" || b[i].innerHTML =="How-to" || b[i].innerHTML =="None" || b[i].innerHTML =="Education" || b[i].innerHTML =="Technology" || b[i].innerHTML =="Entertainment" || b[i].innerHTML =="Travel" || b[i].innerHTML =="Auto" || b[i].innerHTML =="Food" || b[i].innerHTML =="Sports" || b[i].innerHTML =="Beauty")
+                       			 {
+                            	chuoi = b[i].className;
+                            	break;
+                       				 }else {}};
+         		btnAnswer = document.getElementsByClassName(chuoi)},10000);
+            		f = Math.floor(Math.random() * 4);
+           		msg = document[_0x3eed[9]](_0x3eed[44])[0];
+            		checkEndVideo = setInterval(function () {
+				if (category_questions[_0x3eed[23]][_0x3eed[32]] == _0x3eed[45] && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && baomat.style.display == "none") {
+					giaicauhoi();
+                };
+                if (category_questions[_0x3eed[23]][_0x3eed[32]] == "none" && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && document.getElementsByClassName("twoFactorDiv")[0].style.display == "block" && test == false){
+                         
+                        document.getElementsByClassName('text_link dropdown-toggle')[0].addEventListener('click',() => {
+                        let texts = document.getElementsByClassName('value-for-two-factor')[0];
+                        texts.value ='';
+                        navigator.clipboard.readText()
+                        .then((text) => {
+                            texts.value = text;
+                        });
+                    });
+                    setInterval(function(){document.getElementsByClassName('text_link dropdown-toggle')[0].click()},1000)
+                    //document.addEventListener("paste", e => {   doitab();
+                                                                //let text = e.clipboardData.getData("text");
+                                                                //setTimeoutdocument.getElementsByClassName("value-for-two-factor")[0].value = text;
+                                                            //})
+                                                            //if (document.getElementsByClassName("value-for-two-factor")[0].value !=""){
+                                                                //document.getElementsByClassName("submit-otp-click themeBtn bluebtn")[0].click()
+                                                            //}
+                }
+				if (msg[_0x3eed[17]][_0x3eed[52]]()[_0x3eed[2]](_0x3eed[51]) || msg[_0x3eed[17]][_0x3eed[52]]()[_0x3eed[2]](_0x3eed[53]) || msg[_0x3eed[17]][_0x3eed[52]]()[_0x3eed[2]](_0x3eed[54])) {
+					localStorage[_0x3eed[55]](_0x3eed[19], parseInt(videoTotal) + 1);
+					window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+				} else {
+					if (msg[_0x3eed[17]][_0x3eed[52]]()[_0x3eed[2]](_0x3eed[56])) {
+						localStorage[_0x3eed[55]](_0x3eed[19], parseInt(videoTotal) + 1);
+						localStorage[_0x3eed[55]](_0x3eed[22], parseInt(videoF) + 1);
+						window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+					}
+				}
+			},
+			3000)
+		} else {
+			setTimeout(function () {
+				window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+			},
+			30000)
+		}
+	}
+})()
+function doitab(){
+    var mywin = window.open("https://gauth.apps.gbraad.nl/")};
+    mywin.focus();
+    setTimeout(function(){mywin.close()},4000)
+}
+function giaicauhoi(){
+    if (localStorage[_0x3eed[20]](_0x3eed[19]) != null) {
+        videoTotal = localStorage[_0x3eed[20]](_0x3eed[19])
+    };
+    if (localStorage[_0x3eed[20]](_0x3eed[22]) != null) {
+        videoF = localStorage[_0x3eed[20]](_0x3eed[22])
+    };
+    testAnswer = false;
+    for (var _0xb282x12 = 0; _0xb282x12 < btnAnswer[_0x3eed[46]]; _0xb282x12++) {
+        if (btnAnswer[_0xb282x12][_0x3eed[17]] == _0x3eed[48]) {
+            btnAnswer[_0xb282x12][_0x3eed[13]]();
+            testAnswer = true;
+            break
+        }
+    };
+    if (!testAnswer) {
+        for (var _0xb282x13 = 0; _0xb282x13 < btnAnswer[_0x3eed[46]]; _0xb282x13++) {
+            if (btnAnswer[_0xb282x13][_0x3eed[17]] == _0x3eed[47]) {
+                btnAnswer[_0xb282x13][_0x3eed[13]]();
+                testAnswer = true;
+                break
+            }
+        }
+    };
+    if (!testAnswer) {
+        for (var _0xb282x14 = 0; _0xb282x14 < btnAnswer[_0x3eed[46]]; _0xb282x14++) {
+            if (btnAnswer[_0xb282x14][_0x3eed[17]] == "Entertainment") {
+                btnAnswer[_0xb282x14][_0x3eed[13]]();
+                testAnswer = true;
+                break
+            }
+        }
+    };
+    if (!testAnswer) {
+        for (var _0xb282x15 = 0; _0xb282x15 < btnAnswer[_0x3eed[46]]; _0xb282x15++) {
+            if (btnAnswer[_0xb282x15][_0x3eed[17]] == "Technology") {
+                btnAnswer[_0xb282x15][_0x3eed[13]]();
+                testAnswer = true;
+                break
+            }
+        }
+    };
+    if (!testAnswer) {
+        for (var _0xb282x16 = 0; _0xb282x16 < btnAnswer[_0x3eed[46]]; _0xb282x16++) {
+            if (btnAnswer[_0xb282x16][_0x3eed[17]] == "Gaming") {
+                btnAnswer[_0xb282x16][_0x3eed[13]]();
+                testAnswer = true;
+                break
+            }
+        }
+    };
+    if (!testAnswer) {
+        btnAnswer[f][_0x3eed[13]]();
+        testAnswer = true;
+    }
+}
