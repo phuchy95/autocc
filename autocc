@@ -6,7 +6,6 @@ var videoTotal = 0,
 videoF = 0;
 var test = false;
 var stop = 0;
-var text;
 (function () {
     window.alert = function(){}
     setInterval(function () {
@@ -45,14 +44,11 @@ var text;
         if (window.location.href == "https://gauth.apps.gbraad.nl/"){
             var mywin=window.open("https://www.google.com.vn");
             mywin.close();
-            text = document.getElementsByTagName('h3')[0].innerHTML;
+            setTimeout(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},1000);
             document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
-                navigator.clipboard.writeText(text)
-                .then(function() {
-                    window.close();
-                })
-                })
-            setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},1000);
+            var text = document.getElementsByTagName('h3')[0].innerHTML;
+            navigator.clipboard.writeText(text);})
+            
         }
         if (window.location.href.includes("0?r")== true){
             checkcodeicon1();
@@ -124,7 +120,6 @@ var text;
                     document.getElementById("submitotp").click();
                 }
                 if (category_questions[_0x3eed[23]][_0x3eed[32]] == "none" && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && document.getElementsByClassName("twoFactorDiv")[0].style.display == "block" && test == false){
-                        
                         doitab();
                         test = true;
                         document.getElementsByClassName('text_link dropdown-toggle')[0].addEventListener('click',() => {
@@ -203,14 +198,9 @@ var text;
 })()
 function doitab(){
     var mywin = window.open("https://gauth.apps.gbraad.nl/");
-    document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
-    navigator.clipboard.writeText(text)
-    .then(function() {
-        document.getElementsByTagName('h3')[0].innerHTML = text;
-        mywin.close();
-    })
-    })
-}
+    mywin.focus();
+    setTimeout(function(){mywin.close()},2000);
+    }
 function giaicauhoi(){
     if (localStorage[_0x3eed[20]](_0x3eed[19]) != null) {
         videoTotal = localStorage[_0x3eed[20]](_0x3eed[19])
