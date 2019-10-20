@@ -6,6 +6,7 @@ var videoTotal = 0,
 videoF = 0;
 var test = false;
 var stop = 0;
+var text;
 (function () {
     window.alert = function(){}
     setInterval(function () {
@@ -196,8 +197,9 @@ var stop = 0;
 function doitab(){
     var mywin = window.open("https://gauth.apps.gbraad.nl/");
     document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
-    navigator.clipboard.writeText(document.getElementsByTagName('h3')[0].innerHTML)
+    navigator.clipboard.writeText(text)
     .then(function() {
+        document.getElementsByTagName('h3')[0].innerHTML = text;
         mywin.close();
     })
     })
