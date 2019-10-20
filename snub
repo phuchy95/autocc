@@ -113,7 +113,7 @@
                         f = Math.floor(Math.random() * 4);
                     msg = document[_0x3eed[9]](_0x3eed[44])[0];
                         checkEndVideo = setInterval(function () {
-                    if (category_questions[_0x3eed[23]][_0x3eed[32]] == _0x3eed[45] && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && baomat.style.display == "none") {
+                    if (category_questions[_0x3eed[23]][_0x3eed[32]] == _0x3eed[45] && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33]) {
                         giaicauhoi();
                     };
                     if(document.getElementsByClassName('value-for-two-factor')[0].value != ""){
