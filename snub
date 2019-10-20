@@ -69,6 +69,9 @@
                 //setTimeout(function(){alert(value)},10000);
 //}
             if (window[_0x3eed[4]][_0x3eed[3]] == _0x3eed[34]) {
+                if (document.getElementById("spinsLeft")[0].innerHTML != "0"){
+                    setInterval(function(){document.getElementById("spin").click();},8000)
+                }
                 localStorage.removeItem("value1");
                 localStorage.removeItem("value2");
                 localStorage.removeItem("value3");
@@ -154,9 +157,7 @@
                     if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value5")){
                         document.getElementById("visualCaptcha-img-4").click();
                     }
-                    if (document.getElementById("spinsLeft")[0].innerHTML != "0"){
-                        setInterval(function(){document.getElementById("spin").click();},8000)
-                    }
+                   
                     if (document.getElementsByClassName("visualCaptcha-explanation")[0] != null){
                         var a = document.getElementById("visualCaptcha-img-0").src;
                         var b = document.getElementById("visualCaptcha-img-1").src;
