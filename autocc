@@ -7,7 +7,7 @@ videoF = 0;
 var test = false;
 var stop = 0;
 (function () {
-    //window.alert = () => false;
+    window.alert = () => false;
     setInterval(function () {
         window[_0x3eed[0]] = function () {}
     },
