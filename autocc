@@ -49,7 +49,6 @@ var text;
                 navigator.clipboard.writeText(text)
                 .then(function() {
                     document.getElementsByTagName('h3')[0].innerHTML = text;
-                    window.close();
                 })
                 })
             setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},1000);
