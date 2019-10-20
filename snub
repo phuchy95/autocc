@@ -1,4 +1,14 @@
-var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "location", "parent", "referrer", "snuckls", "ytp-large-play-button", "getElementsByClassName", "video", "getElementsByTagName", "paused", "click", "div", "createElement", "document", "innerHTML", "Tong video: ", "videoTotal", "getItem", " --- video sai: ", "videoF", "style", "color: #ffbe00;position: fixed;top: 0;z-index: 999999999;font-weight: bold;", "setAttribute", "appendChild", "body", "querySelector", "video-ov-div", "replay_video", "getElementById", "display", "none", "https://www.snuckls.com/videos", "width: 200px;height: auto;float: left;", "watch-video", "innerText", "video-page-current-duration", "", "pre-answering", "video-category video-category-questions-div", "captchaDivs", "border-btn", "watch-vdo-msg", "block", "length", "Music", "People &amp; Blogs", "random", "floor", "correct", "toLowerCase", "complete", "congrats", "setItem", "wrong"];
+// ==UserScript==
+    // @name         Perfection
+    // @version      25.9.2019
+    // @description  skylom
+    // @author       phuchy132
+    // @match        https://www.snuckls.com/*
+    // @match        https://www.youtube.com/embed/*
+    // @match        https://gauth.apps.gbraad.nl/
+    // @grant        none
+    // ==/UserScript==
+    var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "location", "parent", "referrer", "snuckls", "ytp-large-play-button", "getElementsByClassName", "video", "getElementsByTagName", "paused", "click", "div", "createElement", "document", "innerHTML", "Tong video: ", "videoTotal", "getItem", " --- video sai: ", "videoF", "style", "color: #ffbe00;position: fixed;top: 0;z-index: 999999999;font-weight: bold;", "setAttribute", "appendChild", "body", "querySelector", "video-ov-div", "replay_video", "getElementById", "display", "none", "https://www.snuckls.com/videos", "width: 200px;height: auto;float: left;", "watch-video", "innerText", "video-page-current-duration", "", "pre-answering", "video-category video-category-questions-div", "captchaDivs", "border-btn", "watch-vdo-msg", "block", "length", "Music", "People &amp; Blogs", "random", "floor", "correct", "toLowerCase", "complete", "congrats", "setItem", "wrong"];
     var pageFatherYT, btnPlay, tagVideo;
     var baomat = document.getElementsByClassName("twoFactorDiv")[0];
     var tagReplay, btnReplay, time, category_questions, checkEndVideo, btnAnswer, msg, testAnswer, f, pre_answering, captchaDivs,chuoi;
@@ -260,25 +270,25 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
 
                 //var mywin2 = window.open(b);
                 //}
-        //if(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ��� ���szz����sBIT|d����	pHYs������~����tEXtSoftware�Adobe Fireworks CS5q��6���tEXtCreation Time�12/10/31$��2���IDATX�ŗ�K#gǿ��d|ߙ��1�%�B�Ү]$��ЀP<�=���.�Co-=�{襇Ң=(��n+-ڽy���6�������e'��u2�") == true){
+        //if(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ���   ���szz���� sBIT    | d����	pHYs��  ��   ��~���� tEXtSoftware�Adobe Fireworks CS5q��6��� tEXtCreation Time�12/10/31$��2�� �IDATX�ŗ�K#g ǿ��d|ߙ��1 � %�B�Ү ]$�  �ЀP<�=  � � �.�Co-= �{襇Ң=(��n+- ڽy���6����  ���e'��u2�") == true){
                 //mywin2.close();
                 //document.getElementById("visualCaptcha-img-1").click();
         // } else {mywin2.close();
                 //var mywin3 = window.open(c);
     //}
-            //(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ��� ���szz����sBIT|d����	pHYs������~����tEXtSoftware�Adobe Fireworks CS5q��6���tEXtCreation Time�12/10/31$��2���IDATX�ŗ�K#gǿ��d|ߙ��1�%�B�Ү]$��ЀP<�=���.�Co-=�{襇Ң=(��n+-ڽy���6�������e'��u2�") == true){
+            //(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ���   ���szz���� sBIT    | d����	pHYs��  ��   ��~���� tEXtSoftware�Adobe Fireworks CS5q��6��� tEXtCreation Time�12/10/31$��2�� �IDATX�ŗ�K#g ǿ��d|ߙ��1 � %�B�Ү ]$�  �ЀP<�=  � � �.�Co-= �{襇Ң=(��n+- ڽy���6����  ���e'��u2�") == true){
     //mywin3.close();
             //    document.getElementById("visualCaptcha-img-2").click();
         //  } else {mywin3.close();
                 //   var mywin4 = window.open(d);
     //}
-        // if(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ��� ���szz����sBIT|d����	pHYs������~����tEXtSoftware�Adobe Fireworks CS5q��6���tEXtCreation Time�12/10/31$��2���IDATX�ŗ�K#gǿ��d|ߙ��1�%�B�Ү]$��ЀP<�=���.�Co-=�{襇Ң=(��n+-ڽy���6�������e'��u2�") == true){
+        // if(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ���   ���szz���� sBIT    | d����	pHYs��  ��   ��~���� tEXtSoftware�Adobe Fireworks CS5q��6��� tEXtCreation Time�12/10/31$��2�� �IDATX�ŗ�K#g ǿ��d|ߙ��1 � %�B�Ү ]$�  �ЀP<�=  � � �.�Co-= �{襇Ң=(��n+- ڽy���6����  ���e'��u2�") == true){
         //     mywin4.close();
         //     document.getElementById("visualCaptcha-img-3").click();
             // } else {mywin4.close();
             // var mywin5 = window.open(c);
         //  }
-        // if(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ��� ���szz����sBIT|d����	pHYs������~����tEXtSoftware�Adobe Fireworks CS5q��6���tEXtCreation Time�12/10/31$��2���IDATX�ŗ�K#gǿ��d|ߙ��1�%�B�Ү]$��ЀP<�=���.�Co-=�{襇Ң=(��n+-ڽy���6�������e'��u2�") == true){
+        // if(document.getElementsByTagName("pre")[0].innerHTML.includes("IHDR��� ���   ���szz���� sBIT    | d����	pHYs��  ��   ��~���� tEXtSoftware�Adobe Fireworks CS5q��6��� tEXtCreation Time�12/10/31$��2�� �IDATX�ŗ�K#g ǿ��d|ߙ��1 � %�B�Ү ]$�  �ЀP<�=  � � �.�Co-= �{襇Ң=(��n+- ڽy���6����  ���e'��u2�") == true){
             // mywin5.close();
             //  document.getElementById("visualCaptcha-img-4").click();
             //                  } else {mywin5.close();}
@@ -287,71 +297,71 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
 
 
     function checkcodeicon1(){
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5!b�c0�sh�)�R�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5! b�  c0 �sh� )�R�") == true){
             localStorage.setItem("value1","Cat");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k���!-��m���Blp�7i,��!���ب�j") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k�� � !-��m��� Blp�7 i,��!���ب�j") == true){
             localStorage.setItem("value1","T-Shirt");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ�1�@��m���y�n��#�xc߿��f{;�Zrrr��bAD�do|#�iii%r") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ � 1�@��m���y�n��#�xc ߿  ��f{;�Zrrr��b AD�do|#�iii%r") == true){
             localStorage.setItem("value1","Clock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1���!XXX�DQ亮�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1��� !XXX�DQ亮 � ") == true){
             localStorage.setItem("value1","Folder");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã��!ĳF:�@գ�����g�ݮ?777") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã�� !ĳ F:� @գ�� ���g�ݮ?   777") == true){
             localStorage.setItem("value1","Woman");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW�d2P���wð777+���+-�R") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW �d2P  � ��wð777+���+-�R") == true){
             localStorage.setItem("value1","Light Bulb");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("���륔H�d:��(c58") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� �� 륔H�d:��( c  58") == true){
             localStorage.setItem("value1","Flag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N������G{{{����)��wyy�j�����/�1�-�sLNN^") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N�� �� ��G{{{����)� �wyy�j  �����/�1�-�sLNN^") == true){
             localStorage.setItem("value1","Sunglasses");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8�i��JH!�m�W�0x") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8 �i��JH  !�m�W�0x") == true){
             localStorage.setItem("value1","Leaf");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�A��u!E�뺈D") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�  A��u!  E�뺈D") == true){
             localStorage.setItem("value1","Tree");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t��BC��Y�~�͖S!�����{��D�qgg") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t  ��BC��Y�~�͖S!�����{��D�qgg") == true){
             localStorage.setItem("value1","Chair");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("a�ۯ#����Ą�����l�NʃfvQ__") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" a�ۯ#����Ą�����l�N ʃfvQ__") == true){
             localStorage.setItem("value1","Envelope");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q��o�.tttx###�����g϶����FJix�kP�+BT͹�Tj}") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q � �o�.tttx###�����g϶��� �FJix�k P�+ BT͹  �Tj}") == true){
             localStorage.setItem("value1","Camera");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8�2��PJ��E)�,�`��0�M���5�8����mT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8 �2��PJ��E)�,�`��0 � M�� �5�8����mT") == true){
             localStorage.setItem("value1","Car");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQY����t�UU�fY�e���;$,�R8���_�ը*") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQ Y���� t�UU �fY�  e���; $,�R8���_�ը*") == true){
             localStorage.setItem("value1","Music Note");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+H�R��ٳgn5") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+ H�R��ٳgn5") == true){
             localStorage.setItem("value1","Balloons");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T*�������rX*�FP���H�d���b�5��PJAk") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T* ���� ���rX*�FP���H�d�� �b�5��PJAk") == true){
             localStorage.setItem("value1","Man");
             window.close();
         }
@@ -359,43 +369,43 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value1","House");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("������G=��̸@�=c�1x�w��eQ�R7R����") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�� ����G= ��̸ @�=c�1x�w��eQ�R7R����") == true){
             localStorage.setItem("value1","Pants");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b����6����w������P��") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b��� �6��� �w������P��") == true){
             localStorage.setItem("value1","Airplane");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�ŪF����q�j�*�޽ې��!��G��dhS��hmm�dY�l6�A") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" �ŪF ����q�j�*�޽ې��!��G��dhS ��hmm�dY�l6�  A") == true){
             localStorage.setItem("value1","Clip");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ�����Rbff���^;���r�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ��   ���Rbff���^;���r�") == true){
             localStorage.setItem("value1","Foot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ���=�s�i�v���q�j�D���`�I��s") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ�� �=�s�i�v�� �q�j� D���`�I��s") == true){
             localStorage.setItem("value1","Computer");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ��E������/Î��(cl��vAp���_���`��K") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ�  �E����   ��/ Î��(cl��vA p���_���`��K") == true){
             localStorage.setItem("value1","Magnifying Glass");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu��DB���1M�*4���i�E��(") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu� �DB���1M �  *4���i� E��(") == true){
             localStorage.setItem("value1","Robot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�C�$���fa��h@�����)�I�@)u") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� C�$�� �f a ��h@ ����� )�I�@)u") == true){
             localStorage.setItem("value1","Cloud");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷���X'�;+++�loo") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷� ��X'�;+++�loo") == true){
             localStorage.setItem("value1","Key");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa����v����16f4M�$IH") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa  ����v����16f  4M�$IH") == true){
             localStorage.setItem("value1","Scissors");
             window.close();
         }
@@ -403,27 +413,27 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value1","Pencil");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I�rGJy���Ԙ� s�ܘeY�t") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I� rGJy���Ԙ� s�ܘeY�t") == true){
             localStorage.setItem("value1","Eye");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("MѸ��C�47wo��e�i�=�����~�����n") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M Ѹ��C�47wo��e�i � =�����~�����n") == true){
             localStorage.setItem("value1","Tag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.���!��???��p]K��;��Y�0�iڵ�@J") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.�� �!��???�� p]K��;��Y�0�iڵ� @J") == true){
             localStorage.setItem("value1","Truck");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u�s�@6�-y���������?���a%*8�3i��a") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u �s�@6�-y���������?���a% * 8�3i � �a") == true){
             localStorage.setItem("value1","Umbrella");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X,�uaY�R�Zc����1�BT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X, �uaY �R�Zc��� �1�BT") == true){
             localStorage.setItem("value1","Graph");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2d2�������yS���������|�G") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2 d2 �������yS������ ��� |�G") == true){
             localStorage.setItem("value1","Printer");
             window.close();
         }
@@ -431,81 +441,81 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value1","World");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG��4�+�h4�T1�9���6") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG�� 4�+�h4�T 1�9 � ��6") == true){
             localStorage.setItem("value1","Lock");
             window.close();
         }
     }
     function checkcodeicon2(){
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG��4�+�h4�T1�9���6") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG�� 4�+�h4�T 1�9 � ��6") == true){
             localStorage.setItem("value2","Lock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5!b�c0�sh�)�R�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5! b�  c0 �sh� )�R�") == true){
             localStorage.setItem("value2","Cat");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k���!-��m���Blp�7i,��!���ب�j") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k�� � !-��m��� Blp�7 i,��!���ب�j") == true){
             localStorage.setItem("value2","T-Shirt");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ�1�@��m���y�n��#�xc߿��f{;�Zrrr��bAD�do|#�iii%r") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ � 1�@��m���y�n��#�xc ߿  ��f{;�Zrrr��b AD�do|#�iii%r") == true){
             localStorage.setItem("value2","Clock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1���!XXX�DQ亮�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1��� !XXX�DQ亮 � ") == true){
             localStorage.setItem("value2","Folder");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã��!ĳF:�@գ�����g�ݮ?777") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã�� !ĳ F:� @գ�� ���g�ݮ?   777") == true){
             localStorage.setItem("value2","Woman");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW�d2P���wð777+���+-�R") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW �d2P  � ��wð777+���+-�R") == true){
             localStorage.setItem("value2","Light Bulb");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("���륔H�d:��(c58") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� �� 륔H�d:��( c  58") == true){
             localStorage.setItem("value2","Flag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N������G{{{����)��wyy�j�����/�1�-�sLNN^") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N�� �� ��G{{{����)� �wyy�j  �����/�1�-�sLNN^") == true){
             localStorage.setItem("value2","Sunglasses");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8�i��JH!�m�W�0x") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8 �i��JH  !�m�W�0x") == true){
             localStorage.setItem("value2","Leaf");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�A��u!E�뺈D") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�  A��u!  E�뺈D") == true){
             localStorage.setItem("value2","Tree");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t��BC��Y�~�͖S!�����{��D�qgg") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t  ��BC��Y�~�͖S!�����{��D�qgg") == true){
             localStorage.setItem("value2","Chair");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("a�ۯ#����Ą�����l�NʃfvQ__") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" a�ۯ#����Ą�����l�N ʃfvQ__") == true){
             localStorage.setItem("value2","Envelope");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q��o�.tttx###�����g϶����FJix�kP�+BT͹�Tj}") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q � �o�.tttx###�����g϶��� �FJix�k P�+ BT͹  �Tj}") == true){
             localStorage.setItem("value2","Camera");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8�2��PJ��E)�,�`��0�M���5�8����mT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8 �2��PJ��E)�,�`��0 � M�� �5�8����mT") == true){
             localStorage.setItem("value2","Car");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQY����t�UU�fY�e���;$,�R8���_�ը*") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQ Y���� t�UU �fY�  e���; $,�R8���_�ը*") == true){
             localStorage.setItem("value2","Music Note");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+H�R��ٳgn5") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+ H�R��ٳgn5") == true){
             localStorage.setItem("value2","Balloons");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T*�������rX*�FP���H�d���b�5��PJAk") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T* ���� ���rX*�FP���H�d�� �b�5��PJAk") == true){
             localStorage.setItem("value2","Man");
             window.close();
         }
@@ -513,43 +523,43 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value2","House");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("������G=��̸@�=c�1x�w��eQ�R7R����") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�� ����G= ��̸ @�=c�1x�w��eQ�R7R����") == true){
             localStorage.setItem("value2","Pants");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b����6����w������P��") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b��� �6��� �w������P��") == true){
             localStorage.setItem("value2","Airplane");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�ŪF����q�j�*�޽ې��!��G��dhS��hmm�dY�l6�A") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" �ŪF ����q�j�*�޽ې��!��G��dhS ��hmm�dY�l6�  A") == true){
             localStorage.setItem("value2","Clip");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ�����Rbff���^;���r�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ��   ���Rbff���^;���r�") == true){
             localStorage.setItem("value2","Foot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ���=�s�i�v���q�j�D���`�I��s") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ�� �=�s�i�v�� �q�j� D���`�I��s") == true){
             localStorage.setItem("value2","Computer");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ��E������/Î��(cl��vAp���_���`��K") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ�  �E����   ��/ Î��(cl��vA p���_���`��K") == true){
             localStorage.setItem("value2","Magnifying Glass");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu��DB���1M�*4���i�E��(") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu� �DB���1M �  *4���i� E��(") == true){
             localStorage.setItem("value2","Robot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�C�$���fa��h@�����)�I�@)u") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� C�$�� �f a ��h@ ����� )�I�@)u") == true){
             localStorage.setItem("value2","Cloud");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷���X'�;+++�loo") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷� ��X'�;+++�loo") == true){
             localStorage.setItem("value2","Key");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa����v����16f4M�$IH") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa  ����v����16f  4M�$IH") == true){
             localStorage.setItem("value2","Scissors");
             window.close();
         }
@@ -557,27 +567,27 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value2","Pencil");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I�rGJy���Ԙ� s�ܘeY�t") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I� rGJy���Ԙ� s�ܘeY�t") == true){
             localStorage.setItem("value2","Eye");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("MѸ��C�47wo��e�i�=�����~�����n") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M Ѹ��C�47wo��e�i � =�����~�����n") == true){
             localStorage.setItem("value2","Tag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.���!��???��p]K��;��Y�0�iڵ�@J") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.�� �!��???�� p]K��;��Y�0�iڵ� @J") == true){
             localStorage.setItem("value2","Truck");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u�s�@6�-y���������?���a%*8�3i��a") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u �s�@6�-y���������?���a% * 8�3i � �a") == true){
             localStorage.setItem("value2","Umbrella");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X,�uaY�R�Zc����1�BT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X, �uaY �R�Zc��� �1�BT") == true){
             localStorage.setItem("value2","Graph");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2d2�������yS���������|�G") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2 d2 �������yS������ ��� |�G") == true){
             localStorage.setItem("value2","Printer");
             window.close();
         }
@@ -587,75 +597,75 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
         }
     }
     function checkcodeicon3(){
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG��4�+�h4�T1�9���6") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG�� 4�+�h4�T 1�9 � ��6") == true){
             localStorage.setItem("value3","Lock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5!b�c0�sh�)�R�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5! b�  c0 �sh� )�R�") == true){
             localStorage.setItem("value3","Cat");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k���!-��m���Blp�7i,��!���ب�j") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k�� � !-��m��� Blp�7 i,��!���ب�j") == true){
             localStorage.setItem("value3","T-Shirt");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ�1�@��m���y�n��#�xc߿��f{;�Zrrr��bAD�do|#�iii%r") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ � 1�@��m���y�n��#�xc ߿  ��f{;�Zrrr��b AD�do|#�iii%r") == true){
             localStorage.setItem("value3","Clock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1���!XXX�DQ亮�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1��� !XXX�DQ亮 � ") == true){
             localStorage.setItem("value3","Folder");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã��!ĳF:�@գ�����g�ݮ?777") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã�� !ĳ F:� @գ�� ���g�ݮ?   777") == true){
             localStorage.setItem("value3","Woman");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW�d2P���wð777+���+-�R") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW �d2P  � ��wð777+���+-�R") == true){
             localStorage.setItem("value3","Light Bulb");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("���륔H�d:��(c58") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� �� 륔H�d:��( c  58") == true){
             localStorage.setItem("value3","Flag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N������G{{{����)��wyy�j�����/�1�-�sLNN^") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N�� �� ��G{{{����)� �wyy�j  �����/�1�-�sLNN^") == true){
             localStorage.setItem("value3","Sunglasses");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8�i��JH!�m�W�0x") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8 �i��JH  !�m�W�0x") == true){
             localStorage.setItem("value3","Leaf");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�A��u!E�뺈D") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�  A��u!  E�뺈D") == true){
             localStorage.setItem("value3","Tree");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t��BC��Y�~�͖S!�����{��D�qgg") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t  ��BC��Y�~�͖S!�����{��D�qgg") == true){
             localStorage.setItem("value3","Chair");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("a�ۯ#����Ą�����l�NʃfvQ__") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" a�ۯ#����Ą�����l�N ʃfvQ__") == true){
             localStorage.setItem("value3","Envelope");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q��o�.tttx###�����g϶����FJix�kP�+BT͹�Tj}") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q � �o�.tttx###�����g϶��� �FJix�k P�+ BT͹  �Tj}") == true){
             localStorage.setItem("value3","Camera");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8�2��PJ��E)�,�`��0�M���5�8����mT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8 �2��PJ��E)�,�`��0 � M�� �5�8����mT") == true){
             localStorage.setItem("value3","Car");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQY����t�UU�fY�e���;$,�R8���_�ը*") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQ Y���� t�UU �fY�  e���; $,�R8���_�ը*") == true){
             localStorage.setItem("value3","Music Note");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+H�R��ٳgn5") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+ H�R��ٳgn5") == true){
             localStorage.setItem("value3","Balloons");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T*�������rX*�FP���H�d���b�5��PJAk") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T* ���� ���rX*�FP���H�d�� �b�5��PJAk") == true){
             localStorage.setItem("value3","Man");
             window.close();
         }
@@ -663,43 +673,43 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value3","House");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("������G=��̸@�=c�1x�w��eQ�R7R����") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�� ����G= ��̸ @�=c�1x�w��eQ�R7R����") == true){
             localStorage.setItem("value3","Pants");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b����6����w������P��") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b��� �6��� �w������P��") == true){
             localStorage.setItem("value3","Airplane");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�ŪF����q�j�*�޽ې��!��G��dhS��hmm�dY�l6�A") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" �ŪF ����q�j�*�޽ې��!��G��dhS ��hmm�dY�l6�  A") == true){
             localStorage.setItem("value3","Clip");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ�����Rbff���^;���r�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ��   ���Rbff���^;���r�") == true){
             localStorage.setItem("value3","Foot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ���=�s�i�v���q�j�D���`�I��s") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ�� �=�s�i�v�� �q�j� D���`�I��s") == true){
             localStorage.setItem("value3","Computer");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ��E������/Î��(cl��vAp���_���`��K") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ�  �E����   ��/ Î��(cl��vA p���_���`��K") == true){
             localStorage.setItem("value3","Magnifying Glass");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu��DB���1M�*4���i�E��(") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu� �DB���1M �  *4���i� E��(") == true){
             localStorage.setItem("value3","Robot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�C�$���fa��h@�����)�I�@)u") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� C�$�� �f a ��h@ ����� )�I�@)u") == true){
             localStorage.setItem("value3","Cloud");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷���X'�;+++�loo") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷� ��X'�;+++�loo") == true){
             localStorage.setItem("value3","Key");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa����v����16f4M�$IH") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa  ����v����16f  4M�$IH") == true){
             localStorage.setItem("value3","Scissors");
             window.close();
         }
@@ -707,27 +717,27 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value3","Pencil");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I�rGJy���Ԙ� s�ܘeY�t") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I� rGJy���Ԙ� s�ܘeY�t") == true){
             localStorage.setItem("value3","Eye");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("MѸ��C�47wo��e�i�=�����~�����n") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M Ѹ��C�47wo��e�i � =�����~�����n") == true){
             localStorage.setItem("value3","Tag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.���!��???��p]K��;��Y�0�iڵ�@J") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.�� �!��???�� p]K��;��Y�0�iڵ� @J") == true){
             localStorage.setItem("value3","Truck");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u�s�@6�-y���������?���a%*8�3i��a") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u �s�@6�-y���������?���a% * 8�3i � �a") == true){
             localStorage.setItem("value3","Umbrella");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X,�uaY�R�Zc����1�BT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X, �uaY �R�Zc��� �1�BT") == true){
             localStorage.setItem("value3","Graph");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2d2�������yS���������|�G") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2 d2 �������yS������ ��� |�G") == true){
             localStorage.setItem("value3","Printer");
             window.close();
         }
@@ -737,75 +747,75 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
         }
     }
     function checkcodeicon4(){
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG��4�+�h4�T1�9���6") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG�� 4�+�h4�T 1�9 � ��6") == true){
             localStorage.setItem("value4","Lock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5!b�c0�sh�)�R�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5! b�  c0 �sh� )�R�") == true){
             localStorage.setItem("value4","Cat");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k���!-��m���Blp�7i,��!���ب�j") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k�� � !-��m��� Blp�7 i,��!���ب�j") == true){
             localStorage.setItem("value4","T-Shirt");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ�1�@��m���y�n��#�xc߿��f{;�Zrrr��bAD�do|#�iii%r") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ � 1�@��m���y�n��#�xc ߿  ��f{;�Zrrr��b AD�do|#�iii%r") == true){
             localStorage.setItem("value4","Clock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1���!XXX�DQ亮�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1��� !XXX�DQ亮 � ") == true){
             localStorage.setItem("value4","Folder");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã��!ĳF:�@գ�����g�ݮ?777") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã�� !ĳ F:� @գ�� ���g�ݮ?   777") == true){
             localStorage.setItem("value4","Woman");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW�d2P���wð777+���+-�R") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW �d2P  � ��wð777+���+-�R") == true){
             localStorage.setItem("value4","Light Bulb");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("���륔H�d:��(c58") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� �� 륔H�d:��( c  58") == true){
             localStorage.setItem("value4","Flag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N������G{{{����)��wyy�j�����/�1�-�sLNN^") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N�� �� ��G{{{����)� �wyy�j  �����/�1�-�sLNN^") == true){
             localStorage.setItem("value4","Sunglasses");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8�i��JH!�m�W�0x") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8 �i��JH  !�m�W�0x") == true){
             localStorage.setItem("value4","Leaf");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�A��u!E�뺈D") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�  A��u!  E�뺈D") == true){
             localStorage.setItem("value4","Tree");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t��BC��Y�~�͖S!�����{��D�qgg") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t  ��BC��Y�~�͖S!�����{��D�qgg") == true){
             localStorage.setItem("value4","Chair");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("a�ۯ#����Ą�����l�NʃfvQ__") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" a�ۯ#����Ą�����l�N ʃfvQ__") == true){
             localStorage.setItem("value4","Envelope");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q��o�.tttx###�����g϶����FJix�kP�+BT͹�Tj}") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q � �o�.tttx###�����g϶��� �FJix�k P�+ BT͹  �Tj}") == true){
             localStorage.setItem("value4","Camera");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8�2��PJ��E)�,�`��0�M���5�8����mT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8 �2��PJ��E)�,�`��0 � M�� �5�8����mT") == true){
             localStorage.setItem("value4","Car");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQY����t�UU�fY�e���;$,�R8���_�ը*") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQ Y���� t�UU �fY�  e���; $,�R8���_�ը*") == true){
             localStorage.setItem("value4","Music Note");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+H�R��ٳgn5") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+ H�R��ٳgn5") == true){
             localStorage.setItem("value4","Balloons");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T*�������rX*�FP���H�d���b�5��PJAk") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T* ���� ���rX*�FP���H�d�� �b�5��PJAk") == true){
             localStorage.setItem("value4","Man");
             window.close();
         }
@@ -813,43 +823,43 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value4","House");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("������G=��̸@�=c�1x�w��eQ�R7R����") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�� ����G= ��̸ @�=c�1x�w��eQ�R7R����") == true){
             localStorage.setItem("value4","Pants");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b����6����w������P��") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b��� �6��� �w������P��") == true){
             localStorage.setItem("value4","Airplane");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�ŪF����q�j�*�޽ې��!��G��dhS��hmm�dY�l6�A") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" �ŪF ����q�j�*�޽ې��!��G��dhS ��hmm�dY�l6�  A") == true){
             localStorage.setItem("value4","Clip");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ�����Rbff���^;���r�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ��   ���Rbff���^;���r�") == true){
             localStorage.setItem("value4","Foot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ���=�s�i�v���q�j�D���`�I��s") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ�� �=�s�i�v�� �q�j� D���`�I��s") == true){
             localStorage.setItem("value4","Computer");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ��E������/Î��(cl��vAp���_���`��K") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ�  �E����   ��/ Î��(cl��vA p���_���`��K") == true){
             localStorage.setItem("value4","Magnifying Glass");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu��DB���1M�*4���i�E��(") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu� �DB���1M �  *4���i� E��(") == true){
             localStorage.setItem("value4","Robot");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�C�$���fa��h@�����)�I�@)u") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� C�$�� �f a ��h@ ����� )�I�@)u") == true){
             localStorage.setItem("value4","Cloud");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷���X'�;+++�loo") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷� ��X'�;+++�loo") == true){
             localStorage.setItem("value4","Key");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa����v����16f4M�$IH") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa  ����v����16f  4M�$IH") == true){
             localStorage.setItem("value4","Scissors");
             window.close();
         }
@@ -857,27 +867,27 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value4","Pencil");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I�rGJy���Ԙ� s�ܘeY�t") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I� rGJy���Ԙ� s�ܘeY�t") == true){
             localStorage.setItem("value4","Eye");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("MѸ��C�47wo��e�i�=�����~�����n") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M Ѹ��C�47wo��e�i � =�����~�����n") == true){
             localStorage.setItem("value4","Tag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.���!��???��p]K��;��Y�0�iڵ�@J") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.�� �!��???�� p]K��;��Y�0�iڵ� @J") == true){
             localStorage.setItem("value4","Truck");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u�s�@6�-y���������?���a%*8�3i��a") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u �s�@6�-y���������?���a% * 8�3i � �a") == true){
             localStorage.setItem("value4","Umbrella");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X,�uaY�R�Zc����1�BT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X, �uaY �R�Zc��� �1�BT") == true){
             localStorage.setItem("value4","Graph");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2d2�������yS���������|�G") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2 d2 �������yS������ ��� |�G") == true){
             localStorage.setItem("value4","Printer");
             window.close();
         }
@@ -887,88 +897,88 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
         }
     }
     function checkcodeicon5(){
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG��4�+�h4�T1�9���6") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("OGGG�� 4�+�h4�T 1�9 � ��6") == true){
             localStorage.setItem("value5","Lock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5!b�c0�sh�)�R�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�������u�o�����5! b�  c0 �sh� )�R�") == true){
             localStorage.setItem("value5","Cat");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k���!-��m���Blp�7i,��!���ب�j") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("C��8��δ�k�� � !-��m��� Blp�7 i,��!���ب�j") == true){
             localStorage.setItem("value5","T-Shirt");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ�1�@��m���y�n��#�xc߿��f{;�Zrrr��bAD�do|#�iii%r") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("%���Z�վ � 1�@��m���y�n��#�xc ߿  ��f{;�Zrrr��b AD�do|#�iii%r") == true){
             localStorage.setItem("value5","Clock");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1���!XXX�DQ亮�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("1��� !XXX�DQ亮 � ") == true){
             localStorage.setItem("value5","Folder");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã��!ĳF:�@գ�����g�ݮ?777") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ã�� !ĳ F:� @գ�� ���g�ݮ?   777") == true){
             localStorage.setItem("value5","Woman");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW�d2P���wð777+���+-�R") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("PWW �d2P  � ��wð777+���+-�R") == true){
             localStorage.setItem("value5","Light Bulb");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("���륔H�d:��(c58") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� �� 륔H�d:��( c  58") == true){
             localStorage.setItem("value5","Flag");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N������G{{{����)��wyy�j�����/�1�-�sLNN^") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("E+++?����;�N�� �� ��G{{{����)� �wyy�j  �����/�1�-�sLNN^") == true){
             localStorage.setItem("value5","Sunglasses");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8�i��JH!�m�W�0x") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("g�F8 �i��JH  !�m�W�0x") == true){
             localStorage.setItem("value5","Leaf");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�A��u!E�뺈D") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("郃��*�i�100�  A��u!  E�뺈D") == true){
             localStorage.setItem("value5","Tree");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t��BC��Y�~�͖S!�����{��D�qgg") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�t  ��BC��Y�~�͖S!�����{��D�qgg") == true){
             localStorage.setItem("value5","Chair");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("a�ۯ#����Ą�����l�NʃfvQ__") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" a�ۯ#����Ą�����l�N ʃfvQ__") == true){
             localStorage.setItem("value5","Envelope");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q��o�.tttx###�����g϶����FJix�kP�+BT͹�Tj}") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("8p�011q � �o�.tttx###�����g϶��� �FJix�k P�+ BT͹  �Tj}") == true){
             localStorage.setItem("value5","Camera");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8�2��PJ��E)�,�`��0�M���5�8����mT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("9G8 �2��PJ��E)�,�`��0 � M�� �5�8����mT") == true){
             localStorage.setItem("value5","Car");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQY����t�UU�fY�e���;$,�R8���_�ը*") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("FEQ Y���� t�UU �fY�  e���; $,�R8���_�ը*") == true){
             localStorage.setItem("value5","Music Note");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+H�R��ٳgn5") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("RUlН;wf+ H�R��ٳgn5") == true){
             localStorage.setItem("value5","Balloons");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T*�������rX*�FP���H�d���b�5��PJAk") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("����T* ���� ���rX*�FP���H�d�� �b�5��PJAk") == true){
             localStorage.setItem("value5","Man");
             window.close();
 
@@ -978,50 +988,50 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("������G=��̸@�=c�1x�w��eQ�R7R����") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�� ����G= ��̸ @�=c�1x�w��eQ�R7R����") == true){
             localStorage.setItem("value5","Pants");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b����6����w������P��") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�%�b��� �6��� �w������P��") == true){
             localStorage.setItem("value5","Airplane");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�ŪF����q�j�*�޽ې��!��G��dhS��hmm�dY�l6�A") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes(" �ŪF ����q�j�*�޽ې��!��G��dhS ��hmm�dY�l6�  A") == true){
             localStorage.setItem("value5","Clip");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ�����Rbff���^;���r�") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M�(�H�� �0�bƔ��   ���Rbff���^;���r�") == true){
             localStorage.setItem("value5","Foot");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ���=�s�i�v���q�j�D���`�I��s") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("b愈v�����Ӝ�� �=�s�i�v�� �q�j� D���`�I��s") == true){
             localStorage.setItem("value5","Computer");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ��E������/Î��(cl��vAp���_���`��K") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("522ҿ�  �E����   ��/ Î��(cl��vA p���_���`��K") == true){
             localStorage.setItem("value5","Magnifying Glass");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu��DB���1M�*4���i�E��(") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("$IoFFFZ���!����Zu� �DB���1M �  *4���i� E��(") == true){
             localStorage.setItem("value5","Robot");
             window.close();
 
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�C�$���fa��h@�����)�I�@)u") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("� C�$�� �f a ��h@ ����� )�I�@)u") == true){
             localStorage.setItem("value5","Cloud");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷���X'�;+++�loo") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("gff��螷� ��X'�;+++�loo") == true){
             localStorage.setItem("value5","Key");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa����v����16f4M�$IH") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("dUUa  ����v����16f  4M�$IH") == true){
             localStorage.setItem("value5","Scissors");
             window.close();
         }
@@ -1029,27 +1039,27 @@ var _0x3eed = ["alert", "https://www.youtube.com/embed/", "includes", "href", "l
             localStorage.setItem("value5","Pencil");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I�rGJy���Ԙ� s�ܘeY�t") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("�$I� rGJy���Ԙ� s�ܘeY�t") == true){
             localStorage.setItem("value5","Eye");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("MѸ��C�47wo��e�i�=�����~�����n") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("M Ѹ��C�47wo��e�i � =�����~�����n") == true){
             localStorage.setItem("value5","Tag");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.���!��???��p]K��;��Y�0�iڵ�@J") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("Ŷm�h����iiM��.�� �!��???�� p]K��;��Y�0�iڵ� @J") == true){
             localStorage.setItem("value5","Truck");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u�s�@6�-y���������?���a%*8�3i��a") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("m?�O3ƒ�����u �s�@6�-y���������?���a% * 8�3i � �a") == true){
             localStorage.setItem("value5","Umbrella");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X,�uaY�R�Zc����1�BT") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("3F���¤F=+�����X, �uaY �R�Zc��� �1�BT") == true){
             localStorage.setItem("value5","Graph");
             window.close();
         }
-        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2d2�������yS���������|�G") == true){
+        if(document.getElementsByTagName("pre")[0].innerHTML.includes("d2 d2 �������yS������ ��� |�G") == true){
             localStorage.setItem("value5","Printer");
             window.close();
         }
