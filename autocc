@@ -122,16 +122,15 @@ var stop = 0;
                         doitab();
                         test = true;
                         document.getElementsByClassName('text_link dropdown-toggle')[0].addEventListener('click',() => {
-                        setInterval(function(){localStorage.setItem("auth",text);},500);
                         var texts = document.getElementsByClassName('value-for-two-factor')[0];
                         texts.value ='';
                         navigator.clipboard.readText()
                         .then((text) => {
-                            texts.value = localStorage.getItem("auth");
+                            localStorage.setItem("auth",text)
                         });
                     });
                     setInterval(function(){document.getElementsByClassName('text_link dropdown-toggle')[0].click()},1500);
-                    //setInterval(function(){document.getElementsByClassName('value-for-two-factor')[0].value = localStorage.getItem("auth")},3000);
+                    setInterval(function(){document.getElementsByClassName('value-for-two-factor')[0].value = localStorage.getItem("auth")},3000);
                     //setInterval(function(){document.getElementById("submitotp").click()},2000);
                     setTimeout(function(){test = false},20000);
                     //document.addEventListener("paste", e => {   doitab();
