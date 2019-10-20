@@ -154,6 +154,9 @@
                     if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value5")){
                         document.getElementById("visualCaptcha-img-4").click();
                     }
+                    if (document.getElementById("spinsLeft")[0].innerHTML != "0"){
+                        setInterval(function(){document.getElementById("spin").click();},8000)
+                    }
                     if (document.getElementsByClassName("visualCaptcha-explanation")[0] != null){
                         var a = document.getElementById("visualCaptcha-img-0").src;
                         var b = document.getElementById("visualCaptcha-img-1").src;
