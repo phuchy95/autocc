@@ -129,7 +129,7 @@ var stop = 0;
                             localStorage.setItem("auth",text)
                         });
                     });
-                    setInterval(function(){document.getElementsByClassName('text_link dropdown-toggle')[0].click()},1500);
+                    setInterval(function(){document.getElementsByClassName('text_link dropdown-toggle')[0].click()},2000);
                     setInterval(function(){document.getElementsByClassName('value-for-two-factor')[0].value = localStorage.getItem("auth")},3000);
                     if(document.getElementsByClassName('value-for-two-factor')[0].value = localStorage.getItem("auth")){
                         document.getElementById("submitotp").click();
