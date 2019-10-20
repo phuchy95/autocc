@@ -202,7 +202,7 @@ var stop = 0;
 function doitab(){
     var mywin = window.open("https://gauth.apps.gbraad.nl/");
     mywin.focus();
-    setTimeout(function(){mywin.close()},2000);
+    setTimeout(function(){mywin.close()},4000);
     }
 function giaicauhoi(){
     if (localStorage[_0x3eed[20]](_0x3eed[19]) != null) {
