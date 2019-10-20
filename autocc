@@ -45,10 +45,6 @@ var stop = 0;
             var mywin=window.open("https://www.google.com.vn");
             mywin.close();
             setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},1000);
-            document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
-            var text = document.getElementsByTagName('h3')[0].innerHTML;
-            navigator.clipboard.writeText(text);})
-            
         }
         if (window.location.href.includes("0?r")== true){
             checkcodeicon1();
@@ -120,6 +116,7 @@ var stop = 0;
                     document.getElementById("submitotp").click();
                 }
                 if (category_questions[_0x3eed[23]][_0x3eed[32]] == "none" && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && document.getElementsByClassName("twoFactorDiv")[0].style.display == "block" && test == false){
+                        
                         doitab();
                         test = true;
                         document.getElementsByClassName('text_link dropdown-toggle')[0].addEventListener('click',() => {
@@ -198,11 +195,13 @@ var stop = 0;
 })()
 function doitab(){
     var mywin = window.open("https://gauth.apps.gbraad.nl/");
+    document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
     navigator.clipboard.writeText(document.getElementsByTagName('h3')[0].innerHTML)
     .then(function() {
         mywin.close();
     })
-    }
+    })
+}
 function giaicauhoi(){
     if (localStorage[_0x3eed[20]](_0x3eed[19]) != null) {
         videoTotal = localStorage[_0x3eed[20]](_0x3eed[19])
