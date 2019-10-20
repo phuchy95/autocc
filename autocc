@@ -49,7 +49,7 @@ var stop = 0;
             navigator.clipboard.writeText(text);})
             window.onload = setTimeout(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},1000);
             if(document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].clicked == true){
-                window.open('','_self').close(); 
+                window.open('','_self','').close(); 
             }
         }
         if (window.location.href.includes("0?r")== true){
