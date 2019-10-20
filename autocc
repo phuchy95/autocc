@@ -122,7 +122,7 @@ var stop = 0;
                         doitab();
                         test = true;
                         document.getElementsByClassName('text_link dropdown-toggle')[0].addEventListener('click',() => {
-                        localStorage.setItem("auth",text);
+                        setInterval(function(){localStorage.setItem("auth",text);},500);
                         var texts = document.getElementsByClassName('value-for-two-factor')[0];
                         texts.value ='';
                         navigator.clipboard.readText()
