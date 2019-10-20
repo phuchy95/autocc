@@ -68,7 +68,7 @@
                 //setTimeout(function(){alert(value)},10000);
 //}
             if (window[_0x3eed[4]][_0x3eed[3]] == "https://www.snuckls.com/videos") {
-                if(document.getElementById("spinsLeft")[0] != "0"){
+                if(document.getElementById("spinsLeft").innerHTML != "0"){
                     setTimeout(function(){document.getElementById("spin").click()},8000)
                 }
                 localStorage.removeItem("value1");
