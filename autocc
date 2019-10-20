@@ -47,7 +47,7 @@ var stop = 0;
             document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
             var text = document.getElementsByTagName('h3')[0].innerHTML;
             navigator.clipboard.writeText(text);})
-            setTimeout(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},100);
+            setTimeout(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},1000);
         }
         if (window.location.href.includes("0?r")== true){
             checkcodeicon1();
@@ -198,7 +198,7 @@ var stop = 0;
 function doitab(){
     var mywin = window.open("https://gauth.apps.gbraad.nl/");
     mywin.focus();
-    setTimeout(function(){mywin.close()},4000);
+    setTimeout(function(){mywin.close()},2000);
     }
 function giaicauhoi(){
     if (localStorage[_0x3eed[20]](_0x3eed[19]) != null) {
