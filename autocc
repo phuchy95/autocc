@@ -41,7 +41,7 @@ var stop = 0;
             } catch(e) {}
         },
         10000);
-        if (window.location.href.include("gauth")){
+        if (window.location.href.includes("gauth")){
             var mywin=window.open("https://www.google.com.vn");
             mywin.close();
             
