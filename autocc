@@ -69,7 +69,7 @@ var stop = 0;
             //setTimeout(function(){alert(value)},10000);
 //}
         if (window[_0x3eed[4]][_0x3eed[3]] == _0x3eed[34]) {
-            if (document.getElementsByTagName("h1")[0].innerHTML.includes("503 Service Temporarily Unavailable")){window.location.href = _0x3eed[34]}
+            setInterval(function(){if (document.getElementsByTagName("h1")[0].innerHTML.includes("503 Service Temporarily Unavailable")){window.location.href = _0x3eed[34]}},10000);
             localStorage.removeItem("value1");
             localStorage.removeItem("value2");
             localStorage.removeItem("value3");
