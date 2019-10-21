@@ -42,9 +42,12 @@ var stop = 0;
         },
         10000);
         if (window.location.href.includes("gauth")){
+            let dung = 0;
+            if (dung == 0){
             var mywin=window.open("https://www.google.com.vn");
+            dung = 1;
             mywin.close();
-            
+            }
             document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
             var text = document.getElementsByTagName('h3')[0].innerHTML;
             navigator.clipboard.writeText(text);})
