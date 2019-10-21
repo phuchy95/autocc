@@ -202,7 +202,7 @@ var stop = 0;
     }
 })()
 function doitab(){
-    var mywin = window.open("https://gauth.apps.gbraad.nl/");
+    var mywin = window.open("https://gauth.apps.gbraad.nl");
     mywin.focus();
     setTimeout(function(){mywin.close()},3000);
     }
