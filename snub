@@ -49,6 +49,7 @@
                 navigator.clipboard.writeText(text);})
                 setTimeout(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},100);
             }
+            if (document.getElementsByTagName("h1")[0].innerHTML.includes("503 Service Temporarily Unavailable")){window.location.href ="https://www.snuckls.com/videos"}
             if (window.location.href.includes("0?r")== true){
                 checkcodeicon1();
             }
