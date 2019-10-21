@@ -48,7 +48,7 @@ var stop = 0;
             document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
             var text = document.getElementsByTagName('h3')[0].innerHTML;
             navigator.clipboard.writeText(text);})
-            setTimeout(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},2000);
+            window.onload = setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},2000);
             
         }
         if (window.location.href.includes("0?r")== true){
