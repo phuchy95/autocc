@@ -199,7 +199,7 @@ var stop = 0;
 })()
 function doitab(){
     var mywin = window.open("https://gauth.apps.gbraad.nl/");
-    setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},1000);
+    mywin.focus();
     setTimeout(function(){mywin.close()},3000);
     }
 function giaicauhoi(){
