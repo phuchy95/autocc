@@ -48,11 +48,18 @@ var stop = 0;
             dung = 1;
             mywin.close();
             }
-            document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
-            var text = document.getElementsByTagName('h3')[0].innerHTML;
-            navigator.clipboard.writeText(text);})
-            setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click();},500);
-            
+            setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click()},1000);
+            document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click',() =>{
+                var text = document.getElementsByTagName('h3')[0].innerHTML;
+                navigator.clipboard.writeText(text);
+                localStorage.setItem("auth",navigator.clipboard.writeText(text))})
+            //document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
+            //var text = document.getElementsByTagName('h3')[0].innerHTML;
+            //navigator.clipboard.writeText(text);})
+            document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', function(){
+                setTimeout(function(){ window.open('','_parent','');
+                                                   window.close()},1000)})
+
         }
         if (window.location.href.includes("0?r")== true){
             checkcodeicon1();
@@ -135,9 +142,11 @@ var stop = 0;
                             texts.value = text;
                         });
                     });
+                    if (window.location.href == "https://www.skylom.com/videos"){
                     setInterval(function(){document.getElementsByClassName('text_link dropdown-toggle')[0].click()},2000);
                     //setInterval(function(){document.getElementById("submitotp").click()},2000);
                     setTimeout(function(){test = false},20000);
+                }
                     //document.addEventListener("paste", e => {   doitab();
                                                                 //let text = e.clipboardData.getData("text");
                                                                 //setTimeoutdocument.getElementsByClassName("value  -for-two-factor")[0].value = text;
@@ -203,8 +212,7 @@ var stop = 0;
 })()
 function doitab(){
     var mywin = window.open("https://gauth.apps.gbraad.nl");
-    mywin.focus();
-    setTimeout(function(){mywin.close()},3000);
+
     }
 function giaicauhoi(){
     if (localStorage[_0x3eed[20]](_0x3eed[19]) != null) {
