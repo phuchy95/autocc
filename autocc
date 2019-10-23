@@ -86,25 +86,24 @@ var stop = 0;
             localStorage.removeItem("value3");
             localStorage.removeItem("value4");
             localStorage.removeItem("value5");
-            try {
+            //try {
                 //document[_0x3eed[9]](_0x3eed[36])[0][_0x3eed[25]](_0x3eed[23], _0x3eed[35])
-            } catch(e) {
-                setTimeout(function () {
-                    window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
-                },
-                6500)
-            };
+            //} catch(e) {
+                //setTimeout(function () {
+                    //window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+       // },6500)
+            //};
             setTimeout(function () {
                 try {
-                    time = document[_0x3eed[9]](_0x3eed[38])[0][_0x3eed[37]];
+                   time = document[_0x3eed[9]](_0x3eed[38])[0][_0x3eed[37]];
                     if (time == _0x3eed[39] || parseInt(time) < 1) {
-                        window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+                       window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
                     }
                 } catch(e) {
-                    window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
-                }
+                   window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
+}
             },
-            100000);
+           250000);
             setTimeout(function () {
                 window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
             },
@@ -121,13 +120,17 @@ var stop = 0;
                                 chuoi = b[i].className;
                                 break;
                                     }else {}};
-                btnAnswer = document.getElementsByClassName(chuoi)},10000);
+                                    btnAnswer = document.getElementsByClassName("border-btn")},10000);
+                //btnAnswer = document.getElementsByClassName(chuoi)},10000);
                     f = Math.floor(Math.random() * 4);
                 msg = document[_0x3eed[9]](_0x3eed[44])[0];
                     checkEndVideo = setInterval(function () {
-                if (category_questions[_0x3eed[23]][_0x3eed[32]] == _0x3eed[45] && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && baomat.style.display == "none") {
+                //if (category_questions[_0x3eed[23]][_0x3eed[32]] == _0x3eed[45] && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && baomat.style.display == "none") {
+                   // giaicauhoi();
+               // };
+                if (document.getElementsByClassName("video-category video-category-questions-div")[0].innerHTML.includes("Guess") && document.getElementsByClassName("captchaDivs another")[0] != null){
                     giaicauhoi();
-                };
+                }
                 if(document.getElementsByClassName('value-for-two-factor')[0].value != ""){
                     document.getElementById("submitotp").click();
                 }
@@ -153,6 +156,7 @@ var stop = 0;
                                                             //})
                                                             //}
                 }
+     
                 try{if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value1")){
                     document.getElementById("visualCaptcha-img-0").click();
                 }
@@ -223,7 +227,7 @@ function giaicauhoi(){
     };
     testAnswer = false;
     for (var _0xb282x12 = 0; _0xb282x12 < btnAnswer[_0x3eed[46]]; _0xb282x12++) {
-        if (btnAnswer[_0xb282x12][_0x3eed[17]] == _0x3eed[48]) {
+        if (btnAnswer[_0xb282x12][_0x3eed[17]].includes(_0x3eed[48])) {
             btnAnswer[_0xb282x12][_0x3eed[13]]();
             testAnswer = true;
             break
@@ -231,7 +235,7 @@ function giaicauhoi(){
     };
     if (!testAnswer) {
         for (var _0xb282x13 = 0; _0xb282x13 < btnAnswer[_0x3eed[46]]; _0xb282x13++) {
-            if (btnAnswer[_0xb282x13][_0x3eed[17]] == _0x3eed[47]) {
+            if (btnAnswer[_0xb282x13][_0x3eed[17]].includes(_0x3eed[47])) {
                 btnAnswer[_0xb282x13][_0x3eed[13]]();
                 testAnswer = true;
                 break
@@ -240,7 +244,7 @@ function giaicauhoi(){
     };
     if (!testAnswer) {
         for (var _0xb282x14 = 0; _0xb282x14 < btnAnswer[_0x3eed[46]]; _0xb282x14++) {
-            if (btnAnswer[_0xb282x14][_0x3eed[17]] == "Entertainment") {
+            if (btnAnswer[_0xb282x14][_0x3eed[17]].includes("Entertainment")) {
                 btnAnswer[_0xb282x14][_0x3eed[13]]();
                 testAnswer = true;
                 break
@@ -249,7 +253,7 @@ function giaicauhoi(){
     };
     if (!testAnswer) {
         for (var _0xb282x15 = 0; _0xb282x15 < btnAnswer[_0x3eed[46]]; _0xb282x15++) {
-            if (btnAnswer[_0xb282x15][_0x3eed[17]] == "Technology") {
+            if (btnAnswer[_0xb282x15][_0x3eed[17]].includes("Technology")) {
                 btnAnswer[_0xb282x15][_0x3eed[13]]();
                 testAnswer = true;
                 break
@@ -258,7 +262,7 @@ function giaicauhoi(){
     };
     if (!testAnswer) {
         for (var _0xb282x16 = 0; _0xb282x16 < btnAnswer[_0x3eed[46]]; _0xb282x16++) {
-            if (btnAnswer[_0xb282x16][_0x3eed[17]] == "Gaming") {
+            if (btnAnswer[_0xb282x16][_0x3eed[17]].includes("Gaming")) {
                 btnAnswer[_0xb282x16][_0x3eed[13]]();
                 testAnswer = true;
                 break
