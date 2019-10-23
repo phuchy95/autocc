@@ -61,6 +61,7 @@ var stop = 0;
                                                    window.close()},1000)})
 
         }
+
         if (window.location.href.includes("0?r")== true){
             checkcodeicon1();
         }
@@ -80,6 +81,9 @@ var stop = 0;
             //setTimeout(function(){alert(value)},10000);
 //}
         if (window[_0x3eed[4]][_0x3eed[3]] == _0x3eed[34]) {
+            setInterval(function(){if (document.getElementsByClassName("video-category-question") != ""){
+                giaicauhoi();
+            }},2000);
             setTimeout(function(){if (document.getElementsByTagName("h1")[0].innerHTML.includes("503 Service Temporarily Unavailable")){window.location.href = _0x3eed[34]}},10000);
             localStorage.removeItem("value1");
             localStorage.removeItem("value2");
@@ -125,12 +129,13 @@ var stop = 0;
                     f = Math.floor(Math.random() * 4);
                 msg = document[_0x3eed[9]](_0x3eed[44])[0];
                     checkEndVideo = setInterval(function () {
+                        if (document.getElementsByClassName("watch-vdo-msg")[0].innerHTML.includes("earned") || document.getElementsByClassName("watch-vdo-msg")[0].innerHTML.includes("wrong")){
+                            window.location.href = "https://www.skylom.com/videos"
+                        }
                 //if (category_questions[_0x3eed[23]][_0x3eed[32]] == _0x3eed[45] && captchaDivs[_0x3eed[23]][_0x3eed[32]] == _0x3eed[33] && baomat.style.display == "none") {
                    // giaicauhoi();
                // };
-                if (document.getElementsByClassName("video-category video-category-questions-div")[0].innerHTML.includes("Guess") && document.getElementsByClassName("captchaDivs another")[0] != null){
-                    giaicauhoi();
-                }
+                
                 if(document.getElementsByClassName('value-for-two-factor')[0].value != ""){
                     document.getElementById("submitotp").click();
                 }
@@ -156,7 +161,7 @@ var stop = 0;
                                                             //})
                                                             //}
                 }
-     
+
                 try{if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value1")){
                     document.getElementById("visualCaptcha-img-0").click();
                 }
