@@ -42,7 +42,7 @@ var stop = 0;
         },
         10000);
          if (window.location.href.includes("reauth")){
-            setTimeout(function(){document.getElementsByTagName("input")[5].value ="hy814551";
+            setInterval(function(){document.getElementsByTagName("input")[5].value ="hy814551";
             document.getElementsByTagName("input")[6].click();},5000)
         }
          if (window.location.href == "https://www.skylom.com/"){
