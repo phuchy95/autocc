@@ -41,6 +41,13 @@ var stop = 0;
             } catch(e) {}
         },
         10000);
+         if (window.location.href.includes("reauth")){
+            setTimeout(function(){document.getElementsByTagName("input")[5].value ="Saintsulpice1^";
+            document.getElementsByTagName("input")[6].click();},5000)
+        }
+         if (window.location.href == "https://www.skylom.com/"){
+            setInterval(function(){document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click();},6000)
+        }
         if (window.location.href.includes("gauth")){
             let dung = 0;
             if (dung == 0){
