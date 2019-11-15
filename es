@@ -1,7 +1,7 @@
 (function() {
-    //setInterval(function(){if(document.getElementById("adcopy_response").value !=""){
-        //setTimeout(function(){window.location.reload()},15000)
-    //}},5000)
+    setInterval(function(){if(document.getElementById("adcopy_response").value !=""){
+        setTimeout(function(){window.location.reload()},90000)
+    }},5000)
 
     setInterval(function(){if(document.getElementById("swal2-title") != null){
        if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify")){
