@@ -1,6 +1,6 @@
 (function() {
     var stop = false;
-    setInterval(function(){if(document.getElementById("swal2-title").innerHTML.includes("V3") && stop == false){
+    setInterval(function(){if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha v3 Failed") && stop == false){
         setTimeout(function(){window.location.reload()},15000);
         stop = true;
     }},5000)
