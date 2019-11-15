@@ -1,6 +1,6 @@
 (function() {
     var stop = false;
-    setInterval(function(){if(document.getElementById("adcopy_response").value !="" && stop == false){
+    setInterval(function(){if(document.getElementById("swal2-title").innerHTML.includes("V3") && stop == false){
         setTimeout(function(){window.location.reload()},15000);
         stop = true;
     }},5000)
