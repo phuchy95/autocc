@@ -1,16 +1,29 @@
+// ==UserScript==
+// @name         ES
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://es.btcnewz.com/*
+// @grant        none
+// ==/UserScript==
 (function() {
-    setInterval(function(){if(document.getElementById("adcopy_response").value !=""){
-        setTimeout(function(){window.location.reload()},90000)
+    var stop = false;
+    setInterval(function(){if(document.getElementById("adcopy_response").value !="" && stop == false){
+        setTimeout(function(){window.location.reload()},15000);
+        stop = true;
     }},5000)
 
     setInterval(function(){if(document.getElementById("swal2-title") != null){
-       if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify")){
-             setTimeout(function(){window.location.reload();},1000);
+       if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify") && stop == false){ //tra ve ket qua ""
+             window.location.reload();
+             stop = true;
          }
     }},1000)
    setInterval(function(){if(document.getElementById("swal2-title") != null){
-       if(document.getElementById("swal2-title").innerHTML.includes("SolveMedia Failed to verify, Please Refresh")){
-             setTimeout(function(){window.location.reload();},1000);
+       if(document.getElementById("swal2-title").innerHTML.includes("SolveMedia Failed to verify, Please Refresh") && stop == false){
+           window.location.reload();
+           stop = true;
          }
     }},1000)
     setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
@@ -34,8 +47,9 @@
         setTimeout(function(){window.location.reload()},300000)
 
         setInterval(function(){if(document.getElementById("claim-box").style.display == "none"){
-            if(window.location.href == "https://es.btcnewz.com/user/faucet/19"){
-                setTimeout(function(){window.location.href = "https://es.btcnewz.com/user/faucet/2"},3000)
+            if(window.location.href == "https://es.btcnewz.com/user/faucet/19" && stop == false){
+                setTimeout(function(){window.location.href = "https://es.btcnewz.com/user/faucet/2"},3000);
+                stop = true;
             } else {
                 setTimeout(function(){document.getElementsByClassName("fa fa-arrow-right")[0].click();},3000)
             }
