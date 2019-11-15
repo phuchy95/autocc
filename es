@@ -41,7 +41,7 @@
             if(window.location.href == "https://es.btcnewz.com/user/faucet/19" && stop == false){
                 setTimeout(function(){window.location.href = "https://es.btcnewz.com/user/faucet/2"},3000);
                 stop = true;
-            } else if(stop == false) {
+            } else if(window.location.href != "https://es.btcnewz.com/user/faucet/19" && stop == false) {
                 setTimeout(function(){document.getElementsByClassName("fa fa-arrow-right")[0].click();},3000);
                 stop = true;
             }
