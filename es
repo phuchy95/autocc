@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         ES
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://es.btcnewz.com/*
-// @grant        none
-// ==/UserScript==
 (function() {
     var stop = false;
     setInterval(function(){if(document.getElementById("adcopy_response").value !="" && stop == false){
