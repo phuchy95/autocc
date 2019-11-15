@@ -4,7 +4,12 @@
         setTimeout(function(){window.location.reload()},15000);
         stop = true;
     }},5000)
-
+    setInterval(function(){if(document.getElementById("swal2-title") != null){
+       if(document.getElementById("swal2-title").innerHTML.includes("Claim Complete!") && stop == false){
+             document.getElementsByClassName("fa fa-arrow-right")[0].click();
+             stop = true;
+         }
+    }},1000)
     setInterval(function(){if(document.getElementById("swal2-title") != null){
        if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify") && stop == false){ //tra ve ket qua ""
              window.location.reload();
@@ -35,14 +40,11 @@
         setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A")){
             document.getElementsByClassName("btn btn-primary aa64ba73b28f313b109237a8af8c2fd8a")[0].click();
         }},5000)
-        setTimeout(function(){window.location.reload()},300000)
+        //setTimeout(function(){window.location.reload()},300000)
 
         setInterval(function(){if(document.getElementById("claim-box").style.display == "none"){
             if(window.location.href == "https://es.btcnewz.com/user/faucet/19" && stop == false){
                 setTimeout(function(){window.location.href = "https://es.btcnewz.com/user/faucet/2"},3000);
-                stop = true;
-            } else if(window.location.href != "https://es.btcnewz.com/user/faucet/19" && stop == false) {
-                setTimeout(function(){document.getElementsByClassName("fa fa-arrow-right")[0].click();},3000);
                 stop = true;
             }
         }},5000)
