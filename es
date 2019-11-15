@@ -1,26 +1,22 @@
 (function() {
     var stop = false;
-    setInterval(function(){if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha v3 Failed") && stop == false){
-        setTimeout(function(){window.location.reload()},15000);
-        stop = true;
-    }},5000)
     setInterval(function(){if(document.getElementById("swal2-title") != null){
-       if(document.getElementById("swal2-title").innerHTML.includes("Claim Complete!") && stop == false){
+       if(document.getElementById("swal2-title").innerHTML.includes("Claim Complete!") && stop == false && window.location.href != "https://es.btcnewz.com/user/faucet/19"){
              document.getElementsByClassName("fa fa-arrow-right")[0].click();
              stop = true;
          }
-    }},1000)
-    setInterval(function(){if(document.getElementById("swal2-title") != null){
-       if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify") && stop == false){ //tra ve ket qua ""
+        if(document.getElementById("swal2-title").innerHTML.includes("SolveMedia Failed to verify, Please Refresh") && stop == false){
+            window.location.reload();
+            stop = true;
+        }
+        if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify") && stop == false){ //tra ve ket qua ""
              window.location.reload();
              stop = true;
          }
-    }},1000)
-   setInterval(function(){if(document.getElementById("swal2-title") != null){
-       if(document.getElementById("swal2-title").innerHTML.includes("SolveMedia Failed to verify, Please Refresh") && stop == false){
-           window.location.reload();
-           stop = true;
-         }
+        if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha v3 Failed") && stop == false){
+            window.location.reload();
+            stop = true;
+        }
     }},1000)
     setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
                          window.scrollBy(0,-60)},5000);
