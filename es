@@ -22,8 +22,10 @@
             stop = true;
         }
     }},1000)
-    setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
+    setInterval(function(){if(document.readyState == "complete" && window.location.href.includes("faucet")){
+        setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
                          window.scrollBy(0,-60)},5000);
+    }},1000)
     //setTimeout(function(){window.scrollBy(0,-50)},10000);
 	setInterval(function () {
             window.alert = function () {}
