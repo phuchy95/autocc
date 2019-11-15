@@ -1,13 +1,13 @@
 (function() {
-    setInterval(function(){if(document.getElementById("adcopy_response").value !=""){
-        setTimeout(function(){window.location.reload()},15000)
-    }},5000)
+    //setInterval(function(){if(document.getElementById("adcopy_response").value !=""){
+        //setTimeout(function(){window.location.reload()},15000)
+    //}},5000)
 
-    //setInterval(function(){if(document.getElementById("swal2-title") != null){
-       //if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify")){
-             //window.location.reload();
-         //}
-    //}},1000)
+    setInterval(function(){if(document.getElementById("swal2-title") != null){
+       if(document.getElementById("swal2-title").innerHTML.includes("Recaptcha Failed to verify")){
+             window.location.reload();
+         }
+    }},1000)
    setInterval(function(){if(document.getElementById("swal2-title") != null){
        if(document.getElementById("swal2-title").innerHTML.includes("SolveMedia Failed to verify, Please Refresh")){
              window.location.reload();
