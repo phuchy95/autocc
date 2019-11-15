@@ -31,7 +31,7 @@
         setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A")){
             document.getElementsByClassName("btn btn-primary aa64ba73b28f313b109237a8af8c2fd8a")[0].click();
         }},5000)
-        setTimeout(function(){window.location.reload()},150000)
+        setTimeout(function(){window.location.reload()},300000)
 
         setInterval(function(){if(document.getElementById("claim-box").style.display == "none"){
             if(window.location.href == "https://es.btcnewz.com/user/faucet/19"){
