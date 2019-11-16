@@ -22,7 +22,7 @@
             stop = true;
         }
     }},1000)
-    setInterval(function(){if(document.readyState == "complete" && window.location.href.includes("faucet")){
+    setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
         setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
                          window.scrollBy(0,-60)},1000);
     }},1000)
