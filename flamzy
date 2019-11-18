@@ -28,6 +28,7 @@ function MainVideo(){
                         setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},2000);
                         diemdung = true;
                      }},3000)
+                    }
 function TabYT(){
             var stop = false;
             setInterval(function(){if(document.readyState == "complete" && stop == false){  
@@ -41,4 +42,5 @@ function TabYT(){
                     window.open('','_parent','');
                     window.close()},3000)
             }},1000)
-        }                           
+        }    
+                               
