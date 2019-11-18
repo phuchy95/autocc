@@ -8,7 +8,9 @@ if(window[_0x54bc[2]][_0x54bc[1]]== _0x54bc[3]){
         if(window[_0x54bc[2]][_0x54bc[1]][_0x54bc[5]](_0x54bc[4])){
             TabYT()}else {
                 setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},6500)}}})();
-function MainVideo(){setInterval(function(){try{var _0x3ed6x2=document.getElementsByClassName("captchaDivs")[0];
+function MainVideo(){
+    var diemdung = false;
+    setInterval(function(){try{var _0x3ed6x2=document.getElementsByClassName("captchaDivs")[0];
                                                 var _0x3ed6x3=document.getElementsByClassName("after-timer")[0];
                                                 if(_0x3ed6x3.style.display == "block" && _0x3ed6x2.style.display == "none"){
                                                     document.getElementsByClassName("btn btn-success yes")[0][_0x54bc[13]]();
@@ -22,9 +24,10 @@ function MainVideo(){setInterval(function(){try{var _0x3ed6x2=document.getElemen
                                                }catch(e){}
                                            },3000);
 										   
-                     setInterval(function(){var _0x3ed6x4=document.getElementsByClassName("watch-vdo-msg")[0];
-                                            if(_0x3ed6x4[_0x54bc[20]][_0x54bc[19]]()[_0x54bc[5]](_0x54bc[18])){
-                                                        setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},2000)}},3000)}
+                     setInterval(function(){if(document.getElementsByClassName("watch-vdo-msg")[0].innerHTML.includes("earned") && diemdung == false){
+                        setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},2000);
+                        diemdung = true;
+                     }},3000)
 function TabYT(){
             var stop = false;
             setInterval(function(){if(document.readyState == "complete" && stop == false){  
