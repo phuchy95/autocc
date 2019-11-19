@@ -24,6 +24,11 @@ function MainVideo(){
 }
 function TabYT(){
             var stop = false;
+            setInterval(function(){if(document.readyState == "complete"){
+                setTimeout(function(){
+                    window.open('','_parent','');
+                    window.close()},20000)
+            }},1000);
             setInterval(function(){if(document.readyState == "complete" && stop == false){
             setTimeout(function(){
                 document.getElementsByClassName("style-scope yt-button-renderer style-blue-text size-default")[1].click();
