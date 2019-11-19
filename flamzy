@@ -30,13 +30,13 @@ function MainVideo(){
 function TabYT(){
             var stop = false;
             var stop1 = false;
-            setInterval(function(){if(document.readyState == "complete" && stop == false && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Đã đăng ký" && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Subscribed"){
+            setInterval(function(){if(document.readyState == "complete" && stop == false && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Đã đăng ký" && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Subscribed" && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Abonné"){
             setTimeout(function(){
                 document.getElementsByClassName("style-scope yt-button-renderer style-blue-text size-default")[1].click();
                 stop = true;
             },3000)
             }},1000)
-            setInterval(function(){if(document.readyState == "complete" && (document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Đã đăng ký" || document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Subscribed") ){
+            setInterval(function(){if(document.readyState == "complete" && (document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Đã đăng ký" || document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Subscribed" || document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Abonné" ) ){
                 setTimeout(function(){
                     window.open('','_parent','');
                     window.close()},3000)
