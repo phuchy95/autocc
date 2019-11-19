@@ -25,23 +25,22 @@ function MainVideo(){
     }},3000)
 }
 function TabYT(){
-            var stop = false;
-            var stop1 = false;
-            setInterval(function(){if(document.readyState == "complete" && stop == false && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Đã đăng ký" && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Subscribed"){
+        var stop = false;
+        var stop1 = false;
+        setInterval(function(){if(document.readyState == "complete" && stop == false && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Đã đăng ký" && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Subscribed" && document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML != "Abonné"){
+            document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].click();
+            document.getElementsByClassName("style-scope ytd-toggle-button-renderer")[2].click();
+            stop = true;
+        }},1000)
+        setInterval(function(){if(document.readyState == "complete" && (document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Đã đăng ký" || document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Subscribed" || document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Abonné" ) ){
             setTimeout(function(){
-                document.getElementsByClassName("style-scope yt-button-renderer style-blue-text size-default")[1].click();
-                stop = true;
-            },3000)
-            }},1000)
-            setInterval(function(){if(document.readyState == "complete" && (document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Đã đăng ký" || document.getElementsByClassName("style-scope ytd-subscribe-button-renderer")[1].innerHTML == "Subscribed") ){
-                setTimeout(function(){
-                    window.open('','_parent','');
-                    window.close()},3000)
-            }},3000)
-            setInterval(function(){if(stop == true){
-                setTimeout(function(){
-                    window.open('','_parent','');
-                    window.close()},3000)
-            }},1000)
+                window.open('','_parent','');
+                window.close()},3000)
+        }},3000)
+        setInterval(function(){if(stop == true){
+            setTimeout(function(){
+                window.open('','_parent','');
+                window.close()},3000)
+        }},1000)
         }
 
