@@ -2,11 +2,11 @@ var _0x54bc=["alert","href","location","https://www.flamzy.com/videos#_=_","http
 var newwindow;
 (function(){setInterval(function(){window[_0x54bc[0]]= function(){}},60000);
 setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},600000);
-if(window[_0x54bc[2]][_0x54bc[1]]== _0x54bc[3]){
+if(window.location.href.includes("flamzy")){
     MainVideo()}else {
         if(window[_0x54bc[2]][_0x54bc[1]][_0x54bc[5]](_0x54bc[4])){
             TabYT()}else {
-                setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},6500)}}})();
+                setTimeout(function(){window.location.href = "https://www.flamzy.com/videos"},6500)}}})();
 function MainVideo(){
     var diemdung = false;
     setInterval(function(){try{if(document.getElementsByClassName("after-timer")[0].style.display == "block" && document.getElementsByClassName("captchaDivs")[0].style.display == "none"){
@@ -18,7 +18,7 @@ function MainVideo(){
                           },3000);
 
     setInterval(function(){if(document.getElementsByClassName("watch-vdo-msg")[0].innerHTML.includes("earned") && diemdung == false){
-        setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},2000);
+        window.location.href = "https://www.flamzy.com/videos"
         diemdung = true;
     }},3000)
 }
