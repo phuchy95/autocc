@@ -1,7 +1,17 @@
+// ==UserScript==
+// @name         Flamzy
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.flamzy.com/*
+// @match        https://www.youtube.com/channel/*
+// @grant        none
+// ==/UserScript==
 var _0x54bc=["alert","href","location","https://www.flamzy.com/videos#_=_","https://www.youtube.com/channel/","includes","captchaDivs","getElementsByClassName","after-timer","display","style","block","none","click","btn btn-success yes","btn btn-success btn-lg start-after-yes","body video_pages","watch-vdo-msg","earned","toLowerCase","innerHTML","confirm-button","getElementById","","_parent","open","close","text_link dropdown-toggle","fa fa-repeat"];
 var newwindow;
 (function(){setInterval(function(){window[_0x54bc[0]]= function(){}},60000);
-setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= "https://www.flamzy.com/videos"},600000);
+setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},600000);
 if(window[_0x54bc[2]][_0x54bc[1]]== _0x54bc[3]){
     MainVideo()}else {
         if(window[_0x54bc[2]][_0x54bc[1]][_0x54bc[5]](_0x54bc[4])){
@@ -9,28 +19,22 @@ if(window[_0x54bc[2]][_0x54bc[1]]== _0x54bc[3]){
                 setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},6500)}}})();
 function MainVideo(){
     var diemdung = false;
-    setInterval(function(){try{var _0x3ed6x2=document.getElementsByClassName("captchaDivs")[0];
-                                                var _0x3ed6x3=document.getElementsByClassName("after-timer")[0];
-                                                if(_0x3ed6x3.style.display == "block" && _0x3ed6x2.style.display == "none"){
-                                                    document.getElementsByClassName("btn btn-success yes")[0][_0x54bc[13]]();
-                                                    setTimeout(function(){
-                                                        document.getElementsByClassName(_0x54bc[15])[0][_0x54bc[13]]();
-                                                    }
-                                                               ,2000);
-															   setInterval(function (){var mywin = window.open("https://www.google.com");
-															                           mywin.close();},8000);
-                                                }
-                                               }catch(e){}
-                                           },3000);
-										   
-                     setInterval(function(){if(document.getElementsByTagName("h2")[4].innerHTML.includes("earned") && diemdung == false){
-                        window.location.reload();
-                        diemdung = true;
-                     }},3000)
-                    }
+    setInterval(function(){try{if(document.getElementsByClassName("after-timer")[0].style.display == "block" && document.getElementsByClassName("captchaDivs")[0].style.display == "none"){
+        document.getElementsByClassName("btn btn-success yes")[0].click();
+        document.getElementsByClassName("btn btn-success btn-lg start-after-yes")[0].click();
+        setInterval(function (){var mywin = window.open("https://www.google.com");
+                                mywin.close();},8000);
+    }}catch(e){}
+                          },3000);
+
+    setInterval(function(){if(document.getElementsByClassName("watch-vdo-msg")[0].innerHTML.includes("earned") && diemdung == false){
+        setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},2000);
+        diemdung = true;
+    }},3000)
+}
 function TabYT(){
             var stop = false;
-            setInterval(function(){if(document.readyState == "complete" && stop == false){  
+            setInterval(function(){if(document.readyState == "complete" && stop == false){
             setTimeout(function(){
                 document.getElementsByClassName("style-scope yt-button-renderer style-blue-text size-default")[1].click();
                 stop = true;
@@ -41,5 +45,5 @@ function TabYT(){
                     window.open('','_parent','');
                     window.close()},3000)
             }},1000)
-        }    
-                               
+        }
+
