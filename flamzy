@@ -12,11 +12,13 @@ function MainVideo(){
     setInterval(function(){try{if(document.getElementsByClassName("after-timer")[0].style.display == "block" && document.getElementsByClassName("captchaDivs")[0].style.display == "none"){
         document.getElementsByClassName("btn btn-success yes")[0].click();
         document.getElementsByClassName("btn btn-success btn-lg start-after-yes")[0].click();
-        setInterval(function (){var mywin = window.open("https://www.google.com");
-                                mywin.close();},8000);
-    }}catch(e){}
-                          },3000);
-
+        setInterval(function(){document.getElementsByClassName("text_link dropdown-toggle")[0].click()},8000)       
+    }}catch(e){}},3000);
+    document.getElementsByClassName("text_link dropdown-toggle")[0].addEventListener('click', function(){
+        var mywin = window.open("https://www.google.com");
+        mywin.close();
+    })
+    //},8000);
     setInterval(function(){if(document.getElementsByClassName("watch-vdo-msg")[0].innerHTML.includes("earned") && diemdung == false){
         window.location.href = "https://www.flamzy.com/videos"
         diemdung = true;
