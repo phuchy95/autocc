@@ -1,7 +1,7 @@
 var _0x54bc=["alert","href","location","https://www.flamzy.com/videos#_=_","https://www.youtube.com/channel/","includes","captchaDivs","getElementsByClassName","after-timer","display","style","block","none","click","btn btn-success yes","btn btn-success btn-lg start-after-yes","body video_pages","watch-vdo-msg","earned","toLowerCase","innerHTML","confirm-button","getElementById","","_parent","open","close","text_link dropdown-toggle","fa fa-repeat"];
 var newwindow;
 (function(){setInterval(function(){window[_0x54bc[0]]= function(){}},60000);
-setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= _0x54bc[3]},600000);
+setTimeout(function(){window[_0x54bc[2]][_0x54bc[1]]= "https://www.flamzy.com/videos"},780000);
 if(window.location.href == "https://www.flamzy.com/finished"){
     window.location.href = "https://www.flamzy.com/videos"
 }
