@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://es.btcnewz.com/user/faucet/2
+// @grant        none
+// ==/UserScript==
+
 (function() {
     var stop = false;
     setInterval(function(){if(document.getElementById("swal2-title") != null){
@@ -24,8 +34,10 @@
     }},1000)
     setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
         if(document.getElementById("google-recaptcha").style.display != "block"){
-            document.getElementsByClassName("btn btn-link m-b-5 save")[0].click();
-            document.getElementById("switchCaptcha").click();
+            setTimeout(function(){
+                document.getElementsByClassName("btn btn-link m-b-5 save")[0].click();
+                document.getElementById("switchCaptcha").click();
+        },1000)
         }
         setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
                          window.scrollBy(0,-60)},1000);
