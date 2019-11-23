@@ -24,17 +24,14 @@
     }},1000)
     setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
         setInterval(function(){document.getElementsByClassName("btn btn-link m-b-5 save")[0].click();},1000)
-        //if(document.getElementById("google-recaptcha").style.display != "block"){
-            //setTimeout(function(){
-
-       // },1000)
-       // }
         if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display == "block"){
                 document.getElementById("switchCaptcha").click();
            }
        // }
+        if(document.getElementById("solvemedia-block").style.display == "block"){
         setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
-                         window.scrollBy(0,-60)},1000);
+                         window.scrollBy(0,-60)},1000)
+        }
     }},1000)
     //setTimeout(function(){window.scrollBy(0,-50)},10000);
 	setInterval(function () {
