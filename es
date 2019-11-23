@@ -23,7 +23,9 @@
         }
     }},1000)
     setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
-        setInterval(function(){document.getElementsByClassName("btn btn-link m-b-5 save")[0].click();},1000)
+        if(document.getElementById("google-recaptcha").style.display != "block" && document.getElementById("solvemedia-block").style.display != "block"){
+            document.getElementsByClassName("btn btn-link m-b-5 save")[0].click();
+        }
         if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display == "block"){
                 document.getElementById("switchCaptcha").click();
            }
