@@ -9,6 +9,60 @@
              window.location.href = "https://es.btcnewz.com/user/faucet/2"
              stop = true;
          }
+        if(document.getElementById("swal2-title").innerHTML.includes("please wait") && stop == false){
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/2"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/3";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/3"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/4";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/4"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/6";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/6"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/7";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/7"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/8";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/8"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/11";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/11"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/12";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/12"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/13";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/13"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/15";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/15"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/16";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/16"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/18";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/18"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/19";
+               stop = true;
+           }
+           if(window.location.href == "https://es.btcnewz.com/user/faucet/19"){
+               window.location.href = "https://es.btcnewz.com/user/faucet/2";
+               stop = true;
+           }
+        } 
         if(document.getElementById("swal2-title").innerHTML.includes("SolveMedia Failed to verify, Please Refresh") && stop == false){
             window.location.reload();
             stop = true;
