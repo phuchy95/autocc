@@ -1,5 +1,7 @@
 (function() {
+        console.log("start")
 	setTimeout(function(){window.location.reload()},90000)
+	console.log("refresh after 90s")
     var stop = false;
     setInterval(function(){if(document.getElementById("swal2-title") != null){
        if(document.getElementById("swal2-title").innerHTML.includes("Claim Complete!") && stop == false && window.location.href != "https://es.btcnewz.com/user/faucet/19"){
