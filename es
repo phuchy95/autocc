@@ -1,5 +1,5 @@
 (function() {
-    setTimeout(function(){window.location.reload()},90000)
+	setTimeout(function(){window.location.reload()},90000)
     var stop = false;
     setInterval(function(){if(document.getElementById("swal2-title") != null){
        if(document.getElementById("swal2-title").innerHTML.includes("Claim Complete!") && stop == false && window.location.href != "https://es.btcnewz.com/user/faucet/19"){
@@ -10,60 +10,6 @@
              window.location.href = "https://es.btcnewz.com/user/faucet/2"
              stop = true;
          }
-        if(document.getElementById("swal2-title").innerHTML.includes("please wait") && stop == false){
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/2"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/3";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/3"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/4";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/4"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/6";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/6"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/7";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/7"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/8";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/8"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/11";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/11"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/12";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/12"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/13";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/13"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/15";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/15"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/16";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/16"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/18";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/18"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/19";
-               stop = true;
-           }
-           if(window.location.href == "https://es.btcnewz.com/user/faucet/19"){
-               window.location.href = "https://es.btcnewz.com/user/faucet/2";
-               stop = true;
-           }
-        }
         if(document.getElementById("swal2-title").innerHTML.includes("SolveMedia Failed to verify, Please Refresh") && stop == false){
             window.location.reload();
             stop = true;
@@ -78,14 +24,8 @@
         }
     }},1000)
     setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
-        if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display == "block"){
-                document.getElementById("switchCaptcha").click();
-           }
-       // }
-        if(document.getElementById("solvemedia-block").style.display == "block"){
         setTimeout(function(){document.getElementById("adcopy-puzzle-image").scrollIntoView(true)
-                         window.scrollBy(0,-60)},1000)
-        }
+                         window.scrollBy(0,-60)},1000);
     }},1000)
     //setTimeout(function(){window.scrollBy(0,-50)},10000);
 	setInterval(function () {
@@ -98,11 +38,8 @@
         //document.getElementsByClassName("btn btn-sm btn-success pull-right m-r-5")[0].click();
        }
     if(window.location.href.includes("faucet")){
-        setInterval(function(){
-            if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display != "block"){
-                document.getElementsByClassName("btn btn-link m-b-5 save")[0].click();
-            }
-        },3000)
+        document.getElementsByClassName("btn btn-link m-b-5 save")[0].click();
+        document.getElementById("switchCaptcha").click();
         setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A")){
             document.getElementsByClassName("btn btn-primary aa64ba73b28f313b109237a8af8c2fd8a")[0].click();
         }},5000)
