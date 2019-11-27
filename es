@@ -12,6 +12,10 @@
              window.location.href = "https://es.btcnewz.com/user/faucet/2"
              stop = true;
          }
+        if(document.getElementById("swal2-title").innerHTML.includes("Failed to verify, Please Refresh") && stop == false && window.location.href == "https://es.btcnewz.com/user/faucet/19"){
+             window.location.reload();
+             stop = true;
+         }
         if(document.getElementById("swal2-title").innerHTML.includes("please wait") && stop == false){
            if(window.location.href == "https://es.btcnewz.com/user/faucet/2"){
                window.location.href = "https://es.btcnewz.com/user/faucet/3";
@@ -115,4 +119,3 @@
         //}},5000)
     }
 })();
-
