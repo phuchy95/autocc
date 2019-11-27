@@ -1,6 +1,6 @@
 (function() {
     console.log("start");
-    setTimeout(function(){window.location.reload()},90000)
+    setTimeout(function(){window.location.reload()},150000)
     var stop1 = false;
     var stop = false;
     setInterval(function(){if(document.getElementById("swal2-title") != null){
@@ -80,6 +80,8 @@
         }
     }},1000)
     setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
+        setTimeout(function(){document.getElementById("switchCaptcha").scrollIntoView(true)
+                         window.scrollBy(0,-60)},1000)
         if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
             document.getElementsByClassName("btn btn-primary accadafa9a5a52073fbe2c3c1c97bd03a")[0].click();
             stop1 = true;
@@ -113,3 +115,4 @@
         //}},5000)
     }
 })();
+
