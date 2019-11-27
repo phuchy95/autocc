@@ -1,6 +1,7 @@
 (function() {
     console.log("start");
     setTimeout(function(){window.location.reload()},90000)
+    var stop1 = false;
     var stop = false;
     setInterval(function(){if(document.getElementById("swal2-title") != null){
        if(document.getElementById("swal2-title").innerHTML.includes("Claim Complete!") && stop == false && window.location.href != "https://es.btcnewz.com/user/faucet/19"){
@@ -79,8 +80,12 @@
         }
     }},1000)
     setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
+        if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+            document.getElementsByClassName("btn btn-primary accadafa9a5a52073fbe2c3c1c97bd03a")[0].click();
+            stop1 = true;
+       }
         if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display == "block"){
-                document.getElementById("switchCaptcha").click();
+                //document.getElementById("switchCaptcha").click();
            }
        // }
         if(document.getElementById("solvemedia-block").style.display == "block"){
@@ -89,15 +94,6 @@
         }
     }},1000)
     //setTimeout(function(){window.scrollBy(0,-50)},10000);
-	setInterval(function () {
-            window.alert = function () {}
-        },1000)
-    if(window.location.href.includes("exchange")){
-        //setTimeout(function(){document.getElementsByClassName("form-control")[5].option[2].selected},5000);
-        //document.getElementsByClassName("btn btn-sm btn-info pull-right m-r-5")[0].click();
-        //document.getElementById("password").value ="hy814551";
-        //document.getElementsByClassName("btn btn-sm btn-success pull-right m-r-5")[0].click();
-       }
     if(window.location.href.includes("faucet")){
         setInterval(function(){
             if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display != "block"){
@@ -107,7 +103,7 @@
         setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A")){
             document.getElementsByClassName("btn btn-primary aa64ba73b28f313b109237a8af8c2fd8a")[0].click();
         }},5000)
-        
+
 
         //setInterval(function(){if(document.getElementById("claim-box").style.display == "none"){
             //if(window.location.href == "https://es.btcnewz.com/user/faucet/19" && stop == false){
