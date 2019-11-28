@@ -1,6 +1,6 @@
 (function() {
     console.log("start");
-    setTimeout(function(){window.location.reload()},150000)
+    setTimeout(function(){window.location.reload()},300000)
     var stop1 = false;
     var stop = false;
     setInterval(function(){if(document.getElementById("swal2-title") != null){
