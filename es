@@ -87,7 +87,7 @@
         setTimeout(function(){document.getElementById("switchCaptcha").scrollIntoView(true)
                          window.scrollBy(0,-60)},1000)
         if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-            document.getElementsByClassName("btn btn-primary aefaf08658fa67bacd10b00a943ccd7b8")[0].click();
+            document.getElementsByTagName("button")[6].click();
             stop1 = true;
        }
         if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display == "block"){
