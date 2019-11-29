@@ -1,8 +1,11 @@
 (function() {
     console.log("start");
-    setTimeout(function(){window.location.reload()},250000)
+    setTimeout(function(){window.location.reload()},150000)
     var stop1 = false;
     var stop = false;
+    var stop2 = false;
+    var i;
+    var b;
     setInterval(function(){if(document.getElementById("swal2-title") != null){
        if(document.getElementById("swal2-title").innerHTML.includes("Claim Complete!") && stop == false && window.location.href != "https://es.btcnewz.com/user/faucet/19"){
              document.getElementsByClassName("fa fa-arrow-right")[0].click();
@@ -84,10 +87,21 @@
         }
     }},1000)
     setInterval(function(){if(document.readyState == "complete" || window.location.href.includes("faucet")){
+        if(stop2 == false){
+        for (i = 0; i < document.getElementsByTagName("button").length; i++){
+                if(document.getElementsByTagName("button")[i].innerHTML.includes("Verify")){
+                    b = i;
+                    break;
+                }
+            }
+        stop2 = true;
+        console.log(b)
+        }
+       ;
         setTimeout(function(){document.getElementById("switchCaptcha").scrollIntoView(true)
                          window.scrollBy(0,-60)},1000)
         if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-            document.getElementsByClassName("btn btn-primary aefaf08658fa67bacd10b00a943ccd7b8")[0].click();
+            document.getElementsByTagName("button")[b].click();
             stop1 = true;
        }
         if(document.getElementById("solvemedia-block").style.display != "block" && document.getElementById("google-recaptcha").style.display == "block"){
