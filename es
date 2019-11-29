@@ -1,6 +1,6 @@
 (function() {
     console.log("start");
-    setTimeout(function(){window.location.reload()},150000)
+    setTimeout(function(){window.location.reload()},230000)
     var stop1 = false;
     var stop = false;
     var stop2 = false;
