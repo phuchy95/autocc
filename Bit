@@ -68,7 +68,7 @@ var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
         try{setInterval(function(){if (document.getElementsByClassName("progress-bar progress-bar-success")[0].style.width.includes("100")){
             document.getElementsByClassName("btn btn-success")[0].click();
         }},1000)}catch(e){};
-          if (document.getElementsByClassName("chip bg-green")[0].innerHTML.includes("1000") && window.location.href.includes("y?v")){
+          if (document.getElementsByClassName("chip bg-green")[0].innerHTML.includes("10000") && window.location.href.includes("y?v")){
               window.location.href ="https://bittube.me/withdraw"
           }
         
