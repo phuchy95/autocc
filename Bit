@@ -16,7 +16,7 @@ var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
 
         }
 
-    setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},500000);
+    setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},350000);
         setInterval(function () {
             window.alert = function () {}
         },
