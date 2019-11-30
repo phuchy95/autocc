@@ -1,0 +1,82 @@
+var btnPlay;
+var tagVideo;
+var pageFatherYT;
+var tagReplay;
+var btnReplay;
+var stop = 0;
+var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
+(function() {
+    if(window.location.href =="https://bittube.me/withdraw"){
+        try{setInterval(function(){if(captcha.innerHTML.includes("03A"))
+                               {
+                                   document.getElementsByClassName("btn btn-primary btn-rounded waves-effect")[0].click();
+                                   window.location.href = ("https://bittube.me/earn/youtube")
+                                   stop = 1;
+                               }},6000)}catch(e){};
+
+        }
+
+    setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},500000);
+        setInterval(function () {
+            window.alert = function () {}
+        },
+        40000);
+    
+    if (window.location.href.includes("watch?v") == true){
+        window.location.href = "https://bittube.me/earn/youtube"
+    }
+    if (window.location.href =="https://bittube.me/earn/youtube"){
+        document.getElementById("video_url").value = "https://www.youtube.com/watch?v=0cM5xezto1s"
+        document.getElementsByClassName("btn btn-danger btn-lg waves-effect waves-light")[0].click();
+        setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},190000);
+    }
+
+    if (window.location.href.includes("https://www.youtube.com/embed/")) {
+        pageFatherYT = (window.location != window.parent.location) ? document.referrer : document.location.href;
+        if (pageFatherYT.includes("y?v")) {
+            setInterval(function () {
+                btnPlay = document.getElementsByClassName("ytp-large-play-button")[0];
+                    tagVideo = document.getElementsByTagName("video")[0];
+                try {
+                    if (tagVideo.paused) {
+                        btnPlay.click()
+                    }
+                } catch(e) {}
+            },
+                        1000)
+        }
+    } else {
+        setInterval(function () {
+            try {
+                tagReplay = document.getElementsByClassName("video-ov-div")[0];
+                btnReplay = document.getElementById("replay_video");
+                if (tagReplay.style.display != "none") {
+                    btnReplay.click()
+                }
+            } catch(e) {}
+        },10000);
+        if(window.location.href != "https://bittube.me/withdraw"){
+        try{setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A"))
+                                {
+                                    document.getElementsByClassName("btn btn-primary")[0].click();
+                                    stop = 1;
+                                }},6000)}catch(e){};
+        //setInterval(function(){if(document.getElementsByClassName("swal-title")[0].innerHTML.includes("Error")){window.location.href = "https://bittube.me/earn/youtube"}},6000);
+        try{setInterval(function(){if (document.getElementsByTagName("h4")[0].innerHTML.includes("Good")){
+            window.location.href = "https://bittube.me/earn/youtube"
+         }},1000)}catch(e){};
+        try{setInterval(function(){if (document.getElementsByClassName("progress-bar progress-bar-success")[0].style.width.includes("100")){
+            document.getElementsByClassName("btn btn-success")[0].click();
+        }},1000)}catch(e){};
+          if (document.getElementsByClassName("chip bg-green")[0].innerHTML.includes("1000") && window.location.href.includes("y?v")){
+              window.location.href ="https://bittube.me/withdraw"
+          }
+        
+
+
+            //if (window.location.href = "https://bittube.me/earn/youtube"){
+                //document.getElementById("video_url").value = "https://www.youtube.com/watch?v=Xvd2OhP2H50";
+                //document.getElementsByClassName("btn btn-danger btn-lg waves-effect waves-light")[0].click();
+            //}
+        }}
+})();
