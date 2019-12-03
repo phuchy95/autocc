@@ -3,34 +3,10 @@ var tagVideo;
 var pageFatherYT;
 var tagReplay;
 var btnReplay;
-var stop = 0;
-var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
+var stop = false;
+var stop1 = false;
+var stop2 = false;
 (function() {
-    if(window.location.href =="https://bittube.me/withdraw"){
-        try{setInterval(function(){if(captcha.innerHTML.includes("03A"))
-                               {
-                                   document.getElementsByClassName("btn btn-primary btn-rounded waves-effect")[0].click();
-                                   window.location.href = ("https://bittube.me/earn/youtube")
-                                   stop = 1;
-                               }},6000)}catch(e){};
-
-        }
-
-    setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},150000);
-        setInterval(function () {
-            window.alert = function () {}
-        },
-        40000);
-
-    if (window.location.href.includes("watch?v") == true){
-        window.location.href = "https://bittube.me/earn/youtube"
-    }
-    if (window.location.href =="https://bittube.me/earn/youtube"){
-        document.getElementById("video_url").value = "https://www.youtube.com/watch?v=0cM5xezto1s"
-        document.getElementsByClassName("btn btn-danger btn-lg waves-effect waves-light")[0].click();
-        setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},190000);
-    }
-
     if (window.location.href.includes("https://www.youtube.com/embed/")) {
         pageFatherYT = (window.location != window.parent.location) ? document.referrer : document.location.href;
         if (pageFatherYT.includes("y?v")) {
@@ -55,28 +31,26 @@ var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
                 }
             } catch(e) {}
         },10000);
-        if(window.location.href != "https://bittube.me/withdraw"){
-        try{setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && document.getElementById("humanModal").style.display == "block")
-                                {
-                                    document.getElementsByClassName("btn btn-primary")[0].click();
-                                    stop = 1;
-                                }},6000)}catch(e){};
-        //setInterval(function(){if(document.getElementsByClassName("swal-title")[0].innerHTML.includes("Error")){window.location.href = "https://bittube.me/earn/youtube"}},6000);
-        try{setInterval(function(){if (document.getElementsByTagName("h4")[0].innerHTML.includes("Good")){
-            window.location.href = "https://bittube.me/earn/youtube"
-         }},1000)}catch(e){};
-        try{setInterval(function(){if (document.getElementsByClassName("progress-bar progress-bar-success")[0].style.width.includes("100")){
-            document.getElementsByClassName("btn btn-success")[0].click();
-        }},1000)}catch(e){};
-          if (document.getElementsByClassName("chip bg-green")[0].innerHTML.includes("10000") && window.location.href.includes("y?v")){
-              window.location.href ="https://bittube.me/withdraw"
-          }
-
-
-
-            //if (window.location.href = "https://bittube.me/earn/youtube"){
-                //document.getElementById("video_url").value = "https://www.youtube.com/watch?v=Xvd2OhP2H50";
-                //document.getElementsByClassName("btn btn-danger btn-lg waves-effect waves-light")[0].click();
-            //}
-        }}
+    }
+    if(window.location.href == "https://bittube.me/earn/youtube"){
+        setTimeout(function(){window.reload()},20000);
+        console.log("refresh after 20s");
+        document.getElementById("video_url").value = "https://www.youtube.com/watch?v=UuOiYuKQRys"
+        document.getElementsByClassName("btn btn-danger btn-lg waves-effect waves-light")[0].click();
+    }
+    if(window.location.href.includes("y?v") && document.getElementsByClassName("progress-bar progress-bar-success")[0] != undefined){
+        setInterval(function(){
+            if(document.getElementsByClassName("btn btn-success")[0] != null && stop == false){
+                document.getElementById("claim-btn").click();
+                stop = true;
+            }
+            if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop == true && stop1 == false){
+                document.getElementsByClassName("btn btn-primary")[0].click();
+                stop1 = true;
+            }
+            if(document.getElementById("humanModal").style.display == "none" && stop2 == false){
+                window.location.href = "https://bittube.me/earn/youtube";
+                stop2 = true;
+            }
+},1000)}
 })();
