@@ -16,12 +16,12 @@ var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
 
         }
 
-    setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},350000);
+    setTimeout(function(){window.location.href = "https://bittube.me/earn/youtube"},150000);
         setInterval(function () {
             window.alert = function () {}
         },
         40000);
-    
+
     if (window.location.href.includes("watch?v") == true){
         window.location.href = "https://bittube.me/earn/youtube"
     }
@@ -56,7 +56,7 @@ var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
             } catch(e) {}
         },10000);
         if(window.location.href != "https://bittube.me/withdraw"){
-        try{setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A"))
+        try{setInterval(function(){if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && document.getElementById("humanModal").style.display == "block")
                                 {
                                     document.getElementsByClassName("btn btn-primary")[0].click();
                                     stop = 1;
@@ -71,7 +71,7 @@ var captcha = document.getElementsByClassName("g-recaptcha-response")[0];
           if (document.getElementsByClassName("chip bg-green")[0].innerHTML.includes("10000") && window.location.href.includes("y?v")){
               window.location.href ="https://bittube.me/withdraw"
           }
-        
+
 
 
             //if (window.location.href = "https://bittube.me/earn/youtube"){
