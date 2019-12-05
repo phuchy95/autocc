@@ -38,6 +38,8 @@ var check;
     console.log(check);
     setInterval(function(){
         if(document.getElementsByClassName("captcha-overlay")[0] != null && stop1 == false){
+            setTimeout(function(){window.location.reload()},420000);
+            console.log("tinh tien");
             check = 1;
             stop1 = true;
             console.log(check);
