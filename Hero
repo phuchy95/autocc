@@ -4,7 +4,7 @@ var stop2 = false;
 var checkres;
 var check;
 (function() {
-        try{window.onload = setTimeout(function(){document.getElementsByTagName("a")[16].click();},3000)}catch(e){}
+        try{window.onload = setTimeout(function(){document.getElementsByTagName("a")[16].click();},7000)}catch(e){}
         setInterval(function(){
         if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:0")){
             setTimeout(function(){window.location.reload();},13000)
