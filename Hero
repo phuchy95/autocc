@@ -1,15 +1,22 @@
 var stop = false;
 var stop1 = false;
 var stop2 = false;
+var stop3 = false;
+var check1;
 var checkres;
 var check;
 (function() {
-        try{window.onload = setTimeout(function(){document.getElementsByTagName("a")[16].click();},7000)}catch(e){}
-        setInterval(function(){
-        if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:0")){
-            setTimeout(function(){window.location.reload();},13000)
-        }
-        },3000)
+    if(document.getElementsByClassName("timer")[0] == null){
+               setTimeout(function(){document.getElementsByTagName("a")[16].click();},6000);
+            }
+    setInterval(function(){
+            try{if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:0") && stop3 == false){
+                setTimeout(function(){window.location.reload();},15000);
+                check1 =1;
+                stop3 = true;
+            }}catch(e){}
+        console.log("be tap dem");
+    },3000)
     checkres = 1;
     setInterval(function(){
         if(checkres == 1){
