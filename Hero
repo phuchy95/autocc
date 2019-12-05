@@ -2,15 +2,30 @@ var stop = false;
 var stop1 = false;
 var stop2 = false;
 var checkres;
+var check;
 (function() {
-       //setInterval(function(){
-           //if(document.getElementsByClassName("title")[1].innerHTML.includes("Congrats!") && stop == false){
-              // window.location.reload();
-              // stop = true;
-         //  }
-      // },5000)
-       setTimeout(function(){document.getElementsByTagName("a")[16].click()},3000)
-       setInterval(function(){
-            document.getElementsByClassName("btnModalCaptcha")[0].click();
-       },3000)
+        try{window.onload = setTimeout(function(){document.getElementsByTagName("a")[16].click();},3000)}catch(e){}
+        setInterval(function(){
+        if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:0")){
+            setTimeout(function(){window.location.reload();},13000)
+        }
+        },3000)
+    checkres = 1;
+    setInterval(function(){
+        if(checkres == 1){
+           try{document.getElementsByClassName("btnModalCaptcha")[0].click();}catch(e){}
+        }
+    },3000)
+    console.log(check);
+    setInterval(function(){
+        if(document.getElementsByClassName("captcha-overlay")[0] != null && stop1 == false){
+            check = 1;
+            stop1 = true;
+            console.log(check);
+        } else if(document.getElementsByClassName("captcha-overlay")[0] == null && stop1 == true && check == 1){
+            window.location.reload();
+            check = 2;
+            console.log(check);
+        }
+    },3000)
 })();
