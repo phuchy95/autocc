@@ -14,12 +14,12 @@ var check;
             console.log("khong click");
         } else (check2 = 2)
     },5000)
-    try{setInterval(function(){
+    setInterval(function(){
         if(check2 == 2 && stop4 == false){
             document.getElementsByTagName("a")[16].click();
             stop4 = true;
         }
-    },5000)}catch(e){}
+    },5000)
         //setTimeout(function(){document.getElementsByTagName("a")[16].click();},6000);
         setInterval(function(){
             try{if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:0") && stop3 == false){
