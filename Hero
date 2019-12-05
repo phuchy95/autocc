@@ -1,0 +1,16 @@
+var stop = false;
+var stop1 = false;
+var stop2 = false;
+var checkres;
+(function() {
+       //setInterval(function(){
+           //if(document.getElementsByClassName("title")[1].innerHTML.includes("Congrats!") && stop == false){
+              // window.location.reload();
+              // stop = true;
+         //  }
+      // },5000)
+       setTimeout(function(){document.getElementsByTagName("a")[16].click()},3000)
+       setInterval(function(){
+            document.getElementsByClassName("btnModalCaptcha")[0].click();
+       },3000)
+})();
