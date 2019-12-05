@@ -2,23 +2,35 @@ var stop = false;
 var stop1 = false;
 var stop2 = false;
 var stop3 = false;
+var stop4 = false;
 var check1;
+var check2;
 var checkres;
 var check;
 (function() {
-    if(document.getElementsByClassName("timer")[0] == null){
-               setTimeout(function(){document.getElementsByTagName("a")[16].click();},6000);
-            }
     setInterval(function(){
+        if(document.getElementsByClassName("timer")[0] != null){
+            check2 = 1;
+            console.log("khong click");
+        } else (check2 = 2)
+    },5000)
+    setInterval(function(){
+        if(check2 == 2 && stop4 == false){
+            document.getElementsByTagName("a")[16].click();
+            stop4 = true;
+        }
+    },5000)
+        //setTimeout(function(){document.getElementsByTagName("a")[16].click();},6000);
+        setInterval(function(){
             try{if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:0") && stop3 == false){
                 setTimeout(function(){window.location.reload();},15000);
                 check1 =1;
                 stop3 = true;
             }}catch(e){}
-        console.log("be tap dem");
-    },3000)
-    checkres = 1;
-    setInterval(function(){
+            console.log("be tap dem");
+        },3000)
+        checkres = 1;
+        setInterval(function(){
         if(checkres == 1){
            try{document.getElementsByClassName("btnModalCaptcha")[0].click();}catch(e){}
         }
@@ -34,5 +46,5 @@ var check;
             check = 2;
             console.log(check);
         }
-    },3000)
+       },3000)
 })();
