@@ -8,6 +8,7 @@ var check2;
 var checkres;
 var check;
 (function() {
+    setTimeout(function(){window.location.reload()},900000);
     setInterval(function(){
         if(document.getElementsByClassName("timer")[0] != null){
             check2 = 1;
