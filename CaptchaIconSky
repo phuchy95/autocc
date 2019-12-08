@@ -22,7 +22,7 @@ var check = 0;
             stop1 = true;
             check = 1;
         }
-    },5000)
+    },2000)
     setInterval(function(){
         try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop1 == true && check == 1 && localStorage.getItem("value") != null ){
             check = 7;
@@ -32,13 +32,13 @@ var check = 0;
             localStorage.removeItem("value");
             check = 2;
         }}catch(e){}
-    },5000)
+    },2000)
     setInterval(function(){
         if(check == 2 && stop1 == true && stop2 == false){
             window.open(document.getElementsByTagName("img")[6].src);
             stop2 = true;
         }
-    },5000)
+    },2000)
     setInterval(function(){
        try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop2 == true && localStorage.getItem("value") != null){
             check = 7;
@@ -48,13 +48,13 @@ var check = 0;
             localStorage.removeItem("value");
             check = 3;
         }}catch(e){}
-    },5000)
+    },2000)
     setInterval(function(){
         if(check == 3 && stop1 == true && stop2 == true && stop3 == false){
             window.open(document.getElementsByTagName("img")[7].src);
             stop3 = true;
         }
-    },5000)
+    },2000)
     setInterval(function(){
        try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop3 == true && check == 3 && localStorage.getItem("value") != null){
             check = 7;
@@ -64,13 +64,13 @@ var check = 0;
             localStorage.removeItem("value");
             check = 4;
         }}catch(e){}
-    },5000)
+    },2000)
     setInterval(function(){
         if(check == 4 && stop1 == true && stop2 == true && stop3 == true && stop4 == false){
             window.open(document.getElementsByTagName("img")[8].src);
             stop4 = true;
         }
-    },5000)
+    },2000)
     setInterval(function(){
         try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop4 == true && check == 4 && localStorage.getItem("value") != null){
              check = 7;
@@ -80,13 +80,13 @@ var check = 0;
              localStorage.removeItem("value");
              check = 5;
          }}catch(e){}
-     },5000)
+     },2000)
     setInterval(function(){
         if(check == 5 && stop1 == true && stop2 == true && stop3 == true && stop4 == true && stop5 == false){
             window.open(document.getElementsByTagName("img")[9].src);
             stop5 = true;
         }
-    },5000)
+    },2000)
     setInterval(function(){
         try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop5 == true && check == 5 && localStorage.getItem("value") != null){
              check = 7;
@@ -96,13 +96,13 @@ var check = 0;
              localStorage.removeItem("value");
              check = 6;
          }}catch(e){}
-     },5000)
+     },2000)
      setInterval(function(){
         if(check == 6){
             document.getElementsByTagName("img")[10].click();
             document.getElementsByClassName("themeBtn submit-v-captcha")[0].click();
         }
-    },5000)
+    },2000)
 })();
 function getBase64Image(img) {
     var canvas = document.createElement("canvas");
