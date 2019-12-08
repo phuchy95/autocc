@@ -7,6 +7,7 @@ var check1;
 var check2;
 var checkres;
 var check;
+var bamnut;
 (function() {
     setTimeout(function(){window.location.reload()},900000);
     setInterval(function(){
@@ -15,7 +16,7 @@ var check;
             console.log("khong click");
         } else (check2 = 2)
     },5000)
-    setInterval(function(){
+    bamnut = setInterval(function(){
         if(check2 == 2 && stop4 == false){
             document.getElementsByTagName("a")[16].click();
             stop4 = true;
@@ -23,8 +24,8 @@ var check;
     },5000)
         //setTimeout(function(){document.getElementsByTagName("a")[16].click();},6000);
         setInterval(function(){
-            try{if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:0") && stop3 == false){
-                setTimeout(function(){window.location.reload();},15000);
+            try{if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:2") && stop3 == false){
+                setTimeout(function(){window.location.reload();},5000);
                 check1 =1;
                 stop3 = true;
             }}catch(e){}
@@ -40,6 +41,7 @@ var check;
     setInterval(function(){
         if(document.getElementsByClassName("captcha-overlay")[0] != null && stop1 == false){
             setTimeout(function(){window.location.reload()},600000);
+            clearInterval(bamnut);
             console.log("tinh tien");
             check = 1;
             stop1 = true;
