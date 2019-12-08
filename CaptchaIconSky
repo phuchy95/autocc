@@ -17,6 +17,14 @@ var check = 0;
         checkcodeicon();
     }
     setInterval(function(){
+        if(document.getElementsByTagName("svg")[0] != null){
+            if(document.getElementsByTagName("svg")[0].clientWidth == "300" && document.getElementsByTagName("svg")[0].clientHeight == "100" && captchaburefresh == false){
+                window.location.reload();
+                captchaburefresh = true;
+            }
+        }
+    },5000)
+    setInterval(function(){
         if(document.getElementsByTagName("strong")[0] != null && stop1 == false){
             window.open(document.getElementsByTagName("img")[5].src);
             stop1 = true;
