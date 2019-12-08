@@ -5,6 +5,7 @@ var stop1 = false;
 var stop2 = false;
 var stop3 = false;
 var stop4 = false;
+var stop5 = false;
 var check = 0;
 (function() {
     localStorage.removeItem("value");
@@ -24,7 +25,7 @@ var check = 0;
     },5000)
     setInterval(function(){
         try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop1 == true && check == 1 && localStorage.getItem("value") != null ){
-            check = 5;
+            check = 7;
             document.getElementsByTagName("img")[5].click();
             document.getElementsByClassName("themeBtn submit-v-captcha")[0].click();
         } else if(document.getElementsByTagName("strong")[0].innerHTML != localStorage.getItem("value") && stop1 == true && check == 1 && localStorage.getItem("value") != null){
@@ -40,7 +41,7 @@ var check = 0;
     },5000)
     setInterval(function(){
        try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop2 == true && localStorage.getItem("value") != null){
-            check = 5;
+            check = 7;
             document.getElementsByTagName("img")[6].click();
             document.getElementsByClassName("themeBtn submit-v-captcha")[0].click();
         } else if(document.getElementsByTagName("strong")[0].innerHTML != localStorage.getItem("value") && stop2 == true && check == 2 && localStorage.getItem("value") != null){
@@ -56,7 +57,7 @@ var check = 0;
     },5000)
     setInterval(function(){
        try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop3 == true && check == 3 && localStorage.getItem("value") != null){
-            check = 5;
+            check = 7;
             document.getElementsByTagName("img")[7].click();
             document.getElementsByClassName("themeBtn submit-v-captcha")[0].click();
         } else if (document.getElementsByTagName("strong")[0].innerHTML != localStorage.getItem("value") && stop3 == true && check == 3 && localStorage.getItem("value") != null){
@@ -65,8 +66,40 @@ var check = 0;
         }}catch(e){}
     },5000)
     setInterval(function(){
-        if(check == 4){
-            document.getElementsByTagName("img")[8].click();
+        if(check == 4 && stop1 == true && stop2 == true && stop3 == true && stop4 == false){
+            window.open(document.getElementsByTagName("img")[8].src);
+            stop4 = true;
+        }
+    },5000)
+    setInterval(function(){
+        try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop4 == true && check == 4 && localStorage.getItem("value") != null){
+             check = 7;
+             document.getElementsByTagName("img")[8].click();
+             document.getElementsByClassName("themeBtn submit-v-captcha")[0].click();
+         } else if (document.getElementsByTagName("strong")[0].innerHTML != localStorage.getItem("value") && stop4 == true && check == 4 && localStorage.getItem("value") != null){
+             localStorage.removeItem("value");
+             check = 5;
+         }}catch(e){}
+     },5000)
+    setInterval(function(){
+        if(check == 5 && stop1 == true && stop2 == true && stop3 == true && stop4 == true && stop5 == false){
+            window.open(document.getElementsByTagName("img")[9].src);
+            stop5 = true;
+        }
+    },5000)
+    setInterval(function(){
+        try{if(document.getElementsByTagName("strong")[0].innerHTML == localStorage.getItem("value") && stop5 == true && check == 5 && localStorage.getItem("value") != null){
+             check = 7;
+             document.getElementsByTagName("img")[9].click();
+             document.getElementsByClassName("themeBtn submit-v-captcha")[0].click();
+         } else if (document.getElementsByTagName("strong")[0].innerHTML != localStorage.getItem("value") && stop5 == true && check == 5 && localStorage.getItem("value") != null){
+             localStorage.removeItem("value");
+             check = 6;
+         }}catch(e){}
+     },5000)
+     setInterval(function(){
+        if(check == 6){
+            document.getElementsByTagName("img")[10].click();
             document.getElementsByClassName("themeBtn submit-v-captcha")[0].click();
         }
     },5000)
