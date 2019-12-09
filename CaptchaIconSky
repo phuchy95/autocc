@@ -1,4 +1,5 @@
 var base64;
+var captchaburefresh = false;
 var dapan;
 var i = 5;
 var stop1 = false;
