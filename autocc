@@ -41,62 +41,14 @@ var stop = 0;
             } catch(e) {}
         },
         10000);
-         if (window.location.href.includes("reauth")){
-            setInterval(function(){document.getElementsByTagName("input")[5].value ="hy814551";
-            document.getElementsByTagName("input")[6].click();},10000)
-        }
          if (window.location.href == "https://www.skylom.com/"){
             setInterval(function(){document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click();},6000)
         }
-        if (window.location.href.includes("gauth")){
-            let dung = 0;
-            if (dung == 0){
-            var mywin=window.open("https://www.google.com.vn");
-            dung = 1;
-            mywin.close();
-            }
-            setInterval(function(){document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].click()},1000);
-            document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click',() =>{
-                var text = document.getElementsByTagName('h3')[0].innerHTML;
-                navigator.clipboard.writeText(text);
-                localStorage.setItem("auth",navigator.clipboard.writeText(text))})
-            //document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', () =>{
-            //var text = document.getElementsByTagName('h3')[0].innerHTML;
-            //navigator.clipboard.writeText(text);})
-            document.getElementsByClassName("header-icon ui-link ui-btn-right ui-btn ui-icon-edit ui-btn-icon-notext ui-shadow ui-corner-all")[0].addEventListener('click', function(){
-                setTimeout(function(){ window.open('','_parent','');
-                                                   window.close()},1000)})
-
-        }
-
-        if (window.location.href.includes("0?r")== true){
-            checkcodeicon1();
-        }
-        if (window.location.href.includes("1?r")== true){
-            checkcodeicon2();
-        }
-        if (window.location.href.includes("2?r")== true){
-            checkcodeicon3();
-        }
-        if (window.location.href.includes("3?r")== true){
-            checkcodeicon4();
-        }
-        if (window.location.href.includes("4?r")== true){
-            checkcodeicon5();
-        }
-        //if (window.location.href.includes("1?r")== true){
-            //setTimeout(function(){alert(value)},10000);
-//}
         if (window[_0x3eed[4]][_0x3eed[3]] == _0x3eed[34]) {
             setInterval(function(){if (document.getElementsByClassName("video-category-question") != ""){
                 giaicauhoi();
             }},2000);
             try{setTimeout(function(){if (document.getElementsByTagName("h1")[0].innerHTML.includes("503 Service Temporarily Unavailable")){window.location.href = _0x3eed[34]}},10000);}catch(e){}
-            localStorage.removeItem("value1");
-            localStorage.removeItem("value2");
-            localStorage.removeItem("value3");
-            localStorage.removeItem("value4");
-            localStorage.removeItem("value5");
             //try {
                 //document[_0x3eed[9]](_0x3eed[36])[0][_0x3eed[25]](_0x3eed[23], _0x3eed[35])
             //} catch(e) {
@@ -169,42 +121,6 @@ var stop = 0;
                                                             //}
                 }}catch(e){};
 
-                try{if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value1")){
-                    document.getElementById("visualCaptcha-img-0").click();
-                }
-                if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value2")){
-                    document.getElementById("visualCaptcha-img-1").click();
-                }
-                if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value3")){
-                    document.getElementById("visualCaptcha-img-2").click();
-                }
-                if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value4")){
-                    document.getElementById("visualCaptcha-img-3").click();
-                }
-                if (document.getElementsByTagName('strong')[1].innerHTML == localStorage.getItem("value5")){
-                    document.getElementById("visualCaptcha-img-4").click();
-                }}catch(e){};
-                if (document.getElementsByClassName("visualCaptcha-explanation")[0] != null){
-                    var a = document.getElementById("visualCaptcha-img-0").src;
-                    var b = document.getElementById("visualCaptcha-img-1").src;
-                    var c = document.getElementById("visualCaptcha-img-2").src;
-                    var d = document.getElementById("visualCaptcha-img-3").src;
-                    var e = document.getElementById("visualCaptcha-img-4").src;
-                    if (stop == 0){
-                    var mywin1 = window.open(a);
-                    var mywin2 = window.open(b);
-                    var mywin3 = window.open(c);
-                    var mywin4 = window.open(d);
-                    var mywin5 = window.open(e);
-                    //setTimeout(function(){mywin1.close()},7000);
-                    //setTimeout(function(){mywin2.close()},7000);
-                    //setTimeout(function(){mywin3.close()},7000);
-                    //setTimeout(function(){mywin4.close()},7000);
-                    //setTimeout(function(){mywin5.close()},7000);
-                    stop ++;
-                }
-                }
-
                 try{if (msg[_0x3eed[17]][_0x3eed[52]]()[_0x3eed[2]](_0x3eed[51]) || msg[_0x3eed[17]][_0x3eed[52]]()[_0x3eed[2]](_0x3eed[53]) || msg[_0x3eed[17]][_0x3eed[52]]()[_0x3eed[2]](_0x3eed[54])) {
                     localStorage[_0x3eed[55]](_0x3eed[19], parseInt(videoTotal) + 1);
                     window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
@@ -226,10 +142,6 @@ var stop = 0;
         }
     }
 })()
-function doitab(){
-    var mywin = window.open("https://gauth.apps.gbraad.nl");
-
-    }
 function giaicauhoi(){
     try{if (localStorage[_0x3eed[20]](_0x3eed[19]) != null) {
         videoTotal = localStorage[_0x3eed[20]](_0x3eed[19])
