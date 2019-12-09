@@ -48,7 +48,6 @@ var stop = 0;
             setInterval(function(){if (document.getElementsByClassName("video-category-question") != ""){
                 giaicauhoi();
             }},2000);
-            try{setTimeout(function(){if (document.getElementsByTagName("h1")[0].innerHTML.includes("503 Service Temporarily Unavailable")){window.location.href = _0x3eed[34]}},10000);}catch(e){}
             //try {
                 //document[_0x3eed[9]](_0x3eed[36])[0][_0x3eed[25]](_0x3eed[23], _0x3eed[35])
             //} catch(e) {
