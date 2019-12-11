@@ -2,7 +2,7 @@ var stop1 = false;
 var stop2 = false;
 (function() {
     setInterval(function(){
-        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("01:1") && stop1 == false){
+        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("0:5") && stop1 == false){
             window.location.reload();
             stop1 = true;
         }},2000)
@@ -11,5 +11,5 @@ var stop2 = false;
             document.getElementsByClassName("btn btn-primary btn-lg")[0].click();
             stop2 = true;
         }}catch(e){}
-    },2000)
+    },5000)
 })();
