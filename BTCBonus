@@ -2,8 +2,8 @@ var stop1 = false;
 var stop2 = false;
 (function() {
     setInterval(function(){
-        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("0:5") && stop1 == false){
-            window.location.reload();
+        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("Claim again in 1:4") && stop1 == false){
+            setTimeout(function(){window.location.reload();},7000);
             stop1 = true;
         }},2000)
     setInterval(function(){
