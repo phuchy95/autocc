@@ -1,0 +1,15 @@
+var stop1 = false;
+var stop2 = false;
+(function() {
+    setInterval(function(){
+        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("1:") && stop1 == false){
+            window.location.reload();
+            stop1 = true;
+        }},2000)
+    setInterval(function(){
+        try{if(document.getElementById("g-recaptcha-response").innerHTML.includes("03A") && stop2 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now")){
+            document.getElementsByClassName("btn btn-primary btn-lg")[0].click();
+            stop2 = true;
+        }}catch(e){}
+    },2000)
+})();
