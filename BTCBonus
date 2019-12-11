@@ -2,7 +2,7 @@ var stop1 = false;
 var stop2 = false;
 (function() {
     setInterval(function(){
-        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("01:") && stop1 == false){
+        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("01:1") && stop1 == false){
             window.location.reload();
             stop1 = true;
         }},2000)
