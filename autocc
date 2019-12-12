@@ -69,7 +69,7 @@ var stop = 0;
             setTimeout(function () {
                 window[_0x3eed[4]][_0x3eed[3]] = _0x3eed[34]
             },
-            500000);
+            360000);
             pre_answering = document[_0x3eed[9]](_0x3eed[40])[0];
             category_questions = document[_0x3eed[9]](_0x3eed[41])[0];
             captchaDivs = document[_0x3eed[9]](_0x3eed[42])[0];
