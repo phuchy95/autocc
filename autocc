@@ -150,7 +150,7 @@ function giaicauhoi(){
     };
     testAnswer = false;
     for (var _0xb282x12 = 0; _0xb282x12 < btnAnswer[_0x3eed[46]]; _0xb282x12++) {
-        if (btnAnswer[_0xb282x12][_0x3eed[17]].includes(_0x3eed[48])) {
+        if (btnAnswer[_0xb282x12][_0x3eed[17]].includes(_0x3eed[47])) {
             btnAnswer[_0xb282x12][_0x3eed[13]]();
             testAnswer = true;
             break
@@ -158,7 +158,7 @@ function giaicauhoi(){
     };
     if (!testAnswer) {
         for (var _0xb282x13 = 0; _0xb282x13 < btnAnswer[_0x3eed[46]]; _0xb282x13++) {
-            if (btnAnswer[_0xb282x13][_0x3eed[17]].includes(_0x3eed[47])) {
+            if (btnAnswer[_0xb282x13][_0x3eed[17]].includes(_0x3eed[48])) {
                 btnAnswer[_0xb282x13][_0x3eed[13]]();
                 testAnswer = true;
                 break
