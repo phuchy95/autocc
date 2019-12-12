@@ -1,6 +1,9 @@
 var stop1 = false;
 var stop2 = false;
 (function() {
+    setTimeout(function(){
+    window.location.href = "http://bonusbitcoin.co/faucet"
+    },900000);
     setInterval(function(){
         if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
             setTimeout(function(){window.location.reload();},290000);
