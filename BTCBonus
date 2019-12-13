@@ -2,7 +2,7 @@ var stop1 = false;
 var stop2 = false;
 (function() {
     setTimeout(function(){
-    window.location.href = "http://bonusbitcoin.co/faucet"
+    window.location.reload();
     },900000);
     console.log("refresh after 15mins");
     setInterval(function(){
