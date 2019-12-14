@@ -7,9 +7,6 @@ var stop6 = false;
 var stop7 = false;
 var stop8 = false;
 (function() {
-    setTimeout(function(){
-    window.location.reload();
-    },300000);
     console.log("refresh after 15mins");
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
