@@ -27,7 +27,7 @@ var stop10 = false;
     },1000)
     setInterval(function(){
         try{if(document.getElementById("FaucetClaimModal").style.display == "block" && stop3 == false){
-            window.location.href = "https://www.google.com"
+            window.location.href = "https://www.google.com/"
             stop3 = true;
         }}catch(e){}
     },2000)
