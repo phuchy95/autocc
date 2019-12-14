@@ -7,6 +7,7 @@ var stop6 = false;
 var stop7 = false;
 var stop8 = false;
 var stop9 = false;
+var stop10 = false;
 (function() {
     setTimeout(function(){
     window.location.reload();
@@ -64,6 +65,12 @@ var stop9 = false;
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false){
             window.location.href = "https://www.google.com"
             stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(window.location.href != "https://www.google.com" && window.location.href != "http://bonusbitcoin.co/faucet" && stop10 == false){
+            window.location.href = "https://www.google.com"
+            stop10 = true;
         }}catch(e){}
     },2000)
     if(window.location.href == "https://www.google.com/" && stop5 == false){
