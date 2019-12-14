@@ -2,6 +2,7 @@ var stop1 = false;
 var stop2 = false;
 var stop3 = false;
 var stop4 = false;
+var stop5 = false;
 (function() {
     setTimeout(function(){
     window.location.reload();
@@ -30,5 +31,9 @@ var stop4 = false;
             stop4 = true;
         }
     },2000)
-    
+    if(window.location.href == "https://www.google.com/" && stop5 == false){
+    setTimeout(function(){
+        window.location.href = "http://bonusbitcoin.co/faucet"
+    },850000)
+    }
 })();
