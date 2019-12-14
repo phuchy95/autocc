@@ -9,13 +9,16 @@ var stop8 = false;
 var stop9 = false;
 var stop10 = false;
 (function() {
-    setTimeout(function(){
-    window.location.reload();
-    },1200000);
-    console.log("refresh after 15mins");
+    //console.log("start");
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
             setTimeout(function(){window.location.reload();},290000);
+            stop1 = true;
+        }}catch(e){}
+    },5000)
+    setInterval(function(){
+        try{if(window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && stop1 == false){
+            window.location.href = "https://www.google.com/"
             stop1 = true;
         }}catch(e){}
     },5000)
@@ -32,7 +35,7 @@ var stop10 = false;
         }}catch(e){}
     },2000)
     setInterval(function(){
-        try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") == false && stop4 == false){
+        try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") == false && stop4 == false && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("15 minutes") == false){
             window.location.reload();
             stop4 = true;
         }}catch(e){}
@@ -40,6 +43,12 @@ var stop10 = false;
     setInterval(function(){
         try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") && stop8 == false){
             window.location.href = "http://captchamoleo.ddns.net/"
+            stop8 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("15 minutes") && stop8 == false){
+            window.location.href = "http://192.168.1.1/"
             stop8 = true;
         }}catch(e){}
     },2000)
@@ -68,7 +77,7 @@ var stop10 = false;
         }}catch(e){}
     },2000)
     if(window.location.href == "https://www.google.com/" && stop5 == false){
-    console.log("quay ve sau 15p")
+    //console.log("quay ve sau 15p")
     setTimeout(function(){
         window.location.href = "http://bonusbitcoin.co/faucet"
         stop5 = true;
