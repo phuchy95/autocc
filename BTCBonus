@@ -6,7 +6,11 @@ var stop5 = false;
 var stop6 = false;
 var stop7 = false;
 var stop8 = false;
+var stop9 = false;
 (function() {
+    setTimeout(function(){
+    window.location.reload();
+    },1200000);
     console.log("refresh after 15mins");
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
@@ -68,6 +72,12 @@ var stop8 = false;
         window.location.href = "http://bonusbitcoin.co/faucet"
         stop5 = true;
     },850000)
+    }
+    if(window.location.href == "http://bonusbitcoin.co/faucet" && stop9 == false){
+    setTimeout(function(){
+        window.location.reload();
+        stop9 = true;
+    },420000)
     }
     if(window.location.href == "https://www.bitcoincasino.io/" && stop7 == false){
     setTimeout(function(){
