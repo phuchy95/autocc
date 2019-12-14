@@ -32,6 +32,7 @@ var stop5 = false;
         }
     },2000)
     if(window.location.href == "https://www.google.com/" && stop5 == false){
+    console.log("quay ve sau 15p")
     setTimeout(function(){
         window.location.href = "http://bonusbitcoin.co/faucet"
     },850000)
