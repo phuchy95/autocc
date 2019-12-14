@@ -80,10 +80,11 @@ var stop10 = false;
         stop9 = true;
     },420000)
     }
+    setInterval(function(){
     if(window.location.href == "https://www.bitcoincasino.io/" && stop7 == false){
     setTimeout(function(){
         window.location.href = "https://www.google.com/"
         stop7 = true;
     },2000)
-}
+    }},5000)
 })();
