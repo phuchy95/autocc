@@ -67,12 +67,6 @@ var stop10 = false;
             stop6 = true;
         }}catch(e){}
     },2000)
-    setInterval(function(){
-        try{if(window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && stop10 == false){
-            window.location.href = "https://www.google.com/"
-            stop10 = true;
-        }}catch(e){}
-    },2000)
     if(window.location.href == "https://www.google.com/" && stop5 == false){
     console.log("quay ve sau 15p")
     setTimeout(function(){
