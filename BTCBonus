@@ -45,31 +45,31 @@ var stop10 = false;
     },2000)
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false){
-            window.location.href = "https://www.google.com"
+            window.location.href = "https://www.google.com/"
             stop6 = true;
         }}catch(e){}
     },2000)
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false){
-            window.location.href = "https://www.google.com"
+            window.location.href = "https://www.google.com/"
             stop6 = true;
         }}catch(e){}
     },2000)
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("12:") && stop6 == false){
-            window.location.href = "https://www.google.com"
+            window.location.href = "https://www.google.com/"
             stop6 = true;
         }}catch(e){}
     },2000)
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false){
-            window.location.href = "https://www.google.com"
+            window.location.href = "https://www.google.com/"
             stop6 = true;
         }}catch(e){}
     },2000)
     setInterval(function(){
-        try{if(window.location.href != "https://www.google.com" && window.location.href != "http://bonusbitcoin.co/faucet" && stop10 == false){
-            window.location.href = "https://www.google.com"
+        try{if(window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && stop10 == false){
+            window.location.href = "https://www.google.com/"
             stop10 = true;
         }}catch(e){}
     },2000)
@@ -88,7 +88,7 @@ var stop10 = false;
     }
     if(window.location.href == "https://www.bitcoincasino.io/" && stop7 == false){
     setTimeout(function(){
-        window.location.href = "https://www.google.com"
+        window.location.href = "https://www.google.com/"
         stop7 = true;
     },2000)
 }
