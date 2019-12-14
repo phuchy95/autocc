@@ -51,6 +51,6 @@ var stop7 = false;
     setTimeout(function(){
         window.location.href = "https://www.google.com"
         stop7 = true;
-    },2000)
+    },2000) 
 }
 })();
