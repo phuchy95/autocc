@@ -10,10 +10,11 @@ var stop6 = false;
     },1200000);
     console.log("refresh after 15mins");
     setInterval(function(){
-        if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
             setTimeout(function(){window.location.reload();},290000);
             stop1 = true;
-        }},5000)
+        }}catch(e){}
+    },5000)
     setInterval(function(){
         try{if(document.getElementById("g-recaptcha-response").innerHTML.includes("03A") && stop2 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now")){
             document.getElementsByClassName("btn btn-primary btn-lg")[0].click();
