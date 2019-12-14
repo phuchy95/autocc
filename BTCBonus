@@ -5,6 +5,7 @@ var stop4 = false;
 var stop5 = false;
 var stop6 = false;
 var stop7 = false;
+var stop8 = false;
 (function() {
     setTimeout(function(){
     window.location.reload();
@@ -29,9 +30,15 @@ var stop7 = false;
         }}catch(e){}
     },2000)
     setInterval(function(){
-        try{if(document.getElementById("MessageModal").style.display == "block" && stop4 == false){
+        try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") == false && stop4 == false){
             window.location.reload();
             stop4 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") && stop8 == false){
+            window.location.href = "http://captchamoleo.ddns.net/"
+            stop8 = true;
         }}catch(e){}
     },2000)
     setInterval(function(){
@@ -51,6 +58,6 @@ var stop7 = false;
     setTimeout(function(){
         window.location.href = "https://www.google.com"
         stop7 = true;
-    },2000) 
+    },2000)
 }
 })();
