@@ -52,4 +52,5 @@ var stop7 = false;
         window.location.href = "https://www.google.com"
         stop7 = true;
     },2000)
+}
 })();
