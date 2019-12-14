@@ -4,6 +4,7 @@ var stop3 = false;
 var stop4 = false;
 var stop5 = false;
 var stop6 = false;
+var stop7 = false;
 (function() {
     setTimeout(function(){
     window.location.reload();
@@ -46,4 +47,9 @@ var stop6 = false;
         stop5 = true;
     },850000)
     }
+    if(window.location.href == "https://www.bitcoincasino.io/" && stop7 == false){
+    setTimeout(function(){
+        window.location.href = "https://www.google.com"
+        stop7 = true;
+    },2000)
 })();
