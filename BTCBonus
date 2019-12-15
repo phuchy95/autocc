@@ -11,19 +11,15 @@ var stop10 = false;
 var stop11 = false;
 (function() {
     //console.log("start");
-    if((window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && window.location.href != "http://captchamoleo.ddns.net/" && window.location.href != "https://www.lightest.eu/") && stop11 == false){
+    setInterval(function(){
+    try{if((window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && window.location.href.includes("captchamoleo") == false && window.location.href != "https://www.lightest.eu/") && stop11 == false){
         window.location.href = "https://www.google.com/";
         stop11 = true;
-    }
+    }}catch(e){}
+    },5000)
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
             setTimeout(function(){window.location.reload();},290000);
-            stop1 = true;
-        }}catch(e){}
-    },5000)
-    setInterval(function(){
-        try{if(window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && stop1 == false){
-            window.location.href = "https://www.google.com/"
             stop1 = true;
         }}catch(e){}
     },5000)
@@ -86,7 +82,7 @@ var stop11 = false;
     setTimeout(function(){
         window.location.href = "http://bonusbitcoin.co/faucet"
         stop5 = true;
-    },800000)
+    },850000)
     }
     if(window.location.href == "http://bonusbitcoin.co/faucet" && stop9 == false){
     setTimeout(function(){
