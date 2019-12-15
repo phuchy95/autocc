@@ -8,8 +8,13 @@ var stop7 = false;
 var stop8 = false;
 var stop9 = false;
 var stop10 = false;
+var stop11 = false;
 (function() {
     //console.log("start");
+    if((window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && window.location.href != "http://captchamoleo.ddns.net/" && window.location.href != "https://www.lightest.eu/") && stop11 == false){
+        window.location.href = "https://www.google.com/";
+        stop11 = true;
+    }
     setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
             setTimeout(function(){window.location.reload();},290000);
@@ -48,7 +53,7 @@ var stop10 = false;
     },2000)
     setInterval(function(){
         try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("15 minutes") && stop8 == false){
-            window.location.href = "http://192.168.1.1/"
+            window.location.href = "https://www.lightest.eu/"
             stop8 = true;
         }}catch(e){}
     },2000)
@@ -77,7 +82,7 @@ var stop10 = false;
         }}catch(e){}
     },2000)
     if(window.location.href == "https://www.google.com/" && stop5 == false){
-    //console.log("quay ve sau 15p")
+    console.log("quay ve sau 15p")
     setTimeout(function(){
         window.location.href = "http://bonusbitcoin.co/faucet"
         stop5 = true;
