@@ -21,7 +21,7 @@ var bamnut;
             document.getElementsByTagName("a")[16].click();
             stop4 = true;
         }
-    },5000)
+    },20000)
         //setTimeout(function(){document.getElementsByTagName("a")[16].click();},6000);
         checkres = 1;
         setInterval(function(){
