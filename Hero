@@ -23,14 +23,6 @@ var bamnut;
         }
     },5000)
         //setTimeout(function(){document.getElementsByTagName("a")[16].click();},6000);
-        setInterval(function(){
-            try{if(document.getElementsByClassName("timer")[0].innerHTML.includes("00:00:2") && stop3 == false){
-                setTimeout(function(){window.location.reload();},5000);
-                check1 =1;
-                stop3 = true;
-            }}catch(e){}
-            console.log("be tap dem");
-        },3000)
         checkres = 1;
         setInterval(function(){
         if(checkres == 1){
