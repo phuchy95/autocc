@@ -32,7 +32,7 @@ var bamnut;
     console.log(check);
     setInterval(function(){
         if(document.getElementsByClassName("captcha-overlay")[0] != null && stop1 == false){
-            setTimeout(function(){window.location.reload()},600000);
+            setTimeout(function(){window.location.reload()},400000);
             clearInterval(bamnut);
             console.log("tinh tien");
             check = 1;
