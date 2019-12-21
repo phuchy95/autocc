@@ -10,8 +10,8 @@ var stop3 = false;
             stop3 = true;
     }
                           },5000)
-    setInterval(function(){if(stop2 != 1 && document.getElementsByClassName("captcha-overlay")[0] == null && document.getElementsByClassName("timer")[0] == null){
-        document.getElementsByTagName("a")[16].click();
+    setInterval(function(){if(stop2 != 2 && stop2 != 1 && document.getElementsByClassName("captcha-overlay")[0] == null && document.getElementsByClassName("timer")[0] == null){
+        window.location.reload();
         //console.log("click ne");
     }
                           },20000)
