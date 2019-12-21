@@ -11,7 +11,7 @@ var stop4 = false;
             stop3 = true;
     }
                           },5000)
-    setInterval(function(){if(document.readyState == "complete" && stop4 == false && stop2 != 2 && stop2 != 1 && document.getElementsByClassName("captcha-overlay")[0] == null && document.getElementsByClassName("timer")[0] == null){
+    setInterval(function(){if(stop1 == true && document.readyState == "complete" && stop4 == false && stop2 != 2 && stop2 != 1 && document.getElementsByClassName("captcha-overlay")[0] == null && document.getElementsByClassName("timer")[0] == null){
         window.location.reload();
         stop4 = true;
         //console.log("click ne");
