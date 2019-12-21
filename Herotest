@@ -27,7 +27,7 @@ var stop4 = false;
             check = 1;
             //console.log("khong click");
         } else (check = 2)
-        if(check == 2 && stop1 == false){
+        if(document.readyState == "complete" && check == 2 && stop1 == false){
             document.getElementsByTagName("a")[16].click();
             stop1 = true;
         }
