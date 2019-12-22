@@ -3,6 +3,7 @@ var stop1 = false;
 var stop2 = 0;
 var stop3 = false;
 var stop4 = false;
+var stop5 = false;
 (function() {
     setInterval(function(){
         if(document.getElementsByClassName("timer")[0] == null && stop3 == false){
@@ -11,12 +12,12 @@ var stop4 = false;
             stop3 = true;
     }
                           },5000)
-    setInterval(function(){if(stop1 == true && document.readyState == "complete" && stop4 == false && stop2 != 2 && stop2 != 1 && document.getElementsByClassName("captcha-overlay")[0] == null && document.getElementsByClassName("timer")[0] == null){
+    setInterval(function(){if(document.readyState == "complete" && stop4 == false && stop2 != 2 && stop2 != 1 && document.getElementsByClassName("captcha-overlay")[0] == null && document.getElementsByClassName("timer")[0] == null){
         window.location.reload();
-        //stop4 = true;
+        stop4 = true;
         //console.log("click ne");
     }
-                          },20000)
+                          },30000)
     setInterval(function(){if(stop2 == 2){
         window.location.reload();
         stop2 = 3;
@@ -31,6 +32,10 @@ var stop4 = false;
             document.getElementsByTagName("a")[16].click();
             stop1 = true;
         }
+        try{if(document.getElementsByClassName("alert alert-danger text-center")[0].innerHTML.includes("present") && stop5 == false ){
+            window.location.reload();
+            stop5 = true;
+        }}catch(e){}
         if(document.getElementsByClassName("captcha-overlay")[0] != null){
             try{document.getElementsByClassName("btnModalCaptcha")[0].click();}catch(e){}
             //console.log(stop2);
