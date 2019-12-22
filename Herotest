@@ -17,7 +17,7 @@ var stop5 = false;
         stop4 = true;
         //console.log("click ne");
     }
-                          },30000)
+                          },20000)
     setInterval(function(){if(stop2 == 2){
         window.location.reload();
         stop2 = 3;
