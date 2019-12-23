@@ -8,7 +8,7 @@ var stop5 = false;
     setInterval(function(){
         if(document.getElementsByClassName("timer")[0] == null && stop3 == false){
             //console.log("reset sau 6p");
-            setTimeout(function(){window.location.reload()},420000)
+            setTimeout(function(){window.location.reload()},600000)
             stop3 = true;
     }
                           },5000)
