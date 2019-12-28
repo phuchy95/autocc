@@ -94,7 +94,7 @@ var stop11 = false;
     setTimeout(function(){
         window.location.reload();
         stop9 = true;
-    },320000)
+    },380000)
     }
     setInterval(function(){
     if(window.location.href == "https://www.bitcoincasino.io/" && stop7 == false){
