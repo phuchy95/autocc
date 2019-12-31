@@ -1,3 +1,4 @@
+var i;
 var check
 var stop1 = false;
 var stop2 = 0;
@@ -57,7 +58,7 @@ if(window.location.href.includes("monster")){
             setTimeout(function(){
                 document.getElementsByTagName("span")[1].click();
                 stop3 = true;
-            },250000)
+            },360000)
         }
     },3000)
     setInterval(function(){
@@ -67,10 +68,14 @@ if(window.location.href.includes("monster")){
             stop4 = true;
         }
     },3000)
-    setInterval(function(){
+    try{setInterval(function(){
         if(document.getElementsByTagName("h1")[0] == null && stop1 == false && document.readyState == "complete"){
-            document.getElementsByTagName("span")[1].click();
+            for(i = 0; i<10; i++){
+                try{if(document.getElementsByTagName("span")[i].innerHTML.includes("free bitcoins now")){
+                    document.getElementsByTagName("span")[i].click();
+                }}catch(e){}
+            }
             stop1 = true;
-    }},3000)
+    }},3000)}catch(e){}
 }
 })();
