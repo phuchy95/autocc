@@ -55,10 +55,10 @@ var stop5 = false;
 if(window.location.href.includes("monster")){
     try{setInterval(function(){
         if(stop1 == true && stop3 == false){
-            setTimeout(function(){
+            try{setTimeout(function(){
                 document.getElementsByTagName("span")[1].click();
                 stop3 = true;
-            },360000)
+            },360000)}catch(e){}
         }
     },3000)}catch(e){}
     setInterval(function(){
