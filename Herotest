@@ -53,14 +53,14 @@ var stop5 = false;
     },3000)
 }
 if(window.location.href.includes("monster")){
-    setInterval(function(){
+    try{setInterval(function(){
         if(stop1 == true && stop3 == false){
             setTimeout(function(){
                 document.getElementsByTagName("span")[1].click();
                 stop3 = true;
             },360000)
         }
-    },3000)
+    },3000)}catch(e){}
     setInterval(function(){
         if(stop3 == true && stop4 == false){
             setTimeout(function(){window.location.reload();},5000)
