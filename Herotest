@@ -5,6 +5,7 @@ var stop3 = false;
 var stop4 = false;
 var stop5 = false;
 (function() {
+    if(window.location.href.includes("hero")){
     setInterval(function(){
         if(document.getElementsByClassName("timer")[0] == null && stop3 == false){
             //console.log("reset sau 6p");
@@ -49,4 +50,27 @@ var stop5 = false;
         }
         //console.log(stop2);
     },3000)
+}
+if(window.location.href.includes("monster")){
+    setInterval(function(){
+        if(stop1 == true && stop3 == false){
+            setTimeout(function(){
+                document.getElementsByTagName("span")[1].click();
+                stop3 = true;
+            },250000)
+        }
+    },3000)
+    setInterval(function(){
+        if(stop3 == true && stop4 == false){
+            setTimeout(function(){window.location.reload();},5000)
+            console.log("refresh");
+            stop4 = true;
+        }
+    },3000)
+    setInterval(function(){
+        if(document.getElementsByTagName("h1")[0] == null && stop1 == false && document.readyState == "complete"){
+            document.getElementsByTagName("span")[1].click();
+            stop1 = true;
+    }},3000)
+}
 })();
