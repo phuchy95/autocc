@@ -62,12 +62,12 @@ var stop11 = false;
             stop8 = true;
         }}catch(e){}
     },2000)
-    //setInterval(function(){
-        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false){
-            //window.location.href = "https://www.google.com/"
-            //stop6 = true;
-        //}}catch(e){}
-    //},2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false){
+            window.location.href = "https://www.google.com/"
+            stop6 = true;
+        }}catch(e){}
+    },2000)
     //setInterval(function(){
         //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false){
             //window.location.href = "https://www.google.com/"
