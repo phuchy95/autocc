@@ -30,12 +30,12 @@ var stop11 = false;
             stop2 = true;
         }}catch(e){}
     },1000)
-    //setInterval(function(){
-        //try{if(document.getElementById("FaucetClaimModal").style.display == "block" && stop3 == false){
-            //window.location.href = "https://www.google.com/"
-            //stop3 = true;
-        //}}catch(e){}
-    //},2000)
+    setInterval(function(){
+        try{if(document.getElementById("FaucetClaimModal").style.display == "block" && stop3 == false){
+            window.location.href = "https://www.google.com/"
+            stop3 = true;
+        }}catch(e){}
+    },2000)
     setInterval(function(){
         try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") == false && stop4 == false && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("15 minutes") == false){
             window.location.reload();
