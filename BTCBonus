@@ -12,7 +12,7 @@ var stop11 = false;
 (function() {
     //console.log("start");
     setInterval(function(){
-    try{if((window.location.href != "https://www.google.com/" && window.location.href != "http://bonusbitcoin.co/faucet" && window.location.href.includes("captchamoleo") == false && window.location.href != "https://www.lightest.eu/") && stop11 == false){
+    try{if((window.location.href != "https://www.google.com.vn/" && window.location.href != "http://bonusbitcoin.co/faucet" && window.location.href.includes("captchamoleo") == false && window.location.href != "https://www.lightest.eu/") && stop11 == false){
         window.location.href = "https://www.google.com/";
         stop11 = true;
     }}catch(e){}
