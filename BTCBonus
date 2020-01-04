@@ -91,7 +91,7 @@ var stop11 = false;
     setTimeout(function(){
         window.location.href = "http://bonusbitcoin.co/faucet"
         stop5 = true;
-    },720000)
+    },820000)
     }
     if(window.location.href == "https://www.google.com.vn/" && stop5 == false){
     setTimeout(function(){
