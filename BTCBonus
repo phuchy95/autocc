@@ -18,6 +18,12 @@ var stop11 = false;
     }}catch(e){}
     },5000)
     setInterval(function(){
+        try{if(localStorage.getItem("error") == 1 && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now") == false && stop3 == false ){
+            window.location.href = "https://www.google.com.vn/";
+            stop3 = true;
+        }}catch(e){}
+    },5000)
+    setInterval(function(){
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop1 == false){
             setTimeout(function(){window.location.reload();},290000);
             stop1 = true;
@@ -32,18 +38,20 @@ var stop11 = false;
     },1000)
     setInterval(function(){
         try{if(document.getElementById("FaucetClaimModal").style.display == "block" && stop3 == false){
+            localStorage.setItem("error",0)
             window.location.href = "https://www.google.com/"
             stop3 = true;
         }}catch(e){}
     },2000)
-    setInterval(function(){
-        try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") == false && stop4 == false && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("15 minutes") == false){
-            window.location.reload();
-            stop4 = true;
-        }}catch(e){}
-    },2000)
+    //setInterval(function(){
+        //try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") == false && stop4 == false && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("15 minutes") == false){
+            //window.location.reload();
+            //stop4 = true;
+        //}}catch(e){}
+    //},2000)
     setInterval(function(){
         try{if(document.getElementById("MessageModal").style.display == "block" && document.getElementsByClassName("modal-body text-danger")[0].innerHTML.includes("VPN") && stop8 == false){
+            localStorage.setItem("error",1)
             window.location.href = "https://www.google.com.vn/"
             stop8 = true;
         }}catch(e){}
