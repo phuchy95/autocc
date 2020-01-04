@@ -54,30 +54,30 @@ var stop11 = false;
             stop8 = true;
         }}catch(e){}
     },2000)
-    setInterval(function(){
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false){
-            window.location.href = "https://www.google.com/"
-            stop6 = true;
-        }}catch(e){}
-    },2000)
-    setInterval(function(){
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false){
-            window.location.href = "https://www.google.com/"
-            stop6 = true;
-        }}catch(e){}
-    },2000)
-    setInterval(function(){
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("12:") && stop6 == false){
-            window.location.href = "https://www.google.com/"
-            stop6 = true;
-        }}catch(e){}
-    },2000)
-    setInterval(function(){
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false){
-            window.location.href = "https://www.google.com/"
-            stop6 = true;
-        }}catch(e){}
-    },2000)
+    //setInterval(function(){
+        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false){
+            //window.location.href = "https://www.google.com/"
+            //stop6 = true;
+        //}}catch(e){}
+    //},2000)
+    //setInterval(function(){
+        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false){
+            //window.location.href = "https://www.google.com/"
+            //stop6 = true;
+        //}}catch(e){}
+    //},2000)
+    //setInterval(function(){
+        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("12:") && stop6 == false){
+            //window.location.href = "https://www.google.com/"
+            //stop6 = true;
+        //}}catch(e){}
+    //},2000)
+    //setInterval(function(){
+        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false){
+            //window.location.href = "https://www.google.com/"
+            //stop6 = true;
+        //}}catch(e){}
+    //},2000)
     if(window.location.href == "https://www.google.com/" && stop5 == false){
     console.log("quay ve sau 15p")
     setTimeout(function(){
