@@ -27,6 +27,7 @@ var stop12 = false;
     setInterval(function(){
         try{if(document.getElementById("g-recaptcha-response").innerHTML.includes("03A") && stop2 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now")){
             document.getElementsByClassName("btn btn-primary btn-lg")[0].click();
+            localStorage.removeItem("check");
             setTimeout(function(){window.location.href = "https://www.google.com.vn/"},20000)
             stop2 = true;
         }}catch(e){}
@@ -274,7 +275,7 @@ var stop12 = false;
         }}catch(e){}
     },2000)
     setInterval(function(){
-        try{if(localStorage.getItem("check") == 1 && stop12 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now") == false && document.getElementById("FaucetClaimModal").style.display != "block"){
+        try{if(localStorage.getItem("check") == 1 && stop12 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now") == false){
             window.location.href = "https://www.google.com.vn/"
             stop12 = true;
         }}catch(e){}
