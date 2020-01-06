@@ -275,7 +275,7 @@ var stop12 = false;
         }}catch(e){}
     },2000)
     setInterval(function(){
-        try{if(localStorage.getItem("check") == 1 && stop12 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now") == false){
+        try{if(localStorage.getItem("check") == 1 && stop12 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now") == false && stop6 == true){
             window.location.href = "https://www.google.com.vn/"
             stop12 = true;
         }}catch(e){}
