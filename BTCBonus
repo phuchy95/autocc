@@ -9,6 +9,7 @@ var stop8 = false;
 var stop9 = false;
 var stop10 = false;
 var stop11 = false;
+var stop12 = false;
 (function() {
     //console.log("start");
     setInterval(function(){
@@ -56,29 +57,240 @@ var stop11 = false;
         }}catch(e){}
     },2000)
     setInterval(function(){
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false){
-            window.location.href = "https://www.google.com/"
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
             stop6 = true;
         }}catch(e){}
     },2000)
-    //setInterval(function(){
-        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false){
-            //window.location.href = "https://www.google.com/"
-            //stop6 = true;
-        //}}catch(e){}
-    //},2000)
-    //setInterval(function(){
-        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("12:") && stop6 == false){
-            //window.location.href = "https://www.google.com/"
-            //stop6 = true;
-        //}}catch(e){}
-    //},2000)
-    //setInterval(function(){
-        //try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false){
-            //window.location.href = "https://www.google.com/"
-            //stop6 = true;
-        //}}catch(e){}
-    //},2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("12:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("10:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("9:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("8:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("7:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("6:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("4:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("3:") && stop6 == false && localStorage.getItem("check") == null){
+            localStorage.setItem("check",1);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("12:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("10:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("9:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("8:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("7:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("6:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("4:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("3:") && stop6 == false && localStorage.getItem("check") == 1){
+            localStorage.setItem("check",2);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("14:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("13:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("12:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("11:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("10:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("9:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("8:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("7:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("6:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("5:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("4:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("3:") && stop6 == false && localStorage.getItem("check") == 2){
+            localStorage.setItem("check",3);
+            stop6 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(localStorage.getItem("check") == 1 && stop12 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now") == false && document.getElementById("FaucetClaimModal").style.display != "block"){
+            window.location.href = "https://www.google.com.vn/"
+            stop12 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(localStorage.getItem("check") == 2 && stop12 == false && document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText.includes("now") == false){
+            window.location.href = "https://www.google.com.vn/"
+            stop12 = true;
+        }}catch(e){}
+    },2000)
+    setInterval(function(){
+        try{if(localStorage.getItem("check") == 3 && stop12 == false){
+            localStorage.removeItem("check")
+            window.location.href = "https://www.google.com/"
+            stop12 = true;
+        }}catch(e){}
+    },2000)
     if(window.location.href == "https://www.google.com/" && stop5 == false){
     console.log("quay ve sau 15p")
     setTimeout(function(){
