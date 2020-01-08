@@ -87,8 +87,8 @@ if(window.location.href.includes("monster")){
             stop5 = true;
         }}catch(e){}
         if(document.getElementsByClassName("btnModalCaptcha")[0] != null && stop6 == false){
-            try{setTimeout(function(){document.getElementsByClassName("btnModalCaptcha")[0].click();},180000)}catch(e){}
-            try{setTimeout(function(){window.location.reload();},200000)}catch(e){}
+            try{setTimeout(function(){document.getElementsByClassName("btnModalCaptcha")[0].click();},360000)}catch(e){}
+            try{setTimeout(function(){window.location.reload();},370000)}catch(e){}
             //console.log(stop2);
             stop6 = true;
         }
