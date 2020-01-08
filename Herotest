@@ -39,7 +39,7 @@ var stop6 = false;
             window.location.reload();
             stop5 = true;
         }}catch(e){}
-        if(document.getElementsByClassName("captcha-overlay")[0] != null && stop6 == false){
+        if(document.getElementsByClassName("btnModalCaptcha")[0] != null && stop6 == false){
             try{setTimeout(function(){document.getElementsByClassName("btnModalCaptcha")[0].click();},180000)}catch(e){}
             try{setTimeout(function(){window.location.reload();},200000)}catch(e){}
             //console.log(stop2);
@@ -86,7 +86,7 @@ if(window.location.href.includes("monster")){
             window.location.reload();
             stop5 = true;
         }}catch(e){}
-        if(document.getElementsByClassName("captcha-overlay")[0] != null && stop6 == false){
+        if(document.getElementsByClassName("btnModalCaptcha")[0] != null && stop6 == false){
             try{setTimeout(function(){document.getElementsByClassName("btnModalCaptcha")[0].click();},180000)}catch(e){}
             try{setTimeout(function(){window.location.reload();},200000)}catch(e){}
             //console.log(stop2);
