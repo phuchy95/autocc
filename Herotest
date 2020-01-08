@@ -5,6 +5,7 @@ var stop2 = 0;
 var stop3 = false;
 var stop4 = false;
 var stop5 = false;
+var stop6 = false;
 (function() {
     if(window.location.href.includes("hero")){
     setInterval(function(){
@@ -38,10 +39,11 @@ var stop5 = false;
             window.location.reload();
             stop5 = true;
         }}catch(e){}
-        if(document.getElementsByClassName("captcha-overlay")[0] != null){
-            try{document.getElementsByClassName("btnModalCaptcha")[0].click();}catch(e){}
+        if(document.getElementsByClassName("captcha-overlay")[0] != null && stop6 == false){
+            try{setTimeout(function(){document.getElementsByClassName("btnModalCaptcha")[0].click();},180000)}catch(e){}
+            try{setTimeout(function(){window.location.reload();},200000)}catch(e){}
             //console.log(stop2);
-            stop2 = 1;
+            stop6 = true;
         }
         if(document.getElementsByClassName("captcha-overlay")[0] == null && stop2 == 1){
             stop2 = 2;
@@ -84,10 +86,11 @@ if(window.location.href.includes("monster")){
             window.location.reload();
             stop5 = true;
         }}catch(e){}
-        if(document.getElementsByClassName("captcha-overlay")[0] != null){
-            try{document.getElementsByClassName("btnModalCaptcha")[0].click();}catch(e){}
+        if(document.getElementsByClassName("captcha-overlay")[0] != null && stop6 == false){
+            try{setTimeout(function(){document.getElementsByClassName("btnModalCaptcha")[0].click();},180000)}catch(e){}
+            try{setTimeout(function(){window.location.reload();},200000)}catch(e){}
             //console.log(stop2);
-            stop2 = 1;
+            stop6 = true;
         }
         if(document.getElementsByClassName("captcha-overlay")[0] == null && stop2 == 1){
             stop2 = 2;
