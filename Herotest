@@ -9,49 +9,31 @@ var stop6 = false;
 (function() {
     if(window.location.href.includes("hero")){
     setInterval(function(){
-        if(document.getElementsByClassName("timer")[0] == null && stop3 == false){
+        if(document.getElementsByTagName("h1")[0] == null && stop3 == false){
             //console.log("reset sau 6p");
-            setTimeout(function(){window.location.reload()},600000)
+            setTimeout(function(){window.location.reload()},200000)
             stop3 = true;
     }
                           },5000)
-    setInterval(function(){if(stop1 == true && document.readyState == "complete" && stop4 == false && stop2 != 2 && stop2 != 1 && document.getElementsByClassName("captcha-overlay")[0] == null && document.getElementsByClassName("timer")[0] == null){
-        window.location.reload();
-        stop4 = true;
-        //console.log("click ne");
-    }
-                          },20000)
-    setInterval(function(){if(stop2 == 2){
-        window.location.reload();
-        stop2 = 3;
-    }
-                          },3000)
     setInterval(function(){
-        if(document.getElementsByClassName("timer")[0] != null){
+        if(document.getElementsByTagName("h1")[0] != null){
             check = 1;
             //console.log("khong click");
         } else (check = 2)
         if(document.readyState == "complete" && check == 2 && stop1 == false){
-            document.getElementsByTagName("a")[16].click();
+            for(i = 0;i<10; i++){
+                try{if(document.getElementsByTagName("span")[i].innerHTML.includes("Get free bitcoins now")){
+                    document.getElementsByTagName("span")[i].click();
+                }}catch(e){}
+            }
             stop1 = true;
         }
-        try{if(document.getElementsByClassName("alert alert-danger text-center")[0].innerHTML.includes("present") && stop5 == false ){
-            window.location.reload();
-            stop5 = true;
-        }}catch(e){}
-        if(document.getElementsByClassName("btnModalCaptcha")[0] != null && stop6 == false){
-            try{setTimeout(function(){document.getElementsByClassName("btnModalCaptcha")[0].click();},180000)}catch(e){}
+        if(document.getElementsByTagName("p")[0].innerHTML.includes("amount") && stop6 == false){
+            try{setTimeout(function(){document.getElementsByTagName("span")[1].click();},180000)}catch(e){}
             try{setTimeout(function(){window.location.reload();},190000)}catch(e){}
             //console.log(stop2);
             stop6 = true;
         }
-        if(document.getElementsByClassName("captcha-overlay")[0] == null && stop2 == 1){
-            stop2 = 2;
-        }
-        if(stop2 == 1){
-            //console.log("da mo");
-        }
-        //console.log(stop2);
     },3000)
 }
 if(window.location.href.includes("monster")){
