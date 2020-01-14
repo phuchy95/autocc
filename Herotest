@@ -24,7 +24,7 @@ var stop6 = false;
         if(document.readyState == "complete" && check == 2 && stop1 == false){
             for(i = 0;i<10; i++){
                 try{if(document.getElementsByTagName("span")[i].innerHTML.includes("Get free bitcoins now")){
-                    document.getElementsByTagName("span")[i].click();
+                    setTimeout(function(){document.getElementsByTagName("span")[i].click();},3000)
                 }}catch(e){}
             }
             stop1 = true;
