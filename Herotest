@@ -6,6 +6,7 @@ var stop3 = false;
 var stop4 = false;
 var stop5 = false;
 var stop6 = false;
+var stop7 = false;
 (function() {
     if(window.location.href.includes("hero")){
     setInterval(function(){
@@ -16,6 +17,12 @@ var stop6 = false;
     }
                           },5000)
     setInterval(function(){
+        if(stop1 == true && stop7 == false){
+            try{setTimeout(function(){if(document.getElementsByTagName("p")[0].innerHTML.includes("amount") == false){
+            window.location.reload();
+            stop7 = true;
+            }},10000)}catch(e){}
+        }
         if(document.getElementsByTagName("h1")[0] != null){
             check = 1;
             //console.log("khong click");
@@ -45,6 +52,12 @@ if(window.location.href.includes("monster")){
     }
                           },5000)
     setInterval(function(){
+        if(stop1 == true && stop7 == false){
+            try{setTimeout(function(){if(document.getElementsByTagName("p")[0].innerHTML.includes("amount") == false){
+            window.location.reload();
+            stop7 = true;
+            }},10000)}catch(e){}
+        }
         if(document.getElementsByTagName("h1")[0] != null){
             check = 1;
             //console.log("khong click");
