@@ -19,7 +19,11 @@ var stop7 = false;
     setInterval(function(){
         if(stop1 == true && stop7 == false){
             try{setTimeout(function(){if(document.getElementsByTagName("p")[0].innerHTML.includes("amount") == false){
-            window.location.reload();
+                for(i = 0;i<10; i++){
+                    try{if(document.getElementsByTagName("span")[i].innerHTML.includes("Get free bitcoins now")){
+                        document.getElementsByTagName("span")[i].click();
+                    }}catch(e){}
+                }
             stop7 = true;
             }},10000)}catch(e){}
         }
