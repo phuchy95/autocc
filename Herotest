@@ -28,12 +28,12 @@ var stop6 = false;
             }
             stop1 = true;
         }
-        if(document.getElementsByTagName("p")[0].innerHTML.includes("amount") && stop6 == false){
+        try{if(document.getElementsByTagName("p")[0].innerHTML.includes("amount") && stop6 == false){
             try{setTimeout(function(){document.getElementsByTagName("span")[1].click();},180000)}catch(e){}
             try{setTimeout(function(){window.location.reload();},190000)}catch(e){}
             //console.log(stop2);
             stop6 = true;
-        }
+        }}catch(e){}
     },3000)
 }
 if(window.location.href.includes("monster")){
