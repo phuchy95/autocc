@@ -8,7 +8,6 @@ var stop5 = false;
 var stop6 = false;
 (function() {
     if(window.location.href.includes("hero")){
-    console.log(check);
     setInterval(function(){
         if(document.getElementsByTagName("h1")[0] == null && stop3 == false){
             //console.log("reset sau 6p");
@@ -17,6 +16,7 @@ var stop6 = false;
     }
                           },5000)
     setInterval(function(){
+    console.log(check);
         if(document.getElementsByTagName("h1")[0] != null){
             check = 1;
             //console.log("khong click");
