@@ -11,7 +11,7 @@ var stop6 = false;
     setInterval(function(){
         if(document.getElementsByTagName("h1")[0] == null && stop3 == false){
             //console.log("reset sau 6p");
-            setTimeout(function(){window.location.reload()},200000)
+            setTimeout(function(){window.location.reload()},250000)
             stop3 = true;
     }
                           },5000)
