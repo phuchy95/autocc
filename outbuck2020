@@ -1,0 +1,127 @@
+(function() {
+  if(window.location.href == "https://www.outbuck.com/invite/inflow"){
+      document.getElementsByClassName("share-right-button share-button messanger")[0].click();
+  }
+  if(window.location.href.includes("videos")){
+      setInterval(function(){
+          if(parseInt(document.getElementsByClassName("button class-for-instant-baymack-videos header-button")[0].innerHTML) >= 4){
+              window.location.href = "https://www.outbuck.com/"
+          }
+      },5000)
+      setInterval(function(){
+          if(document.getElementsByClassName("video-category video-category-questions-div")[0].style.display == "block"){
+              for(var i = 0; i < 5 ; i++){
+                  try{if(document.getElementsByClassName("border-btn")[i].innerHTML.includes("Music")){
+                      document.getElementsByClassName("border-btn")[i].click();
+                      break;
+                  } else if (document.getElementsByClassName("border-btn")[i].innerHTML.includes("People")){
+                      document.getElementsByClassName("border-btn")[i].click();
+                      break
+                  } else if (document.getElementsByClassName("border-btn")[i].innerHTML.includes("Entertainment")){
+                      document.getElementsByClassName("border-btn")[i].click();
+                      break
+                  } else if (document.getElementsByClassName("border-btn")[i].innerHTML.includes("Technology")){
+                      document.getElementsByClassName("border-btn")[i].click();
+                      break
+                  } else if (document.getElementsByClassName("border-btn")[i].innerHTML.includes("Gaming")){
+                      document.getElementsByClassName("border-btn")[i].click();
+                      break
+                  } else if (document.getElementsByClassName("border-btn")[i].innerHTML.includes("Education")){
+                      document.getElementsByClassName("border-btn")[i].click();
+                      break
+                  } else if (document.getElementsByClassName("border-btn")[i].innerHTML.includes("None")){
+                      document.getElementsByClassName("border-btn")[i].click();
+                      break
+                  }
+                     }catch(e){}
+              }
+          }},5000)
+  }
+  if(window.location.href.includes("video") == false){
+      var stop1 = false;
+      setInterval(function(){
+          if(stop1 == true){
+              setTimeout(function(){
+                  window.location.href = "https://www.outbuck.com/videos"
+              },5000)
+          }
+          if(document.getElementsByClassName("input-circle").length == 4 && stop1 == false){
+              document.getElementsByClassName("crcle-num sel-numb")[6].click();
+              document.getElementsByClassName("crcle-num sel-numb")[3].click();
+              document.getElementsByClassName("crcle-num sel-numb")[4].click();
+              document.getElementsByClassName("crcle-num sel-numb")[1].click();
+              document.getElementsByClassName("submit-btn")[0].click();
+              stop1 = true;
+          }
+          if(document.getElementsByClassName("input-circle").length == 5 && stop1 == false){
+              document.getElementsByClassName("crcle-num sel-numb")[6].click();
+              document.getElementsByClassName("crcle-num sel-numb")[3].click();
+              document.getElementsByClassName("crcle-num sel-numb")[4].click();
+              document.getElementsByClassName("crcle-num sel-numb")[1].click();
+              document.getElementsByClassName("crcle-num sel-numb")[2].click();
+              document.getElementsByClassName("submit-btn")[0].click();
+              stop1 = true;
+          }
+          if(document.getElementsByClassName("input-circle").length == 6 && stop1 == false){
+              document.getElementsByClassName("crcle-num sel-numb")[6].click();
+              document.getElementsByClassName("crcle-num sel-numb")[3].click();
+              document.getElementsByClassName("crcle-num sel-numb")[4].click();
+              document.getElementsByClassName("crcle-num sel-numb")[1].click();
+              document.getElementsByClassName("crcle-num sel-numb")[2].click();
+              document.getElementsByClassName("crcle-num sel-numb")[7].click();
+              document.getElementsByClassName("submit-btn")[0].click();
+              stop1 = true;
+          }
+          if(document.getElementsByClassName("input-circle").length == 7 && stop1 == false){
+              document.getElementsByClassName("crcle-num sel-numb")[6].click();
+              document.getElementsByClassName("crcle-num sel-numb")[3].click();
+              document.getElementsByClassName("crcle-num sel-numb")[4].click();
+              document.getElementsByClassName("crcle-num sel-numb")[1].click();
+              document.getElementsByClassName("crcle-num sel-numb")[2].click();
+              document.getElementsByClassName("crcle-num sel-numb")[7].click();
+              document.getElementsByClassName("crcle-num sel-numb")[8].click();
+              document.getElementsByClassName("submit-btn")[0].click();
+              stop1 = true;
+          }
+          if(document.getElementsByClassName("input-circle").length == 8 && stop1 == false){
+              document.getElementsByClassName("crcle-num sel-numb")[6].click();
+              document.getElementsByClassName("crcle-num sel-numb")[3].click();
+              document.getElementsByClassName("crcle-num sel-numb")[4].click();
+              document.getElementsByClassName("crcle-num sel-numb")[1].click();
+              document.getElementsByClassName("crcle-num sel-numb")[2].click();
+              document.getElementsByClassName("crcle-num sel-numb")[7].click();
+              document.getElementsByClassName("crcle-num sel-numb")[8].click();
+              document.getElementsByClassName("crcle-num sel-numb")[9].click();
+              document.getElementsByClassName("submit-btn")[0].click();
+              stop1 = true;
+          }
+          if(document.getElementsByClassName("input-circle").length == 9 && stop1 == false){
+              document.getElementsByClassName("crcle-num sel-numb")[6].click();
+              document.getElementsByClassName("crcle-num sel-numb")[3].click();
+              document.getElementsByClassName("crcle-num sel-numb")[4].click();
+              document.getElementsByClassName("crcle-num sel-numb")[1].click();
+              document.getElementsByClassName("crcle-num sel-numb")[2].click();
+              document.getElementsByClassName("crcle-num sel-numb")[7].click();
+              document.getElementsByClassName("crcle-num sel-numb")[8].click();
+              document.getElementsByClassName("crcle-num sel-numb")[9].click();
+              document.getElementsByClassName("crcle-num sel-numb")[5].click();
+              document.getElementsByClassName("submit-btn")[0].click();
+              stop1 = true;
+          }
+          if(document.getElementsByClassName("input-circle").length == 10 && stop1 == false){
+              document.getElementsByClassName("crcle-num sel-numb")[6].click();
+              document.getElementsByClassName("crcle-num sel-numb")[0].click();
+              document.getElementsByClassName("crcle-num sel-numb")[3].click();
+              document.getElementsByClassName("crcle-num sel-numb")[4].click();
+              document.getElementsByClassName("crcle-num sel-numb")[1].click();
+              document.getElementsByClassName("crcle-num sel-numb")[2].click();
+              document.getElementsByClassName("crcle-num sel-numb")[7].click();
+              document.getElementsByClassName("crcle-num sel-numb")[8].click();
+              document.getElementsByClassName("crcle-num sel-numb")[9].click();
+              document.getElementsByClassName("crcle-num sel-numb")[5].click();
+              document.getElementsByClassName("submit-btn")[0].click();
+              stop1 = true;
+          }
+      },5000)
+  }
+})();
