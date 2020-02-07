@@ -1,6 +1,11 @@
 var stop1 = false;
 var stop2 = false;
 (function() {
+    setInterval(function(){
+        if(window.location.href.includes("inflow")){
+            window.location.reload();
+        }
+    },5000)
     if(window.location.href.includes("videos")){
         setTimeout(function(){
             window.location.reload();
@@ -160,12 +165,6 @@ var stop2 = false;
                }
         },5000)
     }
-    setInterval(function(){
-    if(window.location.href.includes("inflow") && stop1 == false){
-        window.location.href = "https://www.skylom.com/videos"
-        stop1 = true;
-    }
-},5000)
 setInterval(function(){
     if(window.location.href == "https://www.skylom.com/prizes" && stop1 == false){
         setTimeout(function(){window.location.href = "https://www.skylom.com/videos"},25000)
