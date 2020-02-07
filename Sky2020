@@ -129,8 +129,21 @@ var stop2 = false;
                }
         },5000)
     }
+    setInterval(function(){
     if(window.location.href == "https://www.skylom.com/inflow" && stop1 == false){
         window.location.href = "https://www.skylom.com/videos"
         stop1 = true;
     }
+},5000)
+setInterval(function(){
+    if(window.location.href == "https://www.skylom.com/prizes" && stop1 == false){
+        setTimeout(function(){window.location.href = "https://www.skylom.com/videos"},25000)
+        stop1 = true;
+    }
+},5000)
+setInterval(function(){
+    if(window.location.href == "https://www.skylom.com/"){
+        document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click();
+    }
+},5000)
 })();
