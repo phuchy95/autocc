@@ -130,7 +130,7 @@ var stop2 = false;
         },5000)
     }
     setInterval(function(){
-    if(window.location.href == "https://www.skylom.com/inflow" && stop1 == false){
+    if(window.location.href.includes("inflow") && stop1 == false){
         window.location.href = "https://www.skylom.com/videos"
         stop1 = true;
     }
