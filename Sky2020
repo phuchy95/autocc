@@ -121,7 +121,7 @@ var stop2 = false;
                         document.getElementsByClassName("brder-btn")[7].click();
                     }
                 }
-            //stop1 = true;
+            stop1 = true;
             }
             if(document.getElementById("nextvideo") != null && stop2 == false){
                 window.location.reload();
