@@ -185,6 +185,20 @@ var stop2 = false;
                         document.getElementsByClassName("brder-btn")[7].click();
                     }
                 }
+                else if(dapan1.sort().toString() == auto.sort().toString() || dapan2.sort().toString() == auto.sort().toString() || dapan3.sort().toString() == auto.sort().toString() || dapan4.sort().toString() == auto.sort().toString()){
+                    if(dapan1.sort().toString() == auto.sort().toString()){
+                        document.getElementsByClassName("brder-btn")[4].click();
+                    }
+                    if(dapan2.sort().toString() == auto.sort().toString()){
+                        document.getElementsByClassName("brder-btn")[5].click();
+                    }
+                    if(dapan3.sort().toString() == auto.sort().toString()){
+                        document.getElementsByClassName("brder-btn")[6].click();
+                    }
+                    if(dapan4.sort().toString() == auto.sort().toString()){
+                        document.getElementsByClassName("brder-btn")[7].click();
+                    }
+                }
             stop1 = true;
             }
             if(document.getElementById("nextvideo") != null && stop2 == false){
