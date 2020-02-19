@@ -208,13 +208,13 @@ var stop2 = false;
         },5000)
     }
 setInterval(function(){
-    if(window.location.href == "https://www.skylom.com/prizes" && stop1 == false){
-        setTimeout(function(){window.location.href = "https://www.skylom.com/videos"},25000)
+    if(window.location.href == "https://www.ogila.com/prizes" && stop1 == false){
+        setTimeout(function(){window.location.href = "https://www.ogila.com/videos"},25000)
         stop1 = true;
     }
 },5000)
 setInterval(function(){
-    if(window.location.href == "https://www.skylom.com/" || window.location.href == "https://www.skylom.com/#_=_" ){
+    if(window.location.href == "https://www.ogila.com/" || window.location.href == "https://www.ogila.com/#_=_" ){
         document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click();
     }
 },5000)
