@@ -1,0 +1,71 @@
+// ==UserScript==
+// @name         Sharkday 2020
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.sharkday.com/videos
+// @grant        none
+// ==/UserScript==
+var stop1 = false;
+var stop2 = false;
+(function() {
+    setInterval(function(){
+        try{if(document.getElementsByClassName("brdr-btn")[4] != null){
+            for(var i = 4; i<7;i++){
+                if(document.getElementsByClassName("brdr-btn")[i].innerText == "Music"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText.includes("People")){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Education"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Technologie"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Film"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Travel"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Gaming"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Food"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "None"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "How-to"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Nonprofits"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+            }
+        }}catch(e){}
+        if(document.getElementById("nextvideo") != null && stop1 == false){
+            window.location.reload();
+            stop1 = true;
+        }
+        if(window.location.href.includes("entry") && stop2 == false){
+            window.location.href = "https://www.sharkday.com/videos"
+            stop2 = true;
+        }
+    },5000)
+})();
