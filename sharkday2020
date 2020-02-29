@@ -21,11 +21,15 @@ var stop2 = false;
                     document.getElementsByClassName("brdr-btn")[i].click();
                     break;
                 }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Entertainment"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
                 else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Education"){
                     document.getElementsByClassName("brdr-btn")[i].click();
                     break;
                 }
-                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Technologie"){
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Technology"){
                     document.getElementsByClassName("brdr-btn")[i].click();
                     break;
                 }
