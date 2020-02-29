@@ -9,6 +9,7 @@
 // ==/UserScript==
 var stop1 = false;
 var stop2 = false;
+var stop3 = false;
 (function() {
     setInterval(function(){
         try{if(document.getElementsByClassName("brdr-btn")[4] != null){
@@ -75,9 +76,9 @@ var stop2 = false;
             document.getElementsByClassName("themeBtn")[0].click();
             stop2 = true;
         }
-        if(document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0] != null && stop2 == false){
+        if(document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0] != null && stop3 == false){
             document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click()
-            stop2 = true;
+            stop3 = true;
         }
     },5000)
 })();
