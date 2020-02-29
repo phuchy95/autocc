@@ -12,7 +12,7 @@ var stop2 = false;
 (function() {
     setInterval(function(){
         try{if(document.getElementsByClassName("brdr-btn")[4] != null){
-            for(var i = 4; i<7;i++){
+            for(var i = 4; i<8;i++){
                 if(document.getElementsByClassName("brdr-btn")[i].innerText == "Music"){
                     document.getElementsByClassName("brdr-btn")[i].click();
                     break;
