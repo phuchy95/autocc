@@ -12,6 +12,9 @@ var stop2 = false;
 var stop3 = false;
 (function() {
     setInterval(function(){
+    window.location.reload();
+    },360000)
+    setInterval(function(){
         try{if(document.getElementsByClassName("brdr-btn")[4] != null){
             for(var i = 4; i<8;i++){
                 if(document.getElementsByClassName("brdr-btn")[i].innerText == "Music"){
