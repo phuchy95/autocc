@@ -72,10 +72,10 @@ var stop3 = false;
             window.location.href = "https://www.sharkday.com/videos"
             stop2 = true;
         }
-        if(window.location.href.includes("login") && stop2 == false){
+        try{if(document.getElementsByClassName("themeBtn")[0].innerText == "Get Entry" && stop2 == false){
             document.getElementsByClassName("themeBtn")[0].click();
             stop2 = true;
-        }
+        }}catch(e){}
         if(document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0] != null && stop3 == false){
             document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click()
             stop3 = true;
