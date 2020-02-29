@@ -75,7 +75,7 @@ var stop2 = false;
             document.getElementsByClassName("themeBtn")[0].click();
             stop2 = true;
         }
-        if(window.location.href.includes("login") && stop2 == false){
+        if(document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0] != null && stop2 == false){
             document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click()
             stop2 = true;
         }
