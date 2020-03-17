@@ -1,0 +1,87 @@
+// ==UserScript==
+// @name         Sharkflare 2020
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.sharkflare.com/*
+// @grant        none
+// ==/UserScript==
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+(function() {
+    setInterval(function(){
+    window.location.reload();
+    },360000)
+    setInterval(function(){
+        try{if(document.getElementsByClassName("brdr-btn")[4] != null){
+            for(var i = 4; i<8;i++){
+                if(document.getElementsByClassName("brdr-btn")[i].innerText == "Music"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText.includes("People")){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Entertainment"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Education"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Technology"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Film"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Travel"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Gaming"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Food"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "None"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "How-to"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+                else if(document.getElementsByClassName("brdr-btn")[i].innerText == "Nonprofits"){
+                    document.getElementsByClassName("brdr-btn")[i].click();
+                    break;
+                }
+            }
+        }}catch(e){}
+        if(document.getElementById("nextvideo") != null && stop1 == false){
+            window.location.reload();
+            stop1 = true;
+        }
+        if(window.location.href.includes("entry") && stop2 == false){
+            window.location.href = "https://www.sharkflare.com/videos"
+            stop2 = true;
+        }
+        try{if(document.getElementsByClassName("themeBtn")[0].innerText == "Get Entry" && stop2 == false){
+            document.getElementsByClassName("themeBtn")[0].click();
+            stop2 = true;
+        }}catch(e){}
+        if(document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0] != null && stop3 == false){
+            document.getElementsByClassName("btn btn-block btn-social btn-yahoo")[0].click()
+            stop3 = true;
+        }
+    },5000)
+    })();
