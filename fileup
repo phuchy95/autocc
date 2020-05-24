@@ -1,0 +1,69 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(document.getElementsByClassName("btn btn-xs btn-primary mnbt1")[0].value == "Free Download" && stop1 == false){
+            document.getElementsByClassName("btn btn-xs btn-primary mnbt1")[0].click();
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("label label-danger seconds")[0].innerHTML == "1" && stop2 == false){
+            setTimeout(function(){document.getElementById("downloadbtn").click();},2000)
+            stop2 = true;
+           }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-sm btn-success")[0].innerHTML.includes("Click here") && stop3 == false){
+            document.getElementsByClassName("btn btn-sm btn-success")[0].click();
+            setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-success")[0].click();},7000)
+            stop3 = true;
+        }}catch(e){}
+        if(stop3 == true){
+            setTimeout(function(){
+                //window.location.href = "https://imagetwist.com/l806xwm2497w/82334700_461830197829137_1912626512608100352_n.jpg"
+            },10000)
+        }
+        try{if(window.location.href == "https://all4yourlife.tech/malwarebytes/" && stop1 == false){
+            console.log("dasd");
+            setTimeout(function(){window.location.href = https://www.file-upload.com/dq5w8krypzgn"},5000)
+            stop1 = true;
+        }}catch(e){}
+    },5000)
+    setInterval(function(){
+        try{if(document.getElementById("timer").innerHTML == "0" && stop1 == false){
+            document.getElementsByClassName("btn btn-primary btn-goo get-link")[0].click();
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerHTML.includes("continue") && stop2 == false && document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A")){
+            document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementById("method_free").value.includes("Go") && stop3 == false){
+            document.getElementById("method_free").click();
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-main")[0].innerHTML.includes("human") && stop5 == false){
+            setTimeout(function(){
+                document.getElementsByClassName("btn btn-main")[0].click();
+                stop5 = true;
+            },3000)
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-main")[0].innerHTML.includes("Link") && stop6 == false){
+            setTimeout(function(){
+                document.getElementsByClassName("btn btn-main")[0].click();
+                stop6 = true;
+            },3000)
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML.includes("Link") && stop7 == false){
+            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+            stop7 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop8 == false && document.getElementsByClassName("btext")[0].innerHTML.includes("link")){
+            document.getElementsByClassName("btext")[0].click();
+            stop8 = true;
+        }}catch(e){}
+    },5000)
+})();
