@@ -13,7 +13,7 @@ var stop8 = false;
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("label label-danger seconds")[0].innerHTML == "1" && stop2 == false && document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A")){
-            setTimeout(function(){document.getElementById("downloadbtn").click();},2000)
+            setTimeout(function(){document.getElementById("downloadbtn").click();},5000)
             stop2 = true;
            }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-sm btn-success")[0].innerHTML.includes("Click here") && stop3 == false){
