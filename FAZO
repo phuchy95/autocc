@@ -21,5 +21,17 @@ var stop8 = false;
             document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
             stop3 = true;
         }}catch(e){}
+         try{if(window.location.href.includes("playstore") && stop4 == false){
+            document.getElementsByTagName("img")[14].click();
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("youtube") && stop5 == false){
+            document.getElementById("invalid-token-redirect-goto-site-button").click();
+            stop5 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("youtube") && stop5 == false){
+            document.getElementById("invalid-token-redirect-goto-site-button").click();
+            stop5 = true;
+        }}catch(e){}
     },6000)
 })();
