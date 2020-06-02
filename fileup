@@ -62,7 +62,7 @@ var stop8 = false;
             stop7 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop8 == false && document.getElementsByClassName("btext")[0].innerHTML.includes("link")){
-            document.getElementsByClassName("btext")[0].click();
+            document.getElementById("downloadbtn").click();
             stop8 = true;
         }}catch(e){}
     },5000)
