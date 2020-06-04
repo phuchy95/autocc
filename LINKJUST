@@ -30,14 +30,15 @@ var stop8 = false;
                 break;
             }
         }}catch(e){}
-        try{if(window.location.href.includes("forexlap") && stop5 == false && document.getElementsByTagName("img")[3].src.includes("Continue")){
-            document.getElementsByTagName("img")[3].click();
-            stop5 = true;
-        }}catch(e){}
-        try{if(window.location.href.includes("forexlap") && stop5 == false && document.getElementsByTagName("img")[4].src.includes("Continue")){
-            document.getElementsByTagName("img")[4].click();
-            stop5 = true;
-        }}catch(e){}
+        try{
+            for(var i=0;i <15;i++){
+                if(window.location.href.includes("forexlap") && document.getElementsByTagName("img")[i].src.includes("Continue") && stop5 == false){
+                    document.getElementsByTagName("img")[i].click();
+                    stop5 = true;
+                    break;
+                }
+            }
+        }catch(e){}
          try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop6 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
             stop6 = true;
