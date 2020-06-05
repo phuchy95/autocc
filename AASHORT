@@ -1,22 +1,22 @@
-var stop1 = false;
-var stop2 = false;
-var stop3 = false;
-var stop4 = false;
-var stop5 = false;
-var stop6 = false;
-var stop7 = false;
-var stop8 = false;
+var stop1;
+var stop2;
+var stop3;
+var stop4;
+var stop5;
+var stop6;
+var stop7;
+var stop8;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/where-the-crawdads-sing/" && stop1 == false){
+        try{if(window.location.href == "https://all4yourlife.tech/where-the-crawdads-sing/" && stop1 == null){
             window.location.href = "https://aashort.com/zmqQKJ"
             stop1 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == null){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},6000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == null){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
