@@ -22,13 +22,13 @@ var stop8 = false;
             stop3 = true;
         }}catch(e){}
         try{
-            for(var m=0;m <30;m++){
+            for(var m=7;m <30;m++){
                 if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[m].src == "https://c.top4top.io/p_1466eksl01.png" && stop4 == false){
-                    document.getElementsByTagName("img")[m].click();
+                    setTimeout(function(){document.getElementsByTagName("img")[m].click();},3000)
                     stop4 = true;
-                    break;
-                }
+                    break;    
             }
+        }
         }catch(e){}
         try{if(window.location.href.includes("youtube") && stop5 == false){
             document.getElementById("invalid-token-redirect-goto-site-button").click();
