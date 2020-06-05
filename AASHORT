@@ -1,11 +1,12 @@
-var stop1;
-var stop2;
-var stop3;
-var stop4;
-var stop5;
-var stop6;
-var stop7;
-var stop8;
+  
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/where-the-crawdads-sing/" && stop1 == null){
