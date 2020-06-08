@@ -30,6 +30,15 @@ var stop8 = false;
             }
         }
         }catch(e){}
+        try{
+            for(var n=1;n <4;n++){
+                if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[n].src == "http://zwr.pw/111.png" && stop4 == false){
+                    setTimeout(function(){document.getElementsByTagName("img")[n].click();},3000)
+                    stop4 = true;
+                    break;    
+            }
+        }
+        }catch(e){}
         try{if(window.location.href.includes("youtube") && stop5 == false){
             document.getElementById("invalid-token-redirect-goto-site-button").click();
             stop5 = true;
