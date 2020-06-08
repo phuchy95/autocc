@@ -39,6 +39,10 @@ var stop8 = false;
             }
         }
         }catch(e){}
+         try{if(window.location.href.includes("adsy") && document.getElementsByClassName("btn btn-primary btn-xl")[0].innerHTML.includes("Click") && stop4 == false){
+            document.getElementsByClassName("btn btn-primary btn-xl")[0].click();
+            stop4 = true;
+        }}catch(e){}
         try{if(window.location.href.includes("youtube") && stop5 == false){
             document.getElementById("invalid-token-redirect-goto-site-button").click();
             stop5 = true;
