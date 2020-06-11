@@ -8,7 +8,7 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(document.getElementById("proceed").innerHTML == "Go" && stop2 == false && document.getElementById("time").innerHTML == "0" && window.location.href.includes("dacanonga")){
+        try{if(document.getElementById("proceed").innerHTML == "Get Link" && stop2 == false && document.getElementById("time").innerHTML == "0" && window.location.href.includes("dacanonga")){
             document.getElementById("proceed").click();
             stop2 = true;
         }}catch(e){}
@@ -16,7 +16,7 @@ var stop8 = false;
             document.getElementById("getlink").click();
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementById("getlink").innerHTML == "Go" && stop4 == false){
+        try{if(document.getElementById("getlink").innerHTML == "Get Link" && stop4 == false){
             document.getElementById("getlink").click();
             stop4 = true;
         }}catch(e){}
