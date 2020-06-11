@@ -30,6 +30,10 @@ var stop8 = false;
             document.getElementById("proceed").click();
             stop5 = true;
            }}catch(e){}
+          try{if(window.location.href.includes("forextradings") && stop5 ==false && document.getElementById("proceed").innerHTML == "Go" && document.getElementById("time").innerHTML == "0"){
+            document.getElementById("proceed").click();
+            stop5 = true;
+           }}catch(e){}
     },6000)
     setInterval(function(){
          try{if(window.location.href.includes("silent") && stop1 == false){
