@@ -26,7 +26,7 @@ var stop8 = false;
             document.getElementById("proceed").click();
             stop5 = true;
            }}catch(e){}
-        try{if(window.location.href.includes("hatrikano") && stop5 ==false && document.getElementById("proceed").innerHTML == "Go" && document.getElementById("time").innerHTML == "0"){
+        try{if(window.location.href.includes("hatrikano") && stop5 ==false && document.getElementById("proceed").innerHTML == "Get Link" && document.getElementById("time").innerHTML == "0"){
             document.getElementById("proceed").click();
             stop5 = true;
            }}catch(e){}
