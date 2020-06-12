@@ -1,0 +1,28 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/microsoft-office-2016-full-crack/" && stop1 == false){
+            window.location.href = "https://ex-mo.xyz/HquOM"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false && document.getElementsByClassName("continuebutton")[1].style.display == "block"){
+            document.getElementsByClassName("continuebutton")[1].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(stop3 == false && document.getElementsByClassName("continuebutton")[1].style.display == "block"){
+            document.getElementsByClassName("continuebutton")[1].click();
+            stop3 = true;
+        }}catch(e){}
+        try{if(stop4 == false && document.getElementsByClassName("continuebutton")[0].innerHTML == "Continue"){
+            document.getElementsByClassName("continuebutton")[0].click();
+            stop4 = true;
+        }}catch(e){}
+    },6000)
+})();
