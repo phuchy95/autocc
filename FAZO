@@ -30,15 +30,10 @@ var stop8 = false;
             }
         }
         }catch(e){}
-        try{
-            for(var n=1;n <10;n++){
-                if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[n].src == "http://zwr.pw/111.png" && stop4 == false){
-                    setTimeout(function(){document.getElementsByTagName("img")[n].click();},6000)
-                    stop4 = true;
-                    break;    
-            }
-        }
-        }catch(e){}
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[5].src == "http://zwr.pw/111.png" && stop6 == false){
+            document.getElementsByTagName("img")[5].click();
+            stop6 = true;
+        }}catch(e){}
          try{if(window.location.href.includes("adsy") && document.getElementsByClassName("btn btn-primary btn-xl")[0].innerHTML.includes("Click") && stop4 == false){
             document.getElementsByClassName("btn btn-primary btn-xl")[0].click();
             stop4 = true;
