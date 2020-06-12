@@ -33,7 +33,7 @@ var stop8 = false;
         try{
             for(var n=1;n <10;n++){
                 if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[n].src == "http://zwr.pw/111.png" && stop4 == false){
-                    setTimeout(function(){document.getElementsByTagName("img")[n].click();},3000)
+                    setTimeout(function(){document.getElementsByTagName("img")[n].click();},6000)
                     stop4 = true;
                     break;    
             }
