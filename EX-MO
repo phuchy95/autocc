@@ -13,7 +13,7 @@ var stop8 = false;
             stop1 = true;
         }}catch(e){}
         try{if(stop3 == false && document.getElementsByClassName("continuebutton")[1].style.display == "block"){
-            document.getElementsByClassName("continuebutton")[1].click();
+            setTimeout(function(){document.getElementsByClassName("continuebutton")[1].click();},3000)
             stop3 = true;
         }}catch(e){}
         try{if(stop4 == false && document.getElementsByClassName("continuebutton")[0].innerHTML == "Continue"){
