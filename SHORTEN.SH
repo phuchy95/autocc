@@ -17,7 +17,7 @@ var stop8 = false;
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn")[0].innerHTML.includes("Skip Ad") && stop4 == false){
-            document.getElementsByClassName("btn")[0].click();
+            setTimeout(function(){document.getElementsByClassName("btn")[0].click();},3000)
             stop4 = true;
         }}catch(e){}
     },6000)
