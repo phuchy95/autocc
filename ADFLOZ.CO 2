@@ -24,8 +24,8 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn skip")[0] != null && stop5 == false){
-            setTimeout(function(){document.getElementsByClassName("btn skip")[0].click();},3000)
+        try{if(window.location.href.includes("vignette") && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
             stop5 = true;
         }}catch(e){}
     },6000)
