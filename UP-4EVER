@@ -22,6 +22,7 @@ var stop8 = false;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-sm waves-effect waves-light btn-blue")[0].innerText == " CLICK HERE TO DOWNLOAD" && stop4 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-sm waves-effect waves-light btn-blue")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn btn-sm waves-effect waves-light btn-blue")[0].click();},6000)
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn skip")[0] != null && stop5 == false){
