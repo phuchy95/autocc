@@ -1,0 +1,65 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/1917-2/" && stop1 == false){
+            window.location.href = "http://youtube.com/redirect?q=fazo.pw/rH8q3"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
+            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+            stop3 = true;
+        }}catch(e){}
+        try{
+            for(var m=7;m <30;m++){
+                if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[m].src == "https://c.top4top.io/p_1466eksl01.png" && stop4 == false){
+                    setTimeout(function(){document.getElementsByTagName("img")[m].click();},3000)
+                    stop4 = true;
+                    break;    
+            }
+        }
+        }catch(e){}
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[5].src == "http://zwr.pw/111.png" && stop6 == false){
+            document.getElementsByTagName("img")[5].click();
+            stop6 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[6].src == "http://zwr.pw/111.png" && stop6 == false){
+            document.getElementsByTagName("img")[6].click();
+            stop6 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[7].src == "http://zwr.pw/111.png" && stop6 == false){
+            document.getElementsByTagName("img")[7].click();
+            stop6 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[8].src == "http://zwr.pw/111.png" && stop6 == false){
+            document.getElementsByTagName("img")[8].click();
+            stop6 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[9].src == "http://zwr.pw/111.png" && stop6 == false){
+            document.getElementsByTagName("img")[9].click();
+            stop6 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[4].src == "http://zwr.pw/111.png" && stop6 == false){
+            document.getElementsByTagName("img")[4].click();
+            stop6 = true;
+        }}catch(e){}
+         try{if(window.location.href.includes("adsy") && document.getElementsByClassName("btn btn-primary btn-xl")[0].innerHTML.includes("Click") && stop4 == false){
+            document.getElementsByClassName("btn btn-primary btn-xl")[0].click();
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("youtube") && stop5 == false){
+            document.getElementById("invalid-token-redirect-goto-site-button").click();
+            stop5 = true;
+        }}catch(e){}
+    },6000)
+})();
