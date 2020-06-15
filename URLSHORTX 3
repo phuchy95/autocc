@@ -1,0 +1,45 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{for(var i=0;i<23;i++ && stop3 == false){
+            if(document.getElementsByTagName("input")[i].src == "https://techrfour.com/wp-content/uploads/2020/02/86776547_689124705159479_1462256602726793216_n.png"){
+                document.getElementsByTagName("input")[i].click();
+                stop3 = true;
+                break;
+            }
+        }}catch(e){}
+        try{for(var m=0;m<23;m++ && stop4 == false){
+            if(document.getElementsByTagName("img")[m].src == "https://techrfour.com/wp-content/uploads/2020/02/87266549_283983059229879_7073905617202577408_n.png"){
+                document.getElementsByTagName("img")[m].click();
+                stop4 = true;
+                break;
+            }
+        }}catch(e){}
+        try{for(var j=0;j<23;j++ && stop5 == false){
+            if(document.getElementsByTagName("input")[j].src == "https://techrfour.com/wp-content/uploads/2020/04/received_1104078153278113.png"){
+                document.getElementsByTagName("input")[j].click();
+                stop5 = true;
+                break;
+            }
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+             document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
+             stop1 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop6 == false){
+            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+            stop6 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/gemini-man/" && stop7 == false){
+            window.location.href = "https://xpshort.com/E6KvTBKh"
+            stop7 = true;
+        }}catch(e){}
+    },6000)
+})();
