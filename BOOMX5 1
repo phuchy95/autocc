@@ -8,38 +8,14 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(document.getElementById("proceed").innerHTML == "Get Link" && stop2 == false && document.getElementById("time").innerHTML == "0" && window.location.href.includes("dacanonga")){
-            document.getElementById("proceed").click();
+        try{if(document.getElementsByClassName("notran two")[0].innerText == "0" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false && document.getElementById("getlink").innerHTML == "Go"){
-            document.getElementById("getlink").click();
+        try{if(window.location.href =="https://boomx5.com/TGYl4e/2" && stop3 == false){
+            setTimeout(function(){window.location.href ="https://boomx5.com/TGYl4e/3"},3000)
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementById("getlink").innerHTML == "Get Link" && stop4 == false){
-            document.getElementById("getlink").click();
-            stop4 = true;
-        }}catch(e){}
-    },6000)
-    setInterval(function(){
-        try{if(window.location.href.includes("decorsnmore") && stop5 ==false && document.getElementById("proceed").innerHTML == "Go" && document.getElementById("time").innerHTML == "0"){
-            document.getElementById("proceed").click();
-            stop5 = true;
-           }}catch(e){}
-        try{if(window.location.href.includes("hatrikano") && stop5 ==false && document.getElementById("proceed").innerHTML == "Get Link" && document.getElementById("time").innerHTML == "0"){
-            document.getElementById("proceed").click();
-            stop5 = true;
-           }}catch(e){}
-          try{if(window.location.href.includes("forextradings") && stop5 ==false && document.getElementById("proceed").innerHTML == "Go" && document.getElementById("time").innerHTML == "0"){
-            document.getElementById("proceed").click();
-            stop5 = true;
-           }}catch(e){}
-           try{if(window.location.href.includes("dacanonga") && stop5 ==false && document.getElementById("proceed").innerHTML == "Go" && document.getElementById("time").innerHTML == "0"){
-            document.getElementById("proceed").click();
-            stop5 = true;
-           }}catch(e){}
-    },6000)
-    setInterval(function(){
          try{if(window.location.href.includes("silent") && stop1 == false){
             window.location.href = "https://boomx5.com/TGYl4e"
             stop1 = true;
