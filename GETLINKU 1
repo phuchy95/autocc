@@ -1,0 +1,36 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/feel-the-beat/" && stop1 == false){
+            window.location.href = "https://duitlink.net/FvkVnI"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success")[0].innerText == "Click here to continue" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("countdown alert alert-success")[0].innerText == " Create Download Link" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("countdown alert alert-success")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn get-link")[0].innerHTML == "Get Link" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn get-link")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-block downloadbtn")[0].innerText.includes("DOWNLOAD") && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block downloadbtn")[0].click();},3000)
+            stop6 = true;
+        }}catch(e){}
+    },6000)
+})();
