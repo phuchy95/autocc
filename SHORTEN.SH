@@ -10,7 +10,7 @@ var stop9 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/batman-v-superman-dawn-of-justice/" && stop9 == false){
-            window.location.href = "http://shorten.sh/kQxjZY"
+            window.location.href = "https://shorten.sh/kQxjZY"
             stop9 = true;
         }}catch(e){}
          try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
