@@ -17,7 +17,7 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("countdown alert alert-success")[0].innerText == " Create Download Link" && stop4 == false){
