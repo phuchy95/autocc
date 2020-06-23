@@ -32,5 +32,9 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block downloadbtn")[0].click();},3000)
             stop6 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block downloadbtn")[0].click();},3000)
+            stop7 = true;
+        }}catch(e){}
     },6000)
 })();
