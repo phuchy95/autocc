@@ -1,0 +1,28 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/21-bridges/" && stop1 == false){
+            window.location.href = "https://onsafelink.com/m/Px6LtfX"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "I AM HUMAN" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementById("invisibleCaptchaShortlink").innerHTML == "Click here to continue" && stop3 == false){
+            setTimeout(function(){document.getElementById("invisibleCaptchaShortlink").click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
+    },6000)
+})();
