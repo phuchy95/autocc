@@ -79,7 +79,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href.includes("youtube") && stop5 == false){
-            document.getElementById("invalid-token-redirect-goto-site-button").click();
+            setTimeout(function(){document.getElementById("invalid-token-redirect-goto-site-button").click()},5000);
             stop5 = true;
         }}catch(e){}
     },6000)
