@@ -12,8 +12,8 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href =="https://boomx5.com/VzOocr/2" && stop3 == false){
-            setTimeout(function(){window.location.href ="https://boomx5.com/VzOocr/3"},3000)
+        try{if(window.location.href =="https://boomx5.com/kZuczM/2" && stop3 == false){
+            setTimeout(function(){window.location.href ="https://boomx5.com/kZuczM/3"},3000)
             stop3 = true;
         }}catch(e){}
          try{if(window.location.href == "https://all4yourlife.tech/the-rising-hawk/" && stop1 == false){
