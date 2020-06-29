@@ -12,6 +12,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
         try{if(window.location.href =="https://boomx5.com/nmUumj/2" && stop3 == false){
             setTimeout(function(){window.location.href ="https://boomx5.com/nmUumj/3"},3000)
             stop3 = true;
