@@ -33,51 +33,51 @@ var stop8 = false;
             }
         }
         }catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[5].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[5].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[5].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[6].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[6].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[6].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[7].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[7].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[7].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[8].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[8].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[8].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[9].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[9].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[9].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[10].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[10].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[10].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[11].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[11].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[11].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[12].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[12].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[12].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[13].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[13].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[13].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[14].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[14].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[14].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[15].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[15].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[15].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[4].src == "http://zwr.pw/111111.png" && stop6 == false){
+        try{if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[4].src == "http://zwr.pw/1111111.png" && stop6 == false){
             document.getElementsByTagName("img")[4].click();
             stop6 = true;
         }}catch(e){}
