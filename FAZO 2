@@ -38,6 +38,7 @@ var stop8 = false;
                 if(window.location.href.includes("playstore") && document.getElementsByTagName("img")[i].src == "http://zwr.pw/1111111.png" && stop6 == false)
                 {
                   document.getElementsByTagName("img")[i].click();
+                  stop6 = true;
                   break;
                 }
             }}catch(e){}
