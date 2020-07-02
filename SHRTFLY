@@ -16,6 +16,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},6000)
             stop2 = true;
         }}catch(e){}
+         try{if(document.getElementsByClassName("_lq0nwbk ")[0] != null && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("_lq0nwbk ")[0].click();},5000)
+            stop4 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
             stop3 = true;
