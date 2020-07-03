@@ -12,6 +12,7 @@ var stop8 = false;
             setTimeout(function(){document.getElementById("invalid-token-redirect-goto-site-button").click()},5000);
             stop5 = true;
         }}catch(e){}
+        //http://youtube.com/redirect?q=https://aashort.com/Dfa3c
         //try{if(window.location.href == "https://all4yourlife.tech/where-the-crawdads-sing/" && stop1 == false){
            //window.location.href = "https://aashort.com/zmqQKJ"
             //stop1 = true;
