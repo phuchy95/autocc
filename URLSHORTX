@@ -38,8 +38,8 @@ var stop8 = false;
             document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
             stop6 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/untamed/" && stop7 == false){
-            window.location.href = "https://xpshort.com/3cbdr"
+        try{if(window.location.href == "https://all4yourlife.tech/the-windermere-children/" && stop7 == false){
+            window.location.href = "https://xpshort.com/4659kcGg"
             stop7 = true;
         }}catch(e){}
     },6000)
