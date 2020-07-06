@@ -26,7 +26,7 @@ var stop8 = false;
             stop3 = true;
         }}catch(e){}
          try{
-            for(var n=1;n <5;n++){
+            for(var n=1;n <30;n++){
                 if(window.location.href.includes("adsy") && document.getElementsByTagName("img")[n].src == "http://zwr.pw/11111.png" && stop4 == false){
                     document.getElementsByTagName("img")[n].click()
                     stop4 = true;
