@@ -14,9 +14,8 @@ var stop8 = false;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},7000)
+            stop3 = true;
         }}catch(e){}
-    },6000)
-    setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn/" && stop1 == false){
             window.location.href = "https://shrinkme.io/11Kc"
             stop1 = true;
