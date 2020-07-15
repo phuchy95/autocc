@@ -21,7 +21,7 @@ var stop8 = false;
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-dark")[0].innerText == " CLICK HERE TO DOWNLOAD" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-dark")[0].click()},3000)
+            setTimeout(function(){window.open(document.getElementsByClassName("btn btn-dark")[0].href)},3000)
             stop3 = true;
         }}catch(e){}
     },6000)
