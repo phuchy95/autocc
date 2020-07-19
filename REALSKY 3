@@ -21,3 +21,4 @@ var stop8 = false;
             stop3 = true;
         }}catch(e){}
     },6000)
+})();
