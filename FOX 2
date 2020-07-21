@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
    setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/desperados/" && stop1 == false){
-            window.location.href = "https://fox-url.com/7NPRnYyzNS"
+            //window.location.href = "https://fox-url.com/7NPRnYyzNS"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementById("link").innerHTML == "Submit" && stop1 == false){
