@@ -1,0 +1,24 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/immortal-legacy-the-jade-cipher-full-crack/" && stop1 == false){
+            window.location.href = "https://veryfiles.com/1i2u92mmyw3l"
+            stop1 = true;
+            }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("downloadbtn")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementById("direct_link").innerText == "Click Here To Download" && stop3 == false){
+            setTimeout(function(){window.location.href = document.getElementById("direct_link").getElementsByTagName("a")[0].href},3000)
+            stop3 = true;
+        }}catch(e){}
+        },6000)
+})();
