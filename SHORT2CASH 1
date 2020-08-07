@@ -20,5 +20,9 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("alert alert-success")[0].innerText.includes("your link") && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("alert alert-success")[0].getElementsByTagName("a")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
         },6000)
 })();
