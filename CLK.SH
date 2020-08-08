@@ -22,9 +22,9 @@ var stop8 = false;
             window.location.href = "https://iir.ai/hkTP9O9"
             stop1 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://github.com/phuchy95/autocc/blob/master/CLK.SH" && stop1 == false){
+        try{if(window.location.href == "https://github.com/phuchy95/autocc/blob/master/CLK.SH" && stop4 == false){
             window.location.href = "https://all4yourlife.tech/the-tax-collector/"
-            stop1 = true;
+            stop4 = true;
         }}catch(e){}
     },5000)
 })();
