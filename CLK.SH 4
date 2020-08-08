@@ -16,11 +16,13 @@ var stop8 = false;
             document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
             stop3 = true;
         }}catch(e){}
-    },6000)
-    setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/the-grudge/" && stop1 == false){
-            window.location.href = "https://iir.ai/NOi5"
+        try{if(window.location.href == "https://all4yourlife.tech/paydirt/" && stop1 == false){
+            window.location.href = "https://iir.ai/xPcI238j"
             stop1 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/" && stop4 == false){
+            window.location.href = "https://all4yourlife.tech/paydirt/"
+            stop4 = true;
         }}catch(e){}
     },5000)
 })();
