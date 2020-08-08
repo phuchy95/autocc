@@ -16,8 +16,6 @@ var stop8 = false;
             document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
             stop3 = true;
         }}catch(e){}
-    },6000)
-    setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/the-tax-collector/" && stop1 == false){
             window.location.href = "https://iir.ai/hkTP9O9"
             stop1 = true;
