@@ -12,8 +12,8 @@ var stop8 = false;
             document.getElementsByClassName("btn btn-outline-primary btn-captcha m-2")[0].click();
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
-            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+        try{if(document.getElementsByClassName("btn m-2 btn-success")[0].innerText == "Get Link" && stop3 == false){
+            document.getElementsByClassName("btn m-2 btn-success")[0].click();
             stop3 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-king-of-staten-island/" && stop1 == false){
