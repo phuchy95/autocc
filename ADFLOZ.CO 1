@@ -28,5 +28,9 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
             stop5 = true;
         }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/" && stop6 == false){
+            window.location.href = "https://all4yourlife.tech/project-power/"
+            stop6 = true;
+        }}catch(e){}
     },6000)
 })();
