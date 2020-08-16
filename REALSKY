@@ -21,8 +21,8 @@ var stop8 = false;
             document.getElementsByClassName("btn get-link p-1 pl-2 pr-2")[0].click();
             stop3 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-driver/" && stop4 == false){
-            //window.location.href = "https://all4yourlife.tech/the-driver/"
+        try{if(window.location.href == "https://all4yourlife.tech/before-we-were-yours/" && stop4 == false){
+            window.location.href = "https://all4yourlife.tech/the-driver/"
             stop4 = true;
         }}catch(e){}
     },6000)
