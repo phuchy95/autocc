@@ -8,8 +8,8 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-         try{if(window.location.href == "https://all4yourlife.tech/ghosts-of-war/" && stop1 == false){
-            window.location.href = "http://earnguap.com/iApK"
+         try{if(window.location.href == "https://all4yourlife.tech/stolen-by-my-mother-the-kamiyah-mobley-story/" && stop1 == false){
+            window.location.href = "http://earnguap.com/Lln4"
             stop1 = true;
          }}catch(e){}
          try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
@@ -20,8 +20,8 @@ var stop8 = false;
             document.getElementsByClassName("btn get-link p-1 pl-2 pr-2")[0].click();
             stop3 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-silencing/" && stop4 == false){
-            window.location.href = "https://all4yourlife.tech/the-tax-collector/"
+        try{if(window.location.href == "https://all4yourlife.tech/before-we-were-yours/" && stop4 == false){
+            window.location.href = "https://all4yourlife.tech/the-driver/"
             stop4 = true;
         }}catch(e){}
     },6000)
