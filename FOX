@@ -13,12 +13,20 @@ var stop8 = false;
             window.location.href = "https://fox-url.com/Q7He"
             stop5 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop6 == false){
+            document.getElementsByClassName("btn btn-primary")[0].click();
+            stop6 = true;
+        }}catch(e){}
         try{if(document.getElementById("link").innerHTML == "Submit" && stop1 == false){
             document.getElementById("link").click();
             stop1 = true;
         }}catch(e){}
        try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[3].src.includes("Continue")){
             document.getElementsByTagName("img")[3].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[5].src.includes("Continue")){
+            document.getElementsByTagName("img")[5].click();
             stop2 = true;
         }}catch(e){}
        try{if(window.location.href.includes("kora4top") && stop2 == false){
