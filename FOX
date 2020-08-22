@@ -29,6 +29,26 @@ var stop8 = false;
             document.getElementsByTagName("img")[5].click();
             stop2 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[6].src.includes("Continue")){
+            document.getElementsByTagName("img")[6].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[7].src.includes("Continue")){
+            document.getElementsByTagName("img")[7].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[8].src.includes("Continue")){
+            document.getElementsByTagName("img")[8].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[9].src.includes("Continue")){
+            document.getElementsByTagName("img")[9].click();
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[4].src.includes("Continue")){
+            document.getElementsByTagName("img")[4].click();
+            stop2 = true;
+        }}catch(e){}
        try{if(window.location.href.includes("kora4top") && stop2 == false){
             document.getElementById("molien").getElementsByTagName("img")[0].click();
             stop2 = true;
