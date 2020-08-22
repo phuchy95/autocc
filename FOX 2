@@ -8,18 +8,27 @@ var stop7 = false;
 var stop8 = false;
 (function() {
    setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/desperados/" && stop1 == false){
-            //window.location.href = "https://fox-url.com/7NPRnYyzNS"
-            stop1 = true;
+         try{if(window.location.href == "https://all4yourlife.tech/the-one-and-only-ivan/" && stop5 == false){
+            window.location.href = "https://fox-url.com/xVQ8ua2cGj041"
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop6 == false){
+            document.getElementsByClassName("btn btn-primary")[0].click();
+            stop6 = true;
         }}catch(e){}
         try{if(document.getElementById("link").innerHTML == "Submit" && stop1 == false){
             document.getElementById("link").click();
             stop1 = true;
         }}catch(e){}
-       try{if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[3].src.includes("Continue")){
-            document.getElementsByTagName("img")[3].click();
-            stop2 = true;
-        }}catch(e){}
+       try{
+            for(var m=0;m <30;m++){
+                if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[m].src.includes("Continue")){
+                    document.getElementsByTagName("img")[m].click()
+                    stop2 = true;
+                    break;
+            }
+        }
+        }catch(e){}
        try{if(window.location.href.includes("kora4top") && stop2 == false){
             document.getElementById("molien").getElementsByTagName("img")[0].click();
             stop2 = true;
