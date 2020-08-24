@@ -24,7 +24,7 @@ var stop8 = false;
             setTimeout(function(){window.location.href = document.getElementsByClassName("alert alert-success")[0].getElementsByTagName("a")[0].href},3000)
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("alert alert-success")[0].innerText.includes("اضغط هــنــا للـحصول على رابطك") && stop5 == false){
+        try{if(document.getElementById("url").innerText.includes("رابطك جاهز") && stop5 == false){
             setTimeout(function(){window.location.href = document.getElementById("url").getElementsByTagName("a")[0].href},3000)
             stop5 = true;
         }}catch(e){}
