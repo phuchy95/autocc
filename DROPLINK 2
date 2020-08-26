@@ -20,7 +20,7 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("yu-btn yu-blue")[0].src == "https://yoshare.net/wp-content/uploads/2020/08/86776547_689124705159479_1462256602726793216_n.png" && stop3 == false){
+        try{if(document.getElementsByClassName("yu-btn yu-blue")[0].src != null && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
