@@ -21,7 +21,7 @@ var stop8 = false;
             stop1 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/" && stop4 == false){
-            window.location.href = "https://all4yourlife.tech/the-bay-of-silence/"
+            window.location.href = "https://all4yourlife.tech/monster-hunters/"
             stop4 = true;
         }}catch(e){}
     },5000)
