@@ -1,0 +1,24 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/phineas-and-ferb-the-movie-candace-against-the-universe/" && stop1 == false){
+            window.location.href = "https://shortzzy.link/HrRGq4"
+            stop1 = true;
+            }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].innerText == "VERIFY" && stop2 == false && document.getElementById("yuidea-time").innerHTML == "1"){
+            setTimeout(function(){document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000)
+            stop3 = true;
+        }}catch(e){}
+        },6000)
+})();
