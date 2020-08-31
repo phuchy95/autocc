@@ -1,0 +1,20 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/mortal/" && stop1 == false){
+            window.location.href = "https://shrinkstar.com/QK9tiQA"
+            stop1 = true;
+            }}catch(e){}
+        try{if(document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].innerText == "GET LINK" && stop2 == false ){
+            setTimeout(function(){document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        },6000)
+})();
