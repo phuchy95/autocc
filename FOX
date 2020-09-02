@@ -21,6 +21,24 @@ var stop8 = false;
             document.getElementById("link").click();
             stop1 = true;
         }}catch(e){}
+        try{
+            for(var n=0;n <30;n++){
+                if(document.getElementsByTagName("img")[n].src == "https://linkjust.com/double-click-to-generate-link-1.png" && stop1 == false){
+                    document.getElementsByTagName("img")[n].click()
+                    stop1 = true;
+                    break;
+            }
+        }
+        }catch(e){}
+       try{
+            for(var i=0;i <30;i++){
+                if(document.getElementsByTagName("img")[i].src == "https://linkjust.com/Continue-Button-1.png" && stop1 == false){
+                    document.getElementsByTagName("img")[i].click()
+                    stop1 = true;
+                    break;
+            }
+        }
+        }catch(e){}
        try{
             for(var m=0;m <30;m++){
                 if(window.location.href.includes("lifiea") && stop2 == false && document.getElementsByTagName("img")[m].src.includes("Continue")){
