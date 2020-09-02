@@ -32,9 +32,9 @@ var stop8 = false;
         }catch(e){}
        try{
             for(var i=0;i <30;i++){
-                if(document.getElementsByTagName("img")[i].src == "https://linkjust.com/Continue-Button-1.png" && stop1 == false){
+                if(document.getElementsByTagName("img")[i].src == "https://linkjust.com/Continue-Button-1.png" && stop8 == false){
                     document.getElementsByTagName("img")[i].click()
-                    stop1 = true;
+                    stop8 = true;
                     break;
             }
         }
