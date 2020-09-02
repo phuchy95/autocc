@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/warhammer-chaosbane/" && stop1 == false){
-            window.location.href = "https://dropgalaxy.in/xpf8gwzqch9b"
+            window.location.href = "https://dropgalaxy.in/ctooyq0lgjn1"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
