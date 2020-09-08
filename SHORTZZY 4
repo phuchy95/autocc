@@ -12,12 +12,12 @@ var stop8 = false;
             window.location.href = "https://shortzzy.in/iNvv23ub"
             stop1 = true;
             }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].innerText == "VERIFY" && stop2 == false && document.getElementById("yuidea-time").innerHTML == "1"){
-            setTimeout(function(){document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].click();},5000)
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},8000);
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000)
+        try{if(document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].innerText == "Click here to continue" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].click();},10000)
             stop3 = true;
         }}catch(e){}
         },6000)
