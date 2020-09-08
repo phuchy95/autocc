@@ -8,8 +8,8 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/the-secret-dare-to-dream/" && stop1 == false){
-            window.location.href = "https://sh2.xyz/?h=QdzE2"
+        try{if(window.location.href == "https://all4yourlife.tech/anthony/" && stop1 == false){
+            window.location.href = "https://sh2.xyz/?h=KkeLR"
             stop1 = true;
             }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
