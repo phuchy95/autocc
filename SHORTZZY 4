@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/the-war-with-grandpa/" && stop1 == false){
-            window.location.href = "https://shortzzy.link/iNvv23ub"
+            window.location.href = "https://shortzzy.in/iNvv23ub"
             stop1 = true;
             }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].innerText == "VERIFY" && stop2 == false && document.getElementById("yuidea-time").innerHTML == "1"){
