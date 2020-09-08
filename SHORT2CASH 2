@@ -12,7 +12,7 @@ var stop8 = false;
             window.location.href = "https://sh2.xyz/?h=6oU2"
             stop1 = true;
             }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+       try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
             stop2 = true;
         }}catch(e){}
