@@ -12,9 +12,13 @@ var stop8 = false;
             window.location.href = "https://shrinkstar.com/Jc89iUk"
             stop1 = true;
             }}catch(e){}
-        try{if(document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].innerText == "GET LINK" && stop2 == false ){
-            setTimeout(function(){document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].click();},5000)
+        try{if(document.getElementsByClassName("btn btn--bg-primary btn-3d-hover btn-splash-hover btn-captcha")[0].innerText == "IM A HUMAN" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn--bg-primary btn-3d-hover btn-splash-hover btn-captcha")[0].click();},3000);
             stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].innerText == "GET LINK" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].click();},10000)
+            stop3 = true;
         }}catch(e){}
         },6000)
 })();
