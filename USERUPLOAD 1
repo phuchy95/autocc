@@ -20,5 +20,9 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block mb-4")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("google") == true && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block mb-4")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
         },6000)
 })();
