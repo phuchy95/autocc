@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/new-super-luckys-tale/" && stop1 == false){
-            window.location.href = "https://veryfiles.com/rguo2mxqer33"
+            window.location.href = "https://veryfiles.com/47q9063zekd4"
             stop1 = true;
             }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
