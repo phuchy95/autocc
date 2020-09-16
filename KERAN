@@ -13,6 +13,10 @@ var stop8 = false;
             setTimeout(function(){window.location.href = "https://keran.co/"},10000)
             stop2 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("captha") == true && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block")[0].click();},360000)
+            stop6 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("cf-wrapper cf-header cf-error-overview")[0].innerText.includes("One more") && stop3 == false){
             setTimeout(function(){window.location.href = "https://keran.co/"},1000)
             stop3 = true;
