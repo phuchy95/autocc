@@ -1,0 +1,30 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/windbound/" && stop1 == false){
+            window.location.href = "https://katfile.com/irce1imyc0lg/Windbound.Crack.Only-CODEX.rar.html"
+            stop1 = true;
+            }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg downloadbtn ddddd")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg downloadbtn ddddd")[0].click();},6000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-default")[0].innerText.includes("SLOW") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-default")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn btn-default")[0].click();},6000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btext")[0].innerText == "Download" && document.getElementsByTagName("a")[32].href.includes("katfile") && stop4 == false){
+            setTimeout(function(){window.location.href = document.getElementsByTagName("a")[32].href},3000)
+            stop4 = true;
+        }}catch(e){}
+        },6000)
+})();
