@@ -10,6 +10,7 @@ var stop8 = false;
     setInterval(function(){
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block")[0].click();},3000)
+            setTimeout(function(){window.location.href = "https://keran.co/"},10000)
             stop2 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("cf-wrapper cf-header cf-error-overview")[0].innerText.includes("One more") && stop3 == false){
@@ -35,10 +36,6 @@ var stop8 = false;
         try{if(document.getElementsByClassName("btn btn-primary btn-block col-lg-3")[0].innerText == "Claim BitCoin!" && stop4 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block col-lg-3")[0].click();},3000)
             stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("alert alert-success")[1].innerText.includes("10 minutes") && stop5 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block col-lg-3")[0].click();},3000)
-            stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("alert alert-warning")[0].innerText.includes("You can claim again in 0 minutes.") && stop5 == false){
             setTimeout(function(){window.location.href = "https://keran.co/"},1000)
@@ -85,7 +82,7 @@ var stop8 = false;
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("alert alert-success")[1].innerText.includes("You can claim again in 10 minutes!") && stop5 == false){
-            setTimeout(function(){window.location.href = "https://keran.co/"},600000)
+            setTimeout(function(){window.location.href = "https://keran.co/"},6000)
             stop5 = true;
         }}catch(e){}
         },6000)
