@@ -40,6 +40,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block col-lg-3")[0].click();},3000)
             stop5 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("alert alert-warning")[0].innerText.includes("You can claim again in 0 minutes.") && stop5 == false){
+            setTimeout(function(){window.location.href = "https://keran.co/"},1000)
+            stop5 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("alert alert-warning")[0].innerText.includes("You can claim again in 1 minutes.") && stop5 == false){
             setTimeout(function(){window.location.href = "https://keran.co/"},60000)
             stop5 = true;
@@ -81,7 +85,7 @@ var stop8 = false;
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("alert alert-success")[1].innerText.includes("You can claim again in 10 minutes!") && stop5 == false){
-            setTimeout(function(){window.location.href = "https://keran.co/"},600000)
+            setTimeout(function(){window.location.href = "https://keran.co/"},6000)
             stop5 = true;
         }}catch(e){}
         },6000)
