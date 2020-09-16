@@ -85,7 +85,7 @@ var stop8 = false;
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("alert alert-success")[1].innerText.includes("You can claim again in 10 minutes!") && stop5 == false){
-            setTimeout(function(){window.location.href = "https://keran.co/"},6000)
+            setTimeout(function(){window.location.href = "https://keran.co/"},600000)
             stop5 = true;
         }}catch(e){}
         },6000)
