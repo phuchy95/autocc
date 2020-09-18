@@ -8,10 +8,14 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/joker/" && stop1 == false){
-            window.location.href = "https://droplink.co/9eh2WW"
+        try{if(window.location.href == "https://all4yourlife.tech/fear-pharm/" && stop1 == false){
+            window.location.href = "https://droplink.co/hi57RQRb"
             stop1 = true;
-            }}catch(e){}
+         }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/joker/" && stop1 == false){
+            window.location.href = "https://all4yourlife.tech/fear-pharm/"
+            stop1 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
             stop2 = true;
