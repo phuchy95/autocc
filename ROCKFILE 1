@@ -1,0 +1,72 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/little-town-hero/" && stop1 == false){
+            window.location.href = "https://rockfile.co/u03o8kezpvdl.html"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btext")[0].innerText == "Create download link" && stop2 == false){
+            var string = "";
+            var points = [document.getElementsByTagName("span")[13].style.paddingLeft.match(/\d+/)[0], document.getElementsByTagName("span")[14].style.paddingLeft.match(/\d+/)[0], document.getElementsByTagName("span")[15].style.paddingLeft.match(/\d+/)[0], document.getElementsByTagName("span")[16].style.paddingLeft.match(/\d+/)[0]];
+            points.sort(function(a, b){return a - b});
+            points[0]
+            try{
+                for (var i = 13; i < 17; i++){
+                    if(document.getElementsByTagName("span")[i].style.paddingLeft.match(/\d+/)[0] == points[0]){
+                        string += document.getElementsByTagName("span")[i].innerText;
+                        break;
+                    }
+                }
+            }catch(e){}
+            try{
+                for (var j = 13; j < 17; j++){
+                    if(document.getElementsByTagName("span")[j].style.paddingLeft.match(/\d+/)[0] == points[1]){
+                        string += document.getElementsByTagName("span")[j].innerText;
+                        break;
+                    }
+                }
+            }catch(e){}
+            try{
+                for (var n = 13; n < 17; n++){
+                    if(document.getElementsByTagName("span")[n].style.paddingLeft.match(/\d+/)[0] == points[2]){
+                        string += document.getElementsByTagName("span")[n].innerText;
+                        break;
+                    }
+                }
+            }catch(e){}
+            try{
+                for (var m = 13; m < 17; m++){
+                    if(document.getElementsByTagName("span")[m].style.paddingLeft.match(/\d+/)[0] == points[3]){
+                        string += document.getElementsByTagName("span")[m].innerText;
+                        break;
+                    }
+                }
+            }catch(e){}
+            document.getElementsByClassName("captcha_code form-control")[0].value = string;
+            stop2 = true;
+        }}catch(e){}
+        try{if(stop2 == true && stop4 == false && document.getElementsByClassName("seconds")[0].innerText == "1"){
+            setTimeout(function(){document.getElementById("downloadbtn").click();},5000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].value == "Free Download" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementById("btn_downloadLink").innerText.includes("Click") && stop5 == false){
+            setTimeout(function(){document.getElementById("btn_downloadLink").click();},3000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("google") == true && stop4 == false){
+            setTimeout(function(){document.getElementById("btn_downloadLink").click();},3000)
+            stop4 = true;
+        }}catch(e){}
+    },6000)
+})();
