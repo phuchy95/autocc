@@ -1,0 +1,27 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href.includes("bitplay") == true && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("text-center")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{
+            for(var n=0;n <10;n++){
+                if(document.getElementsByClassName("v-btn__content")[n].innerText == "GET FREE BITCOINS NOW" && stop1 == false){
+                    document.getElementsByClassName("v-btn__content")[n].click();
+                    setTimeout(function(){window.parent.document.getElementsByClassName("v-btn v-btn--contained theme--light v-size--default")[0].click();},180000)
+                    setTimeout(function(){window.location.reload();},185000)
+                    stop1 = true;
+                    break;
+            }
+        }
+        }catch(e){}
+    },6000)
+})();
