@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/the-war-with-grandpa/" && stop1 == false){
-            window.location.href = "https://shortzzy.in/iNvv23ub"
+        try{if(window.location.href == "https://all4yourlife.tech/the-pale-door/" && stop1 == false){
+            window.location.href = "https://shortzzy.link/zZVNFEcx"
+            stop1 = true;
+            }}catch(e){}
+            try{if(window.location.href == "https://all4yourlife.tech/the-war-with-grandpa/" && stop1 == false){
+            window.location.href = "https://all4yourlife.tech/the-pale-door/"
             stop1 = true;
             }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
