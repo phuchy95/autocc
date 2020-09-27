@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/magic-camp/" && stop1 == false){
-            window.location.href = "https://kimo.ma/p/ads-10-ads-2-70.html?&url=http://adfloz.co/q6ACLoDO"
+            //window.location.href = "https://kimo.ma/p/ads-10-ads-2-70.html?&url=http://adfloz.co/q6ACLoDO"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("notran two")[0].innerHTML == "0" && stop2 == false){
