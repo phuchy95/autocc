@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/youre-bacon-me-crazy/" && stop1 == false){
-            window.location.href = "https://cashathome.online/HJyEX"
+            //window.location.href = "https://cashathome.online/HJyEX"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop2 == false){
