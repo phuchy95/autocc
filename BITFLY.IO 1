@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/welcome-to-sudden-death/" && stop1 == false){
+            window.location.href = "https://bitfly.io/zaBN6"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/black-water-abyss/" && stop1 == false){
-            window.location.href = "https://bitfly.io/n1Yi8F"
+            window.location.href = "https://all4yourlife.tech/welcome-to-sudden-death/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
