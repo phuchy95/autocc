@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/the-glorias/" && stop1 == false){
+            window.location.href = "http://linkjust.com/nUCdmf2"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/banksy-and-the-rise-of-outlaw-art/" && stop1 == false){
-            window.location.href = "http://linkjust.com/e6E9Ig3gMtIdT"
+            window.location.href = "https://all4yourlife.tech/the-glorias/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop2 == false){
