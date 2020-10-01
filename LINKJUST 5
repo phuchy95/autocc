@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/the-boys-in-the-band/" && stop1 == false){
+            window.location.href = "http://linkjust.com/VCKr1KET2d"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/suttons-case/" && stop1 == false){
-            window.location.href = "http://linkjust.com/q5JQdHI"
+            window.location.href = "https://all4yourlife.tech/the-boys-in-the-band/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop2 == false){
