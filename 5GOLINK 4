@@ -1,0 +1,34 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/emerson-heights/" && stop1 == false){
+            window.location.href = "https://link.5golink.com/1Y3t5j"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://money.alyoumeg.com/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop4 == false){
+            setTimeout(function(){document.getElementById("wpsafelinkhuman").click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://money.alyoumeg.com/wp-content/uploads/2020/09/generate.png" && stop4 == false){
+            setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000)
+            setTimeout(function(){document.getElementById("wpsafe-link").getElementsByTagName("img")[0].click();},8000)
+            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].onclick.toString().slice(39,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].onclick.toString().lastIndexOf(",")-1)},14000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
