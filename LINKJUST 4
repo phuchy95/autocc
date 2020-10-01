@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/rundfunk-jachterwachter/" && stop1 == false){
+            window.location.href = "http://linkjust.com/VgA89Fm2UyyW2ub"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/emerson-heights/" && stop1 == false){
-            window.location.href = "http://linkjust.com/sZf"
+            window.location.href = "https://all4yourlife.tech/rundfunk-jachterwachter/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop2 == false){
