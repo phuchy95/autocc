@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/yield/" && stop1 == false){
+            window.location.href = "http://linkjust.com/ulYiQj193A"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/youre-not-alone/" && stop1 == false){
-            window.location.href = "http://linkjust.com/HUuB9PgyHAH2g4K7L"
+            window.location.href = "https://all4yourlife.tech/yield/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop2 == false){
