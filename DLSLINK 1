@@ -29,7 +29,7 @@ var stop8 = false;
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].innerText == "Open URL" && stop7 == false && stop6 == true){
-            setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].click();},3000)
+            setTimeout(function(){window.location.href = document.getElementsByClassName("form-control")[0].value},3000)
             stop7 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop6 == false){
