@@ -1,0 +1,44 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/max-and-me/" && stop1 == false){
+            window.location.href = "https://dlslink.net/9e353883"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Proceed " && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("mt-4 btn btn-dark")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-outline-secondary btn-sm float-right mt-2")[0].innerText.includes("0 sec") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-dark btn-sm float-right mt-2")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+            try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == " Visit Link" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("mt-4 btn btn-dark")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementById("spinner-arrow") != null && stop5 == false){
+            setTimeout(function(){document.getElementById("spinner-arrow").click();},3000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].innerText == "Open URL" && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].click();},3000)
+            stop7 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-primary mt-2")[0].click();},3000)
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
