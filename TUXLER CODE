@@ -1,0 +1,95 @@
+(function() {
+    var bienso = Math.floor(Math.random() * 6);
+    console.log(bienso)
+
+    if(bienso == 0){
+        if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("United States") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("US") == false){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("United States") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("US") == true){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }
+        else{
+            document.getElementById("webmenu_title").click();
+            setTimeout(function(){var bien = document.getElementsByClassName("enabled _msddli_")[106];
+                                  var mousedownEvent = new MouseEvent('mousedown');  bien.dispatchEvent(mousedownEvent);
+                                  var mouseupEvent = new MouseEvent('mouseup'); bien.dispatchEvent(mouseupEvent);
+                                 },2000)
+           
+        }
+    }
+    if(bienso == 1){
+        if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("United Kingdom") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("GB") == false){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("United Kingdom") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("GB") == true){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }
+        else{
+            document.getElementById("webmenu_title").click();
+            setTimeout(function(){var bien = document.getElementsByClassName("enabled _msddli_")[105];
+                                  var mousedownEvent = new MouseEvent('mousedown');  bien.dispatchEvent(mousedownEvent);
+                                  var mouseupEvent = new MouseEvent('mouseup'); bien.dispatchEvent(mouseupEvent);
+                                 },2000)
+           
+        }
+    }
+    if(bienso == 2){
+        if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("Canada") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("CA") == false){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("Canada") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("CA") == true){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }
+        else{
+            document.getElementById("webmenu_title").click();
+            setTimeout(function(){var bien = document.getElementsByClassName("enabled _msddli_")[19];
+                                  var mousedownEvent = new MouseEvent('mousedown');  bien.dispatchEvent(mousedownEvent);
+                                  var mouseupEvent = new MouseEvent('mouseup'); bien.dispatchEvent(mouseupEvent);
+                                 },2000)
+           
+        }
+    }
+    if(bienso == 3){
+        if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("Australia") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("AU") == false){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("Australia") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("AU") == true){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }
+        else{
+            document.getElementById("webmenu_title").click();
+            setTimeout(function(){var bien = document.getElementsByClassName("enabled _msddli_")[6];
+                                  var mousedownEvent = new MouseEvent('mousedown');  bien.dispatchEvent(mousedownEvent);
+                                  var mouseupEvent = new MouseEvent('mouseup'); bien.dispatchEvent(mouseupEvent);
+                                 },2000)
+           
+        }
+    }
+    if(bienso == 4){
+        if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("Germany") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("DE") == false){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("Germany") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("DE") == true){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }
+        else{
+            document.getElementById("webmenu_title").click();
+            setTimeout(function(){var bien = document.getElementsByClassName("enabled _msddli_")[37];
+                                  var mousedownEvent = new MouseEvent('mousedown');  bien.dispatchEvent(mousedownEvent);
+                                  var mouseupEvent = new MouseEvent('mouseup'); bien.dispatchEvent(mouseupEvent);
+                                 },2000)
+          
+        }
+    }
+    if(bienso == 5){
+        if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("France") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("FR") == false){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }if(document.getElementsByClassName("ddlabel")[0].innerHTML.includes("France") && document.getElementsByClassName("ng-binding")[8].getElementsByTagName("img")[0].src.includes("FR") == true){
+            document.getElementsByClassName("text-center ng-binding")[0].click();
+        }
+        else{
+            document.getElementById("webmenu_title").click();
+            setTimeout(function(){var bien = document.getElementsByClassName("enabled _msddli_")[35];
+                                  var mousedownEvent = new MouseEvent('mousedown');  bien.dispatchEvent(mousedownEvent);
+                                  var mouseupEvent = new MouseEvent('mouseup'); bien.dispatchEvent(mouseupEvent);
+                                 },2000)
+           
+        }
+    }
+})();
