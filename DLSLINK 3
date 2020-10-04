@@ -28,7 +28,7 @@ var stop8 = false;
             setTimeout(function(){document.getElementById("spinner-arrow").click();},6000)
             stop5 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].innerText == "Open URL" && stop7 == false && stop6 == true){
+        try{if(document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].innerText == "Open Url" && stop7 == false && stop6 == true){
             setTimeout(function(){window.location.href = document.getElementsByClassName("form-control")[0].value;},3000)
             stop7 = true;
         }}catch(e){}
