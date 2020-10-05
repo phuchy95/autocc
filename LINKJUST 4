@@ -12,10 +12,6 @@ var stop8 = false;
             window.location.href = "http://linkjust.com/VgA89Fm2UyyW2ub"
             stop1 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/emerson-heights/" && stop1 == false){
-            window.location.href = "https://all4yourlife.tech/rundfunk-jachterwachter/"
-            stop1 = true;
-        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},3000)
             stop2 = true;
