@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
    setInterval(function(){
-         try{if(window.location.href == "https://all4yourlife.tech/love-sarah/" && stop5 == false){
-            window.location.href = "https://fox-url.com/ZolSPOt66"
+         try{if(window.location.href == "https://all4yourlife.tech/they-live-inside-us/" && stop5 == false){
+            window.location.href = "https://fox-url.com/Ry1pKAs6"
+            stop5 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/love-sarah/" && stop5 == false){
+            window.location.href = "https://all4yourlife.tech/they-live-inside-us/"
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop6 == false){
