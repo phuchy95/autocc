@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
    setInterval(function(){
-         try{if(window.location.href == "https://all4yourlife.tech/let-it-snow/" && stop5 == false){
-            window.location.href = "https://fox-url.com/b1sJuZFL9"
+         try{if(window.location.href == "https://all4yourlife.tech/cut-throat-city/" && stop5 == false){
+            window.location.href = "https://fox-url.com/0Dnw9"
+            stop5 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/let-it-snow/" && stop5 == false){
+            window.location.href = "https://all4yourlife.tech/cut-throat-city/"
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop6 == false){
