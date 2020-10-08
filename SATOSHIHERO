@@ -23,5 +23,16 @@ var stop8 = false;
             }
         }
         }catch(e){}
+        try{
+            for(var m=0;m <10;m++){
+                if(document.getElementsByClassName("vs-button__content")[m].innerText == "GET FREE BITCOINS NOW" && stop1 == false){
+                    document.getElementsByClassName("vs-button__content")[m].click();
+                    setTimeout(function(){window.parent.document.getElementsByClassName("vs-button btn-cont vs-button--null vs-button--size-null vs-button--block vs-button--primary vs-button--default")[0].click();},180000)
+                    setTimeout(function(){window.location.reload();},185000)
+                    stop1 = true;
+                    break;
+            }
+        }
+        }catch(e){}
     },6000)
 })();
