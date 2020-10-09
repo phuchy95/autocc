@@ -14,11 +14,11 @@ var stop8 = false;
         }}catch(e){}
         try{
             for(var n=0;n <10;n++){
-                if(document.getElementsByClassName("v-btn__content")[n].innerText == "GET FREE BITCOINS NOW" && stop1 == false){
+                if(document.getElementsByClassName("v-btn__content")[n].innerText == "GET FREE BITCOINS NOW" && stop2 == false){
                     document.getElementsByClassName("v-btn__content")[n].click();
                     setTimeout(function(){window.parent.document.getElementsByClassName("v-btn v-btn--contained theme--light v-size--default")[0].click();},180000)
                     setTimeout(function(){window.location.reload();},185000)
-                    stop1 = true;
+                    stop2 = true;
                     break;
             }
         }
