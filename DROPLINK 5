@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/tesla/" && stop1 == false){
-            window.location.href = "https://droplink.co/PrX1"
+        try{if(window.location.href == "https://all4yourlife.tech/charm-city-kings/" && stop1 == false){
+            window.location.href = "https://droplink.co/mqNl5HGW"
+            stop1 = true;
+            }}catch(e){}
+         try{if(window.location.href == "https://all4yourlife.tech/tesla/" && stop1 == false){
+            window.location.href = "https://all4yourlife.tech/charm-city-kings/"
             stop1 = true;
             }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
