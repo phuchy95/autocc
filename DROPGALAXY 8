@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/iron-harvest/" && stop1 == false){
-            window.location.href = "https://dropgalaxy.in/5vm6nauwwpot"
+            window.location.href = "https://dropgalaxy.in/oivlmu1u7e0d"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
