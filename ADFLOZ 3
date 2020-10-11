@@ -1,0 +1,28 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/switched/" && stop1 == false){
+            window.location.href = "https://alam-technologie.blogspot.com/p/redirect.html?&&url=_http://adfloz.co/8ufLDfSs"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("n")[0].innerText == "1" && stop2 == false){
+            setTimeout(function(){document.getElementById("btn_reload").click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
+    },6000)
+})();
