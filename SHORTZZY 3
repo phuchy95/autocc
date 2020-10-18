@@ -8,12 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/the-black-emperor-of-broadway/" && stop1 == false){
-            window.location.href = "https://shortzzy.link/ee0EUZX"
+        try{if(window.location.href == "https://all4yourlife.tech/kajillionaire/" && stop1 == false){
+            window.location.href = "https://shortzzy.link/on1qrG"
             stop1 = true;
             }}catch(e){}
             try{if(window.location.href == "https://all4yourlife.tech/bill-ted-face-the-music/" && stop1 == false){
-            window.location.href = "https://all4yourlife.tech/the-black-emperor-of-broadway/"
+            window.location.href = "https://all4yourlife.tech/kajillionaire/"
             stop1 = true;
             }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
