@@ -8,12 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/tkg-the-kids-of-grove/" && stop1 == false){
-            window.location.href = "https://shrinkstar.com/dtQEYZ7q8Rjz"
+        try{if(window.location.href == "https://all4yourlife.tech/killer-dream-home/" && stop1 == false){
+            window.location.href = "https://shrinkstar.com/Rdqub6K"
             stop1 = true;
             }}catch(e){}
             try{if(window.location.href == "https://all4yourlife.tech/the-secret-dare-to-dream/" && stop1 == false){
-            window.location.href = "https://all4yourlife.tech/tkg-the-kids-of-grove/"
+            window.location.href = "https://all4yourlife.tech/killer-dream-home/"
             stop1 = true;
             }}catch(e){}
         try{if(document.getElementsByClassName("btn btn--bg-primary btn-3d-hover btn-splash-hover btn-captcha")[0].innerText == "IM A HUMAN" && stop2 == false){
