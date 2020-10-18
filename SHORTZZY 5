@@ -15,7 +15,11 @@ var stop8 = false;
           try{if(window.location.href == "https://all4yourlife.tech/solitary/" && stop1 == false){
             window.location.href = "https://all4yourlife.tech/quiz/"
             stop1 = true;
-            }}catch(e){}  
+            }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].innerText == "GET LINK" && stop4 == false && document.getElementsByClassName("filler")[0].innerText.includes("0")){
+            setTimeout(function(){document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[1].click();},4000);
+            stop4 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},8000);
             stop2 = true;
