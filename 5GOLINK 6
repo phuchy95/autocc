@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/the-perfect-pickup/" && stop1 == false){
+            window.location.href = "https://link.5golink.com/4CMo"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/unpregnant/" && stop1 == false){
-            window.location.href = "https://link.5golink.com/mLddfW"
+            window.location.href = "https://all4yourlife.tech/the-perfect-pickup/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://money.alyoumeg.com/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop4 == false){
