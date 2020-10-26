@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/haunting-of-the-mary-celeste/" && stop1 == false){
+            window.location.href = "https://link.5golink.com/5uAKl"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/youre-not-alone/" && stop1 == false){
-            window.location.href = "https://link.5golink.com/hyL6e"
+            window.location.href = "https://all4yourlife.tech/haunting-of-the-mary-celeste/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://money.alyoumeg.com/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop4 == false){
