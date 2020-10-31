@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/holidate/" && stop1 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/3Sf9XP"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/parallel-minds/" && stop1 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/B68RZU"
+            window.location.href = "https://all4yourlife.tech/holidate/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
