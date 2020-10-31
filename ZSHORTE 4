@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/his-house/" && stop1 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/zet4zk"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/older/" && stop1 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/2GTg"
+            window.location.href = "https://all4yourlife.tech/his-house/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
