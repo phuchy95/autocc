@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/worst-christmas-ever/" && stop1 == false){
+            window.location.href = "https://dlslink.net/5a8ea36e"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/sno-babies/" && stop1 == false){
-            window.location.href = "https://dlslink.net/bbcd9daf"
+            window.location.href = "https://all4yourlife.tech/worst-christmas-ever/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Proceed " && stop2 == false){
