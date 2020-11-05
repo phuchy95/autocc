@@ -20,6 +20,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000)
             stop5 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-danger")[0].innerText == "START OVER" && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-danger")[0].click();},3000)
+            stop7 = true;
+        }}catch(e){}
         try{if(document.getElementById("skip-ad-in-button").innerText == "Skip ad" && stop6 == false){
             setTimeout(function(){document.getElementById("skip-ad-in-button").click();},3000)
             stop6 = true;
