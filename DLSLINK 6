@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/broken-law/" && stop1 == false){
+            window.location.href = "https://dlslink.net/1621712f"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/a-werewolf-in-england/" && stop1 == false){
-            window.location.href = "https://dlslink.net/9e78de3f"
+            window.location.href = "https://all4yourlife.tech/broken-law/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Proceed " && stop2 == false){
