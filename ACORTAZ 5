@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/darkness-in-tenement-45/" && stop1 == false){
+            window.location.href = "https://m.finanzas-vida.com/SjEXoWoN"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/vampire-virus/" && stop1 == false){
-            window.location.href = "https://m.finanzas-vida.com/a35AY"
+            window.location.href = "https://all4yourlife.tech/darkness-in-tenement-45/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
