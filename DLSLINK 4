@@ -8,8 +8,12 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/the-elephant-in-the-room/" && stop1 == false){
+            window.location.href = "https://dlslink.net/89bada8c"
+            stop1 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/say-your-prayers/" && stop1 == false){
-            window.location.href = "https://dlslink.net/48b275ab"
+            window.location.href = "https://all4yourlife.tech/the-elephant-in-the-room/"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Proceed " && stop2 == false){
