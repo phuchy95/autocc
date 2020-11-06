@@ -28,5 +28,9 @@ var stop8 = false;
             setTimeout(function(){document.getElementById("dismiss-button").click();},3000)
             stop4 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].innerText == "Disable AdBlocker" && stop5 == false){
+            setTimeout(function(){window.location.reload();},3000)
+            stop5 = true;
+        }}catch(e){}
     },6000)
 })();
