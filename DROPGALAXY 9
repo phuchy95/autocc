@@ -16,7 +16,11 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].innerHTML.includes("here to") && stop3 == false){
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].innerText == "Click here to download" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].innerText == "Click here to download" && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
