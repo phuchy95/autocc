@@ -8,6 +8,7 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
+        setTimeout(function(){window.location.reload();},3600000) 
         try{if(window.location.href.includes("bitplay") == true && stop4 == false){
             setTimeout(function(){document.getElementsByClassName("text-center")[0].click();},3000)
             stop4 = true;
