@@ -1,0 +1,73 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/books-of-blood/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 6);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/holidate/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/horse-girl/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-whittler/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/his-house/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/spell/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-crumbs/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/holidate/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/3Sf9XP"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/horse-girl/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/DoF4I"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-whittler/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/K77B5e"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/his-house/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/zet4zk"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/spell/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/yVOfqzR1"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-crumbs/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/Wzc"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-block get-link")[0].innerText == "Get Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block get-link")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
