@@ -1,0 +1,77 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/chemical-hearts/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 6);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/guilt/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-last-laugh/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/coastal-elites/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-coming/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/indigo-valley/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/cagefighter/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/guilt/" && stop4 == false){
+            window.location.href = "https://adlinkall.com/NdEXO"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-last-laugh/" && stop4 == false){
+            window.location.href = "https://adlinkall.com/gTMZRHg"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/coastal-elites/" && stop4 == false){
+            window.location.href = "https://adlinkall.com/nlIEQn9"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-coming/" && stop4 == false){
+            window.location.href = "https://adlinkall.com/SLEl"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/indigo-valley/" && stop4 == false){
+            window.location.href = "https://adlinkall.com/ak1LIfN"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/cagefighter/" && stop4 == false){
+            window.location.href = "https://adlinkall.com/NrYtCR8"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success")[0].innerText == "Next" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},15000);
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-secondary")[0].innerText == "Next" && stop5 == false && stop4 == true){
+            setTimeout(function(){document.getElementsByClassName("btn btn-secondary")[0].click();},5000);
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop6 = true;
+        }}catch(e){}
+    },6000)
+})();
