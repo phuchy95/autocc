@@ -1,0 +1,73 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/phineas-and-ferb-the-movie-candace-against-the-universe/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/kidnapped-by-a-classmate/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-secrets-we-keep/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/kajillionaire/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dont-look-back/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/quiz/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/kidnapped-by-a-classmate/" && stop4 == false){
+            window.location.href = "https://shortzzy.link/ifoXrpR"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-secrets-we-keep/" && stop4 == false){
+            window.location.href = "https://shortzzy.link/aUQP"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/kajillionaire/" && stop4 == false){
+            window.location.href = "https://shortzzy.link/on1qrG"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dont-look-back/" && stop4 == false){
+            window.location.href = "https://shortzzy.link/2WMCplCN"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/quiz/" && stop4 == false){
+            window.location.href = "https://shortzzy.link/lj7Px6YF"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[0].innerText == "GET LINK" && stop4 == false && document.getElementsByClassName("filler")[0].innerText.includes("0")){
+            setTimeout(function(){document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[1].click();},4000);
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},8000);
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn ")[0].innerText == "Verify" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn ")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn ")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
