@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/youre-bacon-me-crazy/" && stop1 == false){
-            window.location.href = "https://www.kimo.ma/2020/10/50.html?&url=http://adfloz.co/bOQ4x5JP"
+            window.location.href = "https://adfloz.co/bOQ4x5JP"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("notran two")[0].innerText == "0" && stop2 == false && document.getElementsByClassName("notran zr act")[0].innerText == "الرابط جاهز"){
