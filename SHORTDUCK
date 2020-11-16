@@ -86,7 +86,7 @@ var stop8 = false;
             stop5 = true;
         }}catch(e){}
         try{if(window.location.href.includes("google") && stop7 == false){
-            setTimeout(function(){document.getElementsByClassName("btn skip")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();;},3000)
             stop7 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop6 == false){
