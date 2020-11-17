@@ -61,6 +61,33 @@ var stop8 = false;
             window.location.href = "http://pureshort.com/I99NqoQN"
             stop4 = true;
         }}catch(e){}
+        try{
+            for(var n=0;n <30;n++){
+                if(document.getElementsByTagName("img")[n].src == "https://assamservice.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/human-verification4.png" && stop1 == false){
+                    document.getElementsByTagName("img")[n].click()
+                    stop1 = true;
+                    break;
+            }
+        }
+        }catch(e){}
+        try{
+            for(var i=0;i <30;i++){
+                if(document.getElementsByTagName("img")[i].src == "https://assamservice.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/generate4.png" && stop8 == false){
+                    document.getElementsByTagName("img")[i].click()
+                    stop8 = true;
+                    break;
+            }
+        }
+        }catch(e){}
+        try{
+            for(var m=0;m <30;m++){
+                if(document.getElementsByTagName("img")[m].src == "https://assamservice.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/target4.png" && stop2 == false){
+                    document.getElementsByTagName("img")[m].click()
+                    stop2 = true;
+                    break;
+            }
+        }
+        }catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
             stop5 = true;
