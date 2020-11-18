@@ -1,0 +1,89 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/the-lego-star-wars-holiday-special/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 6);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/download-idm-v6-35-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/weathering-with-you/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/escape-from-pretoria/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/instapsycho/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/back-to-the-titanic/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/cranston-academy-monster-zone/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/download-idm-v6-35-full-crack/" && stop4 == false){
+            window.location.href = "https://gplinks.co/1zfLj8vI"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/weathering-with-you/" && stop4 == false){
+            window.location.href = "https://gplinks.co/f6QqBW"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/escape-from-pretoria/" && stop4 == false){
+            window.location.href = "https://gplinks.co/CoEO3SLm"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/instapsycho/" && stop4 == false){
+            window.location.href = "https://gplinks.co/tQVi"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/back-to-the-titanic/" && stop4 == false){
+            window.location.href = "https://gplinks.co/uzoqLuEh"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/cranston-academy-monster-zone/" && stop4 == false){
+            window.location.href = "https://gplinks.co/bU1Ns2"
+            stop4 = true;
+        }}catch(e){}
+        try{if(stop7 == false && document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Go to destination"){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000)
+            stop7 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop6 == false && document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "Check Results"){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary locked-button")[0].innerText == "Scan" && stop5 == false && document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A")){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary locked-button")[0].click();},5000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false && document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerHTML.includes("continue")){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary")[0].innerHTML == "Verify" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},5000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop1 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000)
+            stop1 = true;
+        }}catch(e){}
+    },6000)
+})();
