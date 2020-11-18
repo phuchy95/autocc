@@ -33,7 +33,7 @@ var stop8 = false;
             stop1 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/weathering-with-you/" && stop4 == false){
-            window.location.href = "https://mydomainscan.com/f6QqBW"
+            window.location.href = "https://gplinks.co/f6QqBW"
             stop4 = true;
         }}catch(e){}
     },6000)
