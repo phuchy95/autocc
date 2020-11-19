@@ -1,0 +1,89 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/freshman-friday/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 8);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/kingdoms-of-amalur-re-reckoning/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/necromunda-underhive-wars/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/aeternoblade-ii-directors-rewind/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/captain-tsubasa-rise-of-new-champions/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/wrc-9-fia-world-rally-championship/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/tin-kuna/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dying-light-hellraid/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/little-town-hero/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/kingdoms-of-amalur-re-reckoning/" && stop4 == false){
+            window.location.href = "https://filezip.cc/tw5h1x89sum8"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/necromunda-underhive-wars/" && stop4 == false){
+            window.location.href = "https://filezip.cc/rvidict5utvp"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/aeternoblade-ii-directors-rewind/" && stop4 == false){
+            window.location.href = "https://filezip.cc/lj9cp6p5yyb8"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/captain-tsubasa-rise-of-new-champions/" && stop4 == false){
+            window.location.href = "https://filezip.cc/3wvp9u188xo8"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/wrc-9-fia-world-rally-championship/" && stop4 == false){
+            window.location.href = "https://filezip.cc/0xgjvl1v478t"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/tin-kuna/" && stop4 == false){
+            window.location.href = "https://filezip.cc/fzywofu114nz"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dying-light-hellraid/" && stop4 == false){
+            window.location.href = "https://filezip.cc/oh3byx74g00p"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/little-town-hero/" && stop4 == false){
+            window.location.href = "https://filezip.cc/me82zgm1atvm"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btext")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementById("blockblockB").innerHTML.includes("your IP next") && stop3 == false){
+            setTimeout(function(){window.location.href = document.getElementById("direct_link").getElementsByTagName("a")[0].href},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
