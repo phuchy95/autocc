@@ -1,0 +1,117 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/meeting/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 10);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/observation-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/hades/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/field-of-glory-empires-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/old-gods-rising-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/karma-knight-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/horizon-zero-dawn-complete-edition/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/warhammer-chaosbane/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/samurai-jack-battle-through-time/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/iron-harvest/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/no-mans-sky/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/observation-full-crack/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/zicbxw0rany7"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/hades/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/rayy336e1p4c"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/field-of-glory-empires-full-crack/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/n2h780lvb4n0"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/old-gods-rising-full-crack/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/1vey19ewmnnd"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/karma-knight-full-crack/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/29o7m082wifu"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/horizon-zero-dawn-complete-edition/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/t3z4bs3l2goh"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/warhammer-chaosbane/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/7urjfbubgmr9"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/samurai-jack-battle-through-time/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/9u9h7jxo96iq"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/iron-harvest/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/rvrkvkckmscb"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/no-mans-sky/" && stop4 == false){
+            window.location.href = "https://dropgalaxy.in/qr1hhhud8i95"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].innerText == "Click here to download" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].innerText == "Click here to download" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementById("dismiss-button") != null && stop4 == false){
+            setTimeout(function(){document.getElementById("dismiss-button").click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].innerText == "Disable AdBlocker" && stop5 == false){
+            setTimeout(function(){window.location.reload();},3000)
+            stop5 = true;
+        }}catch(e){}
+    },6000)
+})();
