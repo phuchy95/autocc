@@ -1,0 +1,81 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/a-deadly-place/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/welcome-to-sudden-death/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/sightless/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/sulphur-and-white/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/cover-me/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-message/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/welcome-to-sudden-death/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/PYEVEI0r"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/sightless/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/OMiP"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/sulphur-and-white/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/hhc18gD"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/cover-me/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/DHil"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-message/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/yy9xx"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText =="Start Timer" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText == "Continue" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementById("skip-ad-in-button").innerText == "Skip ad" && stop6 == false){
+            setTimeout(function(){document.getElementById("skip-ad-in-button").click();},3000)
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-danger")[0].innerText == "START OVER" && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-danger")[0].click();},3000)
+            stop7 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
