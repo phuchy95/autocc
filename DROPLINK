@@ -1,0 +1,93 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/asylum-twisted-horror-and-fantasy-tales/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 7);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/counterintelligence/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/hubie-halloween/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/broil/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-wolf-of-snow-hollow/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/charm-city-kings/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/seized/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/times-measures/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/counterintelligence/" && stop4 == false){
+            window.location.href = "https://droplink.co/o2o2bkBt"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/hubie-halloween/" && stop4 == false){
+            window.location.href = "https://droplink.co/aSV7jth"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/broil/" && stop4 == false){
+            window.location.href = "https://droplink.co/GmReAj"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-wolf-of-snow-hollow/" && stop4 == false){
+            window.location.href = "https://droplink.co/JeqX"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/charm-city-kings/" && stop4 == false){
+            window.location.href = "https://droplink.co/mqNl5HGW"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/seized/" && stop4 == false){
+            window.location.href = "https://droplink.co/5gvYk3O"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/times-measures/" && stop4 == false){
+            window.location.href = "https://droplink.co/CyzAoU"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("yu-btn yu-blue")[0].src != null && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("yu-btn yu-blue")[0].innerText == "Continue" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("yu-btn yu-blue")[0].src == "https://yoshare.net/wp-content/uploads/2020/08/fvnk6Rk.png" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
