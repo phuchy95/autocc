@@ -1,0 +1,105 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/welcome-to-the-circle/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 10);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/vengeance/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/sleepaway-slasher/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/south-of-the-river/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-farmer-and-the-belle-saving-santaland/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-illustrator/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/darkness-in-tenement-45/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/casting-couch-slaughter/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/desire-path/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/unhinged/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-misadventures-of-mistress-maneater/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/vengeance/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/LJ31Vi6B"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/sleepaway-slasher/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/J2rrg"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/south-of-the-river/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/P7fdW"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-farmer-and-the-belle-saving-santaland/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/v2en5wgH"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-illustrator/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/hd6II"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/darkness-in-tenement-45/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/SjEXoWoN"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/casting-couch-slaughter/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/ZgZFoP"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/desire-path/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/hZ7dZ"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/unhinged/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/Sm5phe"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-misadventures-of-mistress-maneater/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/GqEB61"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-block get-link")[0].innerText == "Get Link" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block get-link")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+    },6000)
+})();
