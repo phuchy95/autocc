@@ -63,7 +63,7 @@ var stop8 = false;
         }}catch(e){}
         try{
             for(var n=0;n <30;n++){
-                if(document.getElementsByTagName("img")[n].src == "https://assamservice.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/human-verification4.png" && stop1 == false){
+                if(document.getElementsByTagName("img")[n].src == "https://speedynews.xyz/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/human-verification4.png" && stop1 == false){
                     document.getElementsByTagName("img")[n].click()
                     stop1 = true;
                     break;
@@ -72,7 +72,7 @@ var stop8 = false;
         }catch(e){}
         try{
             for(var i=0;i <30;i++){
-                if(document.getElementsByTagName("img")[i].src == "https://assamservice.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/generate4.png" && stop8 == false){
+                if(document.getElementsByTagName("img")[i].src == "https://speedynews.xyz/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/generate4.png" && stop8 == false){
                     document.getElementsByTagName("img")[i].click()
                     stop8 = true;
                     break;
@@ -81,7 +81,7 @@ var stop8 = false;
         }catch(e){}
         try{
             for(var m=0;m <30;m++){
-                if(document.getElementsByTagName("img")[m].src == "https://assamservice.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/target4.png" && stop2 == false){
+                if(document.getElementsByTagName("img")[m].src == "https://speedynews.xyz/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/target4.png" && stop2 == false){
                     document.getElementsByTagName("img")[m].click()
                     setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").innerHTML.slice(30,document.getElementById("wpsafe-link").innerHTML.lastIndexOf("blank") - 5)},5000)
                     stop2 = true;
