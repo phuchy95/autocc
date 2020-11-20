@@ -1,0 +1,85 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/deathwell/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 8);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/atom-rpg-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/fury-unleashed-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dark-space-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/avast/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/stranded-sails-explorers-of-the-cursed-islands/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/new-super-luckys-tale/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/mx-vs-atv-all-out-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/immortal-legacy-the-jade-cipher-full-crack/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/atom-rpg-full-crack/" && stop4 == false){
+            window.location.href = "https://ddownload.com/na6027mbir0k"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/fury-unleashed-full-crack/" && stop4 == false){
+            window.location.href = "https://ddownload.com/y0fnpssbdfd5"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dark-space-full-crack/" && stop4 == false){
+            window.location.href = "https://ddownload.com/rl2oufktc6k4"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/avast/" && stop4 == false){
+            window.location.href = "https://ddownload.com/li2y08kh7ejq"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/stranded-sails-explorers-of-the-cursed-islands/" && stop4 == false){
+            window.location.href = "https://ddownload.com/3r9sm1vnffrt"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/new-super-luckys-tale/" && stop4 == false){
+            window.location.href = "https://ddownload.com/jenjo3pcefeu"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/mx-vs-atv-all-out-full-crack/" && stop4 == false){
+            window.location.href = "https://ddownload.com/osy9atrrf7q6"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/immortal-legacy-the-jade-cipher-full-crack/" && stop4 == false){
+            window.location.href = "https://ddownload.com/zw42skukitfx"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary downloadbtn d-flex align-items-center mx-auto")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
+    },6000)
+})();
