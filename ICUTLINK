@@ -53,6 +53,14 @@ var stop8 = false;
             window.location.href = "https://icutlink.com/WjYR8Ph5S9"
             stop4 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("bsub")[0].innerText == "Continue" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("bsub")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByTagName("button")[2].innerText == "Get link" && stop2 == false){
+            setTimeout(function(){document.getElementsByTagName("button")[2].click();},3000)
+            stop2 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
             setTimeout(function(){document.getElementById("invisibleCaptchaShortlink").click();},3000)
             stop2 = true;
