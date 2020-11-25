@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/hades/" && stop1 == false){
-            window.location.href = "https://dropgalaxy.in/rayy336e1p4c"
+            window.location.href = "https://dropgalaxy.in/8qdigc5jaguk"
             stop1 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
