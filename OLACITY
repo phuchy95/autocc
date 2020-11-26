@@ -37,47 +37,47 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/lets-scare-julie/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 6 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/guilt/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 7 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/the-last-laugh/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 8 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/coastal-elites/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 9 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/the-coming/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 10 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/indigo-valley/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 11 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/cagefighter/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 12 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/welcome-to-sudden-death/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 13 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/sightless/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 14 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/sulphur-and-white/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 15 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/cover-me/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 16 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/the-message/"
             stop2 = true;
         }}catch(e){}
