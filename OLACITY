@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/the-key-to-christmas/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 6);
+            var bienso = Math.floor(Math.random() * 17);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -37,6 +37,50 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/lets-scare-julie/"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/guilt/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-last-laugh/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/coastal-elites/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-coming/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/indigo-valley/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/cagefighter/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/welcome-to-sudden-death/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/sightless/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/sulphur-and-white/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/cover-me/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-message/"
+            stop2 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/toys-of-terror/" && stop4 == false){
             window.location.href = "http://bblink.com/54ARtuV"
             stop4 = true;
@@ -59,6 +103,50 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/lets-scare-julie/" && stop4 == false){
             window.location.href = "http://bblink.com/yeWtyz1"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/guilt/" && stop4 == false){
+            window.location.href = "http://bblink.com/DmwJTa"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-last-laugh/" && stop4 == false){
+            window.location.href = "http://bblink.com/k33eor6"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/coastal-elites/" && stop4 == false){
+            window.location.href = "http://bblink.com/rfusWS1"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-coming/" && stop4 == false){
+            window.location.href = "http://bblink.com/lxt4Zmrb"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/indigo-valley/" && stop4 == false){
+            window.location.href = "http://bblink.com/Cj3Fyct"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/cagefighter/" && stop4 == false){
+            window.location.href = "http://bblink.com/lcZdr1Z"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/welcome-to-sudden-death/" && stop4 == false){
+            window.location.href = "http://bblink.com/utlqXdb"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/sightless/" && stop4 == false){
+            window.location.href = "http://bblink.com/nhU53kSJ"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/sulphur-and-white/" && stop4 == false){
+            window.location.href = "http://bblink.com/nYZghVBG"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/cover-me/" && stop4 == false){
+            window.location.href = "http://bblink.com/HqJHw9"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-message/" && stop4 == false){
+            window.location.href = "http://bblink.com/XQWSCgR"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false){
