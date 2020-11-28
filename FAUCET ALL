@@ -1,0 +1,26 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    if(window.location.href.includes("faucetville")){
+        faucetville();
+    }
+    })();
+function faucetville(){
+    setInterval(function(){
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("theme-btn roll-button")[0].click();},3000)
+            setTimeout(function(){window.location.reload();},15000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("minutes")[0].innerText.includes("00" && "MINUTES") && stop4 == false){
+            setTimeout(function(){window.location.reload();},65000)
+            stop4 = true;
+        }}catch(e){}
+    },6000)
+}
