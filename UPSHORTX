@@ -1,0 +1,93 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/freshman-friday/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 8);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/aeternoblade-ii-directors-rewind/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/captain-tsubasa-rise-of-new-champions/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dying-light-hellraid/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/kingdoms-of-amalur-re-reckoning/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/little-town-hero/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/necromunda-underhive-wars/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/tin-kuna/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/wrc-9-fia-world-rally-championship/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/aeternoblade-ii-directors-rewind/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/ipF3szbTn5"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/captain-tsubasa-rise-of-new-champions/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/UWKZHRIAtl"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dying-light-hellraid/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/koy1qveBDj"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/kingdoms-of-amalur-re-reckoning/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/ozKvXmFIyY"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/little-town-hero/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/s97mzXk5eT"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/necromunda-underhive-wars/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/gYh4yrewc9"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/tin-kuna/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/Cz3ml1b70S"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/wrc-9-fia-world-rally-championship/" && stop4 == false){
+            window.location.href = "https://down.techrfour.com/zIVIXqxUk2"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "NEXT PAGE" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText == "CREATE DOWNLOAD LINK" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg")[0].innerText == "DOWNLOAD FILE" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
+    },6000)
+})();
