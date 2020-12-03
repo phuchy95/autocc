@@ -37,7 +37,7 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/seized/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
+        try{if(bienso == 6 && stop2 == false){
             window.location.href = "https://all4yourlife.tech/times-measures/"
             stop2 = true;
         }}catch(e){}
