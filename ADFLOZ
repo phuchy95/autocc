@@ -86,3 +86,4 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
     },6000)
+    })();
