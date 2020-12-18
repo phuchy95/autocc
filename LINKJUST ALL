@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/loco/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 7);
+            var bienso = Math.floor(Math.random() * 11);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -41,6 +41,22 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/emperor/"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/a-night-in-97/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/legacy-of-lies/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/intersection/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 10 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/miracle-on-highway-34/"
+            stop2 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-glorias/" && stop4 == false){
             window.location.href = "http://linkjust.com/nUCdmf2"
             stop4 = true;
@@ -67,6 +83,22 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/emperor/" && stop4 == false){
             window.location.href = "http://linkjust.com/1qRpKfUrXWFryP"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/a-night-in-97/" && stop4 == false){
+            window.location.href = "http://linkjust.com/AyDpfbswlFbzSqp"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/legacy-of-lies/" && stop4 == false){
+            window.location.href = "http://linkjust.com/hcYJpIg3b24yx7Dzi7U"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/intersection/" && stop4 == false){
+            window.location.href = "http://linkjust.com/b5G"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/miracle-on-highway-34/" && stop4 == false){
+            window.location.href = "http://linkjust.com/d7bDw"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop2 == false){
