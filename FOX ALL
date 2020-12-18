@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/ava/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 8);
+            var bienso = Math.floor(Math.random() * 12);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -45,6 +45,22 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/cut-throat-city/"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/skylines/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-croods-a-new-age/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 10 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/army-of-one/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 11 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/antarctica/"
+            stop2 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/on-halloween/" && stop4 == false){
             window.location.href = "https://fox-url.com/eIlbSAHv4x6O"
             stop4 = true;
@@ -75,6 +91,22 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/cut-throat-city/" && stop4 == false){
             window.location.href = "https://fox-url.com/0Dnw9"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/skylines/" && stop4 == false){
+            window.location.href = "https://fox-url.com/eYg5nVcTpmOYN"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-croods-a-new-age/" && stop4 == false){
+            window.location.href = "https://fox-url.com/NxxIMHr"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/army-of-one/" && stop4 == false){
+            window.location.href = "https://fox-url.com/osdWMCD1sq1QRyQ"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/antarctica/" && stop4 == false){
+            window.location.href = "https://fox-url.com/nJmVJ"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Next" && stop6 == false){
