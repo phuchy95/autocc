@@ -13,6 +13,14 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("text-center")[0].click();},3000)
             stop4 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("sorry") == true && stop5 == false && window.location.href.includes("monster")){
+            setTimeout(function(){window.location.href = "https://satoshimonster.com/en/game"},3000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("sorry") == true && stop5 == false && window.location.href.includes("hero")){
+            setTimeout(function(){window.location.href = "https://satoshihero.com/en/game"},3000)
+            stop5 = true;
+        }}catch(e){}
         try{
             for(var n=0;n <10;n++){
                 if(document.getElementsByClassName("v-btn__content")[n].innerText == "GET FREE BITCOINS NOW" && stop2 == false){
