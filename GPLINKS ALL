@@ -81,6 +81,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},5000)
             stop3 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].innerHTML == "Verify" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].click();},5000)
+            stop3 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop1 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000)
             stop1 = true;
