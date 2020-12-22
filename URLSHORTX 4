@@ -36,6 +36,13 @@ var stop8 = false;
                 break;
             }
         }}catch(e){}
+        try{for(var z=0;z<23;z++ && stop6 == false){
+            if(document.getElementsByTagName("input")[z].src == "https://techymozo.com/wp-content/uploads/2020/12/11-1.png"){
+                document.getElementsByTagName("input")[z].click();
+                stop6 = true;
+                break;
+            }
+        }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
              document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
              stop1 = true;
