@@ -84,7 +84,7 @@ var stop8 = false;
         }}catch(e){}
         try{for(var n=0;n<23;n++ && stop6 == false){
             if(document.getElementsByTagName("input")[n].src == "https://techrfour.com/wp-content/uploads/2020/12/11.png"){
-                document.getElementsByTagName("input")[n].click();
+                window.location.href = document.getElementById("3").getAttribute("action");
                 stop6 = true;
                 break;
             }
@@ -93,6 +93,27 @@ var stop8 = false;
             if(document.getElementsByTagName("input")[z].src == "https://techymozo.com/wp-content/uploads/2020/12/11-1.png"){
                 document.getElementsByTagName("input")[z].click();
                 stop6 = true;
+                break;
+            }
+        }}catch(e){}
+        try{for(var a=0;a<23;a++ && stop3 == false){
+            if(document.getElementsByTagName("img")[a].src == "https://blog.dealsnbuy.com/wp-content/plugins/wp-safelink/assets/human-verification4.png"){
+                document.getElementsByTagName("img")[a].click();
+                stop3 = true;
+                break;
+            }
+        }}catch(e){}
+        try{for(var b=0;b<23;b++ && stop4 == false){
+            if(document.getElementsByTagName("img")[b].src == "https://www.dealsnbuy.com/blog/wp-content/uploads/2020/03/button_verify-1.png"){
+                document.getElementsByTagName("img")[b].click();
+                stop4 = true;
+                break;
+            }
+        }}catch(e){}
+        try{for(var c=0;c<23;c++ && stop5 == false){
+            if(document.getElementsByTagName("img")[c].src == "https://www.dealsnbuy.com/blog/wp-content/uploads/2020/03/button_download-1.png"){
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
+                stop5 = true;
                 break;
             }
         }}catch(e){}
