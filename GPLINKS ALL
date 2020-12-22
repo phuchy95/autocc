@@ -89,6 +89,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].click();},5000)
             stop3 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].innerHTML == "Get Link" && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].click();},5000)
+            stop6 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop1 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000)
             stop1 = true;
