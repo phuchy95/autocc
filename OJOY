@@ -1,0 +1,89 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/banksy-and-the-rise-of-outlaw-art/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 7);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/borat-subsequent-moviefilm/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/on-the-rocks/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/haunting-of-the-mary-celeste/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/paradise-z/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/love-glamping/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-perfect-pickup/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-bag-girls/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/borat-subsequent-moviefilm/" && stop4 == false){
+            window.location.href = "https://go.ojoy.in/WxXysroB"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/on-the-rocks/" && stop4 == false){
+            window.location.href = "https://go.ojoy.in/SwI24jSX"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/haunting-of-the-mary-celeste/" && stop4 == false){
+            window.location.href = "https://go.ojoy.in/AchGtga"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/paradise-z/" && stop4 == false){
+            window.location.href = "https://go.ojoy.in/fuItm9K"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/love-glamping/" && stop4 == false){
+            window.location.href = "https://go.ojoy.in/u8gVU"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-perfect-pickup/" && stop4 == false){
+            window.location.href = "https://go.ojoy.in/HqME9my"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-bag-girls/" && stop4 == false){
+            window.location.href = "https://go.ojoy.in/UAwj"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+             document.getElementById("wpsafelinkhuman").click();
+             stop1 = true;
+         }}catch(e){}
+        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://payubitcoin.com/wp-content/uploads/2020/12/generate4-min.png" && stop2 == false){
+             setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("a")[0].click();},3000);
+             stop2 = true;
+         }}catch(e){}
+        try{if(document.getElementById("wpsafe-link").getElementsByTagName("img")[0].src == "https://payubitcoin.com/wp-content/uploads/2020/12/target4-min.png" && stop3 == false){
+             setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);},3000);
+             stop3 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop6 == false){
+            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+            stop6 = true;
+        }}catch(e){}
+    },6000)
+})();
