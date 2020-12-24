@@ -65,6 +65,24 @@ var stop8 = false;
                 break;
             }
         }}catch(e){}
+        try{for(var d=0;d<23;d++ && stop5 == false){
+            if(document.getElementsByTagName("img")[d].src == "https://techrfour.com/wp-content/plugins/wp-safelink/assets/target4.png"){
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(62,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
+                stop5 = true;
+                break;
+            }
+        }}catch(e){}
+        try{for(var e=0;e<23;e++ && stop5 == false){
+            if(document.getElementsByTagName("img")[e].src == "https://techymozo.com/wp-content/plugins/wp-safelink/assets/target4.png"){
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
+                stop5 = true;
+                break;
+            }
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false && document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://techrfour.com/wp-content/plugins/wp-safelink/assets/human-verification4.png"){
+             document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();
+             stop1 = true;
+         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
              document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
              stop1 = true;
