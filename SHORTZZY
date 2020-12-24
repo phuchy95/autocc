@@ -57,6 +57,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-lg btn-primary btn-captcha")[1].click();},4000);
             stop4 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("directredirection") && stop4 == false){
+            setTimeout(function(){window.location.href = "https://www.google.com"},4000);
+            stop4 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},8000);
             stop2 = true;
