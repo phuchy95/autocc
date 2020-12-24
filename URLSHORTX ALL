@@ -119,7 +119,7 @@ var stop8 = false;
         }}catch(e){}
         try{for(var d=0;d<23;d++ && stop5 == false){
             if(document.getElementsByTagName("img")[d].src == "https://techrfour.com/wp-content/plugins/wp-safelink/assets/target4.png"){
-                document.getElementsByTagName("img")[d].click();
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(62,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
                 stop5 = true;
                 break;
             }
