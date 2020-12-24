@@ -59,6 +59,7 @@ var stop8 = false;
          }}catch(e){}
         try{if(document.getElementsByClassName("btn-captcha btn btn-primary ")[0].innerText == "GET LINK" && stop6 == false){
             document.getElementsByClassName("btn-captcha btn btn-primary ")[0].click();
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},6000);
             stop6 = true;
         }}catch(e){}
     },6000)
