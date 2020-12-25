@@ -79,6 +79,13 @@ var stop8 = false;
                 break;
             }
         }}catch(e){}
+        try{for(var f=0;f<23;f++ && stop5 == false){
+            if(document.getElementsByTagName("img")[f].src == "https://webfilms4u.me/wp-content/plugins/wp-safelink/assets/target4.png"){
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
+                stop5 = true;
+                break;
+            }
+        }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false && document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://techrfour.com/wp-content/plugins/wp-safelink/assets/human-verification4.png"){
              document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();
              stop1 = true;
