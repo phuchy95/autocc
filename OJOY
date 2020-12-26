@@ -69,6 +69,13 @@ var stop8 = false;
             window.location.href = "https://go.ojoy.in/UAwj"
             stop4 = true;
         }}catch(e){}
+        try{for(var a=0;a<23;a++ && stop5 == false){
+            if(document.getElementsByTagName("img")[a].src == "https://karikkufresh.com/wp-content/uploads/2020/12/generate4-min.png"){
+                document.getElementsByTagName("img")[a].click();
+                stop5 = true;
+                break;
+            }
+        }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
              document.getElementById("wpsafelinkhuman").click();
              stop1 = true;
