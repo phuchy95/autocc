@@ -76,6 +76,13 @@ var stop8 = false;
                 break;
             }
         }}catch(e){}
+        try{for(var b=0;b<23;b++ && stop6 == false){
+            if(document.getElementsByTagName("img")[b].src == "https://karikkufresh.com/wp-content/uploads/2020/12/target4-min.png" && stop5 == true){
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
+                stop6 = true;
+                break;
+            }
+        }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
              document.getElementById("wpsafelinkhuman").click();
              stop1 = true;
