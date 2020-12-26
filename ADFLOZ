@@ -81,6 +81,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
             stop1 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn skip")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
          try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
             stop2 = true;
