@@ -53,8 +53,8 @@ var stop8 = false;
             window.location.href = "https://toptechtalk.xyz/eVqfDq"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-             document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){      
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
              stop1 = true;
          }}catch(e){}
         try{if(document.getElementsByClassName("btn-captcha btn btn-primary ")[0].innerText == "GET LINK" && stop6 == false){
