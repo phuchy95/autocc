@@ -36,8 +36,8 @@ var stop8 = false;
             window.location.href = "https://gplinks.co/1zfLj8vI"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].innerHTML == "Verify" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].click();},15000)
+        try{if(document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].innerHTML == "Verify" && stop3 == false && document.readyState == "complete"){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].click();},10000)
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].innerText == "Unlock Link" && stop3 == false){
