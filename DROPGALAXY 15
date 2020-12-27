@@ -1,0 +1,36 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/little-town-hero/" && stop1 == false){
+            window.location.href = "https://dropgalaxy.in/94ly3tgzxmqc"
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].innerText == "Click here to download" && stop3 == false){
+            setTimeout(function(){window.location.href = document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].href;},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].innerText == "Click here to download" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementById("dismiss-button") != null && stop4 == false){
+            setTimeout(function(){document.getElementById("dismiss-button").click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].innerText == "Disable AdBlocker" && stop5 == false){
+            setTimeout(function(){window.location.reload();},3000)
+            stop5 = true;
+        }}catch(e){}
+    },6000)
+})();
