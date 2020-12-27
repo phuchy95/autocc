@@ -17,7 +17,7 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].innerText == "Click here to download" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].click();},3000)
+            setTimeout(function(){window.location.href = document.getElementsByClassName("btn btn-block btn-lg btn-primary")[1].href;},3000)
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].innerText == "Click here to download" && stop3 == false){
