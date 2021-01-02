@@ -62,17 +62,17 @@ var stop8 = false;
             stop6 = true;
         }}catch(e){}
         try{if(document.getElementsByTagName("iframe")[9].contentDocument.getElementById("B1").innerHTML == "Cancel" && stop5 == false && document.readyState == "complete"){
-            setTimeout(function(){document.getElementsByTagName("iframe")[9].contentDocument.getElementById("B1").click();},15000);
+            setTimeout(function(){document.getElementsByTagName("iframe")[9].contentDocument.getElementById("B1").click();},60000);
             console.log("a")
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByTagName("iframe")[11].contentDocument.getElementById("B1").innerHTML == "Cancel" && stop5 == false && document.readyState == "complete"){
-            setTimeout(function(){document.getElementsByTagName("iframe")[11].contentDocument.getElementById("B1").click();},15000);
+            setTimeout(function(){document.getElementsByTagName("iframe")[11].contentDocument.getElementById("B1").click();},60000);
             console.log("a")
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementsByTagName("iframe")[10].contentDocument.getElementById("B1").innerHTML == "Cancel" && stop5 == false && document.readyState == "complete"){
-            setTimeout(function(){document.getElementsByTagName("iframe")[10].contentDocument.getElementById("B1").click();},15000);
+            setTimeout(function(){document.getElementsByTagName("iframe")[10].contentDocument.getElementById("B1").click();},60000);
             console.log("a")
             stop5 = true;
         }}catch(e){}
