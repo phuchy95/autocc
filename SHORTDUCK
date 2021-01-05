@@ -55,7 +55,7 @@ var stop8 = false;
         }}catch(e){}
         try{
             for(var n=0;n <30;n++){
-                if(document.getElementsByTagName("img")[n].src == "https://androidnougatapk.com/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop1 == false){
+                if(document.getElementsByTagName("img")[n].src == "https://xpressnews247.in/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop1 == false){
                     document.getElementsByTagName("img")[n].click()
                     stop1 = true;
                     break;
@@ -64,7 +64,7 @@ var stop8 = false;
         }catch(e){}
         try{
             for(var i=0;i <30;i++){
-                if(document.getElementsByTagName("img")[i].src == "https://androidnougatapk.com/wp-content/uploads/2020/09/generate.png" && stop8 == false){
+                if(document.getElementsByTagName("img")[i].src == "https://xpressnews247.in/wp-content/uploads/2020/12/generate.png" && stop8 == false){
                     document.getElementsByTagName("img")[i].click()
                     stop8 = true;
                     break;
@@ -73,8 +73,7 @@ var stop8 = false;
         }catch(e){}
         try{
             for(var m=0;m <30;m++){
-                if(document.getElementsByTagName("img")[m].src == "https://androidnougatapk.com/wp-content/uploads/2020/09/go.png" && stop2 == false){
-                    document.getElementsByTagName("img")[m].click()
+                if(document.getElementsByTagName("img")[m].src == "https://xpressnews247.in/wp-content/uploads/2020/12/go.png" && stop2 == false){
                     setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").innerHTML.slice(30,document.getElementById("wpsafe-link").innerHTML.lastIndexOf("blank") - 5)},5000)
                     stop2 = true;
                     break;
