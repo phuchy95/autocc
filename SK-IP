@@ -61,6 +61,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},10000);
             stop6 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "GET LINK" && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},10000);
+            stop6 = true;
+        }}catch(e){}
         try{if(document.getElementsByTagName("iframe")[9].contentDocument.getElementById("B1").innerHTML == "Cancel" && stop5 == false && document.readyState == "complete"){
             setTimeout(function(){document.getElementsByTagName("iframe")[9].contentDocument.getElementById("B1").click();},60000);
             console.log("a")
