@@ -1,0 +1,69 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/im-your-woman/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/alabama-snake/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/wild-mountain-thyme/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/let-them-all-talk/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dr-seuss-the-grinch-musical/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-call/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/alabama-snake/" && stop4 == false){
+            window.location.href = "https://dulinks.in/T6Ar"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/wild-mountain-thyme/" && stop4 == false){
+            window.location.href = "https://dulinks.in/jZMqkBXs"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/let-them-all-talk/" && stop4 == false){
+            window.location.href = "https://dulinks.in/Yo3UvWmr"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dr-seuss-the-grinch-musical/" && stop4 == false){
+            window.location.href = "https://dulinks.in/BWbvfiXi"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-call/" && stop4 == false){
+            window.location.href = "https://dulinks.in/ATryMr"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("countdown")[0].innerText.includes("0") && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop8 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop8 = true;
+        }}catch(e){}
+    },6000)
+})();
