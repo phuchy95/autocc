@@ -60,5 +60,13 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].click();},5000)
             stop6 = true;
         }}catch(e){}
+        try{if(document.getElementById("wpsafe-time").innerHTML == "1" && stop1 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},3000)
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop2 == false){
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[27].innerText.slice(document.getElementsByTagName("script")[27].innerText.indexOf('=')+3,document.getElementsByTagName("script")[27].innerText.indexOf(';')-1)},3000)
+            stop2 = true;
+        }}catch(e){}
     },6000)
 })();
