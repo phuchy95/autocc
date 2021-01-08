@@ -65,20 +65,25 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},10000);
             stop6 = true;
         }}catch(e){}
-        try{if(document.getElementsByTagName("iframe")[9].contentDocument.getElementById("B1").innerHTML == "Cancel" && stop5 == false && document.readyState == "complete"){
-            setTimeout(function(){document.getElementsByTagName("iframe")[9].contentDocument.getElementById("B1").click();},60000);
-            console.log("a")
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
+             stop1 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},10000);
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "GET LINK" && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},10000);
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText == "CLOSE" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg")[0].click();},30000);
             stop5 = true;
         }}catch(e){}
-        try{if(document.getElementsByTagName("iframe")[11].contentDocument.getElementById("B1").innerHTML == "Cancel" && stop5 == false && document.readyState == "complete"){
-            setTimeout(function(){document.getElementsByTagName("iframe")[11].contentDocument.getElementById("B1").click();},60000);
-            console.log("a")
-            stop5 = true;
-        }}catch(e){}
-        try{if(document.getElementsByTagName("iframe")[10].contentDocument.getElementById("B1").innerHTML == "Cancel" && stop5 == false && document.readyState == "complete"){
-            setTimeout(function(){document.getElementsByTagName("iframe")[10].contentDocument.getElementById("B1").click();},60000);
-            console.log("a")
-            stop5 = true;
+        try{if(document.getElementById("adtext").innerText == "Click Ads Wait 10 sec To Get Link" && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("row1")[0].click();},30000);
+            stop7 = true;
         }}catch(e){}
     },6000)
 })();
