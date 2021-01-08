@@ -78,12 +78,16 @@ var stop8 = false;
             stop6 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText == "CLOSE" && stop5 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg")[0].click();},30000);
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg")[0].click();},3000);
             stop5 = true;
         }}catch(e){}
         try{if(document.getElementById("adtext").innerText == "Click Ads Wait 10 sec To Get Link" && stop7 == false){
-            setTimeout(function(){document.getElementsByClassName("row1")[0].click();},30000);
+            setTimeout(function(){document.getElementsByClassName("row1")[0].click();},15000);
             stop7 = true;
+        }}catch(e){}
+        try{if(document.getElementById("skip-ad").style.display == "block" && stop2 == false){
+            setTimeout(function(){document.getElementById("skip-ad").click();},3000);
+            stop2 = true;
         }}catch(e){}
     },6000)
 })();
