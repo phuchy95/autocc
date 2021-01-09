@@ -1,0 +1,79 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/come-away/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/chick-fight/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dead-reckoning/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/all-joking-aside/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/last-three-days/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/jingle-jangle-a-christmas-journey/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/chick-fight/" && stop4 == false){
+            window.location.href = "https://a.w4earn.com/Qtk17m9"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dead-reckoning/" && stop4 == false){
+            window.location.href = "https://a.w4earn.com/uIsQQN"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/all-joking-aside/" && stop4 == false){
+            window.location.href = "https://a.w4earn.com/SIBHMg"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/last-three-days/" && stop4 == false){
+            window.location.href = "https://a.w4earn.com/Xmq4ujzT"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/jingle-jangle-a-christmas-journey/" && stop4 == false){
+            window.location.href = "https://a.w4earn.com/u7LwyfW"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+             setTimeout(function(){document.getElementById("wpsafelinkhuman").click();},3000);
+             stop1 = true;
+         }}catch(e){}
+        try{for(var n=0;n<23;n++ && stop2 == false){
+            if(document.getElementsByTagName("img")[n].src == "https://www.jobswd.com/zm/wp-content/plugins/wp-safelink/assets/generate4.png"){
+                document.getElementsByTagName("img")[n].click();
+                stop2 = true;
+                break;
+            }
+        }}catch(e){}
+        try{for(var m=0;m<23;m++ && stop3 == false){
+            if(document.getElementsByTagName("img")[m].src == "https://www.jobswd.com/zm/wp-content/plugins/wp-safelink/assets/target4.png"){
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
+                stop3 = true;
+                break;
+            }
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop4 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
+             stop4 = true;
+         }}catch(e){}
+    },6000)
+})();
