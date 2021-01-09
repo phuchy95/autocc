@@ -32,5 +32,9 @@ var stop8 = false;
             setTimeout(function(){window.location.reload();},3000)
             stop5 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].innerText.includes("download link") && stop2 == false && document.getElementsByClassName("seconds")[0].innerText == "1"){
+             setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].click();},3000);
+             stop2 = true;
+         }}catch(e){}
     },6000)
 })();
