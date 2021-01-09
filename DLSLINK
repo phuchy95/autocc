@@ -1,0 +1,77 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-dark-and-the-wicked/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/wheels-of-fortune/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dont-click/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/we-still-say-grace/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/archenemy/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-dark-and-the-wicked/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/fa797352"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/wheels-of-fortune/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/dcec1e00"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dont-click/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/5d88d889"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/we-still-say-grace/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/fe24ae55"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/archenemy/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/b2e416d4"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-primary mt-2")[0].click();},3000);
+             stop1 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].innerText == "Open URL" && stop6 == false && stop5 == true && stop1 == true){
+            setTimeout(function(){window.location.href = document.getElementById("actual-url").value},5000);
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Proceed " && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("mt-4 btn btn-dark")[0].click();},3000);
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-dark btn-sm float-right mt-2")[0].innerText == "Skip Ad" && stop4 == false && stop3 == true){
+            setTimeout(function(){document.getElementsByClassName("btn btn-dark btn-sm float-right mt-2")[0].click();},3000);
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Open Link " && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("mt-4 btn btn-dark")[0].click();},3000);
+            stop5 = true;
+        }}catch(e){}
+    },6000)
+})();
