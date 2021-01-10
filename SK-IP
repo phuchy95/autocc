@@ -89,5 +89,9 @@ var stop8 = false;
             setTimeout(function(){document.getElementById("skip-ad").click();},3000);
             stop2 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("techroll") && stop8 == false){
+            setTimeout(function(){window.location.href = "https://www.google.com"},3000);
+            stop8 = true;
+        }}catch(e){}
     },6000)
 })();
