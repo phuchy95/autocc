@@ -58,7 +58,7 @@ var stop8 = false;
              stop1 = true;
          }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].innerText == "Open URL" && stop6 == false && stop5 == true && stop1 == true){
-            setTimeout(function(){window.location.href = document.getElementById("actual-url").value},20000);
+            setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].click();},20000);
             stop6 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Proceed " && stop3 == false){
