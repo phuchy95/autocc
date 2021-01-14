@@ -61,9 +61,17 @@ var stop8 = false;
              setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
              stop4 = true;
          }}catch(e){}
-        try{if(document.getElementById("yuidea-time").innerText == "1" && stop2 == false){
-             setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},7000);
+        try{if(document.getElementsByClassName("textr txt-fixed")[0].innerText == "click bellow ads and wait 10 Second to unlock your link" && stop2 == false && document.getElementById("wpsafe-time").innerText == "1"){
+            setTimeout(function(){document.getElementsByClassName("image-container")[0].click();},3000);
              stop2 = true;
+         }}catch(e){}
+        try{if(stop2 == true && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
+            stop5 = true;
+         }}catch(e){}
+        try{if(document.getElementById("yuidea-time").innerText == "1" && stop6 == false && document.getElementsByClassName("yu-btn yu-blue")[0].innerText == "CONTINUE"){
+            setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000);
+             stop6 = true;
          }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false && window.location.href.includes("richlink")){
              setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
