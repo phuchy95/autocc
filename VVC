@@ -34,23 +34,23 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/a-bennett-song-holiday/" && stop4 == false){
-            window.location.href = "https://vvc.vc/quQLY"
+            window.location.href = "http://vvc.vc/fTESmYE6"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/attack-of-the-unknown/" && stop4 == false){
-            window.location.href = "https://vvc.vc/JbOIIUtO"
+            window.location.href = "http://vvc.vc/rTL7"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/bedroom-story/" && stop4 == false){
-            window.location.href = "https://vvc.vc/uidsJFu"
+            window.location.href = "http://vvc.vc/4oRY9mss"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-cure/" && stop4 == false){
-            window.location.href = "https://vvc.vc/s2v0dID"
+            window.location.href = "http://vvc.vc/7brZDJM"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/echo-boomers/" && stop4 == false){
-            window.location.href = "https://vvc.vc/rH4T"
+            window.location.href = "http://vvc.vc/imjG"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
