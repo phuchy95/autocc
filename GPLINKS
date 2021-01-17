@@ -36,37 +36,41 @@ var stop8 = false;
             window.location.href = "https://gplinks.co/1zfLj8vI"
             stop4 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].innerText == "Open - Continue" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},5000);
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("modal-title text-center text-weight-bold")[0].innerText == "Click Ad & Wait for 10 seconds to continue." && stop3 == false && window.location.href.includes("adomainscan")){
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[19].textContent.slice(document.getElementsByTagName("script")[19].textContent.indexOf("https"),document.getElementsByTagName("script")[19].textContent.lastIndexOf("'"))},5000);
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("modal-title text-center text-weight-bold")[0].innerText == "Click Ad & Wait for 10 seconds to continue." && stop6 == false && window.location.href.includes("mynewspost")){
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[27].textContent.slice(document.getElementsByTagName("script")[27].textContent.indexOf("https"),document.getElementsByTagName("script")[27].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("MarketGidCDLayout1069526")[0].innerText == "GO" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("MarketGidCDButton1069526")[0].click();},5000);
+            stop4 = true;
+        }}catch(e){}
+         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false && document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerHTML.includes("continue")){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].innerText == "Unlock Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].click();},5000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].innerHTML == "Get Link" && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].click();},5000)
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary")[0].innerHTML == "Verify" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},5000)
+            stop3 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].innerHTML == "Verify" && stop3 == false && document.readyState == "complete"){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].click();},10000)
             stop3 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].innerText == "Unlock Link" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].click();},5000)
-            stop3 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].innerHTML == "Get Link" && stop6 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].click();},5000)
-            stop6 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].innerHTML == "Verify" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].click();},5000)
-            stop3 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].innerText == "Unlock Link" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].click();},5000)
-            stop3 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].innerHTML == "Get Link" && stop6 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].click();},5000)
-            stop6 = true;
-        }}catch(e){}
-        try{if(document.getElementById("wpsafe-time").innerHTML == "1" && stop1 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},3000)
-            stop1 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop2 == false){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[27].innerText.slice(document.getElementsByTagName("script")[27].innerText.indexOf('=')+3,document.getElementsByTagName("script")[27].innerText.indexOf(';')-1)},3000)
-            stop2 = true;
         }}catch(e){}
     },6000)
 })();
