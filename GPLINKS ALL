@@ -69,7 +69,7 @@ var stop8 = false;
             setTimeout(function(){window.location.href = document.getElementsByTagName("script")[19].textContent.slice(document.getElementsByTagName("script")[19].textContent.indexOf("https"),document.getElementsByTagName("script")[19].textContent.lastIndexOf("'"))},5000);
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("modal-title text-center text-weight-bold")[0].innerText == "Click Ad & Wait for 10 seconds to continue." && stop6 == false && window.location.href.includes("mynewspost")){
+        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost")){
             setTimeout(function(){window.location.href = document.getElementsByTagName("script")[27].textContent.slice(document.getElementsByTagName("script")[27].textContent.indexOf("https"),document.getElementsByTagName("script")[27].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
             stop6 = true;
         }}catch(e){}
