@@ -61,7 +61,7 @@ var stop8 = false;
             window.location.href = "https://gplinks.co/bU1Ns2"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].innerText == "Open - Continue" && stop2 == false){
+        try{if(document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].innerText == "Open - Continue" && stop2 == false && document.getElementById("wpsafe-wait1").style.display == "none"){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},5000);
             stop2 = true;
         }}catch(e){}
