@@ -32,6 +32,10 @@ var stop8 = false;
             setTimeout(function(){window.location.reload();},3000)
             stop5 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-block pr-5")[0].innerText == "Free Download" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-block pr-5")[0].click();},5000)
+            stop3 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].innerText.includes("download link") && stop2 == false && document.getElementsByClassName("seconds")[0].innerText == "1"){
              setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].click();},3000);
              stop2 = true;
