@@ -65,12 +65,8 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("image-container")[0].click();},3000);
              stop2 = true;
          }}catch(e){}
-        try{if(stop2 == true && stop5 == false){
+        try{if(document.getElementById("wpsafe-time").innerText == "1" && stop6 == false && document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "Continue"){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
-            stop5 = true;
-         }}catch(e){}
-        try{if(document.getElementById("yuidea-time").innerText == "1" && stop6 == false && document.getElementsByClassName("yu-btn yu-blue")[0].innerText == "CONTINUE"){
-            setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000);
              stop6 = true;
          }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false && window.location.href.includes("richlink")){
