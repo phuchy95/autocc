@@ -36,16 +36,16 @@ var stop8 = false;
             window.location.href = "https://gplinks.co/bU1Ns2"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].innerText == "Open - Continue" && stop2 == false){
+        try{if(document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].innerText == "Open - Continue" && stop2 == false && document.getElementById("wpsafe-wait1").style.display == "none"){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},5000);
             stop2 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("modal-title text-center text-weight-bold")[0].innerText == "Click Ad & Wait for 10 seconds to continue." && stop3 == false && window.location.href.includes("adomainscan")){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[19].textContent.slice(document.getElementsByTagName("script")[19].textContent.indexOf("https"),document.getElementsByTagName("script")[19].textContent.lastIndexOf("'"))},5000);
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[18].textContent.slice(document.getElementsByTagName("script")[18].textContent.indexOf("https"),document.getElementsByTagName("script")[18].textContent.lastIndexOf("'"))},5000);
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost")){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[27].textContent.slice(document.getElementsByTagName("script")[27].textContent.indexOf("https"),document.getElementsByTagName("script")[27].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[28].textContent.slice(document.getElementsByTagName("script")[28].textContent.indexOf("https"),document.getElementsByTagName("script")[28].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
             stop6 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("MarketGidCDLayout1069526")[0].innerText == "GO" && stop4 == false){
