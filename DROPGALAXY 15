@@ -12,10 +12,7 @@ var stop8 = false;
             window.location.href = "https://dropgalaxy.in/94ly3tgzxmqc"
             stop1 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].innerText.includes("download link") && stop2 == false && document.getElementsByClassName("seconds")[0].innerText == "1"){
-             setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[0].click();},3000);
-             stop2 = true;
-         }}catch(e){}
+       
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].click();},3000)
             stop2 = true;
