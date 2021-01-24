@@ -42,7 +42,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-racer/" && stop4 == false){
-            window.location.href = "https://try2link.net/SdGcYc0"
+            window.location.href = "https://try2link.net/eUSQCV5"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/teenage-badass/" && stop4 == false){
