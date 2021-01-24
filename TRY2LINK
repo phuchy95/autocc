@@ -38,7 +38,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/lost-girls-and-love-hotels/" && stop4 == false){
-            window.location.href = "https://try2link.net/yF9p"
+            window.location.href = "https://try2link.net/nWodgI"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-racer/" && stop4 == false){
