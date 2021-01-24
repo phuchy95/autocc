@@ -1,0 +1,77 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/godmothered/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 6);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/body-of-water/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/lets-not-meet-in-the-woods/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/bright-hill-road/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/american-thief/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/curse-of-aurore/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/butchers/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/body-of-water/" && stop4 == false){
+            window.location.href = "https://exe.io/cHPUVLqo"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/lets-not-meet-in-the-woods/" && stop4 == false){
+            window.location.href = "https://exe.io/5rBg"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/bright-hill-road/" && stop4 == false){
+            window.location.href = "https://exe.io/pszFyE"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/american-thief/" && stop4 == false){
+            window.location.href = "https://exe.io/dL9ruf"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/curse-of-aurore/" && stop4 == false){
+            window.location.href = "https://exe.io/oT4rtJey"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/butchers/" && stop4 == false){
+            window.location.href = "https://exe.io/7rke"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-goo")[0].innerText == "Click here to continue" && stop2 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-goo btn-captcha")[0].click();},3000);
+             stop2 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-goo get-link")[0].innerText == "Get Link " && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-goo get-link")[0].click();},3000)
+            stop3 = true;
+        }}catch(e){}
+    },6000)
+})();
