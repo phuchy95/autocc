@@ -42,7 +42,7 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/project-power/" && stop4 == false){
-            window.location.href = "https://cutwin.com/5UGMc"
+            window.location.href = "https://cutwin.com/kf21aK0"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/deathstroke-knights-dragons/" && stop4 == false){
