@@ -46,7 +46,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/gemini-man/" && stop4 == false){
-            window.location.href = "https://xpshort.com/E6KvTBKh"
+            window.location.href = "https://xpshort.com/tNr2CYMfOe"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/survive-the-night/" && stop4 == false){
