@@ -54,7 +54,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/cut-and-chop/" && stop4 == false){
-            window.location.href = "https://xpshort.com/I4aolQs6"
+            window.location.href = "https://xpshort.com/xmnOaeZa"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/hard-kill/" && stop4 == false){
