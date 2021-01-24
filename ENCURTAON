@@ -1,0 +1,77 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/godmothered/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/chick-fight/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dead-reckoning/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/all-joking-aside/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/last-three-days/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/jingle-jangle-a-christmas-journey/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/chick-fight/" && stop4 == false){
+            window.location.href = "https://llinkon.com/ivIV"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dead-reckoning/" && stop4 == false){
+            window.location.href = "https://llinkon.com/kSyNa"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/all-joking-aside/" && stop4 == false){
+            window.location.href = "https://llinkon.com/M5Uh"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/last-three-days/" && stop4 == false){
+            window.location.href = "https://llinkon.com/RnW5WY"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/jingle-jangle-a-christmas-journey/" && stop4 == false){
+            window.location.href = "https://llinkon.com/6hgxcR"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg")[0].innerText == "OBTER LINK" && stop2 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg")[0].click();},3000);
+             stop2 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg")[1].innerText == "OBTER LINK" && stop3 == false && stop2 == true){
+             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg")[1].click();},7000);
+             stop3 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "Continuar" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Obter link" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
+    },6000)
+})();
