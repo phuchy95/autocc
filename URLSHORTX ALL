@@ -38,7 +38,7 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-windermere-children/" && stop4 == false){
-            window.location.href = "https://xpshort.com/4659kcGg"
+            window.location.href = "https://xpshort.com/MUBKxqMlJZ"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-call-of-the-wild/" && stop4 == false){
