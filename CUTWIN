@@ -46,7 +46,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/deathstroke-knights-dragons/" && stop4 == false){
-            window.location.href = "https://cutwin.com/a1drNKa"
+            window.location.href = "https://cutwin.com/6BsOyq"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/fearless/" && stop4 == false){
