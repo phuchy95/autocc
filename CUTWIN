@@ -54,7 +54,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/magic-camp/" && stop4 == false){
-            window.location.href = "https://cutwin.com/jQb0mER"
+            window.location.href = "https://cutwin.com/QjLLFs"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-king-of-staten-island/" && stop4 == false){
