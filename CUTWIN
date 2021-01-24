@@ -66,7 +66,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/one-night-in-bangkok/" && stop4 == false){
-            window.location.href = "https://cutwin.com/lVYpN"
+            window.location.href = "https://cutwin.com/VwduJLW"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
