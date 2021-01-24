@@ -50,7 +50,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/survive-the-night/" && stop4 == false){
-            window.location.href = "https://xpshort.com/curCsXE9U"
+            window.location.href = "https://xpshort.com/d55JTHZCG"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/cut-and-chop/" && stop4 == false){
