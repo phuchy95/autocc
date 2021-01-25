@@ -24,6 +24,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("seconds")[0].innerText == "1" && stop6 == false && document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].innerText == "Create download link"){
+            setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].click();},3000)
+            stop6 = true;
+        }}catch(e){}
         try{if(document.getElementById("dismiss-button") != null && stop4 == false){
             setTimeout(function(){document.getElementById("dismiss-button").click();},3000)
             stop4 = true;
