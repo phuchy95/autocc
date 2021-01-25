@@ -65,8 +65,8 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},5000);
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("modal-title text-center text-weight-bold")[0].innerText == "Click Ad & Wait for 10 seconds to continue." && stop3 == false && window.location.href.includes("adomainscan")){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[18].textContent.slice(document.getElementsByTagName("script")[18].textContent.indexOf("https"),document.getElementsByTagName("script")[18].textContent.lastIndexOf("'"))},5000);
+        try{if(document.getElementsByClassName("text-dark")[0].innerText == "Please click below AD's to continue" && stop3 == false && window.location.href.includes("adomainscan")){
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[28].textContent.slice(document.getElementsByTagName("script")[28].textContent.indexOf("https"),document.getElementsByTagName("script")[28].textContent.indexOf("window.open")-7)},5000);
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost")){
