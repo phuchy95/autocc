@@ -68,6 +68,10 @@ var stop8 = false;
         try{if(document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "Continuar" && stop4 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
             stop4 = true;
+        }}catch(e){}   
+        try{if(document.getElementsByClassName("btn btn-success btn-lg")[0].innerText == "Descer até embaixo" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg")[0].click();},3000)
+            stop2 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Obter link" && stop5 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
