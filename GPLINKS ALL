@@ -65,9 +65,13 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},5000);
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("text-dark")[0].innerText == "Please click below AD's to continue" && stop3 == false && window.location.href.includes("adomainscan")){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[28].textContent.slice(document.getElementsByTagName("script")[28].textContent.indexOf("https"),document.getElementsByTagName("script")[28].textContent.indexOf("window.open")-7)},5000);
-            stop3 = true;
+        try{if(document.getElementsByClassName("text-dark")[0].innerText == "Please click below AD's to continue" && stop8 == false && window.location.href.includes("adomainscan")){
+            setTimeout(function(){document.getElementsByClassName("mcimg")[2].click();},5000);
+            stop8 = true;
+        }}catch(e){}
+        try{if(stop8 == true && window.location.href.includes("adomainscan") && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("close close-btn-open-window")[0].click();},15000);
+            stop7 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost")){
             setTimeout(function(){window.location.href = document.getElementsByTagName("script")[28].textContent.slice(document.getElementsByTagName("script")[28].textContent.indexOf("https"),document.getElementsByTagName("script")[28].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
