@@ -69,8 +69,12 @@ var stop8 = false;
             setTimeout(function(){window.location.href = document.getElementsByTagName("script")[28].textContent.slice(document.getElementsByTagName("script")[28].textContent.indexOf("https"),document.getElementsByTagName("script")[28].textContent.indexOf("window.open")-7)},15000);
             stop8 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost")){
+        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost") && document.getElementsByTagName("script")[28] != null){
             setTimeout(function(){window.location.href = document.getElementsByTagName("script")[28].textContent.slice(document.getElementsByTagName("script")[28].textContent.indexOf("https"),document.getElementsByTagName("script")[28].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost") && document.getElementsByTagName("script")[28] == null){
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[27].textContent.slice(document.getElementsByTagName("script")[27].textContent.indexOf("https"),document.getElementsByTagName("script")[27].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
             stop6 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("MarketGidCDLayout1069526")[0].innerText == "GO" && stop4 == false){
