@@ -118,5 +118,9 @@ var stop8 = false;
             setTimeout(function(){window.location.reload();},3000)
             stop5 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("seconds")[0].innerText == "1" && stop6 == false && document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].innerText == "Create download link"){
+            setTimeout(function(){document.getElementsByClassName("downloadbtn btn btn-block btn-primary btn-lg mt-3")[1].click();},3000)
+            stop6 = true;
+        }}catch(e){}
     },6000)
 })();
