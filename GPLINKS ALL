@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/the-lego-star-wars-holiday-special/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 11);
+            var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -37,26 +37,6 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/cranston-academy-monster-zone/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-dark-and-the-wicked/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 7 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/wheels-of-fortune/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 8 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/dont-click/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 9 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/we-still-say-grace/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 10 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/archenemy/"
-            stop2 = true;
-        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/download-idm-v6-35-full-crack/" && stop4 == false){
             window.location.href = "https://gplinks.co/1zfLj8vI"
             stop4 = true;
@@ -79,26 +59,6 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/cranston-academy-monster-zone/" && stop4 == false){
             window.location.href = "https://go.gplinks.co/Fs6w65w"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-dark-and-the-wicked/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/bSUe"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/wheels-of-fortune/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/mwRgm"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/dont-click/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/sEae3znx"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/we-still-say-grace/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/CQQIQVo"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/archenemy/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/0Rld"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].innerText == "Open - Continue" && stop2 == false && document.getElementById("wpsafe-wait1").style.display == "none"){
