@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "*https://all4yourlife.tech/angie-lost-girls/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 5);
+            var bienso = Math.floor(Math.random() * 12);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -33,6 +33,34 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/archenemy/"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/bigfoot-family/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/beneath-a-sea-of-lights/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/letters-to-satan-claus/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-penitent-thief/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/loves-spell/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 10 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/sylvies-love/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 11 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/strain-100/"
+            stop2 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-dark-and-the-wicked/" && stop4 == false){
             window.location.href = "https://dlvisit.com/fa797352"
             stop4 = true;
@@ -51,6 +79,34 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/archenemy/" && stop4 == false){
             window.location.href = "https://dlvisit.com/b2e416d4"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/bigfoot-family/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/387ce7cf"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/beneath-a-sea-of-lights/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/ea35704e"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/letters-to-satan-claus/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/9f64e190"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-penitent-thief/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/d303c749"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/loves-spell/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/1c8e35ae"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/sylvies-love/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/922d54da"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/strain-100/" && stop4 == false){
+            window.location.href = "https://dlvisit.com/2d4ce1ab"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
