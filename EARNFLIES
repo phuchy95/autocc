@@ -8,65 +8,89 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "*https://all4yourlife.tech/all-my-life/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 7);
+        try{if(window.location.href == "https://all4yourlife.tech/all-my-life/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 10);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/bigfoot-family/"
+            window.location.href = "https://all4yourlife.tech/the-lost/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/beneath-a-sea-of-lights/"
+            window.location.href = "https://all4yourlife.tech/hunted/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/letters-to-satan-claus/"
+            window.location.href = "https://all4yourlife.tech/dont-tell-a-soul/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-penitent-thief/"
+            window.location.href = "https://all4yourlife.tech/come-play/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/loves-spell/"
+            window.location.href = "https://all4yourlife.tech/we-are-the-missing/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/sylvies-love/"
+            window.location.href = "https://all4yourlife.tech/run-hide-fight/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/strain-100/"
+            window.location.href = "https://all4yourlife.tech/one-night-in-miami/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/bigfoot-family/" && stop4 == false){
-            window.location.href = "https://adnangamer.com/tJsxG3ci"
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-adventure-of-a-r-i-my-robot-friend/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-captive-nanny/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/quarantine-girl/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-lost/" && stop4 == false){
+            window.location.href = "https://totalshort.link/JhGw"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/beneath-a-sea-of-lights/" && stop4 == false){
-            window.location.href = "https://adnangamer.com/uHG5N43J"
+        try{if(window.location.href == "https://all4yourlife.tech/hunted/" && stop4 == false){
+            window.location.href = "https://totalshort.link/7hXTe7"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/letters-to-satan-claus/" && stop4 == false){
-            window.location.href = "https://adnangamer.com/poD86SSy"
+        try{if(window.location.href == "https://all4yourlife.tech/dont-tell-a-soul/" && stop4 == false){
+            window.location.href = "https://totalshort.link/sevxs"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-penitent-thief/" && stop4 == false){
-            window.location.href = "https://adnangamer.com/tPOMxoi"
+        try{if(window.location.href == "https://all4yourlife.tech/come-play/" && stop4 == false){
+            window.location.href = "https://totalshort.link/LNAfW33v"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/loves-spell/" && stop4 == false){
-            window.location.href = "https://adnangamer.com/Ax0siY2"
+        try{if(window.location.href == "https://all4yourlife.tech/we-are-the-missing/" && stop4 == false){
+            window.location.href = "https://totalshort.link/qW5V4U36"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/sylvies-love/" && stop4 == false){
-            window.location.href = "https://adnangamer.com/5mAI4"
+        try{if(window.location.href == "https://all4yourlife.tech/run-hide-fight/" && stop4 == false){
+            window.location.href = "https://totalshort.link/sZOLS3GZ"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/strain-100/" && stop4 == false){
-            window.location.href = "https://adnangamer.com/UyY6rE1x"
+        try{if(window.location.href == "https://all4yourlife.tech/one-night-in-miami/" && stop4 == false){
+            window.location.href = "https://totalshort.link/mi4Moia"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-adventure-of-a-r-i-my-robot-friend/" && stop4 == false){
+            window.location.href = "https://totalshort.link/lKgqZW3i"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-captive-nanny/" && stop4 == false){
+            window.location.href = "https://totalshort.link/gvl5vwo"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/quarantine-girl/" && stop4 == false){
+            window.location.href = "https://totalshort.link/TDmU0swM"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
@@ -76,6 +100,18 @@ var stop8 = false;
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000);
             stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://studyuo.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/human-verification4.png" && stop3 == false){
+            setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},5000);
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://studyuo.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/generate4.png" && stop4 == false){
+            setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},5000);
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementById("wpsafe-link").getElementsByTagName("img")[0].src == "https://studyuo.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/target4.png" && stop4 == true && stop5 == false){
+            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].outerHTML.slice(document.getElementById("wpsafe-link").getElementsByTagName("a")[0].outerHTML.indexOf("https"),document.getElementById("wpsafe-link").getElementsByTagName("a")[0].outerHTML.indexOf(",")-1)},5000);
+            stop5 = true;
         }}catch(e){}
     },6000)
 })();
