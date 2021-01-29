@@ -65,7 +65,7 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},5000);
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("text-dark")[0].innerText == "Please click below AD's to continue" && stop8 == false && window.location.href.includes("adomainscan")){
+        try{if(document.getElementsByClassName("text-dark")[0].innerText == "Please click below AD's to continue" && stop8 == false && window.location.href.includes("mynewshub")){
             setTimeout(function(){window.location.href = document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.slice(document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.indexOf("https"),document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.indexOf("window.open")-7)},15000);
             stop8 = true;
         }}catch(e){}
