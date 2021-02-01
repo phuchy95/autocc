@@ -1,0 +1,81 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+(function() {
+    setInterval(function(){
+        try{if(window.location.href == "https://all4yourlife.tech/ten-minutes-to-midnight/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 7);
+            console.log(bienso)
+            stop1 = true;
+        }}catch(e){}
+        try{if(bienso == 0 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/wander-darkly/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/bird/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/double-down/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/herself/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/honey-and-wine/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-house-invictus/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/light-up-night/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/wander-darkly/" && stop4 == false){
+            window.location.href = "https://shrinke.me/c5PbvP"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/bird/" && stop4 == false){
+            window.location.href = "https://shrinke.me/EzjSnEp"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/double-down/" && stop4 == false){
+            window.location.href = "https://shrinke.me/faIl"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/herself/" && stop4 == false){
+            window.location.href = "https://shrinke.me/ewFdf"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/honey-and-wine/" && stop4 == false){
+            window.location.href = "https://shrinke.me/JO5S"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-house-invictus/" && stop4 == false){
+            window.location.href = "https://shrinke.me/34yD5N"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/light-up-night/" && stop4 == false){
+            window.location.href = "https://shrinke.me/QBDkaR"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
+             stop1 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
+             stop3 = true;
+         }}catch(e){}
+    },6000)
+})();
