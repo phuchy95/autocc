@@ -6,52 +6,60 @@ var stop5 = false;
 var stop6 = false;
 var stop7 = false;
 var stop8 = false;
+var dayso;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "*https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
+        try{if(window.location.href == "https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/modern-persuasion/"
+            window.location.href = "https://all4yourlife.tech/no-mans-land/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/sister-of-the-groom/"
+            window.location.href = "https://all4yourlife.tech/breaking-fast/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/breach/"
+            window.location.href = "https://all4yourlife.tech/bruh-mp4/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/ma-raineys-black-bottom/"
+            window.location.href = "https://all4yourlife.tech/retreat-to-paradise/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/hunter-hunter/"
+            window.location.href = "https://all4yourlife.tech/driven-to-the-edge/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/modern-persuasion/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/yI9d3h"
+        try{if(window.location.href == "https://all4yourlife.tech/no-mans-land/" && stop4 == false){
+            window.location.href = "https://link.richlink.me/HNHyI"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/sister-of-the-groom/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/ukPzv1"
+        try{if(window.location.href == "https://all4yourlife.tech/breaking-fast/" && stop4 == false){
+            window.location.href = "https://link.richlink.me/lXBZfyIx"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/breach/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/E5kNI"
+        try{if(window.location.href == "https://all4yourlife.tech/bruh-mp4/" && stop4 == false){
+            window.location.href = "https://link.richlink.me/119QKg2"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/ma-raineys-black-bottom/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/pVYJw9"
+        try{if(window.location.href == "https://all4yourlife.tech/retreat-to-paradise/" && stop4 == false){
+            window.location.href = "https://link.richlink.me/IOAvHyB"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/hunter-hunter/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/5WL6a4c"
+        try{if(window.location.href == "https://all4yourlife.tech/driven-to-the-edge/" && stop4 == false){
+            window.location.href = "https://link.richlink.me/7ivrJQKj"
             stop4 = true;
+        }}catch(e){}
+         try{for(var i=0;i<80;i++ && stop8 == false){
+            if(document.getElementsByTagName("script")[i].textContent.includes("fitcoach")){
+                dayso = i;
+                stop8 = true;
+                break;
+            }
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
              setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000);
@@ -64,6 +72,10 @@ var stop8 = false;
         try{if(document.getElementById("yuidea-generate").style.display == "block" && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},7000);
              stop2 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("yu-btn yu-blue")[0].innerText == "CONTINUE" && stop7 == false && window.location.href.includes("healthylink") && document.getElementsByClassName("g-recaptcha")[0] == null && stop8 == true){
+            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[dayso].textContent.slice(document.getElementsByTagName("script")[dayso].textContent.indexOf("=") +3,document.getElementsByTagName("script")[dayso].textContent.indexOf(";")-1)},7000);
+             stop7 = true;
          }}catch(e){}
         try{if(document.getElementById("wpsafe-time").innerText == "1" && stop6 == false && document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "Continue"){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
