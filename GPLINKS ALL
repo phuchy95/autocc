@@ -8,93 +8,65 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "*https://all4yourlife.tech/the-lego-star-wars-holiday-special/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 6);
+        try{if(window.location.href == "https://all4yourlife.tech/the-lego-star-wars-holiday-special/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/download-idm-v6-35-full-crack/"
+            window.location.href = "https://all4yourlife.tech/alpine-lake/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/weathering-with-you/"
+            window.location.href = "https://all4yourlife.tech/a-ghost-waits/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/escape-from-pretoria/"
+            window.location.href = "https://all4yourlife.tech/a-world-of-worlds/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/instapsycho/"
+            window.location.href = "https://all4yourlife.tech/rams/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/back-to-the-titanic/"
+            window.location.href = "https://all4yourlife.tech/tulsa/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/cranston-academy-monster-zone/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/download-idm-v6-35-full-crack/" && stop4 == false){
-            window.location.href = "https://gplinks.co/1zfLj8vI"
+        try{if(window.location.href == "https://all4yourlife.tech/alpine-lake/" && stop4 == false){
+            window.location.href = "https://earnload.co/vsYfGcA"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/weathering-with-you/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/nH1e"
+        try{if(window.location.href == "https://all4yourlife.tech/a-ghost-waits/" && stop4 == false){
+            window.location.href = "https://earnload.co/BgWb"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/escape-from-pretoria/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/UNcb"
+        try{if(window.location.href == "https://all4yourlife.tech/a-world-of-worlds/" && stop4 == false){
+            window.location.href = "https://earnload.co/nuDC"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/instapsycho/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/RtVfP"
+        try{if(window.location.href == "https://all4yourlife.tech/rams/" && stop4 == false){
+            window.location.href = "https://earnload.co/nMEj"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/back-to-the-titanic/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/Ljwb"
+        try{if(window.location.href == "https://all4yourlife.tech/tulsa/" && stop4 == false){
+            window.location.href = "https://earnload.co/WrICEe2V"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/cranston-academy-monster-zone/" && stop4 == false){
-            window.location.href = "https://go.gplinks.co/Fs6w65w"
-            stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].innerText == "Open - Continue" && stop2 == false && document.getElementById("wpsafe-wait1").style.display == "none"){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha open-continue-btn")[0].click();},5000);
-            stop2 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop8 == false && window.location.href.includes("mynewshub")){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.slice(document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.indexOf("https"),document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.indexOf("window.open")-7)},15000);
-            stop8 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("modal fade show")[0].style.display == "block" && stop6 == false && window.location.href.includes("mynewspost")){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.slice(document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.indexOf("https"),document.getElementsByTagName("script")[document.getElementsByTagName("script").length -1].textContent.lastIndexOf("?"))+"?"+localStorage.getItem("visitor_id")},5000);
-            stop6 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("MarketGidCDLayout1069526")[0].innerText == "GO" && stop4 == false){
-            setTimeout(function(){document.getElementsByClassName("MarketGidCDButton1069526")[0].click();},5000);
-            stop4 = true;
-        }}catch(e){}
-         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false && document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerHTML.includes("continue")){
+         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
             stop5 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].innerText == "Unlock Link" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary unlock-btn")[0].click();},5000)
-            stop3 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].innerHTML == "Get Link" && stop6 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-block btn-lg btn-primary get-link")[0].click();},5000)
-            stop6 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary")[0].innerHTML == "Verify" && stop3 == false){
+        try{if(document.getElementsByClassName("btn btn-primary")[0].innerText == "Verify" && stop1 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},5000)
-            stop3 = true;
+            stop1 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].innerHTML == "Verify" && stop3 == false && document.readyState == "complete"){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary mb-2 verify-btn-container")[0].click();},10000)
+        try{if(document.getElementsByClassName("unlock-btn")[0].innerText == "Unlock Link" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("unlock-btn")[0].click();},5000)
+            stop2 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false && stop2 == true){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},30000)
             stop3 = true;
         }}catch(e){}
     },6000)
