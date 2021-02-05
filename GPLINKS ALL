@@ -54,27 +54,27 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-lost/" && stop4 == false){
-            window.location.href = "https://artipedia.id/1RJogu"
+            window.location.href = "http://artipedia.id/1RJogu"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/hunted/" && stop4 == false){
-            window.location.href = "https://artipedia.id/UWH3fFc"
+            window.location.href = "http://artipedia.id/UWH3fFc"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/dont-tell-a-soul/" && stop4 == false){
-            window.location.href = "https://artipedia.id/jIYUut"
+            window.location.href = "http://artipedia.id/jIYUut"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/come-play/" && stop4 == false){
-            window.location.href = "https://artipedia.id/gI8WCrBP"
+            window.location.href = "http://artipedia.id/gI8WCrBP"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/we-are-the-missing/" && stop4 == false){
-            window.location.href = "https://artipedia.id/OPDlJ"
+            window.location.href = "http://artipedia.id/OPDlJ"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/run-hide-fight/" && stop4 == false){
-            window.location.href = "https://artipedia.id/rSyzkm"
+            window.location.href = "http://artipedia.id/rSyzkm"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/one-night-in-miami/" && stop4 == false){
