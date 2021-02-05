@@ -54,64 +54,52 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-lost/" && stop4 == false){
-            window.location.href = "https://totalshort.link/JhGw"
+            window.location.href = "https://artipedia.id/1RJogu"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/hunted/" && stop4 == false){
-            window.location.href = "https://totalshort.link/7hXTe7"
+            window.location.href = "https://artipedia.id/UWH3fFc"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/dont-tell-a-soul/" && stop4 == false){
-            window.location.href = "https://totalshort.link/sevxs"
+            window.location.href = "https://artipedia.id/jIYUut"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/come-play/" && stop4 == false){
-            window.location.href = "https://totalshort.link/LNAfW33v"
+            window.location.href = "https://artipedia.id/gI8WCrBP"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/we-are-the-missing/" && stop4 == false){
-            window.location.href = "https://totalshort.link/qW5V4U36"
+            window.location.href = "https://artipedia.id/OPDlJ"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/run-hide-fight/" && stop4 == false){
-            window.location.href = "https://totalshort.link/sZOLS3GZ"
+            window.location.href = "https://artipedia.id/rSyzkm"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/one-night-in-miami/" && stop4 == false){
-            window.location.href = "https://totalshort.link/mi4Moia"
+            window.location.href = "http://artipedia.id/srWYzo"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-adventure-of-a-r-i-my-robot-friend/" && stop4 == false){
-            window.location.href = "https://totalshort.link/lKgqZW3i"
+            window.location.href = "http://artipedia.id/7WaGE"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-captive-nanny/" && stop4 == false){
-            window.location.href = "https://totalshort.link/gvl5vwo"
+            window.location.href = "http://artipedia.id/ngIooC"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/quarantine-girl/" && stop4 == false){
-            window.location.href = "https://totalshort.link/TDmU0swM"
+            window.location.href = "http://artipedia.id/GENr"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
-             stop1 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000);
-            stop2 = true;
-        }}catch(e){}
-        try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://studyuo.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/human-verification4.png" && stop3 == false){
-            setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},5000);
-            stop3 = true;
-        }}catch(e){}
-        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://studyuo.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/generate4.png" && stop4 == false){
-            setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},5000);
-            stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementById("wpsafe-link").getElementsByTagName("img")[0].src == "https://studyuo.com/wp-content/plugins/SafeAdlink%20HIVEcorp./assets/target4.png" && stop4 == true && stop5 == false){
-            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].outerHTML.slice(document.getElementById("wpsafe-link").getElementsByTagName("a")[0].outerHTML.indexOf("https"),document.getElementById("wpsafe-link").getElementsByTagName("a")[0].outerHTML.indexOf(",")-1)},5000);
+         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},5000)
             stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},30000)
+            stop3 = true;
         }}catch(e){}
     },6000)
 })();
