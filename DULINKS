@@ -69,6 +69,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("LC20lb DKV0Md")[0].click();},3000)
             stop7 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000)
+            stop5 = true;
+        }}catch(e){}
         try{if(window.location.href.includes("directredirection") && stop4 == false){
             setTimeout(function(){window.location.href = "https://www.google.com"},4000);
             stop4 = true;
