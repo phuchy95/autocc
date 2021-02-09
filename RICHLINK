@@ -9,7 +9,7 @@ var stop8 = false;
 var dayso;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
+        try{if(window.location.href == "*https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
