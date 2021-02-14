@@ -46,53 +46,48 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/huey/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/CEfsIQ48"
+            window.location.href = "https://doge.giscr.ac.th/nzwBz"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/simmer/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/tUSNuFB"
+            window.location.href = "https://doge.giscr.ac.th/HRTDi"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/respite/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/LUzT50"
+            window.location.href = "https://doge.giscr.ac.th/rWNneK"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/beware-of-dog/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/LZQpIrB"
+            window.location.href = "https://doge.giscr.ac.th/m4TNHcbY"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/get-luke-lowe/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/6RiyJwn"
+            window.location.href = "https://doge.giscr.ac.th/n7EeqJ"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/circumstances-2-the-chase/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/sS919pqX"
+            window.location.href = "https://doge.giscr.ac.th/qKFUCM"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/horizon-line/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/MGLV"
+            window.location.href = "https://doge.giscr.ac.th/uUsdeT7j"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/unfollower/" && stop4 == false){
-            window.location.href = "https://utshort.tk/home/sh/5Ur6mv"
+            window.location.href = "https://doge.giscr.ac.th/F84vx"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-             setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},3000);
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
              stop1 = true;
          }}catch(e){}
-        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("a")[0].getElementsByTagName("img")[0].src == "https://uniqueten.net/wp-content/uploads/2020/12/button_double-click-to-generate-link.png" && stop3 == false){
-             setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("a")[0].getElementsByTagName("img")[0].click();},3000);
-            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1); },10000);
-             stop3 = true;
-         }}catch(e){}
-        try{if(window.location.href == "https://www.ultraten.net/" && stop4 == false && document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://www.ultraten.net/wp-content/plugins/wp-safelink/assets/human-verification4.png"){
-             setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},3000);
-             stop4 = true;
-         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop5 == false){
-             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
+             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},13000);
              stop5 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("_4f90t5 ")[0].style.display == "block" && stop3 == false){
+             setTimeout(function(){document.getElementsByClassName("_rq1ynj8 ")[0].click();},3000);
+             stop3 = true;
          }}catch(e){}
     },6000)
 })();
