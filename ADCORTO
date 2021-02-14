@@ -69,5 +69,9 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000);
             stop2 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},15000);
+            stop3 = true;
+        }}catch(e){}
     },6000)
 })();
