@@ -9,81 +9,74 @@ var stop8 = false;
 var dayso;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "*https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 5);
+        try{if(window.location.href == "https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/no-mans-land/"
+            window.location.href = "https://all4yourlife.tech/the-map-of-tiny-perfect-things/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/breaking-fast/"
+            window.location.href = "https://all4yourlife.tech/wrong-turn/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/bruh-mp4/"
+            window.location.href = "https://all4yourlife.tech/paradise-cove/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/retreat-to-paradise/"
+            window.location.href = "https://all4yourlife.tech/breaking-news-in-yuba-county/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/driven-to-the-edge/"
+            window.location.href = "https://all4yourlife.tech/bad-cupid/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/no-mans-land/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/HNHyI"
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/calm-before/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-map-of-tiny-perfect-things/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/avloy"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/breaking-fast/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/lXBZfyIx"
+        try{if(window.location.href == "https://all4yourlife.tech/wrong-turn/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/XirL"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/bruh-mp4/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/119QKg2"
+        try{if(window.location.href == "https://all4yourlife.tech/paradise-cove/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/VVwF"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/retreat-to-paradise/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/IOAvHyB"
+        try{if(window.location.href == "https://all4yourlife.tech/breaking-news-in-yuba-county/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/zuzSk8UU"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/driven-to-the-edge/" && stop4 == false){
-            window.location.href = "https://link.richlink.me/7ivrJQKj"
+        try{if(window.location.href == "https://all4yourlife.tech/bad-cupid/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/SZMJq"
             stop4 = true;
         }}catch(e){}
-         try{for(var i=0;i<80;i++ && stop8 == false){
-            if(document.getElementsByTagName("script")[i].textContent.includes("fitcoach")){
-                dayso = i;
-                stop8 = true;
-                break;
-            }
+        try{if(window.location.href == "https://all4yourlife.tech/calm-before/" && stop4 == false){
+            window.location.href = "https://links.shortenbuddy.com/sWDl"
+            stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-             setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},3000);
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click()},3000);
              stop1 = true;
          }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop4 == false){
              setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
              stop4 = true;
          }}catch(e){}
-        try{if(document.getElementById("yuidea-generate").style.display == "block" && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("yu-btn yu-blue")[0].click();},7000);
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText == "Start Timer" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000);
              stop2 = true;
          }}catch(e){}
-        try{if(document.getElementsByClassName("yu-btn yu-blue")[0].innerText == "CONTINUE" && stop7 == false && window.location.href.includes("healthylink") && document.getElementsByClassName("g-recaptcha")[0] == null && stop8 == true){
-            setTimeout(function(){window.location.href = document.getElementsByTagName("script")[dayso].textContent.slice(document.getElementsByTagName("script")[dayso].textContent.indexOf("=") +3,document.getElementsByTagName("script")[dayso].textContent.indexOf(";")-1)},7000);
-             stop7 = true;
-         }}catch(e){}
-        try{if(document.getElementById("wpsafe-time").innerText == "1" && stop6 == false && document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "Continue"){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
-             stop6 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false && window.location.href.includes("richlink")){
-             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
-             stop3 = true;
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText == "Continue" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000);
+             stop2 = true;
          }}catch(e){}
     },6000)
 })();
