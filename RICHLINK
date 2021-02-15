@@ -74,9 +74,9 @@ var dayso;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000);
              stop2 = true;
          }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText == "Continue" && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000);
-             stop2 = true;
+        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText == "Continue" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},20000);
+             stop5 = true;
          }}catch(e){}
     },6000)
 })();
