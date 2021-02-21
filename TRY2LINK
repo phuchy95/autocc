@@ -54,7 +54,7 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
 
-        try{if(window.location.href.includes("4tgamers") && stop6 == false && document.getElementsByClassName("s-btn-f")[0].innerText == "CLICK TO GENERATE LINK"){
+        try{if(window.location.href.includes("4tgamers") && stop6 == false && document.getElementsByClassName("s-btn-f")[0].innerText == "CLICK HERE"){
             setTimeout(function(){document.getElementsByClassName("s-btn-f")[0].click();},3000)
             setTimeout(function(){document.getElementsByClassName("s-btn-f")[1].click();},8000)
             stop6 = true;
