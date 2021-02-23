@@ -57,7 +57,7 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg")[0].innerText == "OBTER LINK" && stop2 == false){
+        try{if(document.getElementsByClassName("btn btn-success btn-lg")[0].innerText == "Desce até em Baixo" && stop2 == false){
              setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg")[0].click();},3000);
              stop2 = true;
          }}catch(e){}
