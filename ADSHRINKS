@@ -9,65 +9,133 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/i-propose-we-never-see-each-other-again-after-tonight/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 6);
+            var bienso = Math.floor(Math.random() * 14);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/concrete-plans/"
+            window.location.href = "https://all4yourlife.tech/huey/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/angels-fallen/"
+            window.location.href = "https://all4yourlife.tech/simmer/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-new-mutants/"
+            window.location.href = "https://all4yourlife.tech/respite/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/greenland/"
+            window.location.href = "https://all4yourlife.tech/beware-of-dog/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/getting-to-know-you/"
+            window.location.href = "https://all4yourlife.tech/get-luke-lowe/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/girl/"
+            window.location.href = "https://all4yourlife.tech/circumstances-2-the-chase/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/concrete-plans/" && stop4 == false){
-            window.location.href = "https://adsh.cc/k0LAa"
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/horizon-line/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/unfollower/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/no-reasons/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/kidnapped-by-a-classmate/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 10 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/kajillionaire/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 11 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dont-look-back/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 12 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/quiz/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 13 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-secrets-we-keep/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/huey/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/nzwBz"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/angels-fallen/" && stop4 == false){
-            window.location.href = "https://adsh.cc/oMaGw68WD2"
+        try{if(window.location.href == "https://all4yourlife.tech/simmer/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/HRTDi"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-new-mutants/" && stop4 == false){
-            window.location.href = "https://adsh.cc/Lp1MST4O"
+        try{if(window.location.href == "https://all4yourlife.tech/respite/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/rWNneK"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/greenland/" && stop4 == false){
-            window.location.href = "https://adsh.cc/2RmpZdoWb"
+        try{if(window.location.href == "https://all4yourlife.tech/beware-of-dog/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/m4TNHcbY"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/getting-to-know-you/" && stop4 == false){
-            window.location.href = "https://adsh.cc/BtVFAQ"
+        try{if(window.location.href == "https://all4yourlife.tech/get-luke-lowe/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/n7EeqJ"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/girl/" && stop4 == false){
-            window.location.href = "https://adsh.cc/dyOldsl"
+        try{if(window.location.href == "https://all4yourlife.tech/circumstances-2-the-chase/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/qKFUCM"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/horizon-line/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/uUsdeT7j"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/unfollower/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/F84vx"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/no-reasons/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/tp8BrN"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/kidnapped-by-a-classmate/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/GJs1qo4"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/kajillionaire/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/ZGVDkfda"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dont-look-back/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/UUxC91c"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/quiz/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/Fa5xuWm7"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-secrets-we-keep/" && stop4 == false){
+            window.location.href = "https://doge.giscr.ac.th/6eKaAC4O"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
-            stop1 = true;
-        }}catch(e){}
-         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
-            stop2 = true;
-        }}catch(e){}
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
+             stop1 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop5 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},13000);
+             stop5 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("_4f90t5 ")[0].style.display == "block" && stop3 == false){
+             setTimeout(function(){document.getElementsByClassName("_rq1ynj8 ")[0].click();},3000);
+             stop3 = true;
+         }}catch(e){}
     },6000)
 })();
