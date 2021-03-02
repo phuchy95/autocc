@@ -6,128 +6,108 @@ var stop5 = false;
 var stop6 = false;
 var stop7 = false;
 var stop8 = false;
+var bienso;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/angie-lost-girls/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 12);
+            var bienso = Math.floor(Math.random() * 8);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-dark-and-the-wicked/"
+            window.location.href = "https://all4yourlife.tech/all-my-friends-are-dead/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/wheels-of-fortune/"
+            window.location.href = "https://all4yourlife.tech/the-serpent/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/dont-click/"
+            window.location.href = "https://all4yourlife.tech/virus-shark/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/we-still-say-grace/"
+            window.location.href = "https://all4yourlife.tech/deported/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/archenemy/"
+            window.location.href = "https://all4yourlife.tech/cosmic-sin/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/bigfoot-family/"
+            window.location.href = "https://all4yourlife.tech/son/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/beneath-a-sea-of-lights/"
+            window.location.href = "https://all4yourlife.tech/400-bullets/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 7 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/letters-to-satan-claus/"
+            window.location.href = "https://all4yourlife.tech/shadowland/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 8 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-penitent-thief/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 9 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/loves-spell/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 10 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/sylvies-love/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 11 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/strain-100/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-dark-and-the-wicked/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/fa797352"
+        try{if(window.location.href == "https://all4yourlife.tech/all-my-friends-are-dead/" && stop4 == false){
+            window.location.href = "https://linkjust.com/Rj19yhEazYYHshP96fjBVT3"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/wheels-of-fortune/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/dcec1e00"
+        try{if(window.location.href == "https://all4yourlife.tech/the-serpent/" && stop4 == false){
+            window.location.href = "https://linkjust.com/uESHm0JtMFaHfd4r1"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/dont-click/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/5d88d889"
+        try{if(window.location.href == "https://all4yourlife.tech/virus-shark/" && stop4 == false){
+            window.location.href = "https://linkjust.com/AKNr6ee4K7d"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/we-still-say-grace/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/fe24ae55"
+        try{if(window.location.href == "https://all4yourlife.tech/deported/" && stop4 == false){
+            window.location.href = "https://linkjust.com/cGaekK"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/archenemy/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/b2e416d4"
+        try{if(window.location.href == "https://all4yourlife.tech/cosmic-sin/" && stop4 == false){
+            window.location.href = "https://linkjust.com/JY6tUiDWchfSsfkYC3WQ1mo"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/bigfoot-family/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/387ce7cf"
+        try{if(window.location.href == "https://all4yourlife.tech/son/" && stop4 == false){
+            window.location.href = "https://linkjust.com/xP27Kp"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/beneath-a-sea-of-lights/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/ea35704e"
+        try{if(window.location.href == "https://all4yourlife.tech/400-bullets/" && stop4 == false){
+            window.location.href = "https://linkjust.com/5opHKuc7GynRZGEGnc3zL"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/letters-to-satan-claus/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/9f64e190"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-penitent-thief/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/d303c749"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/loves-spell/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/1c8e35ae"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/sylvies-love/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/922d54da"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/strain-100/" && stop4 == false){
-            window.location.href = "https://dlvisit.com/2d4ce1ab"
+        try{if(window.location.href == "https://all4yourlife.tech/shadowland/" && stop4 == false){
+            window.location.href = "https://linkjust.com/eBJiXxm5YvCImH20BjaF"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
              setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-primary mt-2")[0].click();},3000);
              stop1 = true;
          }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].innerText == "Open URL" && stop6 == false && stop5 == true && stop1 == true){
-            setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-secondary shorten-btn float-right ml-2")[0].click();},20000);
+        try{if(document.getElementById("mdtimer").style.display == "none" && stop6 == false && window.location.href.includes("articles")){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},3000);
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},8000);
             stop6 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Proceed " && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("mt-4 btn btn-dark")[0].click();},3000);
+        try{if(document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].src == "https://linkjust.com/double-click-to-generate-link-1.png" && stop3 == false && window.location.href.includes("forexlap")){
+            setTimeout(function(){document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].click();},3000);
+            setTimeout(function(){document.getElementById("molien").getElementsByTagName("input")[1].click();},8000);
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-dark btn-sm float-right mt-2")[0].innerText == "Skip Ad" && stop4 == false && stop3 == true){
-            setTimeout(function(){document.getElementsByClassName("btn btn-dark btn-sm float-right mt-2")[0].click();},3000);
+
+        try{if(document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].src == "https://linkjust.com/double-click-to-generate-link-1.png" && window.location.href.includes("fx4vip") && stop4 == false){
+            try{for(var i=0;i<20;i++ && stop2 == false){
+                if(document.getElementsByTagName("img")[i].src == "https://linkjust.com/Continue-Button-1.png"){
+                    document.getElementsByTagName("img")[i].click();
+                    stop2 = true;
+                    break;
+                }
+            }}catch(e){}
+            setTimeout(function(){document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].click();},3000);
+            setTimeout(function(){document.getElementsByTagName("img")[bienso].src},8000);
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("mt-4 btn btn-dark")[0].innerText == "Open Link " && stop5 == false){
-            setTimeout(function(){document.getElementsByClassName("mt-4 btn btn-dark")[0].click();},3000);
-            stop5 = true;
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
+            stop7 = true;
         }}catch(e){}
     },6000)
 })();
