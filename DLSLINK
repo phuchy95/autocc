@@ -78,10 +78,6 @@ var bienso;
             window.location.href = "https://linkjust.com/eBJiXxm5YvCImH20BjaF"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-             setTimeout(function(){document.getElementsByClassName("btn btn-sm btn-primary mt-2")[0].click();},3000);
-             stop1 = true;
-         }}catch(e){}
         try{if(document.getElementById("mdtimer").style.display == "none" && stop6 == false && window.location.href.includes("articles")){
             setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},3000);
             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},8000);
