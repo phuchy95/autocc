@@ -6,77 +6,101 @@ var stop5 = false;
 var stop6 = false;
 var stop7 = false;
 var stop8 = false;
-var dayso;
+var bienso;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/high-school-musical-the-musical-the-holiday-special/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 6);
+            var bienso = Math.floor(Math.random() * 10);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-map-of-tiny-perfect-things/"
+            window.location.href = "https://all4yourlife.tech/dark-web-cicada-3301/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/wrong-turn/"
+            window.location.href = "https://all4yourlife.tech/raya-and-the-last-dragon/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/paradise-cove/"
+            window.location.href = "https://all4yourlife.tech/coming-2-america/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/breaking-news-in-yuba-county/"
+            window.location.href = "https://all4yourlife.tech/the-dead-of-night/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/bad-cupid/"
+            window.location.href = "https://all4yourlife.tech/the-redneg/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/calm-before/"
+            window.location.href = "https://all4yourlife.tech/alabama-snake/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-map-of-tiny-perfect-things/" && stop4 == false){
-            window.location.href = "https://links.shortenbuddy.com/avloy"
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/wild-mountain-thyme/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/let-them-all-talk/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 8 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/dr-seuss-the-grinch-musical/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 9 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/the-call/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dark-web-cicada-3301/" && stop4 == false){
+            window.location.href = "https://linkmit.us/wSBLIw"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/wrong-turn/" && stop4 == false){
-            window.location.href = "https://links.shortenbuddy.com/XirL"
+        try{if(window.location.href == "https://all4yourlife.tech/raya-and-the-last-dragon/" && stop4 == false){
+            window.location.href = "https://linkmit.us/xS7m"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/paradise-cove/" && stop4 == false){
-            window.location.href = "https://links.shortenbuddy.com/VVwF"
+        try{if(window.location.href == "https://all4yourlife.tech/coming-2-america/" && stop4 == false){
+            window.location.href = "https://linkmit.us/dXzeS"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/breaking-news-in-yuba-county/" && stop4 == false){
-            window.location.href = "https://links.shortenbuddy.com/zuzSk8UU"
+        try{if(window.location.href == "https://all4yourlife.tech/the-dead-of-night/" && stop4 == false){
+            window.location.href = "https://linkmit.us/oBdoA"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/bad-cupid/" && stop4 == false){
-            window.location.href = "https://links.shortenbuddy.com/SZMJq"
+        try{if(window.location.href == "https://all4yourlife.tech/the-redneg/" && stop4 == false){
+            window.location.href = "https://linkmit.us/dWwM"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/calm-before/" && stop4 == false){
-            window.location.href = "https://links.shortenbuddy.com/sWDl"
+        try{if(window.location.href == "https://all4yourlife.tech/alabama-snake/" && stop4 == false){
+            window.location.href = "https://linkmit.us/SsgMUlz3"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click()},3000);
-             stop1 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop4 == false){
-             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
-             stop4 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText == "Start Timer" && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},3000);
-             stop2 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].innerText == "Continue" && stop5 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg claim-button font-weight-bold custom-btn-shadow my-3")[0].click();},20000);
-             stop5 = true;
-         }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/wild-mountain-thyme/" && stop4 == false){
+            window.location.href = "https://linkmit.us/BbBwy2"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/let-them-all-talk/" && stop4 == false){
+            window.location.href = "https://linkmit.us/AGqFT"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/dr-seuss-the-grinch-musical/" && stop4 == false){
+            window.location.href = "https://linkmit.us/VnMki5"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/the-call/" && stop4 == false){
+            window.location.href = "https://linkmit.us/dEM6H"
+            stop4 = true;
+        }}catch(e){}
+         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
+            stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+            stop2 = true;
+        }}catch(e){}
     },6000)
 })();
