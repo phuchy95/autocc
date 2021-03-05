@@ -34,23 +34,23 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-driver/" && stop4 == false){
-            window.location.href = "https://icutlink.com/XMmojvZNof"
+            window.location.href = "https://profitlink.info/Ei3509uW"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/stolen-by-my-mother-the-kamiyah-mobley-story/" && stop4 == false){
-            window.location.href = "https://icutlink.com/zdPa5bFIr"
+            window.location.href = "https://profitlink.info/fk7bir"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/before-the-fire/" && stop4 == false){
-            window.location.href = "https://icutlink.com/SGtMTMAyKD"
+            window.location.href = "https://profitlink.info/yZhDg"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/sputnik/" && stop4 == false){
-            window.location.href = "https://icutlink.com/O6lpi8dxaT"
+            window.location.href = "https://profitlink.info/58v"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/i-met-a-girl/" && stop4 == false){
-            window.location.href = "https://icutlink.com/WjYR8Ph5S9"
+            window.location.href = "https://profitlink.info/6iTl"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("bsub")[0].innerText == "Continue" && stop2 == false){
@@ -61,12 +61,12 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByTagName("button")[2].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
-            setTimeout(function(){document.getElementById("invisibleCaptchaShortlink").click();},3000)
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link calc-earn")[0].innerText == "Get Link" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link calc-earn")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
+        try{if(document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText == "Go To Next Page" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
     },6000)
