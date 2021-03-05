@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/happy-horror-days/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 5);
+            var bienso = Math.floor(Math.random() * 8);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -33,6 +33,18 @@ var stop8 = false;
             window.location.href = "https://all4yourlife.tech/i-met-a-girl/"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/moxie/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 6 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/an-american-zealot/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 7 && stop2 == false){
+            window.location.href = "https://all4yourlife.tech/last-ones-there/"
+            stop2 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-driver/" && stop4 == false){
             window.location.href = "https://profitlink.info/Ei3509uW"
             stop4 = true;
@@ -51,6 +63,18 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/i-met-a-girl/" && stop4 == false){
             window.location.href = "https://profitlink.info/6iTl"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/moxie/" && stop4 == false){
+            window.location.href = "https://profitlink.info/4vQ"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/an-american-zealot/" && stop4 == false){
+            window.location.href = "https://profitlink.info/2ZEHMtA"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://all4yourlife.tech/last-ones-there/" && stop4 == false){
+            window.location.href = "https://profitlink.info/DTQzbaNK"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link calc-earn")[0].innerText == "Get Link" && stop2 == false){
