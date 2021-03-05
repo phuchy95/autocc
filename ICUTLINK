@@ -57,10 +57,6 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("bsub")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByTagName("button")[2].innerText == "Get link" && stop2 == false){
-            setTimeout(function(){document.getElementsByTagName("button")[2].click();},3000)
-            stop2 = true;
-        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link calc-earn")[0].innerText == "Get Link" && stop2 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link calc-earn")[0].click();},3000)
             stop2 = true;
