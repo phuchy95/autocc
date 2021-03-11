@@ -88,17 +88,9 @@ var bienso;
             setTimeout(function(){document.getElementsByTagName("input")[2].click();},8000);
             stop3 = true;
         }}catch(e){}
-
-        try{if(document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].src == "https://linkjust.com/double-click-to-generate-link-1.png" && window.location.href.includes("fx4vip") && stop4 == false){
-            try{for(var i=0;i<20;i++ && stop2 == false){
-                if(document.getElementsByTagName("img")[i].src == "https://linkjust.com/Continue-Button-1.png"){
-                    document.getElementsByTagName("img")[i].click();
-                    stop2 = true;
-                    break;
-                }
-            }}catch(e){}
-            setTimeout(function(){document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].click();},3000);
-            setTimeout(function(){document.getElementsByTagName("img")[bienso].src},8000);
+        try{if(document.getElementsByClassName("btn btn-success")[0].innerText == "Next" && window.location.href.includes("fx4vip") && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},3000);
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[1].click();},12000);
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop7 == false){
