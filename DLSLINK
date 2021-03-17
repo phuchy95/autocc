@@ -93,6 +93,11 @@ var bienso;
             setTimeout(function(){document.getElementsByClassName("btn btn-success")[1].click();},12000);
             stop4 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},3000);
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[1].click();},12000);
+            stop7 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop7 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
             stop7 = true;
