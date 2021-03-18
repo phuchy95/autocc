@@ -18,7 +18,7 @@ var bienso;
             stop5 = true;
         }}catch(e){}
         try{if(window.location.href.includes("captcha") && stop4 == false){
-            setTimeout(function(){window.location.reload();},120000);
+            setTimeout(function(){window.location.reload();},200000);
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("modal send-nano fade show")[0].style.display == "block" && stop6 == false){
