@@ -1,0 +1,30 @@
+var stop1 = false;
+var stop2 = false;
+var stop3 = false;
+var stop4 = false;
+var stop5 = false;
+var stop6 = false;
+var stop7 = false;
+var stop8 = false;
+var bienso;
+(function() {
+    setInterval(function(){
+        try{if(document.getElementsByClassName("button btn-primary watch-next-btn")[0].disabled == false && stop6 == false){
+            setTimeout(function(){document.getElementsByClassName("button btn-primary watch-next-btn")[0].click();},3000);
+            stop6 = true;
+        }}catch(e){}
+        try{if(document.querySelector('[name=h-captcha-response]').value.includes("F0") && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("button")[0].click();},3000);
+            stop5 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("captcha") && stop4 == false){
+            setTimeout(function(){window.location.reload();},120000);
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("modal send-nano fade show")[0].style.display == "block" && stop6 == false){
+            setTimeout(function(){window.location.reload();},3000);
+            stop6 = true;
+        }}catch(e){}
+
+    },6000)
+})();
