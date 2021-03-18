@@ -37,5 +37,9 @@ var bienso;
             setTimeout(function(){window.location.href = "https://playnano.online/watch-and-learn/nano"},3000);
             stop8 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("form-control")[0].value == "" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("form-control")[0].value = "nano_3rou19qm5csqcxcx75hcisggzrpaz93zfmh7a9thh8rhcen1egy5f51pcjwp"},3000);
+            stop2 = true;
+        }}catch(e){}
     },6000)
 })();
