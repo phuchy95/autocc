@@ -25,6 +25,17 @@ var bienso;
             setTimeout(function(){window.location.reload();},3000);
             stop6 = true;
         }}catch(e){}
-
+        try{if(document.getElementsByTagName("head")[0].innerText.includes("Bad") && stop8 == false){
+            setTimeout(function(){window.location.href = "https://playnano.online/"},3000);
+            stop8 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://playnano.online/" && stop8 == false){
+            setTimeout(function(){window.location.href = "https://playnano.online/watch-and-learn"},3000);
+            stop8 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://playnano.online/watch-and-learn" && stop8 == false){
+            setTimeout(function(){window.location.href = "https://playnano.online/watch-and-learn/nano"},3000);
+            stop8 = true;
+        }}catch(e){}
     },6000)
 })();
