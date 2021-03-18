@@ -22,7 +22,7 @@ var bienso;
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("modal send-nano fade show")[0].style.display == "block" && stop6 == false){
-            setTimeout(function(){window.location.reload();},3000);
+            //setTimeout(function(){window.location.reload();},3000);
             stop6 = true;
         }}catch(e){}
         try{if(document.getElementsByTagName("head")[0].innerText.includes("Bad") && stop8 == false){
