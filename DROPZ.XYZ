@@ -30,5 +30,10 @@ var bienso;
             setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},7000);
             stop6 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-xs")[0] != null && stop7 == false){
+            setTimeout(function(){window.location.reload();},300000);     
+            stop7 = true;
+        }}catch(e){}
+        
     },6000)
 })();
