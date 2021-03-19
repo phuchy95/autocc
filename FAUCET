@@ -10,10 +10,14 @@ var dropz = false;
 var bienso;
 (function() {
     setInterval(function(){
-        if(window.location.href.includes("dropz.xyz") && document.readyState === "complete" && dropz == false){
+        try{if(window.location.href.includes("dropz.xyz") && document.readyState === "complete" && dropz == false){
             dropzx();
             dropz = true;
-        }
+        }}catch(e){}
+        try{if(document.referrer.includes("dropz.xyz") && stop6 == false && window.location.href.includes("dropz.xyz") == false){
+            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
+            stop6 = true;
+        }}catch(e){}
     },2000)
     
 })();
@@ -26,10 +30,6 @@ function dropzx(){
         try{if(document.getElementsByClassName("btn btn-app")[0].innerText == "Visit Website" && stop2 == false && parseInt(document.getElementById("display_pending_drops").innerText) != 5){
             setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
             stop2 = true;
-        }}catch(e){}
-        try{if(document.referrer.includes("dropz.xyz") && stop6 == false && window.location.href.includes("dropz.xyz") == false){
-            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
-            stop6 = true;
         }}catch(e){}
         try{if(document.referrer.includes("mekiroki") && stop6 == false){
             setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
