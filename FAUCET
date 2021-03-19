@@ -31,6 +31,10 @@ function dropzx(){
             setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
             stop6 = true;
         }}catch(e){}
+        try{if(document.referrer.includes("mekiroki") && stop6 == false){
+            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
+            stop6 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://my.dropz.xyz/account/" && stop1 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-block btn-warning btn-sm")[0].click();},3000);
             stop1 = true;
