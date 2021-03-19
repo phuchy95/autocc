@@ -39,6 +39,10 @@ function dropzx(){
             setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
             stop1 = true;
         }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop4 == false){
+            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
+            stop4 = true;
+        }}catch(e){}
         try{if(stop4 == true && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
             stop3 = true;
