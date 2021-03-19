@@ -6,9 +6,18 @@ var stop5 = false;
 var stop6 = false;
 var stop7 = false;
 var stop8 = false;
+var dropz = false;
 var bienso;
 (function() {
-    if(window.location.href.includes("dropz.xyz") && document.readyState === "complete")
+    setInterval(function(){
+        if(window.location.href.includes("dropz.xyz") && document.readyState === "complete" && dropz == false){
+            dropzx();
+            dropz = true;
+        }
+    },2000)
+    
+})();
+function dropzx(){
     setInterval(function(){
         try{if(document.querySelector('[name=h-captcha-response]').value.includes("F0") && stop1 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-xs")[0].click();},3000);
@@ -18,13 +27,9 @@ var bienso;
             setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-app")[0].innerText == "Visit more Website" && stop3 == false){
+        try{if(stop4 == true && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
             stop3 = true;
-        }}catch(e){}
-        try{if(window.location.href.includes("dropz") == false && stop4 == false){
-            setTimeout(function(){window.close();},7000);
-            stop4 = true;
         }}catch(e){}
         try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 5 && stop6 == false){
             setTimeout(function(){document.getElementById("payout_bt").click();},3000);
@@ -34,9 +39,13 @@ var bienso;
             setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},4000);
             stop8 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-app")[0].innerText == "Visit more Website" && stop4 == false){
+            chrome.runtime.sendMessage({ action: "closetab" },function(){});
+            stop4 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-xs")[0] != null && stop7 == false){
             setTimeout(function(){window.location.reload();},300000);     
             stop7 = true;
         }}catch(e){}
-    },6000)
-})();
+    },2000)
+}
