@@ -27,9 +27,9 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
             stop2 = true;
         }}catch(e){}
-        try{if(document.referrer.includes("dropz.xyz") && stop1 == false && window.location.href.includes("dropz.xyz") == false){
+        try{if(document.referrer.includes("dropz.xyz") && stop6 == false && window.location.href.includes("dropz.xyz") == false){
             setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
-            stop1 = true;
+            stop6 = true;
         }}catch(e){}
         try{if(window.location.href == "https://my.dropz.xyz/account/" && stop1 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-block btn-warning btn-sm")[0].click();},3000);
