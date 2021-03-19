@@ -35,6 +35,10 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("btn btn-block btn-warning btn-sm")[0].click();},3000);
             stop1 = true;
         }}catch(e){}
+        try{if(window.location.href = "https://my.dropz.xyz/account/true" && stop1 == false){
+            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
+            stop1 = true;
+        }}catch(e){}
         try{if(stop4 == true && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
             stop3 = true;
