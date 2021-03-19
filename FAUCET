@@ -11,6 +11,7 @@ var bienso;
 (function() {
     setInterval(function(){
         try{if(window.location.href.includes("dropz.xyz") && document.readyState === "complete" && dropz == false){
+            setTimeout(function(){window.location.reload();},300000);
             dropzx();
             dropz = true;
         }}catch(e){}
