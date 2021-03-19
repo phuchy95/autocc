@@ -27,8 +27,11 @@ var bienso;
         }}catch(e){}
         try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 5 && stop6 == false){
             setTimeout(function(){document.getElementById("payout_bt").click();},3000);
-            setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},7000);
             stop6 = true;
+        }}catch(e){}
+        try{if(stop6 == true && stop8 == false){
+            setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},7000);
+            stop8 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-xs")[0] != null && stop7 == false){
             setTimeout(function(){window.location.reload();},300000);     
