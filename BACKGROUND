@@ -1,0 +1,13 @@
+chrome.runtime.onMessage.addListener(function(message, sender, sendBack){
+
+    if (message.action == "closetab"){
+
+		chrome.tabs.query({active:true,currentWindow:true},function(tabs){
+			//'tabs' will be an array with only one element: an Object describing the active tab
+			//  in the current window. To remove the tab, pass the ID: to chrome.tabs.remove().
+			chrome.tabs.remove(tabs[0].id);
+		});
+    }
+
+
+})
