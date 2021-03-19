@@ -37,9 +37,5 @@ var bienso;
             setTimeout(function(){window.location.reload();},300000);     
             stop7 = true;
         }}catch(e){}
-        try{if(document.referrer.includes("dropz") && window.location.href.includes("dropz") == false && stop8 == false){
-            setTimeout(function(){window.location.href = "https://my.dropz.xyz/site-friends/"},3000);     
-            stop8 = true;
-        }}catch(e){}
     },6000)
 })();
