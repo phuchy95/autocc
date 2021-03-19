@@ -15,8 +15,8 @@ var bienso;
             dropzx();
             dropz = true;
         }}catch(e){}
-        try{if(document.referrer.includes("dropz.xyz") && stop6 == false && window.location.href.includes("dropz.xyz") == false){
-            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
+        try{if(stop6 == false && window.location.href.includes("dropz.xyz") == false){
+            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},20000);
             stop6 = true;
         }}catch(e){}
     },2000)
