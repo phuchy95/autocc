@@ -25,8 +25,10 @@ var bienso;
 function dropzx(){
     setInterval(function(){
         for (var i = 0; i<100; i++){
-            try{if(document.getElementsByTagName("a")[i].innerText.includes(" Visit Website")){
+            try{if(document.getElementsByTagName("a")[i].innerText.includes(" Visit Website") && stop1 == false){
                 bienso = i;
+                console.log(bienso);
+                stop1 = true;
             }}catch(e){}
         }
         try{if(document.querySelector('[name=h-captcha-response]').value.includes("F0") && stop1 == false){
@@ -34,7 +36,7 @@ function dropzx(){
             stop1 = true;
         }}catch(e){}
         try{if(bienso != null && stop2 == false && parseInt(document.getElementById("display_pending_drops").innerText) != 5 && parseInt(document.getElementById("display_pending_drops").innerText) != 6 && parseInt(document.getElementById("display_pending_drops").innerText) != 7){
-            setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
+            setTimeout(function(){document.getElementsByTagName("a")[bienso].click();},3000);
             stop2 = true;
         }}catch(e){}
         try{if(document.referrer.includes("mekiroki") && stop6 == false){
@@ -54,7 +56,7 @@ function dropzx(){
             stop4 = true;
         }}catch(e){}
         try{if(stop4 == true && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
+            setTimeout(function(){document.getElementsByTagName("a")[bienso].click();},3000);
             stop3 = true;
         }}catch(e){}
         try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 5 && stop6 == false){
@@ -81,7 +83,7 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},4000);
             stop8 = true;
         }}catch(e){}
-        try{if((document.getElementsByClassName("btn btn-app")[0].innerText == "Visit more Website" || window.location.href.includes("dropz.xyz") == false) && stop4 == false){
+        try{if((document.getElementsByTagName("a")[bienso].innerText == " Visit more Website" || window.location.href.includes("dropz.xyz") == false) && stop4 == false){
             chrome.runtime.sendMessage({ action: "closetab" },function(){});
             stop4 = true;
         }}catch(e){}
