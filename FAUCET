@@ -25,7 +25,7 @@ var bienso;
             stop6 = true;
         }}catch(e){}
     },2000)
-    
+
 })();
 function dropzx(){
     setInterval(function(){
@@ -34,7 +34,7 @@ function dropzx(){
             stop1 = true;
         }}catch(e){}
         try{if(bienso != null && stop2 == false && parseInt(document.getElementById("display_pending_drops").innerText) != 5 && parseInt(document.getElementById("display_pending_drops").innerText) != 6 && parseInt(document.getElementById("display_pending_drops").innerText) != 7){
-            setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
+            setTimeout(function(){document.getElementsByTagName("a")[bienso].click();},3000);
             stop2 = true;
         }}catch(e){}
         try{if(document.referrer.includes("mekiroki") && stop6 == false){
@@ -81,12 +81,13 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},4000);
             stop8 = true;
         }}catch(e){}
-        try{if((document.getElementsByClassName("btn btn-app")[0].innerText == "Visit more Website" || window.location.href.includes("dropz.xyz") == false) && stop4 == false){
+        try{if((document.getElementsByTagName("a")[bienso].innerText == "Visit more Website" || window.location.href.includes("dropz.xyz") == false) && stop4 == false){
+            console.log("goi background")
             chrome.runtime.sendMessage({ action: "closetab" },function(){});
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-xs")[0] != null && stop7 == false){
-            setTimeout(function(){window.location.reload();},300000);     
+            setTimeout(function(){window.location.reload();},300000);
             stop7 = true;
         }}catch(e){}
     },2000)
