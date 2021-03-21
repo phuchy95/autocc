@@ -35,7 +35,7 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-xs")[0].click();},3000);
             stop1 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-app")[0].innerText == "Visit Website" && stop2 == false && parseInt(document.getElementById("display_pending_drops").innerText) != 5 && parseInt(document.getElementById("display_pending_drops").innerText) != 6 && parseInt(document.getElementById("display_pending_drops").innerText) != 7){
+        try{if(document.getElementsByClassName("btn btn-app")[0].innerText == "Visit Website" && stop2 == false && parseInt(document.getElementById("display_pending_drops").innerText) != 9){
             setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);      
             stop2 = true;
         }}catch(e){}
@@ -54,22 +54,6 @@ function dropzx(){
         try{if(window.location.href.includes("vignette") && stop4 == false){
             setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
             stop4 = true;
-        }}catch(e){}
-        try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 5 && stop6 == false){
-            setTimeout(function(){document.getElementById("payout_bt").click();},3000);
-            stop6 = true;
-        }}catch(e){}
-        try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 6 && stop6 == false){
-            setTimeout(function(){document.getElementById("payout_bt").click();},3000);
-            stop6 = true;
-        }}catch(e){}
-        try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 7 && stop6 == false){
-            setTimeout(function(){document.getElementById("payout_bt").click();},3000);
-            stop6 = true;
-        }}catch(e){}
-        try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 8 && stop6 == false){
-            setTimeout(function(){document.getElementById("payout_bt").click();},3000);
-            stop6 = true;
         }}catch(e){}
         try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 9 && stop6 == false){
             setTimeout(function(){document.getElementById("payout_bt").click();},3000);
