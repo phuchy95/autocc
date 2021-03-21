@@ -1,0 +1,2 @@
+81AFD5FB4202A4E991C58B69A6FE7D9463D41126D8CA3F781E151CD898AF2147
+{"version":3,"id":"1abc42c6-7e6b-470b-9383-344461a20f7e","address":"cb6bb23a87923545d27763d5bf561b34544032cd","Crypto":{"ciphertext":"71a32bc9a56ef3e5f0756b88f76ce87e6b7d3bc4df8a8deebf382e0ccb1fad55","cipherparams":{"iv":"03e58afec6030ed85e3407e61b16de94"},"cipher":"aes-128-ctr","kdf":"scrypt","kdfparams":{"dklen":32,"salt":"af672fb7d81420808cb872af6fd08a1004161a2923848d7baeb3354e195dcf3a","n":8192,"r":8,"p":1},"mac":"241b4c7cb5371be0a84d239ca699e143bbdbd45a0b55a90162184297aea27ee5"}}
