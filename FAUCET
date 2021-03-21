@@ -83,7 +83,7 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},4000);
             stop8 = true;
         }}catch(e){}
-        try{if(stop2 == true && stop4 == false){
+        try{if((document.getElementsByTagName("a")[bienso].innerText == " Visit more Website" || window.location.href.includes("dropz.xyz") == false) && stop4 == false){
             chrome.runtime.sendMessage({ action: "closetab" },function(){});
             stop4 = true;
         }}catch(e){}
