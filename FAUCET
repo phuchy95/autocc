@@ -89,7 +89,7 @@ function dropzx(){
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-xs")[0] != null && stop7 == false){
-            setTimeout(function(){window.location.reload();},300000);     
+            setTimeout(function(){window.location.reload();},500000);     
             stop7 = true;
         }}catch(e){}
     },2000)
