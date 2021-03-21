@@ -31,7 +31,7 @@ function dropzx(){
                 stop1 = true;
             }}catch(e){}
         }
-        try{if(document.querySelector('[name=h-captcha-response]').value.includes("F0") && stop1 == false){
+        try{if(document.querySelector('[name=h-captcha-response]').value.includes("P0") && stop1 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-xs")[0].click();},3000);
             stop1 = true;
         }}catch(e){}
