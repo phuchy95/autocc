@@ -16,7 +16,7 @@ var bienso;
             dropz = true;
         }}catch(e){}
         try{if(stop6 == false && window.location.href.includes("dropz.xyz") == false){
-            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},40000);
+            setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},20000);
             stop6 = true;
         }}catch(e){}
     },2000)
@@ -35,8 +35,9 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-xs")[0].click();},3000);
             stop1 = true;
         }}catch(e){}
-        try{if(bienso != null && stop2 == false && parseInt(document.getElementById("display_pending_drops").innerText) != 5 && parseInt(document.getElementById("display_pending_drops").innerText) != 6 && parseInt(document.getElementById("display_pending_drops").innerText) != 7){
-            setTimeout(function(){document.getElementsByTagName("a")[bienso].click();},3000);
+        try{if(document.getElementsByClassName("btn btn-app")[0].innerText == "Visit Website" && stop2 == false && parseInt(document.getElementById("display_pending_drops").innerText) != 5 && parseInt(document.getElementById("display_pending_drops").innerText) != 6 && parseInt(document.getElementById("display_pending_drops").innerText) != 7){
+            setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
+            
             stop2 = true;
         }}catch(e){}
         try{if(document.referrer.includes("mekiroki") && stop6 == false){
@@ -55,8 +56,8 @@ function dropzx(){
             setTimeout(function(){window.location.href = "https://my.dropz.xyz/account/"},3000);
             stop4 = true;
         }}catch(e){}
-        try{if(stop4 == true && stop3 == false){
-            setTimeout(function(){document.getElementsByTagName("a")[bienso].click();},3000);
+        try{if(document.getElementsByClassName("btn btn-app")[0].innerText == "Visit more Website" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-app")[0].click();},3000);
             stop3 = true;
         }}catch(e){}
         try{if(parseInt(document.getElementById("display_pending_drops").innerText) == 5 && stop6 == false){
@@ -83,8 +84,11 @@ function dropzx(){
             setTimeout(function(){document.getElementsByClassName("swal2-confirm swal2-styled")[0].click();},4000);
             stop8 = true;
         }}catch(e){}
-        try{if((document.getElementsByTagName("a")[bienso].innerText == " Visit more Website" || window.location.href.includes("dropz.xyz") == false) && stop4 == false){
-            chrome.runtime.sendMessage({ action: "closetab" },function(){});
+        try{if(stop2 == true && stop4 == false){
+            setTimeout(function(){
+                chrome.runtime.sendMessage({ action: "closetab" },function(){});
+            },10000)
+            //chrome.runtime.sendMessage({ action: "closetab" },function(){});
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-xs")[0] != null && stop7 == false){
