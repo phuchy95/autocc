@@ -88,14 +88,14 @@ var bienso;
             setTimeout(function(){document.getElementsByTagName("input")[2].click();},8000);
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success")[0].innerText == "Next" && window.location.href.includes("fx4vip") && stop4 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},3000);
-            setTimeout(function(){document.getElementsByClassName("btn btn-success")[1].click();},12000);
+        try{if(document.getElementsByTagName("img")[0].src == "https://linkjust.com/double-click-to-generate-link-1.png" && window.location.href.includes("fx4vip") && stop4 == false){
+            setTimeout(function(){document.getElementsByTagName("img")[0].click();},3000);
+            setTimeout(function(){document.getElementsByTagName("img")[2].click();},12000);
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href.includes("vignette") && stop7 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},3000);
-            setTimeout(function(){document.getElementsByClassName("btn btn-success")[1].click();},12000);
+            setTimeout(function(){document.getElementsByTagName("img")[0].click();},3000);
+            setTimeout(function(){document.getElementsByTagName("img")[2].click();},12000);
             stop7 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop7 == false){
