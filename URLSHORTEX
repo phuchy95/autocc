@@ -70,59 +70,59 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/huey/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/kt5Um"
+            window.location.href = "https://coinsparty.luckydice.net/kt5Um"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/simmer/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/m63s"
+            window.location.href = "https://coinsparty.luckydice.net/m63s"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/respite/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/LVMpX"
+            window.location.href = "https://coinsparty.luckydice.net/LVMpX"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/beware-of-dog/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/4Vs9"
+            window.location.href = "https://coinsparty.luckydice.net/4Vs9"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/get-luke-lowe/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/pbx8B"
+            window.location.href = "https://coinsparty.luckydice.net/pbx8B"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/circumstances-2-the-chase/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/LMxRf"
+            window.location.href = "https://coinsparty.luckydice.net/LMxRf"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/horizon-line/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/BtJvE"
+            window.location.href = "https://coinsparty.luckydice.net/BtJvE"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/unfollower/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/RNUz22"
+            window.location.href = "https://coinsparty.luckydice.net/RNUz22"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/no-reasons/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/3DnE"
+            window.location.href = "https://coinsparty.luckydice.net/3DnE"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/kidnapped-by-a-classmate/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/xyPe"
+            window.location.href = "https://coinsparty.luckydice.net/xyPe"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/kajillionaire/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/8HNy1BJH"
+            window.location.href = "https://coinsparty.luckydice.net/8HNy1BJH"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/dont-look-back/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/blVAVGs"
+            window.location.href = "https://coinsparty.luckydice.net/blVAVGs"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/quiz/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/mzOYIwD"
+            window.location.href = "https://coinsparty.luckydice.net/mzOYIwD"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://all4yourlife.tech/the-secrets-we-keep/" && stop4 == false){
-            window.location.href = "https://live.giscr.ac.th/jwqIre"
+            window.location.href = "https://coinsparty.luckydice.net/jwqIre"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
