@@ -135,12 +135,12 @@ var stop8 = false;
              stop5 = true;
          }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false && window.location.href.includes("coinsparty") == true){
-             setTimeout(document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click()},3000);
              stop3 = true;
          }}catch(e){}
          try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop4 == false){
-             setTimeout(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
+             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
              stop4 = true;
-         }}catch(e){}     
+         }}catch(e){}
     },6000)
 })();
