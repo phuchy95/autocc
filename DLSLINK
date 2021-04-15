@@ -83,8 +83,8 @@ var bienso;
             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[0].click();},8000);
             stop6 = true;
         }}catch(e){}
-        try{if(document.getElementById("makingdifferenttimer").getElementsByTagName("button")[0].innerText == "Next" && stop3 == false && window.location.href.includes("forexlap")){
-            setTimeout(function(){document.getElementById("makingdifferenttimer").getElementsByTagName("button")[0].click();},3000);
+        try{if(document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].src == "https://linkjust.com/double-click-to-generate-link-1.png" && stop3 == false && window.location.href.includes("forexlap")){
+            setTimeout(function(){document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].click();},3000);
             setTimeout(function(){document.getElementsByTagName("input")[11].click();},8000);
             stop3 = true;
         }}catch(e){}
