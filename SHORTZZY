@@ -8,7 +8,7 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/phineas-and-ferb-the-movie-candace-against-the-universe/" && stop1 == false){
+        try{if(window.location.href == "//https://all4yourlife.tech/phineas-and-ferb-the-movie-candace-against-the-universe/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 14);
             console.log(bienso)
             stop1 = true;
