@@ -9,64 +9,48 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://all4yourlife.tech/all-together-now/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 7);
+            var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/counterintelligence/"
+            window.location.href = "https://all4yourlife.tech/take-back/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/hubie-halloween/"
+            window.location.href = "https://all4yourlife.tech/bad-president/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/broil/"
+            window.location.href = "https://all4yourlife.tech/the-clockwork-girl/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-wolf-of-snow-hollow/"
+            window.location.href = "https://all4yourlife.tech/digging-to-death/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/charm-city-kings/"
+            window.location.href = "https://all4yourlife.tech/mortal-kombat/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/seized/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/times-measures/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/counterintelligence/" && stop4 == false){
-            window.location.href = "https://alam-technologie.blogspot.com/2021/03/blog-post.html?&url=http://adfloz.co/3IoAbehB"
+        try{if(window.location.href == "https://all4yourlife.tech/take-back/" && stop4 == false){
+            window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/wjhe9Ib"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/hubie-halloween/" && stop4 == false){
-            window.location.href = "https://alam-technologie.blogspot.com/2021/03/blog-post.html?&url=http://adfloz.co/Txrcr"
+        try{if(window.location.href == "https://all4yourlife.tech/bad-president/" && stop4 == false){
+            window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/0HM67i"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/broil/" && stop4 == false){
-            window.location.href = "https://alam-technologie.blogspot.com/2021/03/blog-post.html?&url=http://adfloz.co/qlJMx"
+        try{if(window.location.href == "https://all4yourlife.tech/the-clockwork-girl/" && stop4 == false){
+            window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/row4nW"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-wolf-of-snow-hollow/" && stop4 == false){
-            window.location.href = "https://alam-technologie.blogspot.com/2021/03/blog-post.html?&url=http://adfloz.co/DlGOGfzp"
+        try{if(window.location.href == "https://all4yourlife.tech/digging-to-death/" && stop4 == false){
+            window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/zPAd2h3"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/charm-city-kings/" && stop4 == false){
-            window.location.href = "https://alam-technologie.blogspot.com/2021/03/blog-post.html?&url=http://adfloz.co/JjURO"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/seized/" && stop4 == false){
-            window.location.href = "https://alam-technologie.blogspot.com/2021/03/blog-post.html?&url=http://adfloz.co/lHSth"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/times-measures/" && stop4 == false){
-            window.location.href = "https://alam-technologie.blogspot.com/2021/03/blog-post.html?&url=http://adfloz.co/JJHw"
+        try{if(window.location.href == "https://all4yourlife.tech/mortal-kombat/" && stop4 == false){
+            window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/DQ9lnRRU"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("notran two")[0].innerText == "0" && stop3 == false){
