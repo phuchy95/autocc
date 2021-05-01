@@ -85,12 +85,12 @@ var bienso;
         }}catch(e){}
         try{if(document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].src == "https://linkjust.com/double-click-to-generate-link-1.png" && stop3 == false && window.location.href.includes("forexlap")){
             setTimeout(function(){document.getElementById("makingdifferenttimer").getElementsByTagName("img")[0].click();},3000);
-            setTimeout(function(){document.getElementById("molien").getElementsByTagName("a")[0].getElementsByTagName("img")[0].click();},8000);
+            setTimeout(function(){document.getElementById("molien").getElementsByTagName("input")[1].click();},8000);
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementsByTagName("img")[0].src == "https://linkjust.com/double-click-to-generate-link-1.png" && window.location.href.includes("fx4vip") && stop4 == false){
             setTimeout(function(){document.getElementsByTagName("img")[0].click();},3000);
-            setTimeout(function(){document.getElementsByTagName("img")[2].click();},12000);
+            setTimeout(function(){document.getElementsByTagName("img")[1].click();},12000);
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href.includes("vignette") && stop7 == false){
