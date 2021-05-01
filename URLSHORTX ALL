@@ -69,7 +69,7 @@ var stop8 = false;
             }
         }}catch(e){}
         try{for(var m=0;m<23;m++ && stop4 == false){
-            if(document.getElementsByTagName("img")[m].src == "https://techrfour.com/wp-content/uploads/2020/02/87266549_283983059229879_7073905617202577408_n.png"){
+            if(document.getElementsByTagName("img")[m].src == "https://techrfour.com/wp-content/uploads/2021/04/button_verify-1-1.png"){
                 document.getElementsByTagName("img")[m].click();
                 stop4 = true;
                 break;
@@ -119,7 +119,7 @@ var stop8 = false;
         }}catch(e){}
         try{for(var d=0;d<23;d++ && stop5 == false){
             if(document.getElementsByTagName("img")[d].src == "https://techrfour.com/wp-content/plugins/wp-safelink/assets/target4.png"){
-                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(62,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
+                window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);
                 stop5 = true;
                 break;
             }
@@ -144,10 +144,6 @@ var stop8 = false;
          }}catch(e){}
          try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false && document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://webfilms4u.me/wp-content/plugins/wp-safelink/assets/human-verification4.png"){
              document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();
-             stop1 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-             document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
              stop1 = true;
          }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop6 == false){
