@@ -8,48 +8,48 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/all-my-life/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/all-my-life/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/alpine-lake/"
+            window.location.href = "https://movieshd4.xyz/alpine-lake/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/a-ghost-waits/"
+            window.location.href = "https://movieshd4.xyz/a-ghost-waits/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/a-world-of-worlds/"
+            window.location.href = "https://movieshd4.xyz/a-world-of-worlds/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/rams/"
+            window.location.href = "https://movieshd4.xyz/rams/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/tulsa/"
+            window.location.href = "https://movieshd4.xyz/tulsa/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/alpine-lake/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/alpine-lake/" && stop4 == false){
             window.location.href = "https://earnload.co/vsYfGcA"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/a-ghost-waits/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/a-ghost-waits/" && stop4 == false){
             window.location.href = "https://earnload.co/BgWb"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/a-world-of-worlds/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/a-world-of-worlds/" && stop4 == false){
             window.location.href = "https://earnload.co/nuDC"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/rams/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/rams/" && stop4 == false){
             window.location.href = "https://earnload.co/nMEj"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/tulsa/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/tulsa/" && stop4 == false){
             window.location.href = "https://earnload.co/WrICEe2V"
             stop4 = true;
         }}catch(e){}
