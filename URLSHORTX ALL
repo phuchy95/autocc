@@ -8,56 +8,56 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/asylum-twisted-horror-and-fantasy-tales/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/asylum-twisted-horror-and-fantasy-tales/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-windermere-children/"
+            window.location.href = "https://movieshd4.xyz/the-windermere-children/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-call-of-the-wild/"
+            window.location.href = "https://movieshd4.xyz/the-call-of-the-wild/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/gemini-man/"
+            window.location.href = "https://movieshd4.xyz/gemini-man/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/survive-the-night/"
+            window.location.href = "https://movieshd4.xyz/survive-the-night/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/cut-and-chop/"
+            window.location.href = "https://movieshd4.xyz/cut-and-chop/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/hard-kill/"
+            window.location.href = "https://movieshd4.xyz/hard-kill/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-windermere-children/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-windermere-children/" && stop4 == false){
             window.location.href = "https://xpshort.com/5m9v8w"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-call-of-the-wild/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-call-of-the-wild/" && stop4 == false){
             window.location.href = "https://xpshort.com/MSP4mt"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/gemini-man/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/gemini-man/" && stop4 == false){
             window.location.href = "https://xpshort.com/Nn9ZNyh"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/survive-the-night/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/survive-the-night/" && stop4 == false){
             window.location.href = "https://xpshort.com/KlCVE"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/cut-and-chop/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/cut-and-chop/" && stop4 == false){
             window.location.href = "https://xpshort.com/qNvQM5F4"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/hard-kill/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/hard-kill/" && stop4 == false){
             window.location.href = "https://xpshort.com/2eD1N"
             stop4 = true;
         }}catch(e){}
