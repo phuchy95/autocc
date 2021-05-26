@@ -8,56 +8,56 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/books-of-blood/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/books-of-blood/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/holidate/"
+            window.location.href = "https://movieshd4.xyz/holidate/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/horse-girl/"
+            window.location.href = "https://movieshd4.xyz/horse-girl/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-whittler/"
+            window.location.href = "https://movieshd4.xyz/the-whittler/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/his-house/"
+            window.location.href = "https://movieshd4.xyz/his-house/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/spell/"
+            window.location.href = "https://movieshd4.xyz/spell/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-crumbs/"
+            window.location.href = "https://movieshd4.xyz/the-crumbs/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/holidate/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/holidate/" && stop4 == false){
             window.location.href = "https://m.imagenesderopaparaperros.com/3Sf9XP"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/horse-girl/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/horse-girl/" && stop4 == false){
             window.location.href = "https://m.imagenesderopaparaperros.com/DoF4I"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-whittler/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-whittler/" && stop4 == false){
             window.location.href = "https://m.imagenesderopaparaperros.com/K77B5e"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/his-house/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/his-house/" && stop4 == false){
             window.location.href = "https://m.imagenesderopaparaperros.com/zet4zk"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/spell/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/spell/" && stop4 == false){
             window.location.href = "https://m.imagenesderopaparaperros.com/yVOfqzR1"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-crumbs/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-crumbs/" && stop4 == false){
             window.location.href = "https://m.imagenesderopaparaperros.com/Wzc"
             stop4 = true;
         }}catch(e){}
