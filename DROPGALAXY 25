@@ -8,7 +8,7 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/stranded-sails-explorers-of-the-cursed-islands/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/stranded-sails-explorers-of-the-cursed-islands/" && stop1 == false){
             window.location.href = "https://dropgalaxy.in/ug5s7sowes2c"
             stop1 = true;
         }}catch(e){}
