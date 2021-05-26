@@ -9,72 +9,72 @@ var stop8 = false;
 var bienso;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/angie-lost-girls/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/angie-lost-girls/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 8);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/all-my-friends-are-dead/"
+            window.location.href = "https://movieshd4.xyz/all-my-friends-are-dead/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-serpent/"
+            window.location.href = "https://movieshd4.xyz/the-serpent/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/virus-shark/"
+            window.location.href = "https://movieshd4.xyz/virus-shark/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/deported/"
+            window.location.href = "https://movieshd4.xyz/deported/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/cosmic-sin/"
+            window.location.href = "https://movieshd4.xyz/cosmic-sin/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/son/"
+            window.location.href = "https://movieshd4.xyz/son/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/400-bullets/"
+            window.location.href = "https://movieshd4.xyz/400-bullets/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 7 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/shadowland/"
+            window.location.href = "https://movieshd4.xyz/shadowland/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/all-my-friends-are-dead/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/all-my-friends-are-dead/" && stop4 == false){
             window.location.href = "https://linkjust.com/Rj19yhEazYYHshP96fjBVT3"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-serpent/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-serpent/" && stop4 == false){
             window.location.href = "https://linkjust.com/uESHm0JtMFaHfd4r1"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/virus-shark/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/virus-shark/" && stop4 == false){
             window.location.href = "https://linkjust.com/AKNr6ee4K7d"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/deported/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/deported/" && stop4 == false){
             window.location.href = "https://linkjust.com/cGaekK"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/cosmic-sin/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/cosmic-sin/" && stop4 == false){
             window.location.href = "https://linkjust.com/JY6tUiDWchfSsfkYC3WQ1mo"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/son/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/son/" && stop4 == false){
             window.location.href = "https://linkjust.com/xP27Kp"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/400-bullets/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/400-bullets/" && stop4 == false){
             window.location.href = "https://linkjust.com/5opHKuc7GynRZGEGnc3zL"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/shadowland/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/shadowland/" && stop4 == false){
             window.location.href = "https://linkjust.com/eBJiXxm5YvCImH20BjaF"
             stop4 = true;
         }}catch(e){}
