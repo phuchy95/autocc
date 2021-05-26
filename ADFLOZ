@@ -8,48 +8,48 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/all-together-now/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/all-together-now/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/take-back/"
+            window.location.href = "https://movieshd4.xyz/take-back/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/bad-president/"
+            window.location.href = "https://movieshd4.xyz/bad-president/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-clockwork-girl/"
+            window.location.href = "https://movieshd4.xyz/the-clockwork-girl/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/digging-to-death/"
+            window.location.href = "https://movieshd4.xyz/digging-to-death/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/mortal-kombat/"
+            window.location.href = "https://movieshd4.xyz/mortal-kombat/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/take-back/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/take-back/" && stop4 == false){
             window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/wjhe9Ib"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/bad-president/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/bad-president/" && stop4 == false){
             window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/0HM67i"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-clockwork-girl/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-clockwork-girl/" && stop4 == false){
             window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/row4nW"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/digging-to-death/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/digging-to-death/" && stop4 == false){
             window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/zPAd2h3"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/mortal-kombat/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/mortal-kombat/" && stop4 == false){
             window.location.href = "https://kimo.ma/2020/05/blog-post_17.html?&url=http://adfloz.co/DQ9lnRRU"
             stop4 = true;
         }}catch(e){}
