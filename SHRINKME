@@ -8,64 +8,64 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "//https://all4yourlife.tech/ten-minutes-to-midnight/" && stop1 == false){
+        try{if(window.location.href == "//https://movieshd4.xyz/ten-minutes-to-midnight/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 7);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/wander-darkly/"
+            window.location.href = "https://movieshd4.xyz/wander-darkly/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/bird/"
+            window.location.href = "https://movieshd4.xyz/bird/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/double-down/"
+            window.location.href = "https://movieshd4.xyz/double-down/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/herself/"
+            window.location.href = "https://movieshd4.xyz/herself/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/honey-and-wine/"
+            window.location.href = "https://movieshd4.xyz/honey-and-wine/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-house-invictus/"
+            window.location.href = "https://movieshd4.xyz/the-house-invictus/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/light-up-night/"
+            window.location.href = "https://movieshd4.xyz/light-up-night/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/wander-darkly/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/wander-darkly/" && stop4 == false){
             window.location.href = "https://cslink.in/8G3FD"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/bird/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/bird/" && stop4 == false){
             window.location.href = "https://cslink.in/t9E3"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/double-down/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/double-down/" && stop4 == false){
             window.location.href = "https://cslink.in/ByAK3fa"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/herself/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/herself/" && stop4 == false){
             window.location.href = "https://cslink.in/WpZgm"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/honey-and-wine/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/honey-and-wine/" && stop4 == false){
             window.location.href = "https://cslink.in/4oDRn7"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-house-invictus/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-house-invictus/" && stop4 == false){
             window.location.href = "https://cslink.in/ODF6o"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/light-up-night/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/light-up-night/" && stop4 == false){
             window.location.href = "https://cslink.in/T3OvV1vy"
             stop4 = true;
         }}catch(e){}
