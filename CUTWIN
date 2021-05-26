@@ -8,64 +8,64 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/disrupted/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/disrupted/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 7);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/project-power/"
+            window.location.href = "https://movieshd4.xyz/project-power/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/deathstroke-knights-dragons/"
+            window.location.href = "https://movieshd4.xyz/deathstroke-knights-dragons/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/fearless/"
+            window.location.href = "https://movieshd4.xyz/fearless/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/magic-camp/"
+            window.location.href = "https://movieshd4.xyz/magic-camp/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-king-of-staten-island/"
+            window.location.href = "https://movieshd4.xyz/the-king-of-staten-island/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/spree/"
+            window.location.href = "https://movieshd4.xyz/spree/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/one-night-in-bangkok/"
+            window.location.href = "https://movieshd4.xyz/one-night-in-bangkok/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/project-power/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/project-power/" && stop4 == false){
             window.location.href = "https://cutwin.com/kf21aK0"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/deathstroke-knights-dragons/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/deathstroke-knights-dragons/" && stop4 == false){
             window.location.href = "https://cutwin.com/6BsOyq"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/fearless/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/fearless/" && stop4 == false){
             window.location.href = "https://cutwin.com/mGpf"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/magic-camp/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/magic-camp/" && stop4 == false){
             window.location.href = "https://cutwin.com/QjLLFs"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-king-of-staten-island/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-king-of-staten-island/" && stop4 == false){
             window.location.href = "https://cutwin.com/FXTKdf"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/spree/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/spree/" && stop4 == false){
             window.location.href = "https://cutwin.com/vNVMtk"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/one-night-in-bangkok/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/one-night-in-bangkok/" && stop4 == false){
             window.location.href = "https://cutwin.com/VwduJLW"
             stop4 = true;
         }}catch(e){}
