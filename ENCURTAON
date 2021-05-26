@@ -8,48 +8,48 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/come-away/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/come-away/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/chick-fight/"
+            window.location.href = "https://movieshd4.xyz/chick-fight/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/dead-reckoning/"
+            window.location.href = "https://movieshd4.xyz/dead-reckoning/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/all-joking-aside/"
+            window.location.href = "https://movieshd4.xyz/all-joking-aside/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/last-three-days/"
+            window.location.href = "https://movieshd4.xyz/last-three-days/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/jingle-jangle-a-christmas-journey/"
+            window.location.href = "https://movieshd4.xyz/jingle-jangle-a-christmas-journey/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/chick-fight/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/chick-fight/" && stop4 == false){
             window.location.href = "https://llinkon.com/ivIV"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/dead-reckoning/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/dead-reckoning/" && stop4 == false){
             window.location.href = "https://llinkon.com/kSyNa"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/all-joking-aside/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/all-joking-aside/" && stop4 == false){
             window.location.href = "https://llinkon.com/M5Uh"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/last-three-days/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/last-three-days/" && stop4 == false){
             window.location.href = "https://llinkon.com/RnW5WY"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/jingle-jangle-a-christmas-journey/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/jingle-jangle-a-christmas-journey/" && stop4 == false){
             window.location.href = "https://llinkon.com/6hgxcR"
             stop4 = true;
         }}catch(e){}
