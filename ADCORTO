@@ -8,56 +8,56 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/summerland/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/summerland/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-midnight-sky/"
+            window.location.href = "https://movieshd4.xyz/the-midnight-sky/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/sticky-toffee-pudding/"
+            window.location.href = "https://movieshd4.xyz/sticky-toffee-pudding/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/12-hour-shift/"
+            window.location.href = "https://movieshd4.xyz/12-hour-shift/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-bloodhound/"
+            window.location.href = "https://movieshd4.xyz/the-bloodhound/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/wonder-woman-1984/"
+            window.location.href = "https://movieshd4.xyz/wonder-woman-1984/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-nest/"
+            window.location.href = "https://movieshd4.xyz/the-nest/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-midnight-sky/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-midnight-sky/" && stop4 == false){
             window.location.href = "https://adcorto.xyz/P0ZYAQqZ07e"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/sticky-toffee-pudding/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/sticky-toffee-pudding/" && stop4 == false){
             window.location.href = "https://adcorto.xyz/kevEzBH"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/12-hour-shift/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/12-hour-shift/" && stop4 == false){
             window.location.href = "https://adcorto.xyz/I1kWWeAggk"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-bloodhound/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-bloodhound/" && stop4 == false){
             window.location.href = "https://adcorto.xyz/IS77NV7TcgB2I"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/wonder-woman-1984/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/wonder-woman-1984/" && stop4 == false){
             window.location.href = "https://adcorto.xyz/FTIc8shQ"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-nest/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-nest/" && stop4 == false){
             window.location.href = "https://adcorto.xyz/qkIdy"
             stop4 = true;
         }}catch(e){}
