@@ -8,7 +8,7 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/new-super-luckys-tale/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/new-super-luckys-tale/" && stop1 == false){
             window.location.href = "https://dropgalaxy.in/srlwf1p7wc6j"
             stop1 = true;
         }}catch(e){}
