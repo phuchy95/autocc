@@ -8,88 +8,88 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/the-lego-star-wars-holiday-special/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-lego-star-wars-holiday-special/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 10);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-lost/"
+            window.location.href = "https://movieshd4.xyz/the-lost/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/hunted/"
+            window.location.href = "https://movieshd4.xyz/hunted/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/dont-tell-a-soul/"
+            window.location.href = "https://movieshd4.xyz/dont-tell-a-soul/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/come-play/"
+            window.location.href = "https://movieshd4.xyz/come-play/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/we-are-the-missing/"
+            window.location.href = "https://movieshd4.xyz/we-are-the-missing/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/run-hide-fight/"
+            window.location.href = "https://movieshd4.xyz/run-hide-fight/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/one-night-in-miami/"
+            window.location.href = "https://movieshd4.xyz/one-night-in-miami/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 7 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-adventure-of-a-r-i-my-robot-friend/"
+            window.location.href = "https://movieshd4.xyz/the-adventure-of-a-r-i-my-robot-friend/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 8 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-captive-nanny/"
+            window.location.href = "https://movieshd4.xyz/the-captive-nanny/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 9 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/quarantine-girl/"
+            window.location.href = "https://movieshd4.xyz/quarantine-girl/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-lost/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-lost/" && stop4 == false){
             window.location.href = "https://kiiw.icu/M9muEdr4"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/hunted/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/hunted/" && stop4 == false){
             window.location.href = "https://kiiw.icu/bmfcZwv"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/dont-tell-a-soul/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/dont-tell-a-soul/" && stop4 == false){
             window.location.href = "https://kiiw.icu/tBxnX"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/come-play/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/come-play/" && stop4 == false){
             window.location.href = "https://kiiw.icu/A7Hnpjg"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/we-are-the-missing/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/we-are-the-missing/" && stop4 == false){
             window.location.href = "https://kiiw.icu/R3BwYld"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/run-hide-fight/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/run-hide-fight/" && stop4 == false){
             window.location.href = "https://kiiw.icu/xamIg"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/one-night-in-miami/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/one-night-in-miami/" && stop4 == false){
             window.location.href = "https://kiiw.icu/AqKWo"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-adventure-of-a-r-i-my-robot-friend/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-adventure-of-a-r-i-my-robot-friend/" && stop4 == false){
             window.location.href = "https://kiiw.icu/lVgDy6"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-captive-nanny/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-captive-nanny/" && stop4 == false){
             window.location.href = "https://kiiw.icu/UVz0B0"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/quarantine-girl/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/quarantine-girl/" && stop4 == false){
             window.location.href = "https://kiiw.icu/D1nx"
             stop4 = true;
         }}catch(e){}
