@@ -8,64 +8,64 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/joker/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/joker/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 7);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-tax-collector/"
+            window.location.href = "https://movieshd4.xyz/the-tax-collector/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-secret-garden/"
+            window.location.href = "https://movieshd4.xyz/the-secret-garden/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/la-llorona/"
+            window.location.href = "https://movieshd4.xyz/la-llorona/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/paydirt/"
+            window.location.href = "https://movieshd4.xyz/paydirt/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-bay-of-silence/"
+            window.location.href = "https://movieshd4.xyz/the-bay-of-silence/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/monster-hunters/"
+            window.location.href = "https://movieshd4.xyz/monster-hunters/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-babysitter-killer-queen/"
+            window.location.href = "https://movieshd4.xyz/the-babysitter-killer-queen/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-tax-collector/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-tax-collector/" && stop4 == false){
             window.location.href = "https://iir.ai/hkTP9O9"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-secret-garden/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-secret-garden/" && stop4 == false){
             window.location.href = "https://iir.ai/RuYnr"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/la-llorona/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/la-llorona/" && stop4 == false){
             window.location.href = "https://iir.ai/t4fFJL"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/paydirt/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/paydirt/" && stop4 == false){
             window.location.href = "https://iir.ai/xPcI238j"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-bay-of-silence/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-bay-of-silence/" && stop4 == false){
             window.location.href = "https://iir.ai/BalL"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/monster-hunters/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/monster-hunters/" && stop4 == false){
             window.location.href = "https://iir.ai/CUO2mgC"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-babysitter-killer-queen/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-babysitter-killer-queen/" && stop4 == false){
             window.location.href = "https://iir.ai/g25hP"
             stop4 = true;
         }}catch(e){}
