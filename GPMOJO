@@ -8,56 +8,56 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/active-shooter/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/active-shooter/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/tread/"
+            window.location.href = "https://movieshd4.xyz/tread/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-dinner-party/"
+            window.location.href = "https://movieshd4.xyz/the-dinner-party/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/possessor/"
+            window.location.href = "https://movieshd4.xyz/possessor/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/g-loc/"
+            window.location.href = "https://movieshd4.xyz/g-loc/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/last-shot/"
+            window.location.href = "https://movieshd4.xyz/last-shot/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/up-on-the-glass/"
+            window.location.href = "https://movieshd4.xyz/up-on-the-glass/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/tread/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/tread/" && stop4 == false){
             window.location.href = "https://gpmojo.co/xlbz1TEK"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-dinner-party/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-dinner-party/" && stop4 == false){
             window.location.href = "https://gpmojo.co/6fyFrK"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/possessor/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/possessor/" && stop4 == false){
             window.location.href = "https://gpmojo.co/ofkz"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/g-loc/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/g-loc/" && stop4 == false){
             window.location.href = "https://gpmojo.co/mrf6g0"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/last-shot/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/last-shot/" && stop4 == false){
             window.location.href = "https://gpmojo.co/xMn6CE"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/up-on-the-glass/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/up-on-the-glass/" && stop4 == false){
             window.location.href = "https://gpmojo.co/bCuI8g"
             stop4 = true;
         }}catch(e){}
