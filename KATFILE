@@ -8,48 +8,48 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/asking-for-it/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/asking-for-it/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/wasteland-3/"
+            window.location.href = "https://movieshd4.xyz/wasteland-3/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/combat-mission-shock-force-2/"
+            window.location.href = "https://movieshd4.xyz/combat-mission-shock-force-2/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/othercide/"
+            window.location.href = "https://movieshd4.xyz/othercide/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/windbound/"
+            window.location.href = "https://movieshd4.xyz/windbound/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/nba-2k21/"
+            window.location.href = "https://movieshd4.xyz/nba-2k21/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/wasteland-3/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/wasteland-3/" && stop4 == false){
             window.location.href = "https://katfile.com/a902i65szpnf/Wasteland_3.Crack.Only-PLAZA.rar.html"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/combat-mission-shock-force-2/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/combat-mission-shock-force-2/" && stop4 == false){
             window.location.href = "https://katfile.com/294iw2ntzxqo/Combat_Mission_Shock_Force_2.Crack.Only-CODEX.rar.html"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/othercide/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/othercide/" && stop4 == false){
             window.location.href = "https://katfile.com/zmwgc9g0m5lt/Othercide.Crack.Only-CODEX.rar.html"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/windbound/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/windbound/" && stop4 == false){
             window.location.href = "https://katfile.com/k8uftqonxr1q/Windbound.Crack.Only-CODEX.rar.html"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/nba-2k21/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/nba-2k21/" && stop4 == false){
             window.location.href = "https://katfile.com/wdgdnto01hg4/NBA_2K21.Crack.Only-CODEX.rar.html"
             stop4 = true;
         }}catch(e){}
