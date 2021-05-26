@@ -8,72 +8,72 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/stargirl/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/stargirl/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 8);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/greyhound/"
+            window.location.href = "https://movieshd4.xyz/greyhound/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/palm-springs/"
+            window.location.href = "https://movieshd4.xyz/palm-springs/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-sonata/"
+            window.location.href = "https://movieshd4.xyz/the-sonata/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-wishmas-tree/"
+            window.location.href = "https://movieshd4.xyz/the-wishmas-tree/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/friends-who-kill/"
+            window.location.href = "https://movieshd4.xyz/friends-who-kill/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/what-the-night-can-do/"
+            window.location.href = "https://movieshd4.xyz/what-the-night-can-do/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/paranormal-attraction/"
+            window.location.href = "https://movieshd4.xyz/paranormal-attraction/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 7 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/santana/"
+            window.location.href = "https://movieshd4.xyz/santana/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/greyhound/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/greyhound/" && stop4 == false){
             window.location.href = "https://tii.ai/hE4Vg4nI"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/palm-springs/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/palm-springs/" && stop4 == false){
             window.location.href = "https://tii.ai/2fAdo2BJ"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-sonata/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-sonata/" && stop4 == false){
             window.location.href = "https://tii.ai/Tzmza"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-wishmas-tree/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/the-wishmas-tree/" && stop4 == false){
             window.location.href = "https://tii.ai/qgyU2"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/friends-who-kill/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/friends-who-kill/" && stop4 == false){
             window.location.href = "https://tii.ai/nFuSxl7U"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/what-the-night-can-do/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/what-the-night-can-do/" && stop4 == false){
             window.location.href = "https://tii.ai/aZ7SKgu"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/paranormal-attraction/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/paranormal-attraction/" && stop4 == false){
             window.location.href = "https://tii.ai/1H3gbho"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/santana/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/santana/" && stop4 == false){
             window.location.href = "https://tii.ai/ddVMa5dp"
             stop4 = true;
         }}catch(e){}
