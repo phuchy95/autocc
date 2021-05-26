@@ -9,64 +9,64 @@ var stop8 = false;
 var bienso;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://all4yourlife.tech/im-your-woman/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/im-your-woman/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 7);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/im-not-him/"
+            window.location.href = "https://movieshd4.xyz/im-not-him/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/godzilla-vs-kong/"
+            window.location.href = "https://movieshd4.xyz/godzilla-vs-kong/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/voyage-into-the-night/"
+            window.location.href = "https://movieshd4.xyz/voyage-into-the-night/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/a-week-away/"
+            window.location.href = "https://movieshd4.xyz/a-week-away/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/these-streets-we-haunt/"
+            window.location.href = "https://movieshd4.xyz/these-streets-we-haunt/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/one-and-the-same/"
+            window.location.href = "https://movieshd4.xyz/one-and-the-same/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/audition/"
+            window.location.href = "https://movieshd4.xyz/audition/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/im-not-him/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/im-not-him/" && stop4 == false){
             window.location.href = "https://dulinks.in/AVOH5yYTGJV5W2"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/godzilla-vs-kong/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/godzilla-vs-kong/" && stop4 == false){
             window.location.href = "https://dulinks.in/IUp9u"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/voyage-into-the-night/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/voyage-into-the-night/" && stop4 == false){
             window.location.href = "https://dulinks.in/G7XhmiO"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/a-week-away/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/a-week-away/" && stop4 == false){
             window.location.href = "https://dulinks.in/KG1vZ3WC"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/these-streets-we-haunt/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/these-streets-we-haunt/" && stop4 == false){
             window.location.href = "https://dulinks.in/jEWPpK"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/one-and-the-same/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/one-and-the-same/" && stop4 == false){
             window.location.href = "https://dulinks.in/wt8W"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/audition/" && stop4 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/audition/" && stop4 == false){
             window.location.href = "https://dulinks.in/oMYe77JHYZwXmI"
             stop4 = true;
         }}catch(e){}
