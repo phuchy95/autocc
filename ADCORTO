@@ -65,7 +65,7 @@ var stop8 = false;
              setTimeout(function(){document.getElementById("wpsafelinkhuman").click();},3000);
              stop1 = true;
          }}catch(e){}
-        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://insuranceblog.xyz/wp-content/uploads/2021/04/generate.png" && stop2 == false){
+        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://insuranceblog.xyz/wp-content/uploads/2021/05/button_generate-link.png" && stop2 == false){
             setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},5000);
             setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1)},12000)
             stop2 = true;
