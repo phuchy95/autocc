@@ -42,39 +42,39 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/bo-burnham-inside/" && stop4 == false){
-            window.location.href = "https://tny.so/bB6L14ZZ"
+            window.location.href = "https://mof.pw/bdcF"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/open-your-eyes/" && stop4 == false){
-            window.location.href = "https://tny.so/G4mM"
+            window.location.href = "https://mof.pw/Oi2QT"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/american-traitor-the-trial-of-axis-sally/" && stop4 == false){
-            window.location.href = "https://tny.so/T22nU0k"
+            window.location.href = "https://mof.pw/XLSGLCjG"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/cruella/" && stop4 == false){
-            window.location.href = "https://tny.so/r5G51"
+            window.location.href = "https://mof.pw/GzoH4h"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/oslo/" && stop4 == false){
-            window.location.href = "https://tny.so/4r8WNq"
+            window.location.href = "https://mof.pw/2zq7xB"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/boogie/" && stop4 == false){
-            window.location.href = "https://tny.so/uC2S8Gq"
+            window.location.href = "https://mof.pw/yKfWX9"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/army-of-the-dead/" && stop4 == false){
-            window.location.href = "https://tny.so/8nM6"
+            window.location.href = "https://mof.pw/vNuz"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-sm btn-captcha")[0].click();},3000);
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
              stop1 = true;
          }}catch(e){}
-        try{if(document.getElementById("status").innerText.includes("Well") && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-sm")[0].click();},3000);
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop2 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
             stop2 = true;
         }}catch(e){}
     },6000)
