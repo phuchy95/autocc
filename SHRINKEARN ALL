@@ -81,9 +81,14 @@ var stop8 = false;
             document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
-            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+        try{if(document.getElementsByClassName("getmylink")[1].innerText.includes("Continue...") && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("getmylink")[1].click();},3000);
+            setTimeout(function(){document.getElementById("getlink").click();},8000);
             stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop5 == false){
+            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+            stop5 = true;
         }}catch(e){}
     },6000)
 })();
