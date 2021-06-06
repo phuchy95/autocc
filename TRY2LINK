@@ -8,52 +8,51 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "//https://all4yourlife.tech/master-pieces/" && stop1 == false){
+        try{if(window.location.href == "https://movieshd4.xyz/master-pieces/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/no-escape/"
+            window.location.href = "https://movieshd4.xyz/the-conjuring-the-devil-made-me-do-it/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/lost-girls-and-love-hotels/"
+            window.location.href = "https://movieshd4.xyz/spiral-from-the-book-of-saw/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-racer/"
+            window.location.href = "https://movieshd4.xyz/those-who-wish-me-dead/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/teenage-badass/"
+            window.location.href = "https://movieshd4.xyz/us-again/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/residue/"
+            window.location.href = "https://movieshd4.xyz/dutch/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/no-escape/" && stop4 == false){
-            window.location.href = "https://try2link.net/k6xUr"
+        try{if(window.location.href == "https://movieshd4.xyz/the-conjuring-the-devil-made-me-do-it/" && stop4 == false){
+            window.location.href = "https://try2link.com/JQBFLV"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/lost-girls-and-love-hotels/" && stop4 == false){
-            window.location.href = "https://try2link.net/nWodgI"
+        try{if(window.location.href == "https://movieshd4.xyz/spiral-from-the-book-of-saw/" && stop4 == false){
+            window.location.href = "https://try2link.com/0Is31r"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-racer/" && stop4 == false){
-            window.location.href = "https://try2link.net/eUSQCV5"
+        try{if(window.location.href == "https://movieshd4.xyz/those-who-wish-me-dead/" && stop4 == false){
+            window.location.href = "https://try2link.com/wgna3hed"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/teenage-badass/" && stop4 == false){
-            window.location.href = "https://try2link.net/bj9fqsT"
+        try{if(window.location.href == "https://movieshd4.xyz/us-again/" && stop4 == false){
+            window.location.href = "https://try2link.com/ePsupNUy"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/residue/" && stop4 == false){
-            window.location.href = "https://try2link.net/d2kMx6MA"
+        try{if(window.location.href == "https://movieshd4.xyz/dutch/" && stop4 == false){
+            window.location.href = "https://try2link.com/CYvG5Kc"
             stop4 = true;
         }}catch(e){}
-
         try{if(window.location.href.includes("4tgamers") && stop6 == false && document.getElementsByClassName("s-btn-f")[0].innerText == "CLICK HERE"){
             setTimeout(function(){document.getElementsByClassName("s-btn-f")[0].click();},3000)
             setTimeout(function(){document.getElementsByClassName("s-btn-f")[1].click();},8000)
