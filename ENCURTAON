@@ -54,9 +54,13 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},10000)
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("skip-ad")[0].innerText == "PULAR ANÚNCIO" && stop2 == false){
+             setTimeout(function(){document.getElementsByClassName("btn")[0].click();},3000);
+             stop2 = true;
+         }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg")[0].innerText == "Desce até em Baixo" && stop2 == false){
              setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg")[0].click();},3000);
              stop2 = true;
