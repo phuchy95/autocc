@@ -25,15 +25,15 @@ var stop8 = false;
             window.location.href = "https://docs.google.com/document/d/1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://docs.google.com/document/d/1jQq4Kd2UGhnBvPLJFXtB-lsMEPMjEmVPLPuUlSB9f88" && stop4 == false){
+        try{if(window.location.href.includes("1jQq4Kd2UGhnBvPLJFXtB-lsMEPMjEmVPLPuUlSB9f88") && stop4 == false){
             window.location.href = "https://link1s.com/kLKgMUtg"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://docs.google.com/document/d/1v7htOnJLOHJGQzQoMqQ5MLln4jllwVjJ-hXO-a5f4jM" && stop4 == false){
+        try{if(window.location.href.includes("1v7htOnJLOHJGQzQoMqQ5MLln4jllwVjJ-hXO-a5f4jM") && stop4 == false){
             window.location.href = "https://link1s.com/CHiTm"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://docs.google.com/document/d/1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU" && stop4 == false){
+        try{if(window.location.href.includes("1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU") && stop4 == false){
             window.location.href = "https://link1s.com/W96hy"
             stop4 = true;
         }}catch(e){}
