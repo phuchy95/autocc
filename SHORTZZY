@@ -8,148 +8,46 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "//https://all4yourlife.tech/phineas-and-ferb-the-movie-candace-against-the-universe/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 14);
+        try{if(window.location.href == "https://movieshd4.xyz/come-away/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 3);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/huey/"
+            window.location.href = "https://docs.google.com/document/d/1jQq4Kd2UGhnBvPLJFXtB-lsMEPMjEmVPLPuUlSB9f88"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/simmer/"
+            window.location.href = "https://docs.google.com/document/d/1v7htOnJLOHJGQzQoMqQ5MLln4jllwVjJ-hXO-a5f4jM"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/respite/"
+            window.location.href = "https://docs.google.com/document/d/1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/beware-of-dog/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/get-luke-lowe/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/circumstances-2-the-chase/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/horizon-line/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 7 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/unfollower/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 8 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/no-reasons/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 9 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/kidnapped-by-a-classmate/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 10 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/kajillionaire/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 11 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/dont-look-back/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 12 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/quiz/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 13 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-secrets-we-keep/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/huey/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/kt5Um"
+        try{if(window.location.href == "https://docs.google.com/document/d/1jQq4Kd2UGhnBvPLJFXtB-lsMEPMjEmVPLPuUlSB9f88" && stop4 == false){
+            window.location.href = "https://link1s.com/kLKgMUtg"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/simmer/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/m63s"
+        try{if(window.location.href == "https://docs.google.com/document/d/1v7htOnJLOHJGQzQoMqQ5MLln4jllwVjJ-hXO-a5f4jM" && stop4 == false){
+            window.location.href = "https://link1s.com/CHiTm"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/respite/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/LVMpX"
+        try{if(window.location.href == "https://docs.google.com/document/d/1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU" && stop4 == false){
+            window.location.href = "https://link1s.com/W96hy"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/beware-of-dog/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/4Vs9"
-            stop4 = true;
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+            setTimeout(function(){document.getElementsByClassName("g-recaptcha btn btn-primary")[0].click();},3000)
+            stop1 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/get-luke-lowe/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/pbx8B"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/circumstances-2-the-chase/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/LMxRf"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/horizon-line/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/BtJvE"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/unfollower/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/RNUz22"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/no-reasons/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/3DnE"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/kidnapped-by-a-classmate/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/xyPe"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/kajillionaire/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/8HNy1BJH"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/dont-look-back/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/blVAVGs"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/quiz/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/mzOYIwD"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-secrets-we-keep/" && stop4 == false){
-            window.location.href = "https://coinsparty.luckydice.net/jwqIre"
-            stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false && window.location.href.includes("coinsparty") == false){
-             setTimeout(function(){document.getElementById("wpsafelinkhuman").click();},3000);
-             stop1 = true;
+        try{if(document.getElementsByClassName("btn btn-primary")[1].innerText == "Click here to Continue" && stop2 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[1].click();},3000);
+             stop2 = true;
          }}catch(e){}
-        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://mcrypto.club/wp-content/uploads/2021/04/generate2.png" && stop5 == false){
-             setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000);
-             setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);},8000);
-             stop5 = true;
-         }}catch(e){}
-        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "http://dogeearn.com/wp-content/uploads/2021/04/generate2.png" && stop5 == false){
-             setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000);
-             setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);},8000);
-             stop5 = true;
-         }}catch(e){}
-        try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://mcrypto.club/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop5 == false){
-             setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},3000);
-             stop5 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop3 == false && window.location.href.includes("coinsparty") == true){
-             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click()},3000);
-             stop3 = true;
-         }}catch(e){}
-         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop4 == false){
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false){
              setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
-             stop4 = true;
+             stop3 = true;
          }}catch(e){}
     },6000)
 })();
