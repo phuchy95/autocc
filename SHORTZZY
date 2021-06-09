@@ -38,15 +38,15 @@ var stop8 = false;
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-            setTimeout(function(){document.getElementsByClassName("g-recaptcha btn btn-primary")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn btn-outline-primary btn-captcha m-2")[0].click();},3000)
             stop1 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary")[1].innerText == "Click here to Continue" && stop2 == false){
-             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[1].click();},3000);
+        try{if(document.getElementsByClassName("g-recaptcha btn btn-primary ")[0].innerText == "Click here to continue" && stop2 == false){
+             setTimeout(function(){document.getElementsByClassName("g-recaptcha btn btn-primary ")[0].click();},3000);
              stop2 = true;
          }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false){
-             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
+        try{if(document.getElementsByClassName("btn m-2 btn-success")[0].innerText == "Get Link" && stop3 == false){
+             setTimeout(function(){document.getElementsByClassName("btn m-2 btn-success")[0].click();},3000);
              stop3 = true;
          }}catch(e){}
     },6000)
