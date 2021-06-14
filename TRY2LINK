@@ -65,6 +65,10 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("submitBtn btn btn-primary ")[0].click();},3000)
             stop4 = true;
         }}catch(e){}
+        try{if(document.getElementsByClassName("s-btn-f")[0].innerText == "You are currently on step (2/2 )" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("s-btn-f")[0].click();},3000)
+            stop5 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000)
             stop3 = true;
