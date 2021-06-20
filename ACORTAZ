@@ -9,136 +9,72 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://movieshd4.xyz/welcome-to-the-circle/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 16);
+            var bienso = Math.floor(Math.random() * 8);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/vengeance/"
+            window.location.href = "https://movieshd4.xyz/star-wars-biomes/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/sleepaway-slasher/"
+            window.location.href = "https://movieshd4.xyz/triumph/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/south-of-the-river/"
+            window.location.href = "https://movieshd4.xyz/deadly-passion/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-farmer-and-the-belle-saving-santaland/"
+            window.location.href = "https://movieshd4.xyz/the-bakers-son/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-illustrator/"
+            window.location.href = "https://movieshd4.xyz/songs-for-a-sloth/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/darkness-in-tenement-45/"
+            window.location.href = "https://movieshd4.xyz/just-another-dream/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/casting-couch-slaughter/"
+            window.location.href = "https://movieshd4.xyz/the-space-between/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 7 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/desire-path/"
+            window.location.href = "https://movieshd4.xyz/in-the-heights/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 8 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/unhinged/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 9 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-misadventures-of-mistress-maneater/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 10 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/antebellum/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 11 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/mulan/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 12 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/switched/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 13 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/im-thinking-of-ending-things/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 14 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/anthony/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 15 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/youre-bacon-me-crazy/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/vengeance/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/LJ31Vi6B"
+        try{if(window.location.href == "https://movieshd4.xyz/star-wars-biomes/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/3S2Jy"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/sleepaway-slasher/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/J2rrg"
+        try{if(window.location.href == "https://movieshd4.xyz/triumph/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/GK73S"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/south-of-the-river/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/P7fdW"
+        try{if(window.location.href == "https://movieshd4.xyz/deadly-passion/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/gbjqR2"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-farmer-and-the-belle-saving-santaland/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/v2en5wgH"
+        try{if(window.location.href == "https://movieshd4.xyz/the-bakers-son/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/yGxRj"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-illustrator/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/hd6II"
+        try{if(window.location.href == "https://movieshd4.xyz/songs-for-a-sloth/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/VJUY04Tr"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/darkness-in-tenement-45/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/SjEXoWoN"
+        try{if(window.location.href == "https://movieshd4.xyz/just-another-dream/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/ZpLh4UgR"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/casting-couch-slaughter/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/ZgZFoP"
+        try{if(window.location.href == "https://movieshd4.xyz/the-space-between/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/reH9K3"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/desire-path/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/hZ7dZ"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/unhinged/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/Sm5phe"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-misadventures-of-mistress-maneater/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/GqEB61"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/antebellum/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/wPvimRs"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/mulan/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/vDBrC2"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/switched/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/M5O7Fm"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/im-thinking-of-ending-things/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/auVPbP"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/anthony/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/rSoVAZt"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/youre-bacon-me-crazy/" && stop4 == false){
-            window.location.href = "https://m.finanzas-vida.com/SI70bcWr"
+        try{if(window.location.href == "https://movieshd4.xyz/in-the-heights/" && stop4 == false){
+            window.location.href = "https://m.finanzas-vida.com/AxuF0"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
