@@ -8,7 +8,7 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "https://movieshd4.xyz/disrupted/" && stop1 == false){
+        try{if(window.location.href == "//https://movieshd4.xyz/disrupted/" && stop1 == false){
             var bienso = Math.floor(Math.random() * 7);
             console.log(bienso)
             stop1 = true;
