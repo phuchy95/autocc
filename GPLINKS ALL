@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://movieshd4.xyz/the-lego-star-wars-holiday-special/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 10);
+            var bienso = Math.floor(Math.random() * 15);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -53,6 +53,26 @@ var stop8 = false;
             window.location.href = "https://movieshd4.xyz/quarantine-girl/"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 10 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/fatherhood/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 11 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/luca/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 12 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/censor/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 13 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/the-misfits/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 14 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/her-pen-pal/"
+            stop2 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/the-lost/" && stop4 == false){
             window.location.href = "https://kiiw.icu/M9muEdr4"
             stop4 = true;
@@ -91,6 +111,26 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/quarantine-girl/" && stop4 == false){
             window.location.href = "https://kiiw.icu/D1nx"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/fatherhood/" && stop4 == false){
+            window.location.href = "https://kiiw.icu/5SLrjnZc"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/luca/" && stop4 == false){
+            window.location.href = "https://kiiw.icu/ZtlGhL7po"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/censor/" && stop4 == false){
+            window.location.href = "https://kiiw.icu/r5YQ"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/the-misfits/" && stop4 == false){
+            window.location.href = "https://kiiw.icu/4tiO"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/her-pen-pal/" && stop4 == false){
+            window.location.href = "https://kiiw.icu/DXJwWW"
             stop4 = true;
         }}catch(e){}
          try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop5 == false){
