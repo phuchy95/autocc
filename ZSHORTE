@@ -14,51 +14,51 @@ var stop8 = false;
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/holidate/"
+            window.location.href = "https://movieshd4.xyz/making-something-great/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/horse-girl/"
+            window.location.href = "https://movieshd4.xyz/you-had-me-at-aloha/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-whittler/"
+            window.location.href = "https://movieshd4.xyz/skater-girl/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/his-house/"
+            window.location.href = "https://movieshd4.xyz/wish-dragon/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/spell/"
+            window.location.href = "https://movieshd4.xyz/mayfields-game/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-crumbs/"
+            window.location.href = "https://movieshd4.xyz/voyagers/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/holidate/" && stop4 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/3Sf9XP"
+        try{if(window.location.href == "https://movieshd4.xyz/making-something-great/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/puFvTDnO"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/horse-girl/" && stop4 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/DoF4I"
+        try{if(window.location.href == "https://movieshd4.xyz/you-had-me-at-aloha/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/9reWy"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-whittler/" && stop4 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/K77B5e"
+        try{if(window.location.href == "https://movieshd4.xyz/skater-girl/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/fbJZIMX4"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/his-house/" && stop4 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/zet4zk"
+        try{if(window.location.href == "https://movieshd4.xyz/wish-dragon/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/Oc4pRU"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/spell/" && stop4 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/yVOfqzR1"
+        try{if(window.location.href == "https://movieshd4.xyz/mayfields-game/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/CCZCH"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-crumbs/" && stop4 == false){
-            window.location.href = "https://m.imagenesderopaparaperros.com/Wzc"
+        try{if(window.location.href == "https://movieshd4.xyz/voyagers/" && stop4 == false){
+            window.location.href = "https://m.imagenesderopaparaperros.com/6CWDYg4"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
