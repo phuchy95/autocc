@@ -14,71 +14,76 @@ var stop8 = false;
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/take-back/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/bad-president/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-clockwork-girl/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/digging-to-death/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/mortal-kombat/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
             window.location.href = "https://movieshd4.xyz/clairevoyant/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/take-back/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/wjhe9Ib"
-            stop4 = true;
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/rogue-hostage/"
+            stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/bad-president/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/0HM67i"
-            stop4 = true;
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/cousins/"
+            stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-clockwork-girl/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/row4nW"
-            stop4 = true;
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/baphomet/"
+            stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/digging-to-death/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/zPAd2h3"
-            stop4 = true;
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/trigger-point/"
+            stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/mortal-kombat/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/DQ9lnRRU"
-            stop4 = true;
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/blackstock-boneyard/"
+            stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/clairevoyant/" && stop4 == false){
             window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/7g7dpj"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/rogue-hostage/" && stop4 == false){
+            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/oL8rmW7G"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/cousins/" && stop4 == false){
+            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/Vp0Xzl"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/baphomet/" && stop4 == false){
+            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/nZ6vS2rU"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/trigger-point/" && stop4 == false){
+            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/Wb43LCrv"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/blackstock-boneyard/" && stop4 == false){
+            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/WrQL2"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("notran two")[0].innerText == "0" && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("_wj1hwkm")[0] != null && stop4 == false){
-            //setTimeout(function(){document.getElementsByClassName("_x3peyth ")[0].click();},3000)
+        try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "http://www.adfloz.net/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop4 == false){
+            setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},3000)
             stop4 = true;
         }}catch(e){}
+        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "http://www.adfloz.net/wp-content/plugins/wp-safelink/assets/generate4.png" && stop5 == false){
+            setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000)
+            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);},6000)
+            stop5 = true;
+        }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-            //setTimeout(function(){document.getElementsByClassName("btn btn--bg-primary btn-3d-hover btn-splash-hover btn-captcha")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn btn--bg-primary btn-3d-hover btn-splash-hover btn-captcha")[0].click();},3000)
             stop1 = true;
         }}catch(e){}
         try{if(window.location.href.includes("vignette") && stop5 == false){
-            //setTimeout(function(){window.location.href = window.location.href.slice(window.location.href.indexOf("=")+1,window.location.href.indexOf("#"))},3000)
+            setTimeout(function(){window.location.href = window.location.href.slice(window.location.href.indexOf("=")+1,window.location.href.indexOf("#"))},3000)
             stop5 = true;
         }}catch(e){}
          try{if(document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].innerText == "GET LINK" && stop2 == false){
-            //setTimeout(function(){document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
     },6000)
