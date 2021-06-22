@@ -9,7 +9,7 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://movieshd4.xyz/all-together-now/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 5);
+            var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
@@ -33,6 +33,10 @@ var stop8 = false;
             window.location.href = "https://movieshd4.xyz/mortal-kombat/"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/clairevoyant/"
+            stop2 = true;
+        }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/take-back/" && stop4 == false){
             window.location.href = "https://kimo.ma/2021/05/blog-post.html?&url=http://adfloz.co/wjhe9Ib"
             stop4 = true;
@@ -51,6 +55,10 @@ var stop8 = false;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/mortal-kombat/" && stop4 == false){
             window.location.href = "https://kimo.ma/2021/05/blog-post.html?&url=http://adfloz.co/DQ9lnRRU"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/clairevoyant/" && stop4 == false){
+            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/7g7dpj"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("notran two")[0].innerText == "0" && stop3 == false){
