@@ -57,7 +57,7 @@ var stop8 = false;
              setTimeout(function(){document.getElementById("wpsafelinkhuman").click();},3000);
              stop1 = true;
          }}catch(e){}
-        try{if(document.getElementsByTagName("img")[0].src == "https://mcrypto.club/wp-content/uploads/2021/04/generate2.png" && stop2 == false){
+        try{if(document.getElementsByTagName("img")[0].src == "https://mcrypto.club/wp-content/uploads/2021/06/wait3.png" && stop2 == false){
             setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000);
             setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1)},10000);
             stop2 = true;
