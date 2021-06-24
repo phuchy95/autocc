@@ -8,74 +8,75 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "//https://movieshd4.xyz/playhouse/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 7);
+        try{if(window.location.href == "https://movieshd4.xyz/playhouse/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/you-should-have-left/"
+            window.location.href = "https://movieshd4.xyz/we-all-think-were-special/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-night-clerk/"
+            window.location.href = "https://movieshd4.xyz/plan-b/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/100-wolf/"
+            window.location.href = "https://movieshd4.xyz/friends-the-reunion/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/little-women/"
+            window.location.href = "https://movieshd4.xyz/wicked/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/pearl/"
+            window.location.href = "https://movieshd4.xyz/blue-miracle/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/diery/"
+        try{if(window.location.href == "https://movieshd4.xyz/we-all-think-were-special/" && stop4 == false){
+            window.location.href = "https://coinsparty.luckydice.net/pSMH2"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/plan-b/" && stop4 == false){
+            window.location.href = "https://coinsparty.luckydice.net/rV8bS"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/friends-the-reunion/" && stop4 == false){
+            window.location.href = "https://coinsparty.luckydice.net/6faoa"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/wicked/" && stop4 == false){
+            window.location.href = "https://coinsparty.luckydice.net/lg7NhkC"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/blue-miracle/" && stop4 == false){
+            window.location.href = "https://coinsparty.luckydice.net/GDkw7mG8"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+             setTimeout(function(){document.getElementById("wpsafelinkhuman").click();},3000);
+             stop1 = true;
+         }}catch(e){}
+        try{if(document.getElementsByTagName("img")[0].src == "https://mcrypto.club/wp-content/uploads/2021/06/wait3.png" && stop2 == false){
+            setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000);
+            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1)},10000);
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/surge/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/you-should-have-left/" && stop4 == false){
-            window.location.href = "https://aii.sh/HBZJJp3"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-night-clerk/" && stop4 == false){
-            window.location.href = "https://aii.sh/q6eQ8"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/100-wolf/" && stop4 == false){
-            window.location.href = "https://aii.sh/boNKT9"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/little-women/" && stop4 == false){
-            window.location.href = "https://aii.sh/N3YCa"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/pearl/" && stop4 == false){
-            window.location.href = "https://aii.sh/9fx"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/diery/" && stop4 == false){
-            window.location.href = "https://aii.sh/D4BuLu"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/surge/" && stop4 == false){
-            window.location.href = "https://aii.sh/jzRDXd"
-            stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
-            document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();
-            stop2 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerHTML == "Get Link" && stop3 == false){
-            document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();
+        try{if(document.getElementsByClassName("btn btn-success")[0].innerText == "AntiBot 1" && stop3 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[0].click();},3000);
             stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success")[1].innerText == "AntiBot 2" && stop5 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success")[1].click();},3000);
+            stop5 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-success get-link")[0].innerText == "Get Link" && stop4 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success get-link")[0].click();},5000);
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("vignette") && stop7 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-success get-link")[0].click();},10000);
+            stop7 = true;
         }}catch(e){}
     },6000)
 })();
