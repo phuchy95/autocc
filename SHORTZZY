@@ -9,32 +9,48 @@ var stop8 = false;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://movieshd4.xyz/phineas-and-ferb-the-movie-candace-against-the-universe/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 3);
+            var bienso = Math.floor(Math.random() * 5);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://docs.google.com/document/d/1jQq4Kd2UGhnBvPLJFXtB-lsMEPMjEmVPLPuUlSB9f88"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://docs.google.com/document/d/1v7htOnJLOHJGQzQoMqQ5MLln4jllwVjJ-hXO-a5f4jM"
-            stop2 = true;
-        }}catch(e){}
-        try{if(bienso == 2 && stop2 == false){
             window.location.href = "https://docs.google.com/document/d/1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU"
             stop2 = true;
         }}catch(e){}
+        try{if(bienso == 1 && stop2 == false){
+            window.location.href = "https://docs.google.com/document/d/1kLwNyEBtganJkZw-3e6dRg5coaj3GROizklzOHFoXMI"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 2 && stop2 == false){
+            window.location.href = "https://docs.google.com/document/d/1jQq4Kd2UGhnBvPLJFXtB-lsMEPMjEmVPLPuUlSB9f88"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 3 && stop2 == false){
+            window.location.href = "https://docs.google.com/document/d/1v7htOnJLOHJGQzQoMqQ5MLln4jllwVjJ-hXO-a5f4jM"
+            stop2 = true;
+        }}catch(e){}
+        try{if(bienso == 4 && stop2 == false){
+            window.location.href = "https://docs.google.com/document/d/16dWTu1VG8cCZYP3owl-Calb-dRucINaQKplOF91GC9s"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU") && stop4 == false){
+            window.location.href = "https://fc.lc/WGxm3a7"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href.includes("1kLwNyEBtganJkZw-3e6dRg5coaj3GROizklzOHFoXMI") && stop4 == false){
+            window.location.href = "https://fc.lc/vDQP"
+            stop4 = true;
+        }}catch(e){}
         try{if(window.location.href.includes("1jQq4Kd2UGhnBvPLJFXtB-lsMEPMjEmVPLPuUlSB9f88") && stop4 == false){
-            window.location.href = "https://fc.lc/6XFjSk5"
+            window.location.href = "https://fc.lc/fBqGNb"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href.includes("1v7htOnJLOHJGQzQoMqQ5MLln4jllwVjJ-hXO-a5f4jM") && stop4 == false){
-            window.location.href = "https://fc.lc/YEcIzgtA"
+            window.location.href = "https://fc.lc/bl3UhNEm"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href.includes("1sI2T1O5KNwCp2V13YgN6ANsaszI8MYRU0LEmA-a4nZU") && stop4 == false){
-            window.location.href = "https://fc.lc/uVDLy"
+        try{if(window.location.href.includes("16dWTu1VG8cCZYP3owl-Calb-dRucINaQKplOF91GC9s") && stop4 == false){
+            window.location.href = "https://fc.lc/dII3AdY7"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
