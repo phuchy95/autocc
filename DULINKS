@@ -6,89 +6,72 @@ var stop5 = false;
 var stop6 = false;
 var stop7 = false;
 var stop8 = false;
-var bienso;
 (function() {
     setInterval(function(){
         try{if(window.location.href == "https://movieshd4.xyz/im-your-woman/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 7);
+            var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/im-not-him/"
+            window.location.href = "https://docs.google.com/document/d/18S5yNMN0GOMmaqBO11Q0vmw2pPMTjoXAoHHkOGyotL0"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/godzilla-vs-kong/"
+            window.location.href = "https://docs.google.com/document/d/1JePN44-F59pOpDtx5NhIYGhwGXJKHN8_N05ho2fQDVc"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/voyage-into-the-night/"
+            window.location.href = "https://docs.google.com/document/d/1CjgQuIx-W_RXUOsbW80Qm3jb6oYHRV0rOw0E8PHpqlk"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/a-week-away/"
+            window.location.href = "https://docs.google.com/document/d/1SHXcz4jq3payWBSGIbEMjHDzJTwAGSIU4PAz4Sof4w4"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/these-streets-we-haunt/"
+            window.location.href = "https://docs.google.com/document/d/110BcblaZu1Td4_iWhK8yTift3lHaTbcEkkRWoyChDro"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/one-and-the-same/"
+            window.location.href = "https://docs.google.com/document/d/164qjCVrewEJh65FQuL4gupr3lQ-9ssHtuZo2-w5jjjs"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/audition/"
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/im-not-him/" && stop4 == false){
-            window.location.href = "https://dulinks.in/AVOH5yYTGJV5W2"
+        try{if(window.location.href.includes("18S5yNMN0GOMmaqBO11Q0vmw2pPMTjoXAoHHkOGyotL0") && stop4 == false){
+            window.location.href = "https://upfiles.com/esKrx"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/godzilla-vs-kong/" && stop4 == false){
-            window.location.href = "https://dulinks.in/IUp9u"
+        try{if(window.location.href.includes("1JePN44-F59pOpDtx5NhIYGhwGXJKHN8_N05ho2fQDVc") && stop4 == false){
+            window.location.href = "https://upfiles.com/G4zstqGl"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/voyage-into-the-night/" && stop4 == false){
-            window.location.href = "https://dulinks.in/G7XhmiO"
+        try{if(window.location.href.includes("1CjgQuIx-W_RXUOsbW80Qm3jb6oYHRV0rOw0E8PHpqlk") && stop4 == false){
+            window.location.href = "https://upfiles.com/gH4cR4J"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/a-week-away/" && stop4 == false){
-            window.location.href = "https://dulinks.in/KG1vZ3WC"
+        try{if(window.location.href.includes("1SHXcz4jq3payWBSGIbEMjHDzJTwAGSIU4PAz4Sof4w4") && stop4 == false){
+            window.location.href = "https://upfiles.com/PZhnrIjX"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/these-streets-we-haunt/" && stop4 == false){
-            window.location.href = "https://dulinks.in/jEWPpK"
+        try{if(window.location.href.includes("110BcblaZu1Td4_iWhK8yTift3lHaTbcEkkRWoyChDro") && stop4 == false){
+            window.location.href = "https://upfiles.com/ZDMA"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/one-and-the-same/" && stop4 == false){
-            window.location.href = "https://dulinks.in/wt8W"
+        try{if(window.location.href.includes("164qjCVrewEJh65FQuL4gupr3lQ-9ssHtuZo2-w5jjjs") && stop4 == false){
+            window.location.href = "https://upfiles.com/p35B274Q"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/audition/" && stop4 == false){
-            window.location.href = "https://dulinks.in/oMYe77JHYZwXmI"
-            stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
-            stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href.includes("google") && stop1 == false){
-            setTimeout(function(){document.getElementsByClassName("LC20lb DKV0Md")[0].click();},3000);
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
+            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000)
             stop1 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "CLICK HERE TO CONTINUE" && stop1 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
-            stop1 = true;
-        }}catch(e){}
-        try{if(window.location.href.includes("vignette") && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
-            stop3 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "Get Link" && stop4 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},3000);
-            stop4 = true;
-        }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary")[1].innerText == "Continue" && stop2 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary")[1].click();},3000);
+             stop2 = true;
+         }}catch(e){}
+        try{if(document.getElementsByClassName("btn btn-primary btn-download get-link")[0].innerText == "Download" && stop3 == false){
+             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-download get-link")[0].click();},3000);
+             stop3 = true;
+         }}catch(e){}
     },6000)
 })();
