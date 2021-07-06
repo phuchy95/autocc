@@ -14,43 +14,43 @@ var stop8 = false;
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/chick-fight/"
+            window.location.href = "https://movieshd4.xyz/till-death/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/dead-reckoning/"
+            window.location.href = "https://movieshd4.xyz/the-tomorrow-war/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/all-joking-aside/"
+            window.location.href = "https://movieshd4.xyz/no-sudden-move/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/last-three-days/"
+            window.location.href = "https://movieshd4.xyz/fear-street-part-1-1994/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/jingle-jangle-a-christmas-journey/"
+            window.location.href = "https://movieshd4.xyz/all-who-loved-her/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/chick-fight/" && stop4 == false){
-            window.location.href = "https://llinkon.com/ivIV"
+        try{if(window.location.href == "https://movieshd4.xyz/till-death/" && stop4 == false){
+            window.location.href = "https://llinkon.com/zlhn"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/dead-reckoning/" && stop4 == false){
-            window.location.href = "https://llinkon.com/kSyNa"
+        try{if(window.location.href == "https://movieshd4.xyz/the-tomorrow-war/" && stop4 == false){
+            window.location.href = "https://llinkon.com/22i6f"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/all-joking-aside/" && stop4 == false){
-            window.location.href = "https://llinkon.com/M5Uh"
+        try{if(window.location.href == "https://movieshd4.xyz/no-sudden-move/" && stop4 == false){
+            window.location.href = "https://llinkon.com/zJ2ey"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/last-three-days/" && stop4 == false){
-            window.location.href = "https://llinkon.com/RnW5WY"
+        try{if(window.location.href == "https://movieshd4.xyz/fear-street-part-1-1994/" && stop4 == false){
+            window.location.href = "https://llinkon.com/hXdn4K"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/jingle-jangle-a-christmas-journey/" && stop4 == false){
-            window.location.href = "https://llinkon.com/6hgxcR"
+        try{if(window.location.href == "https://movieshd4.xyz/all-who-loved-her/" && stop4 == false){
+            window.location.href = "https://llinkon.com/fAilX"
             stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
