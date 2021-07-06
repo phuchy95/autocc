@@ -65,18 +65,18 @@ var stop8 = false;
             setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
-        try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "http://www.adfloz.net/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop4 == false){
-            setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},3000)
-            stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "http://www.adfloz.net/wp-content/plugins/wp-safelink/assets/generate4.png" && stop5 == false){
+        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "http://kimo.ma/wp-content/plugins/wp-safelink/assets/generate4.png" && stop4 == false){
             setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000)
             setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1);},6000)
-            stop5 = true;
+            stop4 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn--bg-primary btn-3d-hover btn-splash-hover btn-captcha")[0].click();},3000)
+            setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},3000)
             stop1 = true;
+        }}catch(e){}
+        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false && window.location.href.includes("adfloz")){
+            setTimeout(function(){document.getElementsByClassName("btn btn--bg-primary btn-3d-hover btn-splash-hover btn-captcha")[0].click();},3000)
+            stop2 = true;
         }}catch(e){}
         try{if(window.location.href.includes("vignette") && stop5 == false){
             setTimeout(function(){window.location.href = window.location.href.slice(window.location.href.indexOf("=")+1,window.location.href.indexOf("#"))},3000)
