@@ -65,22 +65,19 @@ var stop8 = false;
              setTimeout(function(){document.getElementById("wpsafelinkhuman").click();},3000);
              stop1 = true;
          }}catch(e){}
-         try{if(document.getElementsByClassName("btn btn-primary btn-captcha")[0].innerText.includes("CLICK HERE TO CONTINUE") && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
+        try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "https://insuranceblog.xyz/wp-content/uploads/2021/05/button_click-here-to-continue.png" && stop3 == false){
+            setTimeout(function(){document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].click();},3000)
+            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1)},7000)
+            stop3 = true;
+        }}catch(e){}
+        try{if(document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].src == "https://insuranceblog.xyz/wp-content/plugins/wp-safelink/assets/human-verification4.png" && stop2 == false){
+            setTimeout(function(){document.getElementById("wpsafelinkhuman").getElementsByTagName("img")[0].click();},3000)
             stop2 = true;
         }}catch(e){}
-        try{if(document.getElementById("wpsafe-link").getElementsByTagName("img")[0].src == "https://netfile.cc/wp-content/uploads/2021/06/human-verification4.png.png" && stop2 == false){
-            setTimeout(function(){window.location.href = document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").slice(13,document.getElementById("wpsafe-link").getElementsByTagName("a")[0].getAttribute("onclick").lastIndexOf(",")-1)},5000)
-            stop2 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "OBTENER VÍNCULO" && stop2 == false){
+        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "GET LINK" && stop5 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000);
-            stop2 = true;
+            stop5 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false && window.location.href.includes("adcorto")){
-             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
-             stop1 = true;
-         }}catch(e){}
         try{if(window.location.href.includes("vignette") && stop3 == false){
             setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},15000);
             stop3 = true;
