@@ -62,7 +62,7 @@ var stop8 = false;
             stop5 = true;
         }}catch(e){}
         try{if(window.location.href.includes("vignette") && stop8 == false){
-            setTimeout(function(){document.getElementsByClassName("btn skip")[0].click();},3000)
+            setTimeout(function(){document.getElementsByClassName("s-btn-f")[0].click();},3000)
             stop8 = true;
         }}catch(e){}
         try{if(document.getElementsByClassName("submitBtn btn btn-primary ")[0].innerText == "Next (2/2 )" && stop4 == false){
