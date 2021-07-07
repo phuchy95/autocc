@@ -8,73 +8,61 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "*https://all4yourlife.tech/the-hunt/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 5);
+        try{if(window.location.href == "https://all4yourlife.tech/the-hunt/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/love-and-monsters/"
+            window.location.href = "https://movieshd4.xyz/the-ice-road/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/the-trial-of-the-chicago-7/"
+            window.location.href = "hhttps://movieshd4.xyz/tides/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/clouds/"
+            window.location.href = "https://movieshd4.xyz/project-pay-day/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/killer-dream-home/"
+            window.location.href = "https://movieshd4.xyz/the-man-with-the-answers/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://all4yourlife.tech/tenet/"
+            window.location.href = "https://movieshd4.xyz/separation/"
             stop2 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/love-and-monsters/" && stop4 == false){
-            window.location.href = "https://toptechtalk.xyz/XWiG"
+        try{if(bienso == 5 && stop2 == false){
+            window.location.href = "https://movieshd4.xyz/ripper-untold/"
+            stop2 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/the-ice-road/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/RnY9zum"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/the-trial-of-the-chicago-7/" && stop4 == false){
-            window.location.href = "https://toptechtalk.xyz/k8D22Vtwq"
+        try{if(window.location.href == "https://movieshd4.xyz/tides/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/vzVs"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/clouds/" && stop4 == false){
-            window.location.href = "https://toptechtalk.xyz/5dZTJcg"
+        try{if(window.location.href == "https://movieshd4.xyz/project-pay-day/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/wHJ3T2"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/killer-dream-home/" && stop4 == false){
-            window.location.href = "https://toptechtalk.xyz/HvD0HAv4Q"
+        try{if(window.location.href == "https://movieshd4.xyz/the-man-with-the-answers/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/vr8EKQ9q"
             stop4 = true;
         }}catch(e){}
-        try{if(window.location.href == "https://all4yourlife.tech/tenet/" && stop4 == false){
-            window.location.href = "https://toptechtalk.xyz/eVqfDq"
+        try{if(window.location.href == "https://movieshd4.xyz/separation/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/p1CJ"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false && document.getElementsByClassName("btn btn-outline-primary btn-captcha m-2")[0] != null){
-             setTimeout(function(){document.getElementsByClassName("btn btn-outline-primary btn-captcha m-2")[0].click();},3000);
-             stop1 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop1 == false && document.getElementsByClassName("btn btn-outline-primary btn-captcha m-2")[0] == null){
-             setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-captcha")[0].click();},3000);
-             stop1 = true;
-         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-success btn-lg get-link")[0].innerText == "GET LINK" && stop6 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-success btn-lg get-link")[0].click();},5000);
-            stop6 = true;
+        try{if(window.location.href == "https://movieshd4.xyz/ripper-untold/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/PRVRpW"
+            stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("btn btn-primary btn-lg")[0].innerText == "CLOSE" && stop5 == false){
-            setTimeout(function(){document.getElementsByClassName("btn btn-primary btn-lg")[0].click();},3000);
-            stop5 = true;
-        }}catch(e){}
-        try{if(document.getElementById("adtext").innerText == "Click Ads Wait 10 sec To Get Link" && stop7 == false){
-            setTimeout(function(){document.getElementsByClassName("row1")[0].click();},15000);
-            stop7 = true;
-        }}catch(e){}
-        try{if(document.getElementById("skip-ad").style.display == "block" && stop2 == false){
-            setTimeout(function(){document.getElementById("skip-ad").click();},3000);
+        try{if(document.getElementById("scrolltocbt").innerText.includes("Click on the ad") && stop2 == false && document.getElementsByClassName("rc-anchor-logo-img rc-anchor-logo-img-large")[0] == null){
+            setTimeout(function(){document.getElementsByClassName("btn btn-warningbtn btn-primary")[0].click();},5000);
             stop2 = true;
         }}catch(e){}
     },6000)
