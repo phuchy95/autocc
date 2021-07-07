@@ -8,74 +8,62 @@ var stop7 = false;
 var stop8 = false;
 (function() {
     setInterval(function(){
-        try{if(window.location.href == "//https://movieshd4.xyz/disrupted/" && stop1 == false){
-            var bienso = Math.floor(Math.random() * 7);
+        try{if(window.location.href == "https://movieshd4.xyz/disrupted/" && stop1 == false){
+            var bienso = Math.floor(Math.random() * 6);
             console.log(bienso)
             stop1 = true;
         }}catch(e){}
         try{if(bienso == 0 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/project-power/"
+            window.location.href = "https://movieshd4.xyz/the-ice-road/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 1 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/deathstroke-knights-dragons/"
+            window.location.href = "hhttps://movieshd4.xyz/tides/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 2 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/fearless/"
+            window.location.href = "https://movieshd4.xyz/project-pay-day/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 3 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/magic-camp/"
+            window.location.href = "https://movieshd4.xyz/the-man-with-the-answers/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 4 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/the-king-of-staten-island/"
+            window.location.href = "https://movieshd4.xyz/separation/"
             stop2 = true;
         }}catch(e){}
         try{if(bienso == 5 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/spree/"
+            window.location.href = "https://movieshd4.xyz/ripper-untold/"
             stop2 = true;
         }}catch(e){}
-        try{if(bienso == 6 && stop2 == false){
-            window.location.href = "https://movieshd4.xyz/one-night-in-bangkok/"
+        try{if(window.location.href == "https://movieshd4.xyz/the-ice-road/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/RnY9zum"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/tides/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/vzVs"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/project-pay-day/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/wHJ3T2"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/the-man-with-the-answers/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/vr8EKQ9q"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/separation/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/p1CJ"
+            stop4 = true;
+        }}catch(e){}
+        try{if(window.location.href == "https://movieshd4.xyz/ripper-untold/" && stop4 == false){
+            window.location.href = "https://ezlinks.io/PRVRpW"
+            stop4 = true;
+        }}catch(e){}
+        try{if(document.getElementById("scrolltocbt").innerText.includes("Click on the ad") && stop2 == false && document.getElementsByClassName("rc-anchor-logo-img rc-anchor-logo-img-large")[0] == null){
+            setTimeout(function(){document.getElementsByClassName("btn btn-warningbtn btn-primary")[0].click();},5000);
             stop2 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/project-power/" && stop4 == false){
-            window.location.href = "https://cutwin.com/kf21aK0"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/deathstroke-knights-dragons/" && stop4 == false){
-            window.location.href = "https://cutwin.com/6BsOyq"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/fearless/" && stop4 == false){
-            window.location.href = "https://cutwin.com/mGpf"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/magic-camp/" && stop4 == false){
-            window.location.href = "https://cutwin.com/QjLLFs"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/the-king-of-staten-island/" && stop4 == false){
-            window.location.href = "https://cutwin.com/FXTKdf"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/spree/" && stop4 == false){
-            window.location.href = "https://cutwin.com/vNVMtk"
-            stop4 = true;
-        }}catch(e){}
-        try{if(window.location.href == "https://movieshd4.xyz/one-night-in-bangkok/" && stop4 == false){
-            window.location.href = "https://cutwin.com/VwduJLW"
-            stop4 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("g-recaptcha-response")[0].innerHTML.includes("03A") && stop2 == false){
-            setTimeout(function(){document.getElementsByClassName("btn")[0].click();},3000)
-            stop2 = true;
-        }}catch(e){}
-        try{if(document.getElementsByClassName("get-link")[0].innerText ==" Get Link" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("get-link")[0].click();},3000)
-            stop3 = true;
         }}catch(e){}
     },6000)
 })();
