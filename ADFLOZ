@@ -38,31 +38,31 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/clairevoyant/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/7g7dpj"
+            window.location.href = "http://kimo.ma/r/#http://cryptobu.xyz/7g7dpj"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/rogue-hostage/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/oL8rmW7G"
+            window.location.href = "http://kimo.ma/r/#http://cryptobu.xyz/oL8rmW7G"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/cousins/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/Vp0Xzl"
+            window.location.href = "http://kimo.ma/r/#http://cryptobu.xyz/Vp0Xzl"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/baphomet/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/nZ6vS2rU"
+            window.location.href = "http://kimo.ma/r/#http://cryptobu.xyz/nZ6vS2rU"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/trigger-point/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/Wb43LCrv"
+            window.location.href = "http://kimo.ma/r/#http://cryptobu.xyz/Wb43LCrv"
             stop4 = true;
         }}catch(e){}
         try{if(window.location.href == "https://movieshd4.xyz/blackstock-boneyard/" && stop4 == false){
-            window.location.href = "http://alam-technologie.blogspot.com/2020/03/blog-post_24.html?&url=http://cryptobu.xyz/WrQL2"
+            window.location.href = "http://kimo.ma/r/#http://cryptobu.xyz/WrQL2"
             stop4 = true;
         }}catch(e){}
-        try{if(document.getElementsByClassName("notran two")[0].innerText == "0" && stop3 == false){
-            setTimeout(function(){document.getElementsByClassName("notran zr act")[0].click();},3000)
+        try{if(document.getElementById("url_qu").innerText == " الرابط جاهز" && stop3 == false && document.getElementById("mdtimer").style.display == "none"){
+            setTimeout(function(){document.getElementById("url_qu").getElementsByTagName("a")[0].click();},3000)
             stop3 = true;
         }}catch(e){}
         try{if(document.getElementById("wpsafe-generate").getElementsByTagName("img")[0].src == "http://kimo.ma/wp-content/plugins/wp-safelink/assets/generate4.png" && stop4 == false){
