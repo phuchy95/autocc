@@ -79,7 +79,7 @@ var stop8 = false;
             stop2 = true;
         }}catch(e){}
         try{if(window.location.href.includes("vignette") && stop5 == false){
-            setTimeout(function(){window.location.href = window.location.href.slice(window.location.href.indexOf("=")+1,window.location.href.indexOf("#"))},3000)
+            setTimeout(function(){document.getElementById("url_qu").getElementsByTagName("a")[0].click();},3000)
             stop5 = true;
         }}catch(e){}
          try{if(document.getElementsByClassName("btn--bg-primary btn btn--outline btn-3d-hover btn-splash-hover btn-lg get-link")[0].innerText == "GET LINK" && stop2 == false){
